@@ -174,11 +174,10 @@ export default function Page() {
             <p className="mt-5 text-sm text-subtle">
               By {SITE.name} · Published 25 August 2026 · Research-based review
             </p>
+            <div className="mt-3">
+              <AffiliateDisclosure />
+            </div>
           </header>
-
-          <div className="mt-7">
-            <AffiliateDisclosure />
-          </div>
 
           <Figure
             src={PRODUCT_IMAGES.hero.src}

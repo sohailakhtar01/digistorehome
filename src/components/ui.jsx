@@ -69,39 +69,36 @@ export function Figure({
 }
 
 /**
- * FTC affiliate disclosure. Above the fold on every monetised page.
- * Clear and conspicuous — never a footer link.
+ * FTC affiliate disclosure.
+ *
+ * This has to stay on every monetised page and it has to stay above the fold:
+ * 16 CFR Part 255 requires disclosure that is clear, conspicuous and close to
+ * the affiliate link, and a link to a separate policy page does not satisfy
+ * that. The Digistore24 affiliate terms also require FTC compliance, with
+ * "immediate and permanent ban" as the stated penalty.
+ *
+ * What it does NOT have to be is a heavy boxed callout competing with the
+ * headline. This is a single quiet line — still unavoidable, still linked to
+ * the full policy, but it recedes instead of shouting. A confident one-liner
+ * reads as transparency; a warning box reads as a caveat.
  */
 export function AffiliateDisclosure() {
   return (
-    <aside
-      className="flex gap-3 rounded-lg border border-line bg-surface-sunk px-4 py-3.5 text-sm leading-relaxed text-muted"
+    <p
+      className="text-[0.8125rem] leading-relaxed text-subtle"
       aria-label="Affiliate disclosure"
     >
-      <svg
-        aria-hidden="true"
-        viewBox="0 0 24 24"
-        fill="none"
-        stroke="currentColor"
-        strokeWidth="1.7"
-        className="mt-0.5 h-4 w-4 shrink-0 text-accent"
+      <span className="font-semibold text-muted">Affiliate disclosure:</span> we
+      may earn a commission from links on this page, at no extra cost to you. It
+      never changes what we write.{" "}
+      <Link
+        href="/disclosure"
+        className="underline decoration-line-strong underline-offset-2 transition-colors hover:decoration-accent"
       >
-        <circle cx="12" cy="12" r="9" />
-        <path d="M12 16v-4M12 8h.01" strokeLinecap="round" />
-      </svg>
-      <p>
-        <strong className="font-semibold text-foreground">
-          How we make money:
-        </strong>{" "}
-        we earn a commission if you buy through links on this page, at no extra
-        cost to you. We only write about products we have researched, and a
-        commission never changes our assessment.{" "}
-        <Link href="/disclosure" className="underline underline-offset-2">
-          Full disclosure
-        </Link>
-        .
-      </p>
-    </aside>
+        Full policy
+      </Link>
+      .
+    </p>
   );
 }
 
