@@ -25,6 +25,8 @@ const DEFAULT_PATHS = [
   "/contact",
   "/privacy",
   "/terms",
+  "/llms.txt",
+  "/feed.xml",
 ];
 
 const paths = process.argv.slice(2);

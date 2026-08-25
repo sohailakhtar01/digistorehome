@@ -54,10 +54,7 @@ export const metadata = {
       "max-video-preview": -1,
     },
   },
-  alternates: {
-    canonical: "/",
-    types: { "application/xml": [{ url: "/sitemap.xml", title: "Sitemap" }] },
-  },
+  alternates: { canonical: "/" },
   category: "Home & Garden",
   keywords: [
     "medicinal garden kit review",
@@ -140,6 +137,12 @@ export default function RootLayout({ children }) {
       className={`${geistSans.variable} ${sourceSerif.variable} h-full antialiased`}
     >
       <body className="flex min-h-full flex-col">
+        <link
+          rel="alternate"
+          type="application/rss+xml"
+          title={`${SITE.name} — latest reviews and guides`}
+          href="/feed.xml"
+        />
         <JsonLd data={graphLd} />
         <a
           href="#main"

@@ -32,6 +32,15 @@ export default function Footer() {
                   </Link>
                 </li>
               ))}
+              <li>
+                <a
+                  href="/feed.xml"
+                  data-plain
+                  className="text-muted transition-colors hover:text-accent"
+                >
+                  RSS feed
+                </a>
+              </li>
             </ul>
           </nav>
         </div>

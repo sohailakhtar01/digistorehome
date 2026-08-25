@@ -1,42 +1,26 @@
 import { SITE } from "@/lib/site";
-import { REVIEWS } from "@/lib/reviews";
-import { PUBLISHED_HERB_GUIDES } from "@/lib/herbs";
+import { ARTICLES, STATIC_PAGES, abs } from "@/lib/content";
 
-// Only complete, published pages belong in the sitemap.
+// Only complete, published pages belong in the sitemap. Everything is driven
+// from src/lib/content.js so this cannot drift out of step with the site.
 export default function sitemap() {
-  const now = new Date();
+  const siteBuilt = new Date("2026-08-25T00:00:00Z");
 
-  const staticPages = [
-    { path: "/", priority: 1, changeFrequency: "weekly" },
-    { path: "/reviews", priority: 0.9, changeFrequency: "weekly" },
-    { path: "/guides", priority: 0.9, changeFrequency: "weekly" },
-    { path: "/guides/medicinal-herbs-to-grow", priority: 0.8, changeFrequency: "monthly" },
-    { path: "/guides/cold-stratification", priority: 0.8, changeFrequency: "monthly" },
-    { path: "/about", priority: 0.5, changeFrequency: "yearly" },
-    { path: "/disclosure", priority: 0.4, changeFrequency: "yearly" },
-    { path: "/contact", priority: 0.3, changeFrequency: "yearly" },
-    { path: "/privacy", priority: 0.2, changeFrequency: "yearly" },
-    { path: "/terms", priority: 0.2, changeFrequency: "yearly" },
-  ].map((p) => ({
-    url: `${SITE.url}${p.path}`,
-    lastModified: now,
+  const staticEntries = STATIC_PAGES.map((p) => ({
+    url: abs(p.path),
+    lastModified: siteBuilt,
     changeFrequency: p.changeFrequency,
     priority: p.priority,
   }));
 
-  const reviewPages = REVIEWS.map((r) => ({
-    url: `${SITE.url}/reviews/${r.slug}`,
-    lastModified: new Date(r.updated),
+  const articleEntries = ARTICLES.map((a) => ({
+    url: abs(a.path),
+    lastModified: new Date(`${a.modified}T00:00:00Z`),
     changeFrequency: "monthly",
-    priority: 0.9,
+    priority: a.priority,
+    // Image sitemap entries help these photographs surface in image search.
+    images: a.image ? [`${SITE.url}${a.image}`] : undefined,
   }));
 
-  const guidePages = PUBLISHED_HERB_GUIDES.map((slug) => ({
-    url: `${SITE.url}/guides/${slug}`,
-    lastModified: now,
-    changeFrequency: "monthly",
-    priority: 0.7,
-  }));
-
-  return [...staticPages, ...reviewPages, ...guidePages];
+  return [...staticEntries, ...articleEntries];
 }
