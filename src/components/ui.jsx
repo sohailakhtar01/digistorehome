@@ -441,6 +441,48 @@ export function Breadcrumbs({ trail }) {
   );
 }
 
+/** Turn a heading into a stable anchor id. */
+export const slugifyHeading = (s) =>
+  s
+    .toLowerCase()
+    .replace(/[^\w\s-]/g, "")
+    .trim()
+    .replace(/\s+/g, "-");
+
+/**
+ * On-page table of contents. Gives readers a way through a long guide, and
+ * gives search engines named anchors to offer as jump-to links.
+ */
+export function TableOfContents({ headings, extra = [] }) {
+  const items = [
+    ...headings.map((h) => ({ id: slugifyHeading(h), label: h })),
+    ...extra,
+  ];
+  return (
+    <nav
+      aria-label="On this page"
+      className="not-prose my-8 rounded-xl border border-line bg-surface-sunk px-5 py-5"
+    >
+      <p className="eyebrow mb-3">On this page</p>
+      <ol className="flex flex-col gap-2 text-[0.95rem]">
+        {items.map((it, i) => (
+          <li key={it.id} className="flex gap-2.5">
+            <span aria-hidden="true" className="text-subtle tabular-nums">
+              {String(i + 1).padStart(2, "0")}
+            </span>
+            <a
+              href={`#${it.id}`}
+              className="text-accent underline decoration-line-strong underline-offset-4 transition-colors hover:decoration-accent"
+            >
+              {it.label}
+            </a>
+          </li>
+        ))}
+      </ol>
+    </nav>
+  );
+}
+
 /** Difficulty pill used on herb cards and tables. */
 export function DifficultyBadge({ level }) {
   const styles = {

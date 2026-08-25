@@ -11,6 +11,7 @@ export default function sitemap() {
     { path: "/reviews", priority: 0.9, changeFrequency: "weekly" },
     { path: "/guides", priority: 0.9, changeFrequency: "weekly" },
     { path: "/guides/medicinal-herbs-to-grow", priority: 0.8, changeFrequency: "monthly" },
+    { path: "/guides/cold-stratification", priority: 0.8, changeFrequency: "monthly" },
     { path: "/about", priority: 0.5, changeFrequency: "yearly" },
     { path: "/disclosure", priority: 0.4, changeFrequency: "yearly" },
     { path: "/contact", priority: 0.3, changeFrequency: "yearly" },

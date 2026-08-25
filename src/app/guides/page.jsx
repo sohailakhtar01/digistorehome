@@ -48,6 +48,25 @@ export default function Page() {
           </Link>
         </li>
 
+        <li>
+          <Link
+            href="/guides/cold-stratification"
+            data-plain
+            className="group block rounded-xl border border-line bg-surface p-6 transition-colors hover:border-accent"
+          >
+            <p className="text-xs font-semibold uppercase tracking-[0.12em] text-accent">
+              Technique
+            </p>
+            <h2 className="mt-2 font-serif text-xl font-semibold group-hover:text-accent">
+              Cold stratification: the four-week step that fixes stubborn seed
+            </h2>
+            <p className="mt-2.5 leading-relaxed text-muted">
+              The refrigerator method step by step, which species actually need
+              it, how long each one takes, and what to do when mould appears.
+            </p>
+          </Link>
+        </li>
+
         {herbs.map((h) => {
           const guide = getHerbGuide(h.slug);
           return (

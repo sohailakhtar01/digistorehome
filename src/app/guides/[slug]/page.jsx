@@ -9,11 +9,17 @@ import {
   Breadcrumbs,
   Callout,
   DifficultyBadge,
+  FAQ,
   Figure,
   JsonLd,
   MedicalDisclaimer,
   PageHeader,
+  TableOfContents,
+  slugifyHeading,
 } from "@/components/ui";
+
+const PUBLISHED = "2026-08-25";
+const MODIFIED = "2026-08-25";
 
 // Which verified video belongs on which guide.
 const GUIDE_VIDEO = {
@@ -41,7 +47,9 @@ export async function generateMetadata({ params }) {
       title: guide.title,
       description: guide.description,
       url: `/guides/${slug}`,
-      images: img ? [{ url: img.src, width: 900, height: 675 }] : undefined,
+      publishedTime: PUBLISHED,
+      modifiedTime: MODIFIED,
+      images: [{ url: `/img/og/${slug}.jpg`, width: 1200, height: 630 }],
     },
   };
 }
@@ -54,17 +62,65 @@ export default async function Page({ params }) {
 
   const img = getHerbImage(slug);
   const video = GUIDE_VIDEO[slug];
+  const headings = guide.sections.map((s) => s.h2);
+
+  // The stratification section doubles as a HowTo — it is a genuine
+  // step-by-step procedure, which is exactly what the type is for.
+  const stratSection = guide.sections.find((s) => Array.isArray(s.list) && /stratification/i.test(s.h2));
 
   const articleLd = {
     "@context": "https://schema.org",
     "@type": "Article",
+    "@id": `${SITE.url}/guides/${slug}#article`,
     headline: guide.title,
     description: guide.description,
-    image: img ? `${SITE.url}${img.src}` : undefined,
-    author: { "@type": "Organization", name: SITE.name, url: SITE.url },
-    publisher: { "@type": "Organization", name: SITE.name, url: SITE.url },
+    image: img ? [`${SITE.url}${img.src}`] : undefined,
+    datePublished: PUBLISHED,
+    dateModified: MODIFIED,
+    inLanguage: "en-US",
+    author: { "@id": `${SITE.url}/#organization` },
+    publisher: { "@id": `${SITE.url}/#organization` },
+    isPartOf: { "@id": `${SITE.url}/#website` },
     mainEntityOfPage: `${SITE.url}/guides/${slug}`,
+    about: {
+      "@type": "Thing",
+      name: herb.name.split(" (")[0],
+      alternateName: herb.latin,
+    },
   };
+
+  const faqLd = guide.faqs?.length
+    ? {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        mainEntity: guide.faqs.map((f) => ({
+          "@type": "Question",
+          name: f.question,
+          acceptedAnswer: { "@type": "Answer", text: f.answer },
+        })),
+      }
+    : null;
+
+  const howToLd = stratSection
+    ? {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        name: `How to cold stratify ${herb.name.split(" (")[0].toLowerCase()} seeds`,
+        description: `Cold, moist stratification for ${herb.latin} — the step that most improves germination.`,
+        totalTime: "P28D",
+        supply: [
+          { "@type": "HowToSupply", name: `${herb.name.split(" (")[0]} seeds` },
+          { "@type": "HowToSupply", name: "Barely damp sand or paper towel" },
+          { "@type": "HowToSupply", name: "Sealable bag or container" },
+        ],
+        tool: [{ "@type": "HowToTool", name: "Refrigerator" }],
+        step: stratSection.list.map((text, i) => ({
+          "@type": "HowToStep",
+          position: i + 1,
+          text,
+        })),
+      }
+    : null;
 
   const breadcrumbLd = {
     "@context": "https://schema.org",
@@ -84,6 +140,8 @@ export default async function Page({ params }) {
   return (
     <article className="mx-auto max-w-3xl px-5 py-10 sm:py-14">
       <JsonLd data={articleLd} />
+      {faqLd ? <JsonLd data={faqLd} /> : null}
+      {howToLd ? <JsonLd data={howToLd} /> : null}
       <JsonLd data={breadcrumbLd} />
 
       <Breadcrumbs
@@ -98,7 +156,7 @@ export default async function Page({ params }) {
         eyebrow="Growing guide"
         title={guide.title}
         standfirst={guide.standfirst}
-        meta={`By ${SITE.name} · ${herb.latin} · ${herb.lifecycle}`}
+        meta={`By ${SITE.name} · Updated 25 August 2026 · ${herb.latin} · ${herb.lifecycle}`}
       />
 
       {img ? (
@@ -148,15 +206,27 @@ export default async function Page({ params }) {
             {herb.name.split(" (")[0]} germinates far more reliably after a
             period of cold, moist storage before sowing:{" "}
             <strong>{herb.stratification}</strong>. Skipping this is the most
-            common reason people get poor results.
+            common reason people get poor results.{" "}
+            <Link
+              href="/guides/cold-stratification"
+              className="underline underline-offset-2"
+            >
+              Full stratification method
+            </Link>
+            .
           </p>
         </Callout>
       ) : null}
 
+      <TableOfContents
+        headings={headings}
+        extra={guide.faqs?.length ? [{ id: "faq", label: "Frequently asked questions" }] : []}
+      />
+
       <div className="prose-shelf mt-8">
         {guide.sections.map((section, i) => (
           <section key={section.h2}>
-            <h2>{section.h2}</h2>
+            <h2 id={slugifyHeading(section.h2)}>{section.h2}</h2>
             {section.body.map((p) => (
               <p key={p.slice(0, 40)}>{p}</p>
             ))}
@@ -173,13 +243,33 @@ export default async function Page({ params }) {
         ))}
       </div>
 
-      <div className="mt-8">
+      {guide.faqs?.length ? (
+        <section className="mt-12">
+          <h2
+            id="faq"
+            className="mb-4 scroll-mt-24 font-serif text-2xl font-semibold"
+          >
+            Frequently asked questions
+          </h2>
+          <FAQ items={guide.faqs} />
+        </section>
+      ) : null}
+
+      <div className="mt-10">
         <MedicalDisclaimer />
       </div>
 
       <nav className="mt-10 border-t border-line pt-8">
         <h2 className="font-serif text-xl font-semibold">Related</h2>
         <ul className="mt-4 flex flex-col gap-2 text-[0.95rem]">
+          <li>
+            <Link
+              href="/guides/cold-stratification"
+              className="text-accent underline underline-offset-2"
+            >
+              Cold stratification: the four-week step that fixes stubborn seed
+            </Link>
+          </li>
           <li>
             <Link
               href="/guides/medicinal-herbs-to-grow"

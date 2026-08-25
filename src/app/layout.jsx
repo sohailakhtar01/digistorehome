@@ -40,18 +40,36 @@ export const metadata = {
     title: `${SITE.name} — ${SITE.tagline}`,
     description: SITE.description,
   },
-  twitter: {
-    card: "summary_large_image",
-    title: `${SITE.name} — ${SITE.tagline}`,
-    description: SITE.description,
-  },
+  // Only the card type is set sitewide. Title/description/image are left to
+  // each page so Twitter shows the page's own headline, not the site tagline.
+  twitter: { card: "summary_large_image" },
   robots: {
     index: true,
     follow: true,
-    googleBot: { index: true, follow: true, "max-image-preview": "large" },
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1,
+    },
   },
-  alternates: { canonical: "/" },
+  alternates: {
+    canonical: "/",
+    types: { "application/xml": [{ url: "/sitemap.xml", title: "Sitemap" }] },
+  },
   category: "Home & Garden",
+  keywords: [
+    "medicinal garden kit review",
+    "medicinal herbs to grow",
+    "how to grow lavender from seed",
+    "how to grow echinacea from seed",
+    "cold stratification",
+    "homesteading product reviews",
+  ],
+  creator: SITE.author,
+  publisher: SITE.author,
+  formatDetection: { telephone: false, address: false, email: false },
   verification: {
     other: {
       // Bing Webmaster Tools — site added 2026-08-25, verifies on first crawl.
@@ -62,34 +80,58 @@ export const metadata = {
 };
 
 // themeColor / colorScheme live in `viewport`, not `metadata` (deprecated in 14).
+// The site is light-only, so there is a single theme colour.
 export const viewport = {
   width: "device-width",
   initialScale: 1,
-  colorScheme: "light dark",
-  themeColor: [
-    { media: "(prefers-color-scheme: light)", color: "#fbfaf7" },
-    { media: "(prefers-color-scheme: dark)", color: "#14150f" },
-  ],
+  colorScheme: "light",
+  themeColor: "#1f4a34",
 };
 
 export default function RootLayout({ children }) {
-  const orgLd = {
+  // One @graph keeps the entities linked by @id rather than repeating them,
+  // which is what search engines actually want to see.
+  const graphLd = {
     "@context": "https://schema.org",
-    "@type": "Organization",
-    name: SITE.name,
-    url: SITE.url,
-    description: SITE.description,
-    email: SITE.email,
-  };
-
-  const siteLd = {
-    "@context": "https://schema.org",
-    "@type": "WebSite",
-    name: SITE.name,
-    url: SITE.url,
-    description: SITE.description,
-    inLanguage: "en-US",
-    publisher: { "@type": "Organization", name: SITE.name, url: SITE.url },
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": `${SITE.url}/#organization`,
+        name: SITE.name,
+        url: SITE.url,
+        description: SITE.description,
+        email: SITE.email,
+        foundingDate: SITE.founded,
+        logo: {
+          "@type": "ImageObject",
+          "@id": `${SITE.url}/#logo`,
+          url: `${SITE.url}/icon-512.png`,
+          width: 512,
+          height: 512,
+          caption: SITE.name,
+        },
+        image: { "@id": `${SITE.url}/#logo` },
+        knowsAbout: [
+          "Medicinal herb gardening",
+          "Growing herbs from seed",
+          "Cold stratification",
+          "Homesteading",
+          "Preparedness products",
+        ],
+        publishingPrinciples: `${SITE.url}/about`,
+        ethicsPolicy: `${SITE.url}/disclosure`,
+      },
+      {
+        "@type": "WebSite",
+        "@id": `${SITE.url}/#website`,
+        name: SITE.name,
+        alternateName: SITE.shortName,
+        url: SITE.url,
+        description: SITE.description,
+        inLanguage: "en-US",
+        publisher: { "@id": `${SITE.url}/#organization` },
+      },
+    ],
   };
 
   return (
@@ -98,8 +140,7 @@ export default function RootLayout({ children }) {
       className={`${geistSans.variable} ${sourceSerif.variable} h-full antialiased`}
     >
       <body className="flex min-h-full flex-col">
-        <JsonLd data={orgLd} />
-        <JsonLd data={siteLd} />
+        <JsonLd data={graphLd} />
         <a
           href="#main"
           data-plain

@@ -17,6 +17,7 @@ const DEFAULT_PATHS = [
   "/reviews/medicinal-garden-kit",
   "/guides",
   "/guides/medicinal-herbs-to-grow",
+  "/guides/cold-stratification",
   "/guides/echinacea",
   "/guides/lavender",
   "/about",

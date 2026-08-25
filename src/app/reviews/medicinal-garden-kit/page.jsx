@@ -34,7 +34,9 @@ export const metadata = {
     description:
       "What is in the box, which seeds are genuinely hard to grow, and who should skip it.",
     url: "/reviews/medicinal-garden-kit",
-    images: [{ url: PRODUCT_IMAGES.hero.src, width: 891, height: 620 }],
+    publishedTime: REVIEWED,
+    modifiedTime: REVIEWED,
+    // og image comes from the co-located opengraph-image.jpg file convention
   },
 };
 
