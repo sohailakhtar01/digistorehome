@@ -1,26 +1,229 @@
 @import "tailwindcss";
 
+/* ---------------------------------------------------------------------------
+   The Homestead Shelf — design tokens
+
+   Palette sampled from the Medicinal Garden Kit packaging itself:
+   black mylar pouch, cream apothecary label, deep forest green rule,
+   burgundy "premium quality" ribbon, gold detailing.
+
+   Light mode only — deliberate. This is an editorial apothecary aesthetic
+   and it is designed around warm paper, not a dark UI.
+   --------------------------------------------------------------------------- */
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #fbf8f1;
+  --surface: #ffffff;
+  --surface-sunk: #f4efe3;
+  --surface-ink: #1a1815;
+
+  --foreground: #1a1815;
+  --muted: #5c564c;
+  /* Darkened from #8a8275 — that failed WCAG AA (4.5:1) against the cream
+     background on small text such as photo credits and bylines. */
+  --subtle: #6b6459;
+  --border: #e6dece;
+  --border-strong: #d5c9b0;
+
+  --accent: #1f4a34;
+  --accent-hover: #163a28;
+  --accent-soft: #e9f0ea;
+  --accent-ink: #12291d;
+
+  --crimson: #9c2a2a;
+  --crimson-soft: #f8ecea;
+  --gold: #c08a2e;
+  --gold-soft: #fbf3e2;
+
+  --shadow-sm: 0 1px 2px rgba(26, 24, 21, 0.05);
+  --shadow-md: 0 4px 16px -4px rgba(26, 24, 21, 0.1);
+  --shadow-lg: 0 18px 44px -12px rgba(26, 24, 21, 0.18);
 }
 
 @theme inline {
   --color-background: var(--background);
+  --color-surface: var(--surface);
+  --color-surface-sunk: var(--surface-sunk);
+  --color-surface-ink: var(--surface-ink);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-muted: var(--muted);
+  --color-subtle: var(--subtle);
+  --color-line: var(--border);
+  --color-line-strong: var(--border-strong);
+  --color-accent: var(--accent);
+  --color-accent-hover: var(--accent-hover);
+  --color-accent-soft: var(--accent-soft);
+  --color-accent-ink: var(--accent-ink);
+  --color-crimson: var(--crimson);
+  --color-crimson-soft: var(--crimson-soft);
+  --color-gold: var(--gold);
+  --color-gold-soft: var(--gold-soft);
+
+  --font-sans: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
+  --font-serif: var(--font-source-serif), ui-serif, Georgia, serif;
+  --font-mono: var(--font-geist-mono), ui-monospace, monospace;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+/* These MUST live in @layer base. Tailwind v4 emits its utilities inside a
+   cascade layer, and unlayered CSS wins over layered CSS regardless of
+   specificity — so an unlayered `a { color: inherit }` silently overrides every
+   text-* utility on links, including white button labels. */
+@layer base {
+  * {
+    border-color: var(--border);
+  }
+
+  html {
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+    color-scheme: light;
+  }
+
+  body {
+    background: var(--background);
+    color: var(--foreground);
+    font-family: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: var(--font-source-serif), ui-serif, Georgia, serif;
+    font-weight: 600;
+    letter-spacing: -0.012em;
+    text-wrap: balance;
+  }
+
+  a {
+    color: inherit;
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 2px;
+    border-radius: 3px;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
   }
 }
 
-body {
-  background: var(--background);
+/* Small caps eyebrow used across section headers */
+.eyebrow {
+  font-size: 0.6875rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+
+/* A thin decorative rule echoing the label border on the packet */
+.rule-ornament {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  color: var(--border-strong);
+}
+.rule-ornament::before,
+.rule-ornament::after {
+  content: "";
+  height: 1px;
+  flex: 1;
+  background: currentColor;
+}
+
+/* --------------------------------------------------------------------------
+   Long-form article typography
+   -------------------------------------------------------------------------- */
+
+.prose-shelf {
+  font-size: 1.0625rem;
+  line-height: 1.78;
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Direct children AND children of a wrapping <section>. Guide pages group
+   their content into sections, so a direct-child-only rule leaves those
+   paragraphs jammed together. */
+.prose-shelf > * + *,
+.prose-shelf > section > * + * {
+  margin-top: 1.2em;
+}
+
+.prose-shelf h2 {
+  font-size: 1.75rem;
+  line-height: 1.26;
+  margin-top: 2.75rem;
+  margin-bottom: 0.85rem;
+  scroll-margin-top: 5.5rem;
+}
+
+.prose-shelf h3 {
+  font-size: 1.3rem;
+  line-height: 1.34;
+  margin-top: 2rem;
+  margin-bottom: 0.55rem;
+  scroll-margin-top: 5.5rem;
+}
+
+.prose-shelf ul,
+.prose-shelf ol {
+  padding-left: 1.35rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.55rem;
+}
+
+.prose-shelf ul {
+  list-style: disc;
+}
+
+.prose-shelf ol {
+  list-style: decimal;
+}
+
+.prose-shelf li::marker {
+  color: var(--accent);
+}
+
+.prose-shelf strong {
+  font-weight: 650;
+  color: var(--accent-ink);
+}
+
+.prose-shelf a:not([data-plain]) {
+  color: var(--accent);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  text-decoration-thickness: 1px;
+  text-decoration-color: var(--border-strong);
+  transition: text-decoration-color 0.15s ease;
+}
+
+.prose-shelf a:not([data-plain]):hover {
+  text-decoration-color: var(--accent);
+}
+
+.prose-shelf blockquote {
+  border-left: 3px solid var(--accent);
+  padding-left: 1.1rem;
+  font-style: italic;
+  color: var(--muted);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
 }
