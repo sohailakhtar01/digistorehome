@@ -3,7 +3,7 @@ import Image from "next/image";
 import { getOffer } from "@/lib/affiliates";
 import { HERBS, byDifficulty, stratificationHerbs } from "@/lib/herbs";
 import { PRODUCT_IMAGES, getHerbImage, VIDEOS } from "@/lib/media";
-import { SITE } from "@/lib/site";
+import { EDITOR, SITE } from "@/lib/site";
 import VideoEmbed from "@/components/VideoEmbed";
 import {
   AffiliateCTA,
@@ -162,7 +162,7 @@ export default function Page() {
         datePublished: REVIEWED,
         dateModified: REVIEWED,
         inLanguage: "en-US",
-        author: { "@type": "Organization", name: SITE.name, url: SITE.url },
+        author: { "@id": `${SITE.url}/#editor` },
         publisher: { "@id": `${SITE.url}/#organization` },
         itemReviewed: { "@id": PRODUCT_ID },
         reviewRating: {
@@ -245,7 +245,7 @@ export default function Page() {
               difficult, and who should not buy it.
             </p>
             <p className="mt-5 text-sm text-subtle">
-              By {SITE.name} · Published 25 August 2026 · Research-based review
+              By {EDITOR.name} · Published 25 August 2026 · Research-based review
             </p>
             <div className="mt-3">
               <AffiliateDisclosure />

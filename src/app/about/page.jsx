@@ -1,11 +1,6 @@
 import Link from "next/link";
-import { SITE } from "@/lib/site";
-import { Breadcrumbs, Callout, PageHeader } from "@/components/ui";
-
-// TODO (site owner): replace the editor block below with your real name and a
-// two-line bio before you promote this page. An "about" page with no human
-// behind it is the weakest part of any review site — and inventing a persona
-// is not an option we will take.
+import { EDITOR, SITE } from "@/lib/site";
+import { Breadcrumbs, Callout, JsonLd, PageHeader } from "@/components/ui";
 
 export const metadata = {
   title: "About",
@@ -15,8 +10,28 @@ export const metadata = {
 };
 
 export default function Page() {
+  // Person, linked to the Organization by @id. Naming a real editor is the
+  // cheapest credibility signal a small review site has, and the schema makes
+  // that relationship explicit rather than leaving it to be inferred.
+  const personLd = {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "@id": `${SITE.url}/#editor`,
+    name: EDITOR.name,
+    jobTitle: EDITOR.role,
+    email: EDITOR.email,
+    url: EDITOR.url,
+    worksFor: { "@id": `${SITE.url}/#organization` },
+    knowsAbout: [
+      "Affiliate product research",
+      "Medicinal herb gardening",
+      "Growing herbs from seed",
+    ],
+  };
+
   return (
     <div className="mx-auto max-w-3xl px-5 py-10 sm:py-14">
+      <JsonLd data={personLd} />
       <Breadcrumbs
         trail={[
           { href: "/", label: "Home" },
@@ -37,6 +52,34 @@ export default function Page() {
           countdown timers and review sites that simply restate them. We think
           there is room for something plainer: what is in the box, what the
           sales page underplays, and who should not buy it.
+        </p>
+
+        <h2>Who writes this</h2>
+        <p>
+          My name is {EDITOR.name}, and I run {SITE.name}. It is a one-person
+          site — there is no editorial team behind the word &ldquo;we&rdquo;, and
+          I would rather say that plainly than let the plural imply otherwise.
+        </p>
+        <p>
+          I am not a horticulturist, a herbalist or a medical professional, and
+          nothing on this site should be read as though I were. What I do is
+          read the primary sources properly: the actual sales page rather than
+          other people&apos;s summaries of it, the university and extension
+          material behind a growing claim, and the public record behind a
+          credential. Then I write down what I found, including the parts that
+          make a product look worse.
+        </p>
+        <p>
+          The growing guides here reflect established horticultural practice for
+          each species, not trials I ran in my own garden. Where a page depends
+          on something I have not done myself, it says so on the page rather
+          than in a disclaimer at the bottom.
+        </p>
+        <p>
+          If something here is wrong, I would genuinely rather know. Corrections
+          go to{" "}
+          <a href={`mailto:${EDITOR.email}`}>{EDITOR.email}</a> and I will fix
+          the page and say what changed.
         </p>
 
         <h2>How we research</h2>

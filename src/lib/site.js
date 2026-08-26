@@ -13,6 +13,16 @@ export const SITE = {
   founded: "2026",
 };
 
+// The person behind the site. Named on /about and in Person schema, because a
+// review site with no identifiable human behind it is the easiest thing in the
+// world to discount. Nothing is claimed here that cannot be stood behind.
+export const EDITOR = {
+  name: "Sohail Akhtar",
+  role: "Founder and editor",
+  email: SITE.email,
+  url: `${SITE.url}/about`,
+};
+
 export const NAV = [
   { href: "/reviews", label: "Reviews" },
   { href: "/guides", label: "Guides" },

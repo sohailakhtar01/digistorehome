@@ -1,4 +1,4 @@
-import { SITE } from "@/lib/site";
+import { EDITOR, SITE } from "@/lib/site";
 import { abs } from "@/lib/content";
 import { byDifficulty, stratificationHerbs, PUBLISHED_HERB_GUIDES, getHerb } from "@/lib/herbs";
 import { getHerbGuide } from "@/lib/herbGuides";
@@ -242,8 +242,11 @@ ${PUBLISHED_HERB_GUIDES.map(guideMarkdown).join("\n\n---\n\n")}
 
 ## About this site
 
-${SITE.name} reviews products that get sold hard and reviewed badly. Corrections
-are welcome at ${SITE.email}.
+${SITE.name} reviews products that get sold hard and reviewed badly. It is run
+by ${EDITOR.name}, a single person rather than an editorial team. He is not a
+horticulturist, herbalist or medical professional, and the growing guidance here
+reflects established horticultural practice rather than trials run in his own
+garden. Corrections are welcome at ${SITE.email}.
 
 - About and methodology: ${abs("/about")}
 - Affiliate and editorial disclosure: ${abs("/disclosure")}

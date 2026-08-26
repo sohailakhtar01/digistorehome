@@ -3,7 +3,7 @@ import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { JsonLd } from "@/components/ui";
-import { SITE } from "@/lib/site";
+import { EDITOR, SITE } from "@/lib/site";
 
 // Weights are pinned to what the design actually uses. Left unpinned, the full
 // variable axis ships and the font files roughly double in size.
@@ -31,7 +31,7 @@ export const metadata = {
   },
   description: SITE.description,
   applicationName: SITE.name,
-  authors: [{ name: SITE.author }],
+  authors: [{ name: EDITOR.name, url: EDITOR.url }],
   openGraph: {
     type: "website",
     siteName: SITE.name,
@@ -117,6 +117,15 @@ export default function RootLayout({ children }) {
         ],
         publishingPrinciples: `${SITE.url}/about`,
         ethicsPolicy: `${SITE.url}/disclosure`,
+        founder: { "@id": `${SITE.url}/#editor` },
+      },
+      {
+        "@type": "Person",
+        "@id": `${SITE.url}/#editor`,
+        name: EDITOR.name,
+        jobTitle: EDITOR.role,
+        url: EDITOR.url,
+        worksFor: { "@id": `${SITE.url}/#organization` },
       },
       {
         "@type": "WebSite",

@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { getSeedImage } from "@/lib/media";
-import { SITE } from "@/lib/site";
+import { EDITOR, SITE } from "@/lib/site";
 import {
   Breadcrumbs,
   Callout,
@@ -107,7 +107,7 @@ export default function Page() {
     datePublished: PUBLISHED,
     dateModified: PUBLISHED,
     inLanguage: "en-US",
-    author: { "@id": `${SITE.url}/#organization` },
+    author: { "@id": `${SITE.url}/#editor` },
     publisher: { "@id": `${SITE.url}/#organization` },
     isPartOf: { "@id": `${SITE.url}/#website` },
     mainEntityOfPage: `${SITE.url}/guides/harvesting-coneflower-seeds`,
@@ -191,7 +191,7 @@ export default function Page() {
         eyebrow="Technique"
         title="How to Harvest Coneflower Seeds (Echinacea)"
         standfirst="One echinacea plant will hand you several hundred seeds for free, and the whole job takes an afternoon. The two things that trip people up are harvesting too early and not realising how sharp a dried cone is."
-        meta={`By ${SITE.name} · Published 26 August 2026`}
+        meta={`By ${EDITOR.name} · Published 26 August 2026`}
       />
 
       <Figure

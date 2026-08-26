@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { HERBS, PUBLISHED_HERB_GUIDES, stratificationHerbs } from "@/lib/herbs";
 import { VIDEOS, getHerbImage } from "@/lib/media";
-import { SITE } from "@/lib/site";
+import { EDITOR, SITE } from "@/lib/site";
 import VideoEmbed from "@/components/VideoEmbed";
 import {
   Breadcrumbs,
@@ -104,7 +104,7 @@ export default function Page() {
     datePublished: PUBLISHED,
     dateModified: PUBLISHED,
     inLanguage: "en-US",
-    author: { "@id": `${SITE.url}/#organization` },
+    author: { "@id": `${SITE.url}/#editor` },
     publisher: { "@id": `${SITE.url}/#organization` },
     isPartOf: { "@id": `${SITE.url}/#website` },
     mainEntityOfPage: `${SITE.url}/guides/cold-stratification`,
@@ -176,7 +176,7 @@ export default function Page() {
         eyebrow="Technique"
         title="Cold Stratification: The Four-Week Step That Fixes Stubborn Seed"
         standfirst="Some seeds will not germinate properly until they think a winter has passed. Here is how to give them one in a refrigerator — and which seeds actually need it."
-        meta={`By ${SITE.name} · Updated 25 August 2026`}
+        meta={`By ${EDITOR.name} · Updated 25 August 2026`}
       />
 
       {echinaceaImg ? (

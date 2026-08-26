@@ -6,7 +6,7 @@ import {
   PUBLISHED_HERB_GUIDES,
 } from "@/lib/herbs";
 import { getHerbImage, VIDEOS } from "@/lib/media";
-import { SITE } from "@/lib/site";
+import { EDITOR, SITE } from "@/lib/site";
 import VideoEmbed from "@/components/VideoEmbed";
 import {
   Breadcrumbs,
@@ -117,7 +117,7 @@ export default function Page() {
         eyebrow="Guide"
         title="10 Medicinal Herbs to Grow at Home, Ranked by Difficulty"
         standfirst="Most lists of medicinal herbs treat all ten as equally beginner-friendly. They are not. Here is the honest ranking, and the one free step that fixes the three hardest."
-        meta={`By ${SITE.name} · Updated August 2026`}
+        meta={`By ${EDITOR.name} · Updated August 2026`}
       />
 
       <div className="prose-shelf mt-8">

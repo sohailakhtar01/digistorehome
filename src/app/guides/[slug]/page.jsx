@@ -3,7 +3,7 @@ import { notFound } from "next/navigation";
 import { PUBLISHED_HERB_GUIDES, getHerb } from "@/lib/herbs";
 import { getHerbGuide } from "@/lib/herbGuides";
 import { getHerbImage, VIDEOS } from "@/lib/media";
-import { SITE } from "@/lib/site";
+import { EDITOR, SITE } from "@/lib/site";
 import VideoEmbed from "@/components/VideoEmbed";
 import {
   Breadcrumbs,
@@ -79,7 +79,7 @@ export default async function Page({ params }) {
     datePublished: PUBLISHED,
     dateModified: MODIFIED,
     inLanguage: "en-US",
-    author: { "@id": `${SITE.url}/#organization` },
+    author: { "@id": `${SITE.url}/#editor` },
     publisher: { "@id": `${SITE.url}/#organization` },
     isPartOf: { "@id": `${SITE.url}/#website` },
     mainEntityOfPage: `${SITE.url}/guides/${slug}`,
@@ -157,7 +157,7 @@ export default async function Page({ params }) {
         eyebrow="Growing guide"
         title={guide.title}
         standfirst={guide.standfirst}
-        meta={`By ${SITE.name} · Updated 25 August 2026 · ${herb.latin} · ${herb.lifecycle}`}
+        meta={`By ${EDITOR.name} · Updated 25 August 2026 · ${herb.latin} · ${herb.lifecycle}`}
       />
 
       {img ? (

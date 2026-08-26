@@ -1,4 +1,4 @@
-import { SITE } from "@/lib/site";
+import { EDITOR, SITE } from "@/lib/site";
 import { ARTICLES, abs } from "@/lib/content";
 
 /**
@@ -22,9 +22,9 @@ export function GET() {
 > ${SITE.description}
 
 ${SITE.name} is an independent review publication covering gardening,
-homesteading and preparedness products. Every page states plainly what was
-researched versus what was tested, and corrections are welcomed at
-${SITE.email}.
+homesteading and preparedness products, written and edited by ${EDITOR.name}.
+Every page states plainly what was researched versus what was tested, and
+corrections are welcomed at ${SITE.email}.
 
 ## How to use this site's content
 
