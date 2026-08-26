@@ -8,7 +8,7 @@ import { SITE } from "./site";
 import { REVIEWS } from "./reviews";
 import { PUBLISHED_HERB_GUIDES, getHerb } from "./herbs";
 import { getHerbGuide } from "./herbGuides";
-import { HERB_IMAGES, PRODUCT_IMAGES } from "./media";
+import { HERB_IMAGES, PRODUCT_IMAGES, SEED_IMAGES } from "./media";
 
 const iso = (d) => new Date(`${d}T00:00:00Z`).toISOString();
 
@@ -41,6 +41,24 @@ export const ARTICLES = [
       "An honest difficulty ranking of ten classic medicinal herbs grown from seed: five that are genuinely easy, two with one specific catch each, and three that need cold stratification before they will cooperate.",
     topics: ["medicinal herbs", "growing from seed", "difficulty ranking"],
     image: HERB_IMAGES.echinacea.src,
+    priority: 0.8,
+  },
+  {
+    path: "/guides/harvesting-coneflower-seeds",
+    title:
+      "How to Harvest Coneflower Seeds (Echinacea): When, How, and What the Seed Looks Like",
+    kind: "guide",
+    published: "2026-08-26",
+    modified: "2026-08-26",
+    summary:
+      "How to tell when an echinacea seed head is ready, how to get the seed out without shredding your hands, how to separate seed from chaff, and what viable coneflower seed actually looks like.",
+    topics: [
+      "harvesting coneflower seeds",
+      "echinacea seed",
+      "seed saving",
+      "Echinacea purpurea",
+    ],
+    image: SEED_IMAGES.echinaceaSeed.src,
     priority: 0.8,
   },
   {

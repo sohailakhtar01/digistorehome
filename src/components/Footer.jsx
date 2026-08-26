@@ -1,10 +1,11 @@
 import Link from "next/link";
 import { FOOTER_NAV, SITE } from "@/lib/site";
-import { HERB_IMAGES } from "@/lib/media";
+import { HERB_IMAGES, SEED_IMAGES } from "@/lib/media";
 
 export default function Footer() {
-  // Credit every CC-licensed photograph in one place.
-  const credits = Object.values(HERB_IMAGES)
+  // Credit every CC-licensed photograph in one place. CC BY-SA requires
+  // attribution, so any new image set has to be added here as well as used.
+  const credits = [...Object.values(HERB_IMAGES), ...Object.values(SEED_IMAGES)]
     .map((i) => `${i.author} (${i.license})`)
     .filter((v, i, a) => a.indexOf(v) === i);
 

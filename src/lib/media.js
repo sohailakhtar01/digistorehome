@@ -104,7 +104,28 @@ export const HERB_IMAGES = {
   },
 };
 
+// Seed-stage photography, kept separate from the flowering portraits above.
+// The harvesting guide targets queries where Google shows an image pack, so
+// these carry more weight than illustration usually would.
+export const SEED_IMAGES = {
+  echinaceaSeed: {
+    src: "/img/herbs/echinacea-seed.webp",
+    alt: "Echinacea purpurea seed laid out in rows: dark slender disc florets at the top, pale wedge-shaped achenes in the middle, and two sectioned cones below showing where the seed sits.",
+    license: "CC BY-SA 3.0",
+    author: "Temdor",
+    source: "https://commons.wikimedia.org/wiki/File:Echinacea_purpurea_seed.JPG",
+  },
+  echinaceaSeedhead: {
+    src: "/img/herbs/echinacea-seedhead.webp",
+    alt: "A fully dried echinacea seed head on its stem, the cone dark brown and bristling with stiff spines, petals shrivelled.",
+    license: "CC BY-SA 4.0",
+    author: "Quercus2018",
+    source: "https://commons.wikimedia.org/wiki/File:Dried_Echinacea_Spines.jpg",
+  },
+};
+
 export const getHerbImage = (slug) => HERB_IMAGES[slug];
+export const getSeedImage = (key) => SEED_IMAGES[key];
 
 // Embedded video. All IDs verified live via the YouTube oEmbed API on
 // 2026-08-25. Thumbnails are stored locally so no external request is made
