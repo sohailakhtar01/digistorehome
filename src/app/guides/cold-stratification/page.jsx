@@ -20,13 +20,13 @@ import {
 const PUBLISHED = "2026-08-25";
 
 export const metadata = {
-  title: "Cold Stratification of Seeds: The Four-Week Step That Fixes Stubborn Germination",
+  title: "How to Cold Stratify Seeds",
   description:
-    "How to cold stratify seeds in the refrigerator, which species actually need it, how long each one takes, and what to do when it goes wrong. A practical method, not folklore.",
+    "How to cold stratify seeds in a refrigerator, which species actually need it, how long each one takes, and what to do when mould appears.",
   alternates: { canonical: "/guides/cold-stratification" },
   openGraph: {
     type: "article",
-    title: "Cold Stratification of Seeds: The Four-Week Step That Fixes Stubborn Germination",
+    title: "How to Cold Stratify Seeds",
     description:
       "The refrigerator method, which seeds need it, and how long each takes.",
     url: "/guides/cold-stratification",

@@ -40,12 +40,13 @@ export async function generateMetadata({ params }) {
   if (!guide) return {};
   const img = getHerbImage(slug);
   return {
-    title: guide.title,
+    // seoTitle is the short SERP headline; guide.title stays as the H1.
+    title: guide.seoTitle ?? guide.title,
     description: guide.description,
     alternates: { canonical: `/guides/${slug}` },
     openGraph: {
       type: "article",
-      title: guide.title,
+      title: guide.seoTitle ?? guide.title,
       description: guide.description,
       url: `/guides/${slug}`,
       publishedTime: PUBLISHED,

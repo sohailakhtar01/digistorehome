@@ -29,8 +29,9 @@
 export const HERB_GUIDES = {
   echinacea: {
     title: "How to Grow Echinacea From Seed (Without the Patchy Germination)",
+    seoTitle: "How to Grow Echinacea From Seed",
     description:
-      "Echinacea germinates erratically when sown straight into warm soil. Four weeks of cold, moist stratification fixes most of it. When to plant, how to stratify, and what to expect in year one.",
+      "Echinacea germinates patchily in warm soil. Four weeks of cold stratification fixes it. When to sow, how deep, and why year one has no flowers.",
     standfirst:
       "Purple coneflower is a genuinely rewarding perennial that most people get wrong at the very first step. The fix costs nothing and takes four weeks of doing nothing.",
     sections: [
@@ -121,8 +122,9 @@ export const HERB_GUIDES = {
   lavender: {
     title:
       "How to Grow and Germinate Lavender From Seed (And Why Professionals Usually Do Not)",
+    seoTitle: "How to Grow Lavender From Seed",
     description:
-      "Lavender is genuinely difficult from seed — slow, erratic and low-percentage even for experienced growers. How to stratify and germinate it step by step, the six reasons a tray comes up empty, and when to buy a plant instead.",
+      "Lavender is slow and low-percentage even for professionals. An eight-step germination method, and the six reasons a tray comes up empty.",
     standfirst:
       "If one packet in a herb kit disappoints you, it will probably be the lavender. That is the species behaving normally, and it is worth understanding why before you blame yourself.",
     sections: [
@@ -282,8 +284,9 @@ export const HERB_GUIDES = {
   },
   calendula: {
     title: "How to Grow Calendula From Seed (The Easiest Plant in the Kit)",
+    seoTitle: "How to Grow Calendula From Seed",
     description:
-      "Calendula germinates in a week or two, tolerates poor soil and flowers within two months. When to sow, how deep, why it needs darkness to germinate, and how to keep it flowering until frost.",
+      "The easiest seed in the collection. Sow it 6mm deep because it needs darkness to germinate, then expect flowers in six to eight weeks.",
     standfirst:
       "If you have never grown anything from seed before, start here. Calendula is quick, forgiving, and the one plant in this collection that is genuinely difficult to fail with.",
     sections: [
@@ -382,8 +385,9 @@ export const HERB_GUIDES = {
   },
   yarrow: {
     title: "How to Grow Yarrow From Seed (And Why Year One Looks Like Failure)",
+    seoTitle: "How to Grow Yarrow From Seed",
     description:
-      "Yarrow needs light to germinate, is slow in its first season, and usually does not flower until year two. How to sow it, what to expect, and why patience is normal rather than a sign of bad seed.",
+      "Yarrow needs light to germinate, so surface sow it. Then expect foliage and no flowers in year one — that is normal, not a seed failure.",
     standfirst:
       "Yarrow is genuinely easy to grow and genuinely frustrating to grow from seed, because everything it does in the first year looks like nothing happening.",
     sections: [
@@ -481,8 +485,9 @@ export const HERB_GUIDES = {
   },
   "california-poppy": {
     title: "How to Grow California Poppy From Seed (Direct Sow or Do Not Bother)",
+    seoTitle: "How to Grow California Poppy From Seed",
     description:
-      "California poppy forms a taproot and resents being moved, so it must be direct sown. When to sow, how shallow, why poor soil works better than good soil, and the transplanting mistake that ruins most attempts.",
+      "California poppy forms a taproot and dies if transplanted, so direct sow only. When to sow into cool soil, and why poor ground beats rich.",
     standfirst:
       "This is the one plant in the kit where the usual advice — start it indoors, transplant it out — is actively wrong. Get that single decision right and the rest is easy.",
     sections: [
@@ -580,8 +585,9 @@ export const HERB_GUIDES = {
   },
   chamomile: {
     title: "How to Grow German Chamomile From Seed (Do Not Bury It)",
+    seoTitle: "How to Grow German Chamomile From Seed",
     description:
-      "German chamomile needs light to germinate, so it must be surface sown and kept damp. When to sow, how to stop the seedbed drying out, when to pick the flowers, and how it differs from Roman chamomile.",
+      "German chamomile needs light to germinate, so never bury it. Surface sow, keep the surface damp, and pick flowers from about eight weeks.",
     standfirst:
       "Chamomile is one of the fastest and most generous plants in this collection, and there is exactly one way to get it wrong: covering the seed.",
     sections: [
@@ -678,8 +684,9 @@ export const HERB_GUIDES = {
   },
   feverfew: {
     title: "How to Grow Feverfew From Seed (And How to Stop It Taking Over)",
+    seoTitle: "How to Grow Feverfew From Seed",
     description:
-      "Feverfew needs light to germinate, flowers in its first year if sown early, and self-seeds hard enough to colonise a bed. How to sow it, how to identify it, and how to keep it in bounds.",
+      "Feverfew surface sows easily, flowers in year one if started early, and self-seeds hard enough to take over a bed. How to grow it and contain it.",
     standfirst:
       "Feverfew is easy to grow and easy to end up with far too much of. The skill with this plant is not germination — it is containment.",
     sections: [
@@ -764,8 +771,9 @@ export const HERB_GUIDES = {
   },
   chicory: {
     title: "How to Grow Chicory From Seed (Check Your Region First)",
+    seoTitle: "How to Grow Chicory From Seed",
     description:
-      "Chicory is fast, hardy and almost impossible to kill — which is exactly why it needs checking before you plant it. How to direct sow it, when to lift the root, and why transplanting fails.",
+      "Chicory has naturalised widely, so check your local weed list first. Then direct sow — the taproot will not survive being moved — and lift in autumn.",
     standfirst:
       "Chicory germinates in a week, tolerates drought, and comes back for years. Those same qualities are why it has naturalised across much of North America, so the first step here is not sowing.",
     sections: [
@@ -850,8 +858,9 @@ export const HERB_GUIDES = {
   },
   marshmallow: {
     title: "How to Grow Marshmallow Root From Seed (Stratify It, and Keep It Wet)",
+    seoTitle: "How to Grow Marshmallow From Seed",
     description:
-      "Marshmallow germinates erratically without a cold period and genuinely wants damp ground. How to stratify the seed, where to plant it, and when the root is worth lifting.",
+      "Marshmallow germinates erratically without three to four weeks of cold stratification, and it wants genuinely damp ground. How to get both right.",
     standfirst:
       "Marshmallow is one of the three genuinely difficult species in this kit, and it fails in two predictable ways: sown without cold treatment, and planted somewhere too dry.",
     sections: [
@@ -954,8 +963,9 @@ export const HERB_GUIDES = {
   },
   "evening-primrose": {
     title: "How to Grow Evening Primrose From Seed (Year One Is Leaves Only)",
+    seoTitle: "How to Grow Evening Primrose From Seed",
     description:
-      "Evening primrose is a biennial: it makes a rosette in year one and flowers in year two. How to sow it, why nothing appears to happen for a season, and how to get flowers every year after that.",
+      "Evening primrose is a biennial: a leaf rosette in year one, flowers in year two. That is not failure. How to sow it and get blooms every year after.",
     standfirst:
       "This is the most commonly misdiagnosed failure in the whole kit. Evening primrose does exactly what it is supposed to do in year one, and what it is supposed to do looks like nothing.",
     sections: [

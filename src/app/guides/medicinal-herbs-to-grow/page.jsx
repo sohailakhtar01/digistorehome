@@ -68,13 +68,13 @@ function HerbCard({ herb, noteLabel = "Worth knowing" }) {
 }
 
 export const metadata = {
-  title: "10 Medicinal Herbs to Grow at Home, Ranked by Difficulty",
+  title: "10 Medicinal Herbs to Grow at Home",
   description:
-    "A practical, honest ranking of ten classic medicinal herbs by how hard they actually are to grow from seed — including which three need cold stratification and which will not flower in year one.",
+    "An honest ranking of ten medicinal herbs by how hard they really are from seed: five that are easy, two with one catch each, and three that need a fridge.",
   alternates: { canonical: "/guides/medicinal-herbs-to-grow" },
   openGraph: {
     type: "article",
-    title: "10 Medicinal Herbs to Grow at Home, Ranked by Difficulty",
+    title: "10 Medicinal Herbs to Grow at Home",
     description:
       "Which of the classic medicinal herbs are genuinely easy from seed, and which three will test your patience.",
     url: "/guides/medicinal-herbs-to-grow",

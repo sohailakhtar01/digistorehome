@@ -5,7 +5,7 @@ import { Breadcrumbs, PageHeader } from "@/components/ui";
 export const metadata = {
   title: "Privacy Policy",
   description:
-    "What data The Homestead Shelf collects, what it does not collect, and how affiliate links work.",
+    "What The Homestead Shelf collects and, mostly, what it does not. No accounts, no selling data, and exactly how affiliate links and analytics work.",
   alternates: { canonical: "/privacy" },
   robots: { index: true, follow: true },
 };

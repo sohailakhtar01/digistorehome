@@ -5,7 +5,7 @@ import { Breadcrumbs, PageHeader } from "@/components/ui";
 export const metadata = {
   title: "Product Reviews",
   description:
-    "Independent, research-based reviews of homesteading, gardening and preparedness products. What is in the box, what the sales page glosses over, and who should skip it.",
+    "Independent reviews of homesteading and gardening products: what is in the box, what the sales page glosses over, and who should skip it.",
   alternates: { canonical: "/reviews" },
 };
 

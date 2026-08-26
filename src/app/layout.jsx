@@ -26,7 +26,7 @@ const sourceSerif = Source_Serif_4({
 export const metadata = {
   metadataBase: new URL(SITE.url),
   title: {
-    default: `${SITE.name} — ${SITE.tagline}`,
+    default: `${SITE.name} — Honest Homesteading Reviews`,
     template: `%s | ${SITE.name}`,
   },
   description: SITE.description,
@@ -37,7 +37,7 @@ export const metadata = {
     siteName: SITE.name,
     locale: SITE.locale,
     url: SITE.url,
-    title: `${SITE.name} — ${SITE.tagline}`,
+    title: `${SITE.name} — Honest Homesteading Reviews`,
     description: SITE.description,
   },
   // Only the card type is set sitewide. Title/description/image are left to

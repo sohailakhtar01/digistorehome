@@ -46,13 +46,13 @@ const NOT_FOR = [
 ];
 
 export const metadata = {
-  title: "Medicinal Garden Kit Review (2026): What You Actually Get for $59",
+  title: "Medicinal Garden Kit Review (2026)",
   description:
-    "An independent review of Nicole Apelian's Medicinal Garden Kit. What is in the box, which of the 10 seeds are genuinely hard to grow, how the 365-day guarantee works, and who should skip it.",
+    "What the $59 box actually contains, which three of the ten seeds are genuinely hard to grow, how the 365-day guarantee works, and who should skip it.",
   alternates: { canonical: "/reviews/medicinal-garden-kit" },
   openGraph: {
     type: "article",
-    title: "Medicinal Garden Kit Review (2026): What You Actually Get for $59",
+    title: "Medicinal Garden Kit Review (2026)",
     description:
       "What is in the box, which seeds are genuinely hard to grow, and who should skip it.",
     url: "/reviews/medicinal-garden-kit",

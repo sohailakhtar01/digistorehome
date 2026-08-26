@@ -4,7 +4,7 @@ import { Breadcrumbs, PageHeader } from "@/components/ui";
 export const metadata = {
   title: "Contact",
   description:
-    "Get in touch with The Homestead Shelf — corrections, questions and feedback.",
+    "Corrections especially welcome. What we respond to, what we do not do, and how to reach The Homestead Shelf about anything published here.",
   alternates: { canonical: "/contact" },
 };
 

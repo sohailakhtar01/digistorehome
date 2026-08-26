@@ -28,9 +28,9 @@ const PUBLISHED = "2026-08-26";
 // dominated by tomatoes and peppers at RD 25-102. This page is not aimed at
 // those — it answers the question for the ten species we actually cover.
 export const metadata = {
-  title: "When to Plant Each of the 10 Medicinal Herbs (Frost Date Calculator)",
+  title: "When to Plant 10 Medicinal Herbs",
   description:
-    "Enter your last frost date and get the exact week to stratify, sow and transplant each of the ten medicinal herbs — including the three that need a month in the refrigerator first.",
+    "Enter your last frost date and get the week to stratify, sow and transplant each of the ten medicinal herbs, including the three needing a fridge.",
   alternates: { canonical: "/guides/when-to-plant" },
   openGraph: {
     type: "article",

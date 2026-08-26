@@ -24,10 +24,9 @@ const PUBLISHED = "2026-08-26";
 //   how to collect coneflower seeds                     ~1,000
 //   harvesting coneflower seeds                            590
 export const metadata = {
-  title:
-    "How to Harvest Coneflower Seeds (Echinacea): When, How, and What the Seed Looks Like",
+  title: "How to Harvest Coneflower Seeds",
   description:
-    "How to tell when an echinacea seed head is ready, how to get the seed out without shredding your hands, how to separate seed from chaff, and what viable coneflower seed actually looks like.",
+    "When an echinacea seed head is ready, how to get the seed out without shredding your hands, and how to tell viable coneflower seed from chaff.",
   alternates: { canonical: "/guides/harvesting-coneflower-seeds" },
   openGraph: {
     type: "article",

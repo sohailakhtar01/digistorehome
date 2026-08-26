@@ -8,7 +8,8 @@ import { getHerbGuide } from "@/lib/herbGuides";
 import { DifficultyBadge } from "@/components/ui";
 
 export const metadata = {
-  title: `${SITE.name} — ${SITE.tagline}`,
+  // Brand-first: this is the page that should win a search for the site name.
+  title: `${SITE.name} — Honest Homesteading Reviews`,
   description: SITE.description,
   alternates: { canonical: "/" },
 };
