@@ -4,7 +4,7 @@
 Contact: mailto:hello@thehomesteadshelf.com
 Expires: 2027-08-25T00:00:00.000Z
 Preferred-Languages: en
-Canonical: https://thehomesteadshelf.com/.well-known/security.txt
+Canonical: https://www.thehomesteadshelf.com/.well-known/security.txt
 
 # This is a static content site. It collects no accounts, no payments and no
 # personal data. Purchases happen on third-party vendor sites under their own

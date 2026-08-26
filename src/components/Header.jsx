@@ -4,11 +4,11 @@ import { NAV, SITE } from "@/lib/site";
 export default function Header() {
   return (
     <header className="sticky top-0 z-50 border-b border-line bg-background/90 backdrop-blur-md">
-      <div className="mx-auto flex h-16 max-w-6xl items-center justify-between gap-6 px-5">
+      <div className="mx-auto flex h-16 max-w-6xl items-center justify-between gap-3 px-4 sm:gap-6 sm:px-5">
         <Link
           href="/"
           data-plain
-          className="group flex items-center gap-2.5"
+          className="group flex min-w-0 items-center gap-2 sm:gap-2.5"
           aria-label={`${SITE.name} — home`}
         >
           <span
@@ -30,19 +30,22 @@ export default function Header() {
               <path d="M4 21h16" />
             </svg>
           </span>
-          <span className="font-serif text-[1.05rem] font-semibold tracking-tight">
+          {/* Below 360px the full wordmark plus three nav links cannot fit,
+              so the mark carries the brand on its own there. Above it, the
+              wordmark returns. */}
+          <span className="hidden truncate font-serif text-[0.95rem] font-semibold tracking-tight min-[360px]:inline sm:text-[1.05rem]">
             {SITE.name}
           </span>
         </Link>
 
         <nav aria-label="Primary">
-          <ul className="flex items-center gap-0.5 text-sm">
+          <ul className="flex items-center text-sm sm:gap-0.5">
             {NAV.map((item) => (
               <li key={item.href}>
                 <Link
                   href={item.href}
                   data-plain
-                  className="rounded-md px-3 py-2 font-medium text-muted transition-colors hover:bg-surface-sunk hover:text-accent"
+                  className="block rounded-md px-2 py-2 font-medium text-muted transition-colors hover:bg-surface-sunk hover:text-accent sm:px-3"
                 >
                   {item.label}
                 </Link>

@@ -12,7 +12,8 @@
  * The key file must be reachable at https://<host>/<key>.txt and contain the key.
  */
 
-const HOST = "thehomesteadshelf.com";
+// Must match SITE.url. Submitting the apex would submit URLs that 308 away.
+const HOST = "www.thehomesteadshelf.com";
 const KEY = "c19d001cf981407f870c3acf3a5c48f9";
 
 // Paths are read from the live sitemap rather than hardcoded here. The
