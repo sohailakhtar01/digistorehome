@@ -65,9 +65,19 @@ export default async function Page({ params }) {
   const video = GUIDE_VIDEO[slug];
   const headings = guide.sections.map((s) => s.h2);
 
-  // The stratification section doubles as a HowTo — it is a genuine
-  // step-by-step procedure, which is exactly what the type is for.
-  const stratSection = guide.sections.find((s) => Array.isArray(s.list) && /stratification/i.test(s.h2));
+  // A section with an ordered list of real steps can carry HowTo markup. A
+  // section may declare `howTo` explicitly; otherwise a stratification section
+  // is treated as one, since that is always a genuine procedure.
+  //
+  // Google retired HowTo rich results in 2023, so this earns no stars in Google
+  // Search. It is kept because Bing and AI assistants still parse it, and
+  // because it is accurate. Do not add it to sections that are not real
+  // procedures on the assumption it buys visibility — it does not.
+  const howToSection =
+    guide.sections.find((s) => Array.isArray(s.list) && s.howTo) ??
+    guide.sections.find(
+      (s) => Array.isArray(s.list) && /stratification/i.test(s.h2),
+    );
 
   const articleLd = {
     "@context": "https://schema.org",
@@ -102,20 +112,30 @@ export default async function Page({ params }) {
       }
     : null;
 
-  const howToLd = stratSection
+  const plant = herb.name.split(" (")[0];
+  const howToLd = howToSection
     ? {
         "@context": "https://schema.org",
         "@type": "HowTo",
-        name: `How to cold stratify ${herb.name.split(" (")[0].toLowerCase()} seeds`,
-        description: `Cold, moist stratification for ${herb.latin} — the step that most improves germination.`,
-        totalTime: "P28D",
-        supply: [
-          { "@type": "HowToSupply", name: `${herb.name.split(" (")[0]} seeds` },
-          { "@type": "HowToSupply", name: "Barely damp sand or paper towel" },
-          { "@type": "HowToSupply", name: "Sealable bag or container" },
-        ],
-        tool: [{ "@type": "HowToTool", name: "Refrigerator" }],
-        step: stratSection.list.map((text, i) => ({
+        name:
+          howToSection.howTo?.name ??
+          `How to cold stratify ${plant.toLowerCase()} seeds`,
+        description:
+          howToSection.howTo?.description ??
+          `Cold, moist stratification for ${herb.latin} — the step that most improves germination.`,
+        totalTime: howToSection.howTo?.totalTime ?? "P28D",
+        supply: (
+          howToSection.howTo?.supply ?? [
+            `${plant} seeds`,
+            "Barely damp sand or paper towel",
+            "Sealable bag or container",
+          ]
+        ).map((name) => ({ "@type": "HowToSupply", name })),
+        tool: (howToSection.howTo?.tool ?? ["Refrigerator"]).map((name) => ({
+          "@type": "HowToTool",
+          name,
+        })),
+        step: howToSection.list.map((text, i) => ({
           "@type": "HowToStep",
           position: i + 1,
           text,

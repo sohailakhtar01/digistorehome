@@ -119,9 +119,10 @@ export const HERB_GUIDES = {
   },
 
   lavender: {
-    title: "How to Grow Lavender From Seed (And Why Professionals Usually Do Not)",
+    title:
+      "How to Grow and Germinate Lavender From Seed (And Why Professionals Usually Do Not)",
     description:
-      "Lavender is genuinely difficult from seed — slow, erratic and low-percentage even for experienced growers. How to stratify it, sow it, grow it in containers, and when to buy a plant instead.",
+      "Lavender is genuinely difficult from seed — slow, erratic and low-percentage even for experienced growers. How to stratify and germinate it step by step, the six reasons a tray comes up empty, and when to buy a plant instead.",
     standfirst:
       "If one packet in a herb kit disappoints you, it will probably be the lavender. That is the species behaving normally, and it is worth understanding why before you blame yourself.",
     sections: [
@@ -144,6 +145,50 @@ export const HERB_GUIDES = {
         body: [
           "Lavender needs light to germinate, so surface sow it. Press the seed gently onto the surface of a free-draining medium and do not cover it — this is the second most common mistake after skipping stratification.",
           "Give it warmth, around 21°C (70°F), and keep the surface from drying out without soaking it. A heat mat helps considerably here, because the seed wants warm soil and most windowsills in late winter do not provide it. Then wait. Germination commonly takes two to four weeks and can stretch considerably longer. Do not give up on a tray at three weeks; lavender frequently rewards people who forgot about it.",
+        ],
+      },
+      {
+        h2: "How to germinate lavender seeds, step by step",
+        howTo: {
+          name: "How to germinate lavender seeds",
+          description:
+            "Stratifying, sowing and holding the conditions lavender needs during the four to six weeks it takes to germinate.",
+          totalTime: "P70D",
+          supply: [
+            "Lavender seeds",
+            "Free-draining seed compost",
+            "Barely damp sand or paper towel",
+            "Sealable bag or container",
+          ],
+          tool: ["Refrigerator", "Seed tray with clear lid", "Heat mat (optional)"],
+        },
+        body: [
+          "This is the sequence that turns lavender from a frustrating seed into a manageable one. None of it is difficult on its own, but every step matters, and skipping one is usually why a tray produces nothing at all.",
+        ],
+        list: [
+          "Cold stratify first. Mix the seed through barely damp sand, or fold it into a damp paper towel, seal it in a labelled bag and refrigerate at roughly 1–5°C (34–40°F) for three to six weeks. Squeezed hard, the medium should release no water — wet medium rots seed.",
+          "Fill a tray with free-draining seed compost. Lavender resents sitting wet at every stage of its life and that starts here, so adding perlite or coarse sand to ordinary seed compost is worth the trouble.",
+          "Surface sow. Press the seed onto the compost so it makes firm contact and leave it uncovered. Lavender needs light to germinate, so burying it works directly against you.",
+          "Water from below. Stand the tray in shallow water until the surface darkens, then lift it out. Watering from above displaces surface-sown seed and compacts the compost.",
+          "Cover the tray with a clear lid or propagator top to hold humidity, and put it somewhere bright but out of direct midday sun.",
+          "Hold the temperature at roughly 18–21°C (65–70°F). A heat mat is the single most effective piece of equipment for this species. Below about 15°C germination becomes very slow and very patchy.",
+          "Wait, and keep waiting. Two to four weeks is typical, six is common, and stragglers appear later still. Do not empty the tray at three weeks — that is the point at which most people discard seed that was going to work.",
+          "Once seedlings appear, remove the cover gradually over several days and give them as much light as you can manage. Lavender seedlings go leggy quickly in poor light.",
+        ],
+      },
+      {
+        h2: "Why your lavender seeds did not germinate",
+        body: [
+          "Almost every failure with lavender seed comes down to one of six causes, and all six are fixable next time.",
+          "If you are troubleshooting a tray that produced nothing, work down this list in order — the first two account for the large majority of cases on their own.",
+        ],
+        list: [
+          "Not enough patience. By far the most common cause. Lavender is genuinely slow, and a tray emptied at three weeks was often a fortnight away from working.",
+          "The seed was buried. Lavender needs light to germinate, so covered seed comes up poorly no matter what else you did correctly.",
+          "Too cold. Below roughly 15°C germination turns slow and erratic. A windowsill in an unheated room in early spring is frequently colder than it feels.",
+          "Too wet. Waterlogged compost rots seed before it can sprout, and it is what produces the fuzzy grey mould that appears across the surface. Free-draining compost and bottom watering both address it.",
+          "No cold period. Lavender does germinate without stratification, but noticeably less reliably and less evenly. If everything else was right and the results were still thin, this is the likely gap.",
+          "Old seed. Lavender viability falls away faster than most species. Seed more than a couple of years old, or stored somewhere warm, will underperform whatever you do with it.",
         ],
       },
       {
@@ -212,6 +257,21 @@ export const HERB_GUIDES = {
         question: "How long until lavender grown from seed flowers?",
         answer:
           "Usually year two, sometimes year three. A meaningful harvest in the first season is unrealistic from seed, which is part of why nurseries propagate from cuttings instead.",
+      },
+      {
+        question: "How do you germinate lavender seeds?",
+        answer:
+          "Cold stratify the seed for three to six weeks in the refrigerator, then surface sow onto free-draining compost without covering it, water from below, cover the tray to hold humidity, and hold it at 18–21°C (65–70°F). Germination usually takes two to six weeks and is often uneven.",
+      },
+      {
+        question: "Why did my lavender seeds not germinate?",
+        answer:
+          "In order of likelihood: not waiting long enough, burying seed that needs light, temperatures below about 15°C, compost kept too wet, skipping the cold period, or seed that was simply too old. Lavender viability drops off faster than most species.",
+      },
+      {
+        question: "Do lavender seeds need a heat mat?",
+        answer:
+          "Not strictly, but it is the most useful piece of equipment for this species. Lavender wants roughly 18–21°C to germinate reliably, and early-spring windowsills are often well below that. A heat mat turns patchy germination into even germination more consistently than anything else you can do.",
       },
       {
         question: "Why is lavender so hard to grow from seed?",
@@ -797,6 +857,18 @@ export const HERB_GUIDES = {
     sections: [
       {
         h2: "Why marshmallow germinates so unevenly",
+        howTo: {
+          name: "How to cold stratify marshmallow seeds",
+          description:
+            "Three to four weeks of cold, moist storage, which is what turns marshmallow germination from erratic into dependable.",
+          totalTime: "P28D",
+          supply: [
+            "Marshmallow (Althaea officinalis) seeds",
+            "Barely damp sand or paper towel",
+            "Sealable bag or container",
+          ],
+          tool: ["Refrigerator"],
+        },
         body: [
           "Althaea officinalis is a temperate perennial with a hard seed coat and a dormancy mechanism that expects a winter. Sown straight into warm spring soil, germination is slow, patchy and often disappointing — 14 to 28 days at best, with large gaps.",
           "Three to four weeks of cold, moist stratification in the refrigerator markedly improves both the rate and the evenness. This is the same treatment echinacea and lavender need, and it is why three of the ten species in this kit share a single technique.",

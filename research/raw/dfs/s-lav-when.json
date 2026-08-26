@@ -1,0 +1,152 @@
+{
+ "version": "0.1.20260826",
+ "status_code": 20000,
+ "status_message": "Ok.",
+ "time": "2.2421 sec.",
+ "cost": 0.002,
+ "tasks_count": 1,
+ "tasks_error": 0,
+ "tasks": [
+  {
+   "id": "08261100-2330-0121-0000-65e4f4c26aed",
+   "status_code": 20000,
+   "status_message": "Ok.",
+   "time": "2.1328 sec.",
+   "cost": 0.002,
+   "result_count": 1,
+   "path": [
+    "v3",
+    "serp",
+    "google",
+    "organic",
+    "live",
+    "regular"
+   ],
+   "data": {
+    "api": "serp",
+    "function": "live",
+    "se": "google",
+    "se_type": "organic",
+    "keyword": "lavender seeds when to plant",
+    "location_code": 2840,
+    "language_code": "en",
+    "device": "desktop",
+    "depth": 10,
+    "os": "windows"
+   },
+   "result": [
+    {
+     "keyword": "lavender seeds when to plant",
+     "type": "organic",
+     "se_domain": "google.com",
+     "location_code": 2840,
+     "language_code": "en",
+     "check_url": "https://www.google.com/search?q=lavender%20seeds%20when%20to%20plant&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+     "datetime": "2026-08-26 11:00:04 +00:00",
+     "spell": null,
+     "refinement_chips": null,
+     "item_types": [
+      "ai_overview",
+      "people_also_ask",
+      "organic",
+      "video",
+      "related_searches"
+     ],
+     "se_results_count": 129,
+     "pages_count": 1,
+     "items_count": 8,
+     "items": [
+      {
+       "type": "organic",
+       "rank_group": 1,
+       "rank_absolute": 3,
+       "page": 1,
+       "domain": "www.reddit.com",
+       "title": "Advice growing lavender from seed : r/gardening",
+       "description": "Lavender is slow to germinate, 3-4 weeks. That's a long time to keep the soil slightly damp but not too wet. A warm room helps but soil dries ... Read more",
+       "url": "https://www.reddit.com/r/gardening/comments/kro32y/advice_growing_lavender_from_seed/",
+       "breadcrumb": "10+ comments  ·  5 years ago"
+      },
+      {
+       "type": "organic",
+       "rank_group": 2,
+       "rank_absolute": 5,
+       "page": 1,
+       "domain": "nextdoorhomestead.com",
+       "title": "How to Grow Lavender From Seed in A Container (the Easy ...",
+       "description": "Dec 1, 2022 — Lavender seeds take a long time to germinate (two weeks up to three months!) · Outside, the unburied lavender seeds at the top of the container ... Read more",
+       "url": "https://nextdoorhomestead.com/blog/grow-lavender-containers-from-seed/",
+       "breadcrumb": "https://nextdoorhomestead.com › blog › grow-lavender..."
+      },
+      {
+       "type": "organic",
+       "rank_group": 3,
+       "rank_absolute": 6,
+       "page": 1,
+       "domain": "www.facebook.com",
+       "title": "When to plant lavender seedlings in the ground?",
+       "description": "Good morning everyone! New to gardening, I want to put my lavender in the ground. Any ideas of if today is good? Or should I wait another week? The pots ...",
+       "url": "https://www.facebook.com/groups/chicagogardens/posts/2839079866246127/",
+       "breadcrumb": "10+ comments  ·  2 years ago"
+      },
+      {
+       "type": "organic",
+       "rank_group": 4,
+       "rank_absolute": 7,
+       "page": 1,
+       "domain": "www.johnnyseeds.com",
+       "title": "How to Grow Lavender From Seed",
+       "description": "DAYS TO GERMINATION: 14-21 days at 65–70°F (18–21°C). Sow seeds 1/8\" deep in a flat 8-10 weeks before the last frost. Seeds require some light for germination.",
+       "url": "https://www.johnnyseeds.com/growers-library/herbs/lavender/lavender-key-growing-information.html?srsltid=AfmBOorCuXR2PBD8LiPFXDUhkZs8SoNrOJ0pGjVUS05K3n4qZIzkWr9T",
+       "breadcrumb": "https://www.johnnyseeds.com › ... › Lavender"
+      },
+      {
+       "type": "organic",
+       "rank_group": 5,
+       "rank_absolute": 8,
+       "page": 1,
+       "domain": "blackgold.bz",
+       "title": "How to Grow Lavender from Seed",
+       "description": "Start them in late winter, under lights, and on heat, and you should get fair-sized transplants by the beginning of the summer.",
+       "url": "https://blackgold.bz/home-gardening-solutions/how-to-grow-lavender-from-seed/",
+       "breadcrumb": "https://blackgold.bz › home-gardening-solutions › how..."
+      },
+      {
+       "type": "organic",
+       "rank_group": 6,
+       "rank_absolute": 9,
+       "page": 1,
+       "domain": "www.youtube.com",
+       "title": "YouTube",
+       "description": null,
+       "url": "https://www.youtube.com/watch?v=kSqopKE__mI",
+       "breadcrumb": "320K+ views  ·  7 years ago"
+      },
+      {
+       "type": "organic",
+       "rank_group": 7,
+       "rank_absolute": 10,
+       "page": 1,
+       "domain": "themakinglife.com",
+       "title": "How to Germinate Lavender Seeds",
+       "description": "Apr 30, 2023 — To winter sow lavender seeds, start early. You can put them out as early as January or February and then simply wait until they sprout.",
+       "url": "https://themakinglife.com/how-to-germinate-lavender-seeds/",
+       "breadcrumb": "https://themakinglife.com › Blog"
+      },
+      {
+       "type": "organic",
+       "rank_group": 8,
+       "rank_absolute": 11,
+       "page": 1,
+       "domain": "extension.usu.edu",
+       "title": "How to Grow English Lavender in Your Garden",
+       "description": "Transplant new plants after the last spring frost. Fall planting works if there is 2 months of good weather so plants get established before winter. Lavender ... Read more",
+       "url": "https://extension.usu.edu/yardandgarden/research/english-lavender-in-the-garden",
+       "breadcrumb": "https://extension.usu.edu › yardandgarden › research › e..."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
