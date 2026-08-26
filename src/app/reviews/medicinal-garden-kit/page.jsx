@@ -23,6 +23,23 @@ const offer = getOffer("medicinal-garden-kit");
 const REVIEWED = "2026-08-25";
 const RATING = 4;
 
+// Rendered in the verdict box AND emitted as schema.org positiveNotes /
+// negativeNotes. One source, so the rich result can never disagree with the
+// page a reader sees.
+const BEST_FOR = [
+  "Beginner gardeners who want a curated set rather than choosing species themselves",
+  "Anyone who prefers a printed reference over bookmarked web pages",
+  "People who want a long guarantee window to try something new",
+  "Gardeners in temperate zones with a real growing season ahead",
+];
+
+const NOT_FOR = [
+  "Anyone expecting a substitute for medicine — these are seeds, not treatments",
+  "Experienced gardeners who already know which herbs they want",
+  "People without outdoor space, a balcony or decent window light",
+  "Anyone wanting results this month — several species take a full year",
+];
+
 export const metadata = {
   title: "Medicinal Garden Kit Review (2026): What You Actually Get for $59",
   description:
@@ -91,33 +108,89 @@ export default function Page() {
   const strat = stratificationHerbs();
   const stratNames = strat.map((h) => h.name.split(" (")[0]).join(", ");
 
+  // Google reads the Product as its own entity, so Product must be a top-level
+  // node with `review` on it — nesting the Product inside itemReviewed leaves
+  // the Product with no review attached, which is what URL Inspection reported.
+  // The two nodes cross-reference by @id instead of being duplicated.
+  const PRODUCT_ID = `${SITE.url}/reviews/medicinal-garden-kit#product`;
+  const REVIEW_ID = `${SITE.url}/reviews/medicinal-garden-kit#review`;
+
   const reviewLd = {
     "@context": "https://schema.org",
-    "@type": "Review",
-    name: "Medicinal Garden Kit Review (2026)",
-    datePublished: REVIEWED,
-    author: { "@type": "Organization", name: SITE.name, url: SITE.url },
-    publisher: { "@type": "Organization", name: SITE.name, url: SITE.url },
-    reviewRating: {
-      "@type": "Rating",
-      ratingValue: RATING,
-      bestRating: 5,
-      worstRating: 1,
-    },
-    itemReviewed: {
-      "@type": "Product",
-      name: "Medicinal Garden Kit",
-      category: "Garden Seeds",
-      image: `${SITE.url}${PRODUCT_IMAGES.hero.src}`,
-      brand: { "@type": "Brand", name: "Medicinal Garden Kit" },
-      offers: {
-        "@type": "Offer",
-        price: offer.price,
-        priceCurrency: "USD",
-        availability: "https://schema.org/InStock",
-        url: offer.salesPage,
+    "@graph": [
+      {
+        "@type": "Product",
+        "@id": PRODUCT_ID,
+        name: "Medicinal Garden Kit",
+        category: "Garden Seeds",
+        description: `${offer.seedPackets} packets of heirloom medicinal herb seeds with a printed growing and usage guide, sold by Global Brother SRL and fulfilled through Digistore24.`,
+        image: `${SITE.url}${PRODUCT_IMAGES.hero.src}`,
+        brand: { "@type": "Brand", name: "Medicinal Garden Kit" },
+        // No aggregateRating: we have not aggregated real customer ratings, and
+        // inventing one is both a fabrication and a structured-data violation.
+        review: { "@id": REVIEW_ID },
+        offers: {
+          "@type": "Offer",
+          price: offer.price,
+          priceCurrency: "USD",
+          availability: "https://schema.org/InStock",
+          url: offer.salesPage,
+          shippingDetails: {
+            "@type": "OfferShippingDetails",
+            shippingRate: {
+              "@type": "MonetaryAmount",
+              value: offer.shipping,
+              currency: "USD",
+            },
+          },
+          hasMerchantReturnPolicy: {
+            "@type": "MerchantReturnPolicy",
+            applicableCountry: "US",
+            returnPolicyCategory:
+              "https://schema.org/MerchantReturnFiniteReturnWindow",
+            merchantReturnDays: offer.guaranteeDays,
+            returnMethod: "https://schema.org/ReturnByMail",
+            returnFees: "https://schema.org/FreeReturn",
+          },
+        },
       },
-    },
+      {
+        "@type": "Review",
+        "@id": REVIEW_ID,
+        name: "Medicinal Garden Kit Review (2026)",
+        url: `${SITE.url}/reviews/medicinal-garden-kit`,
+        datePublished: REVIEWED,
+        dateModified: REVIEWED,
+        inLanguage: "en-US",
+        author: { "@type": "Organization", name: SITE.name, url: SITE.url },
+        publisher: { "@id": `${SITE.url}/#organization` },
+        itemReviewed: { "@id": PRODUCT_ID },
+        reviewRating: {
+          "@type": "Rating",
+          ratingValue: RATING,
+          bestRating: 5,
+          worstRating: 1,
+        },
+        reviewBody:
+          "A fair, genuinely useful themed seed collection for a beginner gardener who wants a curated starting point and a printed reference. What the sales page understates is that three of the ten species are genuinely difficult from seed.",
+        positiveNotes: {
+          "@type": "ItemList",
+          itemListElement: BEST_FOR.map((name, i) => ({
+            "@type": "ListItem",
+            position: i + 1,
+            name,
+          })),
+        },
+        negativeNotes: {
+          "@type": "ItemList",
+          itemListElement: NOT_FOR.map((name, i) => ({
+            "@type": "ListItem",
+            position: i + 1,
+            name,
+          })),
+        },
+      },
+    ],
   };
 
   const faqLd = {
@@ -200,18 +273,8 @@ export default function Page() {
               rating={RATING}
               ratingBasis="Our editorial assessment of value, honesty of the offer and quality of the contents. Not an aggregate of customer ratings."
               verdict="A fair, genuinely useful themed seed collection for a beginner gardener who wants a curated starting point and a printed reference. The seeds are real heirloom varieties and the 365-day guarantee is unusually generous. What the sales page understates is that three of the ten species are genuinely difficult from seed, and that is the single most important thing to know before you order."
-              bestFor={[
-                "Beginner gardeners who want a curated set rather than choosing species themselves",
-                "Anyone who prefers a printed reference over bookmarked web pages",
-                "People who want a long guarantee window to try something new",
-                "Gardeners in temperate zones with a real growing season ahead",
-              ]}
-              notFor={[
-                "Anyone expecting a substitute for medicine — these are seeds, not treatments",
-                "Experienced gardeners who already know which herbs they want",
-                "People without outdoor space, a balcony or decent window light",
-                "Anyone wanting results this month — several species take a full year",
-              ]}
+              bestFor={BEST_FOR}
+              notFor={NOT_FOR}
               facts={[
                 { label: "Price", value: `$${offer.price}` },
                 { label: "Seed packets", value: `${offer.seedPackets}` },
