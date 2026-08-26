@@ -47,10 +47,54 @@ export default function Page() {
         ))}
       </ul>
 
-      <p className="mt-10 text-sm leading-relaxed text-subtle">
-        More reviews are in progress. We publish one when it is genuinely
-        finished rather than filling the page with stubs.
-      </p>
+      <section className="prose-shelf mt-14 border-t border-line pt-10">
+        <h2>How a product gets reviewed here</h2>
+        <p>
+          The homesteading and preparedness market runs on urgency. Countdown
+          timers, &ldquo;last kits available&rdquo; banners, and a long tail of
+          review sites that simply restate the sales page in the third person.
+          A review is only worth writing if it tells you something the seller
+          would rather you did not know before you paid.
+        </p>
+        <p>So every review here has to do four things.</p>
+        <ul>
+          <li>
+            <strong>Say what is actually in the box.</strong> Counts, formats,
+            what is physical and what is a download, and where the numbers on
+            the sales page disagree with the current packaging.
+          </li>
+          <li>
+            <strong>Check the expert.</strong> When a product is sold on
+            somebody&apos;s credentials, those credentials get verified against
+            primary sources. Where other sites have them wrong, we say so and
+            show the correction.
+          </li>
+          <li>
+            <strong>Name who should not buy it.</strong> A review with no
+            &ldquo;skip this if&rdquo; section is an advert. Every review here
+            has one, and it is written before the recommendation.
+          </li>
+          <li>
+            <strong>Separate research from testing.</strong> Where a product has
+            not been used or grown by us, the review says so in plain language
+            on the page rather than in small print at the bottom.
+          </li>
+        </ul>
+
+        <h2>What is not here</h2>
+        <p>
+          There is one review on this page. That is deliberate — a new site with
+          forty reviews has researched none of them properly, and it shows.
+          Reviews go up when they are finished.
+        </p>
+        <p>
+          In the meantime, the{" "}
+          <Link href="/guides">growing guides</Link> cover the individual plants
+          in far more depth than any review can, and the{" "}
+          <Link href="/about">about page</Link> sets out who writes this and what
+          the rules are.
+        </p>
+      </section>
     </div>
   );
 }
