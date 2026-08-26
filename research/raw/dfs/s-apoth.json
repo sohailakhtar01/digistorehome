@@ -1,0 +1,143 @@
+{
+ "version": "0.1.20260826",
+ "status_code": 20000,
+ "status_message": "Ok.",
+ "time": "1.8342 sec.",
+ "cost": 0.002,
+ "tasks_count": 1,
+ "tasks_error": 0,
+ "tasks": [
+  {
+   "id": "08261154-2330-0121-0000-a35fac483480",
+   "status_code": 20000,
+   "status_message": "Ok.",
+   "time": "1.4392 sec.",
+   "cost": 0.002,
+   "result_count": 1,
+   "path": [
+    "v3",
+    "serp",
+    "google",
+    "organic",
+    "live",
+    "regular"
+   ],
+   "data": {
+    "api": "serp",
+    "function": "live",
+    "se": "google",
+    "se_type": "organic",
+    "keyword": "forgotten home apothecary",
+    "location_code": 2840,
+    "language_code": "en",
+    "device": "desktop",
+    "depth": 10,
+    "os": "windows"
+   },
+   "result": [
+    {
+     "keyword": "forgotten home apothecary",
+     "type": "organic",
+     "se_domain": "google.com",
+     "location_code": 2840,
+     "language_code": "en",
+     "check_url": "https://www.google.com/search?q=forgotten%20home%20apothecary&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+     "datetime": "2026-08-26 11:54:47 +00:00",
+     "spell": null,
+     "refinement_chips": null,
+     "item_types": [
+      "ai_overview",
+      "organic",
+      "people_also_ask",
+      "video",
+      "popular_products",
+      "related_searches",
+      "knowledge_graph"
+     ],
+     "se_results_count": 180,
+     "pages_count": 1,
+     "items_count": 7,
+     "items": [
+      {
+       "type": "organic",
+       "rank_group": 1,
+       "rank_absolute": 3,
+       "page": 1,
+       "domain": "www.walmart.com",
+       "title": "Customer reviews for Forgotten Home Apothecary",
+       "description": "The book is everything you need to keep a happy Healthy Life, can save you Money and can be passed down form generation to generation! Read more",
+       "url": "https://www.walmart.com/reviews/product/13666224552",
+       "breadcrumb": "https://www.walmart.com › ... › All Manuals & Guides"
+      },
+      {
+       "type": "organic",
+       "rank_group": 2,
+       "rank_absolute": 5,
+       "page": 1,
+       "domain": "www.ebay.com",
+       "title": "Forgotten Home Apothecary (paperback with color pictures)",
+       "description": "This natural home remedies book gives you a 250-remedy Apothecary in your own home, ready to help you whenever you are in need. The book is ... Read more",
+       "url": "https://www.ebay.com/itm/356432114960",
+       "breadcrumb": "https://www.ebay.com › ... › Books & Magazines › Books"
+      },
+      {
+       "type": "organic",
+       "rank_group": 3,
+       "rank_absolute": 8,
+       "page": 1,
+       "domain": "www.etsy.com",
+       "title": "Forgotten Home Apothecary : 250 Powerful Remedies at ...",
+       "description": "Forgotten Home Apothecary is the only complete herbal medicine book that covers the most important remedies that used to be made by our grandparents back",
+       "url": "https://www.etsy.com/listing/1799581812/forgotten-home-apothecary-250-powerful",
+       "breadcrumb": "https://www.etsy.com › ... › Book Sets & Collections"
+      },
+      {
+       "type": "organic",
+       "rank_group": 4,
+       "rank_absolute": 9,
+       "page": 1,
+       "domain": "www.forgottenhomeapothecary.com",
+       "title": "Forgotten Home Apothecary",
+       "description": "The Forgotten Home Apothecary is the only complete herbal medicine book that covers the most important remedies that used to be made by our grandparents back",
+       "url": "https://www.forgottenhomeapothecary.com/",
+       "breadcrumb": "https://www.forgottenhomeapothecary.com"
+      },
+      {
+       "type": "organic",
+       "rank_group": 5,
+       "rank_absolute": 10,
+       "page": 1,
+       "domain": "evergreen.lib.in.us",
+       "title": "Forgotten home apothecary : 250 powerful remedies at ...",
+       "description": "With this book, you'll have a 250-remedy apothecary at your fingertips. These powerful, time-tested formulas were once the cornerstone of traditional ... Read more",
+       "url": "https://evergreen.lib.in.us/eg/opac/record/23244892",
+       "breadcrumb": "https://evergreen.lib.in.us › opac › record"
+      },
+      {
+       "type": "organic",
+       "rank_group": 6,
+       "rank_absolute": 11,
+       "page": 1,
+       "domain": "open.spotify.com",
+       "title": "Forgotten Home Apothecary by Dr. Nicole Apelian, Book ...",
+       "description": "The book is written by Dr. Nicole Apelian, an expert herbalist with over 30 years of hands-on practice in healing with herbal remedies.The first thing you'll ... Read more",
+       "url": "https://open.spotify.com/show/2bwVfsZVyQ79NhyjTPjhJQ",
+       "breadcrumb": "https://open.spotify.com › show"
+      },
+      {
+       "type": "organic",
+       "rank_group": 7,
+       "rank_absolute": 12,
+       "page": 1,
+       "domain": "www.amazon.com",
+       "title": "Watch Forgotten Home Apothecary book 250 Home ...",
+       "description": "Discover 250 natural remedies in this home apothecary guide. From flat tummy solutions to memory boosters, learn how to treat your family naturally.",
+       "url": "https://www.amazon.com/live/video/005c487160f34b448d955470f38d6e70",
+       "breadcrumb": "https://www.amazon.com · May 29, 2025"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

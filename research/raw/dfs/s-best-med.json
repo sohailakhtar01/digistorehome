@@ -1,0 +1,173 @@
+{
+ "version": "0.1.20260826",
+ "status_code": 20000,
+ "status_message": "Ok.",
+ "time": "1.7081 sec.",
+ "cost": 0.002,
+ "tasks_count": 1,
+ "tasks_error": 0,
+ "tasks": [
+  {
+   "id": "08261153-2330-0121-0000-6c0a80688559",
+   "status_code": 20000,
+   "status_message": "Ok.",
+   "time": "1.4721 sec.",
+   "cost": 0.002,
+   "result_count": 1,
+   "path": [
+    "v3",
+    "serp",
+    "google",
+    "organic",
+    "live",
+    "regular"
+   ],
+   "data": {
+    "api": "serp",
+    "function": "live",
+    "se": "google",
+    "se_type": "organic",
+    "keyword": "best medicinal herbs to grow",
+    "location_code": 2840,
+    "language_code": "en",
+    "device": "desktop",
+    "depth": 10,
+    "os": "windows"
+   },
+   "result": [
+    {
+     "keyword": "best medicinal herbs to grow",
+     "type": "organic",
+     "se_domain": "google.com",
+     "location_code": 2840,
+     "language_code": "en",
+     "check_url": "https://www.google.com/search?q=best%20medicinal%20herbs%20to%20grow&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+     "datetime": "2026-08-26 11:53:41 +00:00",
+     "spell": null,
+     "refinement_chips": null,
+     "item_types": [
+      "ai_overview",
+      "organic",
+      "people_also_ask",
+      "related_searches"
+     ],
+     "se_results_count": 186,
+     "pages_count": 1,
+     "items_count": 10,
+     "items": [
+      {
+       "type": "organic",
+       "rank_group": 1,
+       "rank_absolute": 2,
+       "page": 1,
+       "domain": "chestnutherbs.com",
+       "title": "The Top Ten Medicinal Herbs for the Garden",
+       "description": "Jul 2, 2026 — 1. Calendula, Pot Marigold ・ 2. Motherwort (Leonurus cardiaca, Echinacea or Purple Coneflower. Holy Basil, Tulsi ・ to grow medicinal herbs,",
+       "url": "https://chestnutherbs.com/the-top-ten-medicinal-herbs-for-the-garden/",
+       "breadcrumb": "https://chestnutherbs.com › Blog"
+      },
+      {
+       "type": "organic",
+       "rank_group": 2,
+       "rank_absolute": 4,
+       "page": 1,
+       "domain": "www.reddit.com",
+       "title": "What medicinal plants do you grow that you actually use?",
+       "description": "I would like to include basic medicinals in my landscaping, for things that I'm likely to use. So... No St. John's Wort for cancer or things like that. ...",
+       "url": "https://www.reddit.com/r/Permaculture/comments/xsg5sq/what_medicinal_plants_do_you_grow_that_you/",
+       "breadcrumb": "140+ comments  ·  3 years ago"
+      },
+      {
+       "type": "organic",
+       "rank_group": 3,
+       "rank_absolute": 5,
+       "page": 1,
+       "domain": "gardeningsolutions.ifas.ufl.edu",
+       "title": "Medicinal Plants - UF/IFAS Gardening Solutions",
+       "description": "Aloe (Aloe vera ) · Skullcap (Scutellaria spp.) · Lemon Balm (Melissa officinalis) · Lavender (Lavandula angustifolia) · Calendula (Calendula officinalis) · Ginger ( ... Read more",
+       "url": "https://gardeningsolutions.ifas.ufl.edu/plants/edibles/medicinal-plants/",
+       "breadcrumb": "https://gardeningsolutions.ifas.ufl.edu › plants › edibles"
+      },
+      {
+       "type": "organic",
+       "rank_group": 4,
+       "rank_absolute": 6,
+       "page": 1,
+       "domain": "themodernhomestead.us",
+       "title": "Growing and Using Medicinal Herbs",
+       "description": "Many common medicinal herbs–such as calendula, chamomile, echinacea, fennel, peppermint, and yarrow–are flowering plants, and offer the valuable “fringe benefit ... Read more",
+       "url": "https://themodernhomestead.us/grow-it/garden-and-more/medicinal-herbs/",
+       "breadcrumb": "https://themodernhomestead.us › garden-and-more › me..."
+      },
+      {
+       "type": "organic",
+       "rank_group": 5,
+       "rank_absolute": 7,
+       "page": 1,
+       "domain": "www.botanicgardens.org",
+       "title": "Top 10 Medicinal Plants",
+       "description": "Aug 10, 2018 — Calendula (Calendula officinalis) · Chamomile (Matricaria chamomilla) · Peppermint (Metha x piperita) · Holy Basil (Ocimum tenuiflorum) · Plantain ( ... Read more",
+       "url": "https://www.botanicgardens.org/blog/top-10-medicinal-plants",
+       "breadcrumb": "https://www.botanicgardens.org › blog › top-10-medici..."
+      },
+      {
+       "type": "organic",
+       "rank_group": 6,
+       "rank_absolute": 8,
+       "page": 1,
+       "domain": "thegrowers-exchange.com",
+       "title": "Medicinal Plants & Herbs: Chemical-Free & Non-GMO",
+       "description": "115 products · Patchouli · Patchouli · Tarragon 'French' · Tarragon 'French' · Lemongrass · Lemongrass · Bay laurel · Bay laurel. Read more",
+       "url": "https://thegrowers-exchange.com/collections/medicinal-plants-and-herbs?srsltid=AfmBOoqWTBO7PtOo0rE_d8l_qp53t-FR64IFWpHxeHO2lVKqeoBiH0Rz",
+       "breadcrumb": "https://thegrowers-exchange.com › collections › medici..."
+      },
+      {
+       "type": "organic",
+       "rank_group": 7,
+       "rank_absolute": 9,
+       "page": 1,
+       "domain": "www.hawthornandhoney.com",
+       "title": "My Favorite Plants for a Medicinal Herb Garden",
+       "description": "Sara Butters, of Hawthorn & Honey, shares her favorite plants for a medicinal herb garden along with tips for how to use and grow each one.",
+       "url": "https://www.hawthornandhoney.com/journal/medicinal-herb-garden-favorites",
+       "breadcrumb": "https://www.hawthornandhoney.com › journal › medicin..."
+      },
+      {
+       "type": "organic",
+       "rank_group": 8,
+       "rank_absolute": 10,
+       "page": 1,
+       "domain": "www.edenbrothers.com",
+       "title": "Medicinal Herbs | Shop 88 Varieties",
+       "description": "Spring Planted · Allium · Anemone · Aster · Astilbe · Begonia · Black Eyed Susan · Bleeding Heart · Butterfly Milkweed · Caladium · Calla Lily · Canna Lily ... Read more",
+       "url": "https://www.edenbrothers.com/collections/medicinal-herb-seeds?srsltid=AfmBOoqJGyhSfT1CAKmUXnY-DKpBTZQb42gdLppy_PYteL-NT8ptcW-B",
+       "breadcrumb": "https://www.edenbrothers.com › Herb Seeds"
+      },
+      {
+       "type": "organic",
+       "rank_group": 9,
+       "rank_absolute": 11,
+       "page": 1,
+       "domain": "www.nlm.nih.gov",
+       "title": "List of Herbs in the NLM Herb Garden",
+       "description": "Sage – Salvia officinalis – Sage is helpful for head pains, hoarseness and cough. It is one of the best known remedies for laryngitis, tonsillitis and sore ... Read more",
+       "url": "https://www.nlm.nih.gov/about/herbgarden/list.html",
+       "breadcrumb": "https://www.nlm.nih.gov › about › herbgarden › list"
+      },
+      {
+       "type": "organic",
+       "rank_group": 10,
+       "rank_absolute": 12,
+       "page": 1,
+       "domain": "homegrown.extension.ncsu.edu",
+       "title": "Growing Medicinal Plants in the Home Garden - Homegrown",
+       "description": "Dec 18, 2021 — Medicinal Plants of North Carolina · GINSENG · BLACK COHOSH · GOLDENSEAL · BLOODROOT · ECHINACEA · FALSE UNICORN. Read more",
+       "url": "https://homegrown.extension.ncsu.edu/2021/12/18/growing-medicinal-plants-in-the-home-garden/",
+       "breadcrumb": "https://homegrown.extension.ncsu.edu › 2021/12/18"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

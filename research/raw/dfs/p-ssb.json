@@ -1,0 +1,1960 @@
+{
+ "version": "0.1.20260826",
+ "status_code": 20000,
+ "status_message": "Ok.",
+ "time": "0.1010 sec.",
+ "cost": 0.0138,
+ "tasks_count": 1,
+ "tasks_error": 0,
+ "tasks": [
+  {
+   "id": "08261154-2330-0399-0000-890550209a12",
+   "status_code": 20000,
+   "status_message": "Ok.",
+   "time": "0.0890 sec.",
+   "cost": 0.0138,
+   "result_count": 1,
+   "path": [
+    "v3",
+    "dataforseo_labs",
+    "google",
+    "keyword_suggestions",
+    "live"
+   ],
+   "data": {
+    "api": "dataforseo_labs",
+    "function": "keyword_suggestions",
+    "se_type": "google",
+    "keyword": "the self sufficient backyard",
+    "location_code": 2840,
+    "language_code": "en",
+    "limit": 30,
+    "include_seed_keyword": true,
+    "order_by": [
+     "keyword_info.search_volume,desc"
+    ],
+    "filters": [
+     [
+      "keyword_info.search_volume",
+      ">",
+      50
+     ]
+    ]
+   },
+   "result": [
+    {
+     "se_type": "google",
+     "seed_keyword": "the self sufficient backyard",
+     "seed_keyword_data": {
+      "se_type": "google",
+      "keyword": "the self sufficient backyard",
+      "location_code": 2840,
+      "language_code": "en",
+      "keyword_info": {
+       "se_type": "google",
+       "last_updated_time": "2026-07-15 09:20:20 +00:00",
+       "competition": 1,
+       "competition_level": "HIGH",
+       "cpc": 1.53,
+       "search_volume": 1600,
+       "low_top_of_page_bid": 0.29,
+       "high_top_of_page_bid": 2.47,
+       "categories": [
+        10015,
+        11545,
+        13658
+       ],
+       "monthly_searches": [
+        {
+         "year": 2026,
+         "month": 6,
+         "search_volume": 590
+        },
+        {
+         "year": 2026,
+         "month": 5,
+         "search_volume": 1600
+        },
+        {
+         "year": 2026,
+         "month": 4,
+         "search_volume": 1900
+        },
+        {
+         "year": 2026,
+         "month": 3,
+         "search_volume": 3600
+        },
+        {
+         "year": 2026,
+         "month": 2,
+         "search_volume": 1900
+        },
+        {
+         "year": 2026,
+         "month": 1,
+         "search_volume": 1600
+        },
+        {
+         "year": 2025,
+         "month": 12,
+         "search_volume": 1600
+        },
+        {
+         "year": 2025,
+         "month": 11,
+         "search_volume": 1300
+        },
+        {
+         "year": 2025,
+         "month": 10,
+         "search_volume": 1600
+        },
+        {
+         "year": 2025,
+         "month": 9,
+         "search_volume": 1000
+        },
+        {
+         "year": 2025,
+         "month": 8,
+         "search_volume": 1000
+        },
+        {
+         "year": 2025,
+         "month": 7,
+         "search_volume": 590
+        }
+       ],
+       "search_volume_trend": {
+        "monthly": -63,
+        "quarterly": -69,
+        "yearly": -33
+       }
+      },
+      "keyword_info_normalized_with_bing": null,
+      "keyword_info_normalized_with_clickstream": null,
+      "clickstream_keyword_info": null,
+      "keyword_properties": {
+       "se_type": "google",
+       "core_keyword": null,
+       "synonym_clustering_algorithm": "text_processing",
+       "keyword_difficulty": 6,
+       "detected_language": "en",
+       "is_another_language": false,
+       "words_count": 4
+      },
+      "serp_info": {
+       "se_type": "google",
+       "check_url": "https://www.google.com/search?q=the%20self%20sufficient%20backyard&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+       "serp_item_types": [
+        "organic",
+        "perspectives",
+        "video",
+        "people_also_ask",
+        "images",
+        "related_searches",
+        "popular_products"
+       ],
+       "se_results_count": 10300000,
+       "last_updated_time": "2026-03-15 19:28:32 +00:00",
+       "previous_updated_time": "2026-01-21 03:27:52 +00:00"
+      },
+      "search_intent_info": {
+       "se_type": "google",
+       "main_intent": "navigational",
+       "foreign_intent": [
+        "informational"
+       ],
+       "last_updated_time": "2026-04-29 23:58:16 +00:00"
+      },
+      "avg_backlinks_info": {
+       "se_type": "google",
+       "backlinks": 362.1,
+       "dofollow": 165.5,
+       "referring_pages": 166.3,
+       "referring_domains": 1.5,
+       "referring_main_domains": 1.5,
+       "rank": 42.2,
+       "main_domain_rank": 827.4,
+       "last_updated_time": "2026-03-15 19:28:33 +00:00"
+      }
+     },
+     "location_code": 2840,
+     "language_code": "en",
+     "total_count": 15,
+     "items_count": 15,
+     "offset": 0,
+     "offset_token": "eyJDdXJyZW50T2Zmc2V0IjoxNSwiUmVxdWVzdERhdGEiOnsia2V5d29yZCI6InRoZSBzZWxmIHN1ZmZpY2llbnQgYmFja3lhcmQiLCJpbmNsdWRlX3NlZWRfa2V5d29yZCI6dHJ1ZSwiZnVsbF9tYXRjaCI6ZmFsc2UsImxvYWRfc2VycF9pbmZvIjpmYWxzZSwic2VhcmNoX2FmdGVyX3Rva2VuIjpudWxsLCJpZ25vcmVfc3lub255bXMiOmZhbHNlLCJsYW5ndWFnZSI6ImVuIiwic2VhcmNoX2VuZ2luZSI6Imdvb2dsZSIsImxvY2F0aW9uIjoyODQwLCJ1c2VfbmV3X2NhdGVnb3JpZXMiOnRydWUsIm9yZGVyX2J5Ijp7Im9yZGVyX2ZpZWxkIjoia2V5d29yZF9pbmZvLnNlYXJjaF92b2x1bWUiLCJvcmRlcl90eXBlIjoiRGVzYyIsIm5leHQiOm51bGx9LCJsaW1pdCI6MzAsIm9mZnNldCI6MCwiYWlkIjoyMzMwODIsInVzZV9jYWNoZSI6dHJ1ZSwidGFza19pZCI6IjA4MjYxMTU0LTIzMzAtMDM5OS0wMDAwLTg5MDU1MDIwOWExMiIsImZsYWdzIjpudWxsfSwiUmF3UXVlcnkiOnsiZmllbGQiOiJrZXl3b3JkX2luZm8uc2VhcmNoX3ZvbHVtZSIsInR5cGUiOiJndCIsInZhbHVlIjo1MH0sIklkIjoiZmM2ZTM3NjAtZjQxZC00NTE1LTgxNjItMGM5ODZlNjIxY2U4IiwiU2VhcmNoQWZ0ZXJEYXRhIjpbNzAsIjZkZTZkZjRhLTc1ZDQtNTJiNS1iNTA5LTQ1OWQwNGJhMjZmNCJdLCJFeGVjdXRvciI6LTkxODQ0MDU5NDA0NDQ1MTc2MzN9",
+     "items": [
+      {
+       "se_type": "google",
+       "keyword": "the self-sufficient backyard",
+       "location_code": 2840,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-07-15 08:13:58 +00:00",
+        "competition": 1,
+        "competition_level": "HIGH",
+        "cpc": 1.53,
+        "search_volume": 1600,
+        "low_top_of_page_bid": 0.29,
+        "high_top_of_page_bid": 2.47,
+        "categories": [
+         10015,
+         11545,
+         13658
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 590
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 1600
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 1900
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 3600
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 1900
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 1600
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 1600
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 1300
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 1600
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 1000
+         },
+         {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 1000
+         },
+         {
+          "year": 2025,
+          "month": 7,
+          "search_volume": 590
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": -63,
+         "quarterly": -69,
+         "yearly": -33
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": "the self sufficient backyard",
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 0,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 3
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 1.3,
+        "dofollow": 1.1,
+        "referring_pages": 1.3,
+        "referring_domains": 0.9,
+        "referring_main_domains": 0.7,
+        "rank": 13.4,
+        "main_domain_rank": 683.5,
+        "last_updated_time": "2026-07-31 17:53:31 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "informational",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-30 02:11:05 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "the self sufficient backyard",
+       "location_code": 2840,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-07-15 09:20:20 +00:00",
+        "competition": 1,
+        "competition_level": "HIGH",
+        "cpc": 1.53,
+        "search_volume": 1600,
+        "low_top_of_page_bid": 0.29,
+        "high_top_of_page_bid": 2.47,
+        "categories": [
+         10015,
+         11545,
+         13658
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 590
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 1600
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 1900
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 3600
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 1900
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 1600
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 1600
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 1300
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 1600
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 1000
+         },
+         {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 1000
+         },
+         {
+          "year": 2025,
+          "month": 7,
+          "search_volume": 590
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": -63,
+         "quarterly": -69,
+         "yearly": -33
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 6,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 4
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 362.1,
+        "dofollow": 165.5,
+        "referring_pages": 166.3,
+        "referring_domains": 1.5,
+        "referring_main_domains": 1.5,
+        "rank": 42.2,
+        "main_domain_rank": 827.4,
+        "last_updated_time": "2026-03-15 19:28:33 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "navigational",
+        "foreign_intent": [
+         "informational"
+        ],
+        "last_updated_time": "2026-04-29 23:58:16 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "the self-sufficient backyard book",
+       "location_code": 2840,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-08-21 08:06:14 +00:00",
+        "competition": 0.95,
+        "competition_level": "HIGH",
+        "cpc": 0.88,
+        "search_volume": 390,
+        "low_top_of_page_bid": 0.22,
+        "high_top_of_page_bid": 1.79,
+        "categories": [
+         10108,
+         10112
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 390
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 260
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 590
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 590
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 880
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 720
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 390
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 390
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 260
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 260
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 90
+         },
+         {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 110
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": 50,
+         "quarterly": -34,
+         "yearly": 680
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 0,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 4
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 1.2,
+        "dofollow": 0.5,
+        "referring_pages": 1,
+        "referring_domains": 0.9,
+        "referring_main_domains": 0.9,
+        "rank": 10.5,
+        "main_domain_rank": 668.5,
+        "last_updated_time": "2026-07-03 19:57:19 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "informational",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-29 23:42:36 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "the self sufficient backyard book",
+       "location_code": 2840,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-08-18 11:32:52 +00:00",
+        "competition": 0.95,
+        "competition_level": "HIGH",
+        "cpc": 0.88,
+        "search_volume": 390,
+        "low_top_of_page_bid": 0.22,
+        "high_top_of_page_bid": 1.79,
+        "categories": [
+         10108,
+         10112
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 390
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 260
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 590
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 590
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 880
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 720
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 390
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 390
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 260
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 260
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 90
+         },
+         {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 110
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": 50,
+         "quarterly": -34,
+         "yearly": 680
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": "the self-sufficient backyard book",
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 14,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 5
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 722.7,
+        "dofollow": 329.9,
+        "referring_pages": 330.9,
+        "referring_domains": 2,
+        "referring_main_domains": 2,
+        "rank": 77.5,
+        "main_domain_rank": 856.2,
+        "last_updated_time": "2026-03-19 20:14:59 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "informational",
+        "foreign_intent": null,
+        "last_updated_time": "2026-05-07 09:24:05 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "the self sufficient backyard pdf",
+       "location_code": 2840,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-08-22 19:37:38 +00:00",
+        "competition": 0.1,
+        "competition_level": "LOW",
+        "cpc": null,
+        "search_volume": 210,
+        "low_top_of_page_bid": null,
+        "high_top_of_page_bid": null,
+        "categories": [
+         10108,
+         10112
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 40
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 20
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 260
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 260
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 590
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 390
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 140
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 110
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 260
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 170
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 110
+         },
+         {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 320
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": 100,
+         "quarterly": -85,
+         "yearly": -76
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 0,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 5
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 0.7,
+        "dofollow": 0.4,
+        "referring_pages": 0.5,
+        "referring_domains": 0.5,
+        "referring_main_domains": 0.4,
+        "rank": 10.7,
+        "main_domain_rank": 569.5,
+        "last_updated_time": "2026-07-07 00:15:16 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "informational",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-30 03:46:29 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "the self-sufficient backyard pdf",
+       "location_code": 2840,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-08-23 00:06:51 +00:00",
+        "competition": 0.1,
+        "competition_level": "LOW",
+        "cpc": null,
+        "search_volume": 210,
+        "low_top_of_page_bid": null,
+        "high_top_of_page_bid": null,
+        "categories": [
+         10108,
+         10112
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 40
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 20
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 260
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 260
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 590
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 390
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 140
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 110
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 260
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 170
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 110
+         },
+         {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 320
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": 100,
+         "quarterly": -85,
+         "yearly": -76
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": "the self sufficient backyard pdf",
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 0,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 4
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 0.7,
+        "dofollow": 0.4,
+        "referring_pages": 0.5,
+        "referring_domains": 0.5,
+        "referring_main_domains": 0.4,
+        "rank": 10.7,
+        "main_domain_rank": 569.5,
+        "last_updated_time": "2026-07-07 00:15:12 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "informational",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-30 00:41:44 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "the self-sufficient backyard review",
+       "location_code": 2840,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-08-24 03:04:48 +00:00",
+        "competition": 0.88,
+        "competition_level": "HIGH",
+        "cpc": 1.42,
+        "search_volume": 140,
+        "low_top_of_page_bid": 0.19,
+        "high_top_of_page_bid": 1.12,
+        "categories": [
+         10002,
+         10028
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 70
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 50
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 170
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 170
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 390
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 140
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 90
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 70
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 70
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 70
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 90
+         },
+         {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 70
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": 40,
+         "quarterly": -59,
+         "yearly": 133
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": "the self sufficient backyard review",
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 0,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 4
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 1.3,
+        "dofollow": 1.1,
+        "referring_pages": 1.3,
+        "referring_domains": 0.9,
+        "referring_main_domains": 0.7,
+        "rank": 13.4,
+        "main_domain_rank": 669,
+        "last_updated_time": "2026-08-11 14:52:59 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "informational",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-29 23:44:12 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "the self sufficient backyard review",
+       "location_code": 2840,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-08-23 21:01:25 +00:00",
+        "competition": 0.88,
+        "competition_level": "HIGH",
+        "cpc": 1.42,
+        "search_volume": 140,
+        "low_top_of_page_bid": 0.19,
+        "high_top_of_page_bid": 1.12,
+        "categories": [
+         10002,
+         10028
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 70
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 50
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 170
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 170
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 390
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 140
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 90
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 70
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 70
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 70
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 90
+         },
+         {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 70
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": 40,
+         "quarterly": -59,
+         "yearly": 133
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 0,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 5
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 2,
+        "dofollow": 1.2,
+        "referring_pages": 2,
+        "referring_domains": 1.3,
+        "referring_main_domains": 1.3,
+        "rank": 11.5,
+        "main_domain_rank": 531.7,
+        "last_updated_time": "2026-04-07 15:55:20 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "informational",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-30 00:07:46 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "the self sufficient backyard reviews",
+       "location_code": 2840,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-08-23 10:13:29 +00:00",
+        "competition": 0.88,
+        "competition_level": "HIGH",
+        "cpc": 1.42,
+        "search_volume": 140,
+        "low_top_of_page_bid": 0.19,
+        "high_top_of_page_bid": 1.12,
+        "categories": [
+         10015,
+         11545,
+         13658
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 70
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 50
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 170
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 170
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 390
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 140
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 90
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 70
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 70
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 70
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 90
+         },
+         {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 70
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": 40,
+         "quarterly": -59,
+         "yearly": 133
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": "the self sufficient backyard review",
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 0,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 5
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 0.9,
+        "dofollow": 0.6,
+        "referring_pages": 0.9,
+        "referring_domains": 0.8,
+        "referring_main_domains": 0.8,
+        "rank": 16.8,
+        "main_domain_rank": 608.7,
+        "last_updated_time": "2026-07-12 11:16:47 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "informational",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-30 00:24:01 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "the self-sufficient backyard reviews",
+       "location_code": 2840,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-08-20 20:28:19 +00:00",
+        "competition": 0.88,
+        "competition_level": "HIGH",
+        "cpc": 1.42,
+        "search_volume": 140,
+        "low_top_of_page_bid": 0.19,
+        "high_top_of_page_bid": 1.12,
+        "categories": [
+         10015,
+         11545,
+         13658
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 70
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 50
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 170
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 170
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 390
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 140
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 90
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 70
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 70
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 70
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 90
+         },
+         {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 70
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": 40,
+         "quarterly": -59,
+         "yearly": 133
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": "the self sufficient backyard review",
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 0,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 4
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 0.9,
+        "dofollow": 0.6,
+        "referring_pages": 0.9,
+        "referring_domains": 0.8,
+        "referring_main_domains": 0.8,
+        "rank": 16.8,
+        "main_domain_rank": 608.7,
+        "last_updated_time": "2026-07-12 11:31:45 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "informational",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-30 00:24:01 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "the self-sufficient backyard pdf free download",
+       "location_code": 2840,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-08-24 08:38:49 +00:00",
+        "competition": 0,
+        "competition_level": "LOW",
+        "cpc": null,
+        "search_volume": 90,
+        "low_top_of_page_bid": null,
+        "high_top_of_page_bid": null,
+        "categories": [
+         10108,
+         10112,
+         10611
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 140
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 140
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 170
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 210
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 140
+         },
+         {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 170
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": null,
+         "quarterly": 0,
+         "yearly": -91
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 0,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 6
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 0.7,
+        "dofollow": 0.4,
+        "referring_pages": 0.5,
+        "referring_domains": 0.5,
+        "referring_main_domains": 0.4,
+        "rank": 10.7,
+        "main_domain_rank": 633.2,
+        "last_updated_time": "2026-07-12 11:16:40 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "transactional",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-29 22:29:18 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "the self sufficient backyard pdf free download",
+       "location_code": 2840,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-08-19 20:21:41 +00:00",
+        "competition": 0,
+        "competition_level": "LOW",
+        "cpc": null,
+        "search_volume": 90,
+        "low_top_of_page_bid": null,
+        "high_top_of_page_bid": null,
+        "categories": [
+         10108,
+         10112
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 0
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 140
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 140
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 170
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 210
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 140
+         },
+         {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 170
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": null,
+         "quarterly": 0,
+         "yearly": -91
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": "the self-sufficient backyard pdf free download",
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 0,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 7
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 0.3,
+        "dofollow": 0.3,
+        "referring_pages": 0.3,
+        "referring_domains": 0.3,
+        "referring_main_domains": 0.2,
+        "rank": 8.4,
+        "main_domain_rank": 552.3,
+        "last_updated_time": "2026-07-14 19:41:09 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "transactional",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-29 22:30:27 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "the self-sufficient backyard for the independent homesteader",
+       "location_code": 2840,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-08-25 19:56:29 +00:00",
+        "competition": 0.42,
+        "competition_level": "MEDIUM",
+        "cpc": null,
+        "search_volume": 90,
+        "low_top_of_page_bid": 0.28,
+        "high_top_of_page_bid": 1.8,
+        "categories": [
+         10015,
+         12777,
+         13658
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 110
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 140
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 140
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 110
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 140
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 90
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 70
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 50
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 50
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 50
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 50
+         },
+         {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 40
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": -21,
+         "quarterly": -21,
+         "yearly": 1000
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": "the self-sufficient backyard: for the independent homesteader",
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 2,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 7
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 324.9,
+        "dofollow": 162.6,
+        "referring_pages": 163.6,
+        "referring_domains": 1.8,
+        "referring_main_domains": 1.8,
+        "rank": 44.5,
+        "main_domain_rank": 675.1,
+        "last_updated_time": "2026-02-24 13:56:01 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "informational",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-29 23:42:36 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "the self-sufficient backyard: for the independent homesteader",
+       "location_code": 2840,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-08-26 05:17:04 +00:00",
+        "competition": 0.42,
+        "competition_level": "MEDIUM",
+        "cpc": null,
+        "search_volume": 90,
+        "low_top_of_page_bid": 0.28,
+        "high_top_of_page_bid": 1.8,
+        "categories": [
+         10008
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 110
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 140
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 140
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 110
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 140
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 90
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 70
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 50
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 50
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 50
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 50
+         },
+         {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 40
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": -21,
+         "quarterly": -21,
+         "yearly": 1000
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 0,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 7
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 1.1,
+        "dofollow": 0.8,
+        "referring_pages": 1.1,
+        "referring_domains": 1,
+        "referring_main_domains": 0.9,
+        "rank": 16.6,
+        "main_domain_rank": 571.5,
+        "last_updated_time": "2026-07-17 19:58:50 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "commercial",
+        "foreign_intent": null,
+        "last_updated_time": "2026-05-05 21:13:32 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "the self sufficient backyard for the independent homesteader",
+       "location_code": 2840,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-07-15 07:18:51 +00:00",
+        "competition": 0.3,
+        "competition_level": "LOW",
+        "cpc": 2.7,
+        "search_volume": 70,
+        "low_top_of_page_bid": 0.25,
+        "high_top_of_page_bid": 2.24,
+        "categories": [
+         10015,
+         12777,
+         13658
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 140
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 140
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 110
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 140
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 90
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 70
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 50
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 50
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 50
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 50
+         },
+         {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 40
+         },
+         {
+          "year": 2025,
+          "month": 7,
+          "search_volume": 10
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": 0,
+         "quarterly": 27,
+         "yearly": 367
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": "the self-sufficient backyard: for the independent homesteader",
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 2,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 8
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 324.5,
+        "dofollow": 162.6,
+        "referring_pages": 163.4,
+        "referring_domains": 1.6,
+        "referring_main_domains": 1.6,
+        "rank": 42.2,
+        "main_domain_rank": 686.6,
+        "last_updated_time": "2026-02-24 13:56:36 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "informational",
+        "foreign_intent": [
+         "commercial"
+        ],
+        "last_updated_time": "2026-04-30 00:28:45 +00:00"
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

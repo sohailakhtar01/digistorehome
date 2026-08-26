@@ -1,0 +1,3751 @@
+{
+ "version": "0.1.20260826",
+ "status_code": 20000,
+ "status_message": "Ok.",
+ "time": "0.1802 sec.",
+ "cost": 0.0156,
+ "tasks_count": 1,
+ "tasks_error": 0,
+ "tasks": [
+  {
+   "id": "08261154-2330-0399-0000-9b420c2c5f12",
+   "status_code": 20000,
+   "status_message": "Ok.",
+   "time": "0.1534 sec.",
+   "cost": 0.0156,
+   "result_count": 1,
+   "path": [
+    "v3",
+    "dataforseo_labs",
+    "google",
+    "keyword_suggestions",
+    "live"
+   ],
+   "data": {
+    "api": "dataforseo_labs",
+    "function": "keyword_suggestions",
+    "se_type": "google",
+    "keyword": "forgotten home apothecary",
+    "location_code": 2840,
+    "language_code": "en",
+    "limit": 30,
+    "include_seed_keyword": true,
+    "order_by": [
+     "keyword_info.search_volume,desc"
+    ],
+    "filters": [
+     [
+      "keyword_info.search_volume",
+      ">",
+      50
+     ]
+    ]
+   },
+   "result": [
+    {
+     "se_type": "google",
+     "seed_keyword": "forgotten home apothecary",
+     "seed_keyword_data": {
+      "se_type": "google",
+      "keyword": "forgotten home apothecary",
+      "location_code": 2840,
+      "language_code": "en",
+      "keyword_info": {
+       "se_type": "google",
+       "last_updated_time": "2026-08-21 01:17:55 +00:00",
+       "competition": 1,
+       "competition_level": "HIGH",
+       "cpc": 0.6,
+       "search_volume": 22200,
+       "low_top_of_page_bid": 0.2,
+       "high_top_of_page_bid": 0.93,
+       "categories": [
+        10004,
+        10281,
+        11117,
+        11238,
+        12504,
+        13464
+       ],
+       "monthly_searches": [
+        {
+         "year": 2026,
+         "month": 7,
+         "search_volume": 4400
+        },
+        {
+         "year": 2026,
+         "month": 6,
+         "search_volume": 3600
+        },
+        {
+         "year": 2026,
+         "month": 5,
+         "search_volume": 5400
+        },
+        {
+         "year": 2026,
+         "month": 4,
+         "search_volume": 6600
+        },
+        {
+         "year": 2026,
+         "month": 3,
+         "search_volume": 22200
+        },
+        {
+         "year": 2026,
+         "month": 2,
+         "search_volume": 14800
+        },
+        {
+         "year": 2026,
+         "month": 1,
+         "search_volume": 27100
+        },
+        {
+         "year": 2025,
+         "month": 12,
+         "search_volume": 60500
+        },
+        {
+         "year": 2025,
+         "month": 11,
+         "search_volume": 33100
+        },
+        {
+         "year": 2025,
+         "month": 10,
+         "search_volume": 18100
+        },
+        {
+         "year": 2025,
+         "month": 9,
+         "search_volume": 22200
+        },
+        {
+         "year": 2025,
+         "month": 8,
+         "search_volume": 27100
+        }
+       ],
+       "search_volume_trend": {
+        "monthly": 22,
+        "quarterly": -19,
+        "yearly": -80
+       }
+      },
+      "keyword_info_normalized_with_bing": null,
+      "keyword_info_normalized_with_clickstream": null,
+      "clickstream_keyword_info": null,
+      "keyword_properties": {
+       "se_type": "google",
+       "core_keyword": "the forgotten home apothecary",
+       "synonym_clustering_algorithm": "text_processing",
+       "keyword_difficulty": 0,
+       "detected_language": "en",
+       "is_another_language": false,
+       "words_count": 3
+      },
+      "serp_info": {
+       "se_type": "google",
+       "check_url": "https://www.google.com/search?q=forgotten%20home%20apothecary&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+       "serp_item_types": [
+        "knowledge_graph",
+        "organic",
+        "people_also_ask",
+        "video",
+        "short_videos",
+        "related_searches",
+        "images",
+        "popular_products"
+       ],
+       "se_results_count": 183,
+       "last_updated_time": "2026-07-30 06:54:17 +00:00",
+       "previous_updated_time": "2026-05-14 23:34:32 +00:00"
+      },
+      "search_intent_info": {
+       "se_type": "google",
+       "main_intent": "navigational",
+       "foreign_intent": null,
+       "last_updated_time": "2026-04-29 09:07:30 +00:00"
+      },
+      "avg_backlinks_info": {
+       "se_type": "google",
+       "backlinks": 2,
+       "dofollow": 1.8,
+       "referring_pages": 2,
+       "referring_domains": 1.1,
+       "referring_main_domains": 1.1,
+       "rank": 20,
+       "main_domain_rank": 785.5,
+       "last_updated_time": "2026-07-30 06:54:17 +00:00"
+      }
+     },
+     "location_code": 2840,
+     "language_code": "en",
+     "total_count": 57,
+     "items_count": 30,
+     "offset": 0,
+     "offset_token": "eyJDdXJyZW50T2Zmc2V0IjozMCwiUmVxdWVzdERhdGEiOnsia2V5d29yZCI6ImZvcmdvdHRlbiBob21lIGFwb3RoZWNhcnkiLCJpbmNsdWRlX3NlZWRfa2V5d29yZCI6dHJ1ZSwiZnVsbF9tYXRjaCI6ZmFsc2UsImxvYWRfc2VycF9pbmZvIjpmYWxzZSwic2VhcmNoX2FmdGVyX3Rva2VuIjpudWxsLCJpZ25vcmVfc3lub255bXMiOmZhbHNlLCJsYW5ndWFnZSI6ImVuIiwic2VhcmNoX2VuZ2luZSI6Imdvb2dsZSIsImxvY2F0aW9uIjoyODQwLCJ1c2VfbmV3X2NhdGVnb3JpZXMiOnRydWUsIm9yZGVyX2J5Ijp7Im9yZGVyX2ZpZWxkIjoia2V5d29yZF9pbmZvLnNlYXJjaF92b2x1bWUiLCJvcmRlcl90eXBlIjoiRGVzYyIsIm5leHQiOm51bGx9LCJsaW1pdCI6MzAsIm9mZnNldCI6MCwiYWlkIjoyMzMwODIsInVzZV9jYWNoZSI6dHJ1ZSwidGFza19pZCI6IjA4MjYxMTU0LTIzMzAtMDM5OS0wMDAwLTliNDIwYzJjNWYxMiIsImZsYWdzIjpudWxsfSwiUmF3UXVlcnkiOnsiZmllbGQiOiJrZXl3b3JkX2luZm8uc2VhcmNoX3ZvbHVtZSIsInR5cGUiOiJndCIsInZhbHVlIjo1MH0sIklkIjoiODE4OTk0YjAtMDc0My00ODU0LWFhM2QtYjQyZTE5MGJiMjRkIiwiU2VhcmNoQWZ0ZXJEYXRhIjpbMTQwLCI0YzNmM2U1NS02YzZhLTgwZDQtMzZhMC02M2NkNjY2MmM4ZjYiXSwiRXhlY3V0b3IiOi05MTg0NDA1OTQwNDQ0NTE3NjMzfQ==",
+     "items": [
+      {
+       "se_type": "google",
+       "keyword": "forgotten home apothecary",
+       "location_code": 2840,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-08-21 01:17:55 +00:00",
+        "competition": 1,
+        "competition_level": "HIGH",
+        "cpc": 0.6,
+        "search_volume": 22200,
+        "low_top_of_page_bid": 0.2,
+        "high_top_of_page_bid": 0.93,
+        "categories": [
+         10004,
+         10281,
+         11117,
+         11238,
+         12504,
+         13464
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 4400
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 3600
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 5400
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 6600
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 22200
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 14800
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 27100
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 60500
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 33100
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 18100
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 22200
+         },
+         {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 27100
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": 22,
+         "quarterly": -19,
+         "yearly": -80
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": "the forgotten home apothecary",
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 0,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 3
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 2,
+        "dofollow": 1.8,
+        "referring_pages": 2,
+        "referring_domains": 1.1,
+        "referring_main_domains": 1.1,
+        "rank": 20,
+        "main_domain_rank": 785.5,
+        "last_updated_time": "2026-07-30 06:54:17 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "navigational",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-29 09:07:30 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "the forgotten home apothecary",
+       "location_code": 2840,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-08-20 18:04:08 +00:00",
+        "competition": 1,
+        "competition_level": "HIGH",
+        "cpc": 0.57,
+        "search_volume": 6600,
+        "low_top_of_page_bid": 0.2,
+        "high_top_of_page_bid": 0.97,
+        "categories": [
+         10004,
+         10281,
+         11117,
+         11238,
+         12504,
+         13464
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 1000
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 1000
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 1900
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 2400
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 8100
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 4400
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 9900
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 18100
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 9900
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 6600
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 8100
+         },
+         {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 9900
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": 0,
+         "quarterly": -47,
+         "yearly": -88
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 0,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 4
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 2,
+        "dofollow": 1.8,
+        "referring_pages": 2,
+        "referring_domains": 1.1,
+        "referring_main_domains": 1.1,
+        "rank": 20,
+        "main_domain_rank": 797.4,
+        "last_updated_time": "2026-07-30 12:03:25 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "navigational",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-29 22:51:45 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "forgotten home apothecary book",
+       "location_code": 2840,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-08-25 19:04:10 +00:00",
+        "competition": 0.97,
+        "competition_level": "HIGH",
+        "cpc": null,
+        "search_volume": 6600,
+        "low_top_of_page_bid": 0.18,
+        "high_top_of_page_bid": 0.64,
+        "categories": [
+         10108,
+         10112
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 1900
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 1600
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 2900
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 4400
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 6600
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 4400
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 9900
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 22200
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 12100
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 6600
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 8100
+         },
+         {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 6600
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": 19,
+         "quarterly": -34,
+         "yearly": -57
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 0,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 4
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 2,
+        "dofollow": 1.8,
+        "referring_pages": 2,
+        "referring_domains": 1.1,
+        "referring_main_domains": 1.1,
+        "rank": 20,
+        "main_domain_rank": 799,
+        "last_updated_time": "2026-07-30 12:47:59 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "informational",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-29 07:50:39 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "forgotten home apothecary 250 powerful remedies at your fingertips",
+       "location_code": 2840,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-08-25 20:35:11 +00:00",
+        "competition": 0.91,
+        "competition_level": "HIGH",
+        "cpc": null,
+        "search_volume": 2400,
+        "low_top_of_page_bid": 0.2,
+        "high_top_of_page_bid": 1.2,
+        "categories": [
+         10011,
+         10091,
+         10507,
+         11782
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 1300
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 1600
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 1000
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 1000
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 2400
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 1600
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 2400
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 5400
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 2900
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 1900
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 3600
+         },
+         {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 4400
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": -19,
+         "quarterly": 30,
+         "yearly": -55
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": "keyword_metrics",
+        "keyword_difficulty": 0,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 9
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 2.1,
+        "dofollow": 1.9,
+        "referring_pages": 2.1,
+        "referring_domains": 1.2,
+        "referring_main_domains": 1.2,
+        "rank": 20,
+        "main_domain_rank": 785.4,
+        "last_updated_time": "2026-08-03 21:51:11 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "informational",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-29 08:59:56 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "the forgotten home apothecary book",
+       "location_code": 2840,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-08-22 11:13:59 +00:00",
+        "competition": 0.99,
+        "competition_level": "HIGH",
+        "cpc": 0.57,
+        "search_volume": 1300,
+        "low_top_of_page_bid": 0.19,
+        "high_top_of_page_bid": 0.77,
+        "categories": [
+         10108,
+         10112
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 480
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 260
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 320
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 590
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 1900
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 1000
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 1600
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 2900
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 1600
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 1000
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 1600
+         },
+         {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 1600
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": 85,
+         "quarterly": 50,
+         "yearly": -63
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": "forgotten home apothecary book",
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 0,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 5
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 2,
+        "dofollow": 1.8,
+        "referring_pages": 2,
+        "referring_domains": 1.1,
+        "referring_main_domains": 1.1,
+        "rank": 20,
+        "main_domain_rank": 740.6,
+        "last_updated_time": "2026-07-31 22:07:11 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "informational",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-30 00:59:52 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "forgotten home apothecary reviews",
+       "location_code": 2840,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-08-23 16:32:00 +00:00",
+        "competition": 0.85,
+        "competition_level": "HIGH",
+        "cpc": 0.32,
+        "search_volume": 1300,
+        "low_top_of_page_bid": 0.21,
+        "high_top_of_page_bid": 0.49,
+        "categories": [
+         10004,
+         10281,
+         11117,
+         11238,
+         12504,
+         13464
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 260
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 260
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 390
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 480
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 1900
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 1000
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 2400
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 4400
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 1600
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 1000
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 1600
+         },
+         {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 1300
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": 0,
+         "quarterly": -33,
+         "yearly": -80
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 0,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 4
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 2,
+        "dofollow": 1.8,
+        "referring_pages": 2,
+        "referring_domains": 1.1,
+        "referring_main_domains": 1.1,
+        "rank": 20,
+        "main_domain_rank": 767.9,
+        "last_updated_time": "2026-07-31 20:26:30 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "informational",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-29 22:59:07 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "forgotten home apothecary review",
+       "location_code": 2840,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-08-25 01:07:10 +00:00",
+        "competition": 0.85,
+        "competition_level": "HIGH",
+        "cpc": 0.32,
+        "search_volume": 1300,
+        "low_top_of_page_bid": 0.21,
+        "high_top_of_page_bid": 0.49,
+        "categories": [
+         10008
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 260
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 260
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 390
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 480
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 1900
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 1000
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 2400
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 4400
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 1600
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 1000
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 1600
+         },
+         {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 1300
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": 0,
+         "quarterly": -33,
+         "yearly": -80
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": "forgotten home apothecary reviews",
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 0,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 4
+       },
+       "serp_info": null,
+       "avg_backlinks_info": null,
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "informational",
+        "foreign_intent": null,
+        "last_updated_time": "2026-05-08 03:10:20 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "forgotten home apothecary pdf",
+       "location_code": 2840,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-08-22 23:53:43 +00:00",
+        "competition": 0.08,
+        "competition_level": "LOW",
+        "cpc": 7.04,
+        "search_volume": 880,
+        "low_top_of_page_bid": null,
+        "high_top_of_page_bid": null,
+        "categories": [
+         10108,
+         10112
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 110
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 110
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 320
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 320
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 720
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 390
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 480
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 720
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 1900
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 1600
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 1900
+         },
+         {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 1900
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": 0,
+         "quarterly": -66,
+         "yearly": -93
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 0,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 4
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 2,
+        "dofollow": 1.8,
+        "referring_pages": 2,
+        "referring_domains": 1.1,
+        "referring_main_domains": 1.1,
+        "rank": 20,
+        "main_domain_rank": 773.4,
+        "last_updated_time": "2026-08-01 11:48:40 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "informational",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-29 09:07:30 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "forgotten home apothecary 250 powerful remedies at your fingertips reviews",
+       "location_code": 2840,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-07-16 06:14:38 +00:00",
+        "competition": 1,
+        "competition_level": "HIGH",
+        "cpc": 1.09,
+        "search_volume": 590,
+        "low_top_of_page_bid": 0.36,
+        "high_top_of_page_bid": 1.01,
+        "categories": [
+         10008
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 40
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 30
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 30
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 90
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 70
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 170
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 320
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 170
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 720
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 1900
+         },
+         {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 1900
+         },
+         {
+          "year": 2025,
+          "month": 7,
+          "search_volume": 1300
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": 33,
+         "quarterly": 33,
+         "yearly": -98
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 0,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 10
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 2.1,
+        "dofollow": 1.9,
+        "referring_pages": 2.1,
+        "referring_domains": 1.2,
+        "referring_main_domains": 1.2,
+        "rank": 20,
+        "main_domain_rank": 849.7,
+        "last_updated_time": "2026-08-03 00:19:46 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "commercial",
+        "foreign_intent": [
+         "informational"
+        ],
+        "last_updated_time": "2026-04-29 07:56:37 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "forgotten home apothecary 250 powerful remedies at your fingertips review",
+       "location_code": 2840,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-08-14 19:02:24 +00:00",
+        "competition": 0.99,
+        "competition_level": "HIGH",
+        "cpc": 1.08,
+        "search_volume": 480,
+        "low_top_of_page_bid": 0.35,
+        "high_top_of_page_bid": 0.63,
+        "categories": [
+         10008
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 30
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 40
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 30
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 30
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 90
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 70
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 170
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 320
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 170
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 720
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 1900
+         },
+         {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 1900
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": -25,
+         "quarterly": 0,
+         "yearly": -98
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": "forgotten home apothecary 250 powerful remedies at your fingertips reviews",
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 0,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 10
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 2.1,
+        "dofollow": 1.9,
+        "referring_pages": 2.1,
+        "referring_domains": 1.2,
+        "referring_main_domains": 1.2,
+        "rank": 20,
+        "main_domain_rank": 812.1,
+        "last_updated_time": "2026-08-03 00:21:31 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "informational",
+        "foreign_intent": [
+         "commercial"
+        ],
+        "last_updated_time": "2026-04-27 19:25:56 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "forgotten home apothecary book by nicole apelian",
+       "location_code": 2840,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-08-22 15:39:03 +00:00",
+        "competition": 0.67,
+        "competition_level": "HIGH",
+        "cpc": 0.52,
+        "search_volume": 480,
+        "low_top_of_page_bid": 0.17,
+        "high_top_of_page_bid": 0.85,
+        "categories": [
+         10108,
+         10112
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 110
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 110
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 140
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 210
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 480
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 390
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 1000
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 1300
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 590
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 1000
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 260
+         },
+         {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 260
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": 0,
+         "quarterly": -21,
+         "yearly": -58
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 7,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 7
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 484.4,
+        "dofollow": 204.3,
+        "referring_pages": 206.6,
+        "referring_domains": 14.6,
+        "referring_main_domains": 13.3,
+        "rank": 70.6,
+        "main_domain_rank": 647.6,
+        "last_updated_time": "2026-08-03 18:59:07 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "informational",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-29 10:23:30 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "the forgotten home apothecary reviews",
+       "location_code": 2840,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-08-20 21:11:46 +00:00",
+        "competition": 0.96,
+        "competition_level": "HIGH",
+        "cpc": 0.56,
+        "search_volume": 390,
+        "low_top_of_page_bid": 0.19,
+        "high_top_of_page_bid": 0.73,
+        "categories": [
+         10004,
+         10281,
+         11117,
+         11238,
+         12504,
+         13464
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 70
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 50
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 110
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 90
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 590
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 260
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 720
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 1300
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 720
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 390
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 480
+         },
+         {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 480
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": 40,
+         "quarterly": -36,
+         "yearly": -78
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": "forgotten home apothecary reviews",
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 0,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 5
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 2.5,
+        "dofollow": 2.3,
+        "referring_pages": 2.5,
+        "referring_domains": 1.6,
+        "referring_main_domains": 1.4,
+        "rank": 22,
+        "main_domain_rank": 801.6,
+        "last_updated_time": "2026-08-03 06:19:16 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "informational",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-30 02:37:12 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "the forgotten home apothecary review",
+       "location_code": 2840,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-08-26 09:55:22 +00:00",
+        "competition": 0.96,
+        "competition_level": "HIGH",
+        "cpc": null,
+        "search_volume": 390,
+        "low_top_of_page_bid": 0.19,
+        "high_top_of_page_bid": 0.73,
+        "categories": [
+         10008
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 70
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 50
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 110
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 90
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 590
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 260
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 720
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 1300
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 720
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 390
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 480
+         },
+         {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 480
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": 40,
+         "quarterly": -36,
+         "yearly": -78
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": "forgotten home apothecary reviews",
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 0,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 5
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 1.5,
+        "dofollow": 1.2,
+        "referring_pages": 1.5,
+        "referring_domains": 1.1,
+        "referring_main_domains": 1.1,
+        "rank": 16.1,
+        "main_domain_rank": 793.7,
+        "last_updated_time": "2025-11-05 16:01:27 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "informational",
+        "foreign_intent": null,
+        "last_updated_time": "2026-05-08 04:17:22 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "forgotten home apothecary website",
+       "location_code": 2840,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-08-22 07:52:50 +00:00",
+        "competition": 0.62,
+        "competition_level": "MEDIUM",
+        "cpc": 1.19,
+        "search_volume": 320,
+        "low_top_of_page_bid": null,
+        "high_top_of_page_bid": null,
+        "categories": [
+         10008
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 140
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 170
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 140
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 210
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 720
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 390
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 720
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 880
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 260
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 90
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 70
+         },
+         {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 70
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": -18,
+         "quarterly": 0,
+         "yearly": 180
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 0,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 4
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 2.4,
+        "dofollow": 2,
+        "referring_pages": 2.4,
+        "referring_domains": 1.5,
+        "referring_main_domains": 1.5,
+        "rank": 31.3,
+        "main_domain_rank": 711,
+        "last_updated_time": "2026-07-05 02:54:39 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "navigational",
+        "foreign_intent": null,
+        "last_updated_time": "2026-05-04 15:04:10 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "forgotten home apothecary 250 pdf free download",
+       "location_code": 2840,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-07-16 09:52:03 +00:00",
+        "competition": 0.29,
+        "competition_level": "LOW",
+        "cpc": null,
+        "search_volume": 320,
+        "low_top_of_page_bid": null,
+        "high_top_of_page_bid": null,
+        "categories": [
+         10108,
+         10112,
+         10611
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 210
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 880
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 720
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 480
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 390
+         },
+         {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 590
+         },
+         {
+          "year": 2025,
+          "month": 7,
+          "search_volume": 260
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": 0,
+         "quarterly": 0,
+         "yearly": -80
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 0,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 7
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 2.2,
+        "dofollow": 1.8,
+        "referring_pages": 2.2,
+        "referring_domains": 1.3,
+        "referring_main_domains": 1.3,
+        "rank": 20,
+        "main_domain_rank": 738.9,
+        "last_updated_time": "2026-07-05 05:45:29 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "informational",
+        "foreign_intent": [
+         "navigational"
+        ],
+        "last_updated_time": "2026-04-29 07:38:22 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "the forgotten home apothecary pdf free download",
+       "location_code": 2840,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-08-25 12:43:32 +00:00",
+        "competition": 0,
+        "competition_level": "LOW",
+        "cpc": null,
+        "search_volume": 320,
+        "low_top_of_page_bid": null,
+        "high_top_of_page_bid": null,
+        "categories": [
+         10108,
+         10108,
+         10112,
+         10112,
+         10611
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 10
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 720
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 1000
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 480
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 590
+         },
+         {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 720
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": 0,
+         "quarterly": 0,
+         "yearly": -97
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 0,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 7
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 2.2,
+        "dofollow": 1.8,
+        "referring_pages": 2.2,
+        "referring_domains": 1.3,
+        "referring_main_domains": 1.3,
+        "rank": 20,
+        "main_domain_rank": 739.5,
+        "last_updated_time": "2026-07-04 00:17:56 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "informational",
+        "foreign_intent": [
+         "navigational"
+        ],
+        "last_updated_time": "2026-04-29 23:45:57 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "forgotten home apothecary: 250 pdf free download",
+       "location_code": 2840,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-07-15 02:56:22 +00:00",
+        "competition": 0.29,
+        "competition_level": "LOW",
+        "cpc": null,
+        "search_volume": 320,
+        "low_top_of_page_bid": null,
+        "high_top_of_page_bid": null,
+        "categories": [
+         10108,
+         10112,
+         10611
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 210
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 880
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 720
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 480
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 390
+         },
+         {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 590
+         },
+         {
+          "year": 2025,
+          "month": 7,
+          "search_volume": 260
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": 0,
+         "quarterly": 0,
+         "yearly": -80
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": "forgotten home apothecary 250 pdf free download",
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 0,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 7
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 2.2,
+        "dofollow": 1.8,
+        "referring_pages": 2.2,
+        "referring_domains": 1.3,
+        "referring_main_domains": 1.3,
+        "rank": 20,
+        "main_domain_rank": 738.9,
+        "last_updated_time": "2026-07-05 13:28:38 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "informational",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-27 20:01:45 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "forgotten home apothecary : 250 pdf free download",
+       "location_code": 2840,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-08-22 16:40:26 +00:00",
+        "competition": 0,
+        "competition_level": "LOW",
+        "cpc": null,
+        "search_volume": 260,
+        "low_top_of_page_bid": null,
+        "high_top_of_page_bid": null,
+        "categories": [
+         10108,
+         10112,
+         10611
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 210
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 880
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 720
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 480
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 390
+         },
+         {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 590
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": 0,
+         "quarterly": 0,
+         "yearly": -96
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": "forgotten home apothecary 250 pdf free download",
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 0,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 8
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 2.2,
+        "dofollow": 1.8,
+        "referring_pages": 2.2,
+        "referring_domains": 1.3,
+        "referring_main_domains": 1.3,
+        "rank": 20,
+        "main_domain_rank": 697.6,
+        "last_updated_time": "2026-07-05 11:42:24 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "informational",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-29 07:25:22 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "forgotten home apothecary free pdf",
+       "location_code": 2840,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-08-18 22:17:42 +00:00",
+        "competition": 0.04,
+        "competition_level": "LOW",
+        "cpc": 2.07,
+        "search_volume": 260,
+        "low_top_of_page_bid": null,
+        "high_top_of_page_bid": null,
+        "categories": [
+         10108,
+         10112
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 20
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 20
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 30
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 70
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 90
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 50
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 1000
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 1300
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 320
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 170
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 170
+         },
+         {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 170
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": 0,
+         "quarterly": -33,
+         "yearly": -82
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 0,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 5
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 2.2,
+        "dofollow": 1.8,
+        "referring_pages": 2.2,
+        "referring_domains": 1.3,
+        "referring_main_domains": 1.3,
+        "rank": 20,
+        "main_domain_rank": 772.6,
+        "last_updated_time": "2026-07-05 15:05:00 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "informational",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-29 20:06:58 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "nicole apelian forgotten home apothecary",
+       "location_code": 2840,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-08-23 01:29:52 +00:00",
+        "competition": 0.92,
+        "competition_level": "HIGH",
+        "cpc": 1.93,
+        "search_volume": 210,
+        "low_top_of_page_bid": 0.31,
+        "high_top_of_page_bid": 1.6,
+        "categories": [
+         10015,
+         10125,
+         10671,
+         11931,
+         11937
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 140
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 90
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 140
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 140
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 210
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 210
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 320
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 390
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 260
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 210
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 260
+         },
+         {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 320
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": 56,
+         "quarterly": 0,
+         "yearly": -56
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 0,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 5
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 2.2,
+        "dofollow": 1.8,
+        "referring_pages": 2.2,
+        "referring_domains": 1.3,
+        "referring_main_domains": 1.3,
+        "rank": 20,
+        "main_domain_rank": 718.6,
+        "last_updated_time": "2026-07-06 01:14:30 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "navigational",
+        "foreign_intent": [
+         "informational"
+        ],
+        "last_updated_time": "2026-04-29 16:21:25 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "forgotten home apothecary book reviews",
+       "location_code": 2840,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-08-18 12:56:56 +00:00",
+        "competition": 0.74,
+        "competition_level": "HIGH",
+        "cpc": 0.47,
+        "search_volume": 210,
+        "low_top_of_page_bid": null,
+        "high_top_of_page_bid": null,
+        "categories": [
+         10108,
+         10112
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 50
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 50
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 50
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 70
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 390
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 210
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 390
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 590
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 320
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 140
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 210
+         },
+         {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 210
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": 0,
+         "quarterly": 0,
+         "yearly": -76
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": "forgotten home apothecary book review",
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 0,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 5
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 2.2,
+        "dofollow": 1.8,
+        "referring_pages": 2.2,
+        "referring_domains": 1.3,
+        "referring_main_domains": 1.3,
+        "rank": 20,
+        "main_domain_rank": 835.6,
+        "last_updated_time": "2026-07-06 18:40:05 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "informational",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-29 07:50:54 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "forgotten home apothecary physical",
+       "location_code": 2840,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-08-24 08:20:59 +00:00",
+        "competition": 1,
+        "competition_level": "HIGH",
+        "cpc": 0.45,
+        "search_volume": 210,
+        "low_top_of_page_bid": null,
+        "high_top_of_page_bid": null,
+        "categories": [
+         10004,
+         10281,
+         11117,
+         11238,
+         12504,
+         13464
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 20
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 30
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 50
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 260
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 170
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 320
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 480
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 260
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 260
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 390
+         },
+         {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 390
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": 100,
+         "quarterly": -33,
+         "yearly": -95
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": null,
+        "keyword_difficulty": 0,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 4
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 2.2,
+        "dofollow": 1.8,
+        "referring_pages": 2.2,
+        "referring_domains": 1.3,
+        "referring_main_domains": 1.3,
+        "rank": 20,
+        "main_domain_rank": 770.4,
+        "last_updated_time": "2026-07-05 11:41:49 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "navigational",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-27 19:11:35 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "is the forgotten home apothecary legit",
+       "location_code": 2840,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-07-15 10:25:44 +00:00",
+        "competition": 0.2,
+        "competition_level": "LOW",
+        "cpc": 0.44,
+        "search_volume": 210,
+        "low_top_of_page_bid": null,
+        "high_top_of_page_bid": null,
+        "categories": [
+         10004,
+         10281,
+         11117,
+         11238,
+         12504,
+         13464
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 40
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 70
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 90
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 480
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 210
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 260
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 590
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 260
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 140
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 140
+         },
+         {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 110
+         },
+         {
+          "year": 2025,
+          "month": 7,
+          "search_volume": 140
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": -43,
+         "quarterly": -56,
+         "yearly": -76
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 0,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 6
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 2.2,
+        "dofollow": 1.8,
+        "referring_pages": 2.2,
+        "referring_domains": 1.3,
+        "referring_main_domains": 1.3,
+        "rank": 20,
+        "main_domain_rank": 745.3,
+        "last_updated_time": "2026-07-07 14:47:39 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "informational",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-28 06:10:02 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "forgotten home apothecary book review",
+       "location_code": 2840,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-08-14 16:45:36 +00:00",
+        "competition": 0.74,
+        "competition_level": "HIGH",
+        "cpc": 0.47,
+        "search_volume": 210,
+        "low_top_of_page_bid": null,
+        "high_top_of_page_bid": null,
+        "categories": [
+         10108,
+         10112
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 50
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 50
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 50
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 70
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 390
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 210
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 390
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 590
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 320
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 140
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 210
+         },
+         {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 210
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": 0,
+         "quarterly": 0,
+         "yearly": -76
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 0,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 5
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 2.1,
+        "dofollow": 1.9,
+        "referring_pages": 2.1,
+        "referring_domains": 1.2,
+        "referring_main_domains": 1.2,
+        "rank": 19.9,
+        "main_domain_rank": 845,
+        "last_updated_time": "2026-08-10 02:49:26 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "informational",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-27 16:45:52 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "the forgotten home apothecary book pdf",
+       "location_code": 2840,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-08-24 19:36:29 +00:00",
+        "competition": 0.13,
+        "competition_level": "LOW",
+        "cpc": null,
+        "search_volume": 170,
+        "low_top_of_page_bid": null,
+        "high_top_of_page_bid": null,
+        "categories": [
+         10016,
+         10108,
+         10112,
+         10141,
+         11871
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 30
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 20
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 320
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 480
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 480
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 320
+         },
+         {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 590
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": 0,
+         "quarterly": 0,
+         "yearly": -98
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": "forgotten home apothecary book pdf",
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 0,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 6
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 2.2,
+        "dofollow": 1.8,
+        "referring_pages": 2.2,
+        "referring_domains": 1.3,
+        "referring_main_domains": 1.3,
+        "rank": 20,
+        "main_domain_rank": 741.7,
+        "last_updated_time": "2026-07-06 03:32:20 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "informational",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-29 23:59:15 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "the forgotten home apothecary pdf",
+       "location_code": 2840,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-08-23 18:44:16 +00:00",
+        "competition": 0.07,
+        "competition_level": "LOW",
+        "cpc": null,
+        "search_volume": 170,
+        "low_top_of_page_bid": null,
+        "high_top_of_page_bid": null,
+        "categories": [
+         10108,
+         10112
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 30
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 40
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 30
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 70
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 210
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 90
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 110
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 210
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 390
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 170
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 320
+         },
+         {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 320
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": -25,
+         "quarterly": 0,
+         "yearly": -92
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": "forgotten home apothecary pdf",
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 0,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 5
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 2.2,
+        "dofollow": 1.8,
+        "referring_pages": 2.2,
+        "referring_domains": 1.3,
+        "referring_main_domains": 1.3,
+        "rank": 20,
+        "main_domain_rank": 774,
+        "last_updated_time": "2026-07-07 00:39:44 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "informational",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-29 23:54:36 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "forgotten home apothecary hardcover",
+       "location_code": 2840,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-08-26 11:38:29 +00:00",
+        "competition": 1,
+        "competition_level": "HIGH",
+        "cpc": null,
+        "search_volume": 170,
+        "low_top_of_page_bid": 0.17,
+        "high_top_of_page_bid": 1.06,
+        "categories": [
+         10108,
+         10112
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 20
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 40
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 40
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 50
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 110
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 110
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 260
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 880
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 210
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 110
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 140
+         },
+         {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 140
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": -50,
+         "quarterly": -50,
+         "yearly": -82
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 0,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 4
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 2.2,
+        "dofollow": 1.8,
+        "referring_pages": 2.2,
+        "referring_domains": 1.3,
+        "referring_main_domains": 1.3,
+        "rank": 20,
+        "main_domain_rank": 730.5,
+        "last_updated_time": "2026-07-09 12:51:17 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "informational",
+        "foreign_intent": [
+         "navigational"
+        ],
+        "last_updated_time": "2026-04-29 13:38:44 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "forgotten home apothecary nicole apelian",
+       "location_code": 2840,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-08-21 22:26:14 +00:00",
+        "competition": 0.87,
+        "competition_level": "HIGH",
+        "cpc": 1.29,
+        "search_volume": 170,
+        "low_top_of_page_bid": 0.44,
+        "high_top_of_page_bid": 1.28,
+        "categories": [
+         10015,
+         10125,
+         10671,
+         11931,
+         11937
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 30
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 30
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 40
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 40
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 90
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 110
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 170
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 480
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 260
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 210
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 260
+         },
+         {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 260
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": 0,
+         "quarterly": -25,
+         "yearly": -88
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": "nicole apelian forgotten home apothecary",
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 0,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 5
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 2.2,
+        "dofollow": 1.8,
+        "referring_pages": 2.2,
+        "referring_domains": 1.3,
+        "referring_main_domains": 1.3,
+        "rank": 20,
+        "main_domain_rank": 726,
+        "last_updated_time": "2026-07-07 19:41:02 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "navigational",
+        "foreign_intent": [
+         "informational"
+        ],
+        "last_updated_time": "2026-04-27 19:07:40 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "forgotten home apothecary : 250 powerful remedies",
+       "location_code": 2840,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-08-26 00:28:48 +00:00",
+        "competition": 1,
+        "competition_level": "HIGH",
+        "cpc": null,
+        "search_volume": 140,
+        "low_top_of_page_bid": 0.25,
+        "high_top_of_page_bid": 1.61,
+        "categories": [
+         10011,
+         10091,
+         10507,
+         11782
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 50
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 70
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 50
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 70
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 140
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 90
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 170
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 320
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 140
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 110
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 140
+         },
+         {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 110
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": -29,
+         "quarterly": 0,
+         "yearly": -64
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": "forgotten home apothecary 250 powerful remedies",
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 0,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 7
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 2.1,
+        "dofollow": 1.9,
+        "referring_pages": 2.1,
+        "referring_domains": 1.2,
+        "referring_main_domains": 1.2,
+        "rank": 20.8,
+        "main_domain_rank": 775.9,
+        "last_updated_time": "2026-07-11 13:23:27 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "informational",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-29 08:19:58 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "forgotten home apothecary pdf free download",
+       "location_code": 2840,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-07-14 17:30:06 +00:00",
+        "competition": 0.07,
+        "competition_level": "LOW",
+        "cpc": null,
+        "search_volume": 140,
+        "low_top_of_page_bid": null,
+        "high_top_of_page_bid": null,
+        "categories": [
+         10108,
+         10112
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 10
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 20
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 10
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 110
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 170
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 210
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 320
+         },
+         {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 320
+         },
+         {
+          "year": 2025,
+          "month": 7,
+          "search_volume": 390
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": 0,
+         "quarterly": 0,
+         "yearly": -97
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": "the forgotten home apothecary pdf free download",
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 0,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 6
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 2.2,
+        "dofollow": 1.8,
+        "referring_pages": 2.2,
+        "referring_domains": 1.3,
+        "referring_main_domains": 1.3,
+        "rank": 20,
+        "main_domain_rank": 716.2,
+        "last_updated_time": "2026-07-09 12:50:13 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "navigational",
+        "foreign_intent": [
+         "informational"
+        ],
+        "last_updated_time": "2026-04-29 10:15:28 +00:00"
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

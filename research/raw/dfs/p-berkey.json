@@ -1,0 +1,545 @@
+{
+ "version": "0.1.20260826",
+ "status_code": 20000,
+ "status_message": "Ok.",
+ "time": "0.3295 sec.",
+ "cost": 0.01236,
+ "tasks_count": 1,
+ "tasks_error": 0,
+ "tasks": [
+  {
+   "id": "08261152-2330-0399-0000-91f41a5c096f",
+   "status_code": 20000,
+   "status_message": "Ok.",
+   "time": "0.2972 sec.",
+   "cost": 0.01236,
+   "result_count": 1,
+   "path": [
+    "v3",
+    "dataforseo_labs",
+    "google",
+    "keyword_suggestions",
+    "live"
+   ],
+   "data": {
+    "api": "dataforseo_labs",
+    "function": "keyword_suggestions",
+    "se_type": "google",
+    "keyword": "berkey water filter review",
+    "location_code": 2840,
+    "language_code": "en",
+    "limit": 40,
+    "include_seed_keyword": true,
+    "order_by": [
+     "keyword_info.search_volume,desc"
+    ],
+    "filters": [
+     [
+      "keyword_info.search_volume",
+      ">",
+      100
+     ]
+    ]
+   },
+   "result": [
+    {
+     "se_type": "google",
+     "seed_keyword": "berkey water filter review",
+     "seed_keyword_data": {
+      "se_type": "google",
+      "keyword": "berkey water filter review",
+      "location_code": 2840,
+      "language_code": "en",
+      "keyword_info": {
+       "se_type": "google",
+       "last_updated_time": "2026-08-26 01:27:45 +00:00",
+       "competition": 1,
+       "competition_level": "HIGH",
+       "cpc": null,
+       "search_volume": 590,
+       "low_top_of_page_bid": 0.43,
+       "high_top_of_page_bid": 5,
+       "categories": [
+        10009,
+        10407
+       ],
+       "monthly_searches": [
+        {
+         "year": 2026,
+         "month": 7,
+         "search_volume": 480
+        },
+        {
+         "year": 2026,
+         "month": 6,
+         "search_volume": 390
+        },
+        {
+         "year": 2026,
+         "month": 5,
+         "search_volume": 590
+        },
+        {
+         "year": 2026,
+         "month": 4,
+         "search_volume": 590
+        },
+        {
+         "year": 2026,
+         "month": 3,
+         "search_volume": 720
+        },
+        {
+         "year": 2026,
+         "month": 2,
+         "search_volume": 480
+        },
+        {
+         "year": 2026,
+         "month": 1,
+         "search_volume": 590
+        },
+        {
+         "year": 2025,
+         "month": 12,
+         "search_volume": 480
+        },
+        {
+         "year": 2025,
+         "month": 11,
+         "search_volume": 480
+        },
+        {
+         "year": 2025,
+         "month": 10,
+         "search_volume": 390
+        },
+        {
+         "year": 2025,
+         "month": 9,
+         "search_volume": 590
+        },
+        {
+         "year": 2025,
+         "month": 8,
+         "search_volume": 720
+        }
+       ],
+       "search_volume_trend": {
+        "monthly": 23,
+        "quarterly": -19,
+        "yearly": -45
+       }
+      },
+      "keyword_info_normalized_with_bing": null,
+      "keyword_info_normalized_with_clickstream": null,
+      "clickstream_keyword_info": null,
+      "keyword_properties": {
+       "se_type": "google",
+       "core_keyword": null,
+       "synonym_clustering_algorithm": "text_processing",
+       "keyword_difficulty": 0,
+       "detected_language": "en",
+       "is_another_language": false,
+       "words_count": 4
+      },
+      "serp_info": {
+       "se_type": "google",
+       "check_url": "https://www.google.com/search?q=berkey%20water%20filter%20review&num=100&hl=en&gl=US&gws_rd=cr&ie=UTF-8&oe=UTF-8&glp=1&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+       "serp_item_types": [
+        "ai_overview",
+        "organic",
+        "people_also_ask",
+        "discussions_and_forums",
+        "perspectives",
+        "images",
+        "related_searches"
+       ],
+       "se_results_count": 501000,
+       "last_updated_time": "2025-08-25 23:35:11 +00:00",
+       "previous_updated_time": "2025-07-14 21:32:45 +00:00"
+      },
+      "search_intent_info": {
+       "se_type": "google",
+       "main_intent": "informational",
+       "foreign_intent": null,
+       "last_updated_time": "2026-04-29 13:58:52 +00:00"
+      },
+      "avg_backlinks_info": {
+       "se_type": "google",
+       "backlinks": 15.8,
+       "dofollow": 7.8,
+       "referring_pages": 12.5,
+       "referring_domains": 4.9,
+       "referring_main_domains": 4.8,
+       "rank": 51.7,
+       "main_domain_rank": 435.4,
+       "last_updated_time": "2025-08-30 11:50:40 +00:00"
+      }
+     },
+     "location_code": 2840,
+     "language_code": "en",
+     "total_count": 3,
+     "items_count": 3,
+     "offset": 0,
+     "offset_token": "eyJDdXJyZW50T2Zmc2V0IjozLCJSZXF1ZXN0RGF0YSI6eyJrZXl3b3JkIjoiYmVya2V5IHdhdGVyIGZpbHRlciByZXZpZXciLCJpbmNsdWRlX3NlZWRfa2V5d29yZCI6dHJ1ZSwiZnVsbF9tYXRjaCI6ZmFsc2UsImxvYWRfc2VycF9pbmZvIjpmYWxzZSwic2VhcmNoX2FmdGVyX3Rva2VuIjpudWxsLCJpZ25vcmVfc3lub255bXMiOmZhbHNlLCJsYW5ndWFnZSI6ImVuIiwic2VhcmNoX2VuZ2luZSI6Imdvb2dsZSIsImxvY2F0aW9uIjoyODQwLCJ1c2VfbmV3X2NhdGVnb3JpZXMiOnRydWUsIm9yZGVyX2J5Ijp7Im9yZGVyX2ZpZWxkIjoia2V5d29yZF9pbmZvLnNlYXJjaF92b2x1bWUiLCJvcmRlcl90eXBlIjoiRGVzYyIsIm5leHQiOm51bGx9LCJsaW1pdCI6NDAsIm9mZnNldCI6MCwiYWlkIjoyMzMwODIsInVzZV9jYWNoZSI6dHJ1ZSwidGFza19pZCI6IjA4MjYxMTUyLTIzMzAtMDM5OS0wMDAwLTkxZjQxYTVjMDk2ZiIsImZsYWdzIjpudWxsfSwiUmF3UXVlcnkiOnsiZmllbGQiOiJrZXl3b3JkX2luZm8uc2VhcmNoX3ZvbHVtZSIsInR5cGUiOiJndCIsInZhbHVlIjoxMDB9LCJJZCI6ImU3MDY0YzlkLWIzYzgtNDE5ZC1hYTVmLWI0MmMyOGE4MzdlYSIsIlNlYXJjaEFmdGVyRGF0YSI6WzU5MCwiZTRhMWI2OTktYTdjNi05ZDdkLWJlNTktMmJiMGMyZTMzYTQ3Il0sIkV4ZWN1dG9yIjotOTE4NDQwNTk0MDQ0NDUxNzYzM30=",
+     "items": [
+      {
+       "se_type": "google",
+       "keyword": "berkey water filter review",
+       "location_code": 2840,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-08-26 01:27:45 +00:00",
+        "competition": 1,
+        "competition_level": "HIGH",
+        "cpc": null,
+        "search_volume": 590,
+        "low_top_of_page_bid": 0.43,
+        "high_top_of_page_bid": 5,
+        "categories": [
+         10009,
+         10407
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 480
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 390
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 590
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 590
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 720
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 480
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 590
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 480
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 480
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 390
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 590
+         },
+         {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 720
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": 23,
+         "quarterly": -19,
+         "yearly": -45
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 0,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 4
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 15.8,
+        "dofollow": 7.8,
+        "referring_pages": 12.5,
+        "referring_domains": 4.9,
+        "referring_main_domains": 4.8,
+        "rank": 51.7,
+        "main_domain_rank": 435.4,
+        "last_updated_time": "2025-08-30 11:50:40 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "informational",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-29 13:58:52 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "review berkey water filter",
+       "location_code": 2840,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-08-18 02:13:41 +00:00",
+        "competition": 1,
+        "competition_level": "HIGH",
+        "cpc": 2.19,
+        "search_volume": 590,
+        "low_top_of_page_bid": 0.43,
+        "high_top_of_page_bid": 5,
+        "categories": [
+         10009,
+         10407
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 480
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 390
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 590
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 590
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 720
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 480
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 590
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 480
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 480
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 390
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 590
+         },
+         {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 720
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": 23,
+         "quarterly": -19,
+         "yearly": -45
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": "berkey water filter review",
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 0,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 4
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 16.3,
+        "dofollow": 12.4,
+        "referring_pages": 14.4,
+        "referring_domains": 6.8,
+        "referring_main_domains": 6.8,
+        "rank": 46,
+        "main_domain_rank": 355,
+        "last_updated_time": "2026-05-21 00:42:55 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "informational",
+        "foreign_intent": [
+         "commercial"
+        ],
+        "last_updated_time": "2026-04-29 19:46:56 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "water filter berkey review",
+       "location_code": 2840,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-08-20 04:33:31 +00:00",
+        "competition": 1,
+        "competition_level": "HIGH",
+        "cpc": 2.19,
+        "search_volume": 590,
+        "low_top_of_page_bid": 0.43,
+        "high_top_of_page_bid": 5,
+        "categories": [
+         10009,
+         10407
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 480
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 390
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 590
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 590
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 720
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 480
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 590
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 480
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 480
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 390
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 590
+         },
+         {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 720
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": 23,
+         "quarterly": -19,
+         "yearly": -45
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": "berkey water filter review",
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 0,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 4
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 27.8,
+        "dofollow": 19,
+        "referring_pages": 24.5,
+        "referring_domains": 10.9,
+        "referring_main_domains": 10.5,
+        "rank": 54.3,
+        "main_domain_rank": 475.1,
+        "last_updated_time": "2025-07-14 20:04:26 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "informational",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-30 02:31:03 +00:00"
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

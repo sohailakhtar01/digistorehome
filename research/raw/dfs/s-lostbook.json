@@ -1,0 +1,154 @@
+{
+ "version": "0.1.20260826",
+ "status_code": 20000,
+ "status_message": "Ok.",
+ "time": "3.6183 sec.",
+ "cost": 0.002,
+ "tasks_count": 1,
+ "tasks_error": 0,
+ "tasks": [
+  {
+   "id": "08261152-2330-0121-0000-26ee06dd00da",
+   "status_code": 20000,
+   "status_message": "Ok.",
+   "time": "3.5307 sec.",
+   "cost": 0.002,
+   "result_count": 1,
+   "path": [
+    "v3",
+    "serp",
+    "google",
+    "organic",
+    "live",
+    "regular"
+   ],
+   "data": {
+    "api": "serp",
+    "function": "live",
+    "se": "google",
+    "se_type": "organic",
+    "keyword": "the lost book of herbal remedies",
+    "location_code": 2840,
+    "language_code": "en",
+    "device": "desktop",
+    "depth": 10,
+    "os": "windows"
+   },
+   "result": [
+    {
+     "keyword": "the lost book of herbal remedies",
+     "type": "organic",
+     "se_domain": "google.com",
+     "location_code": 2840,
+     "language_code": "en",
+     "check_url": "https://www.google.com/search?q=the%20lost%20book%20of%20herbal%20remedies&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+     "datetime": "2026-08-26 11:53:01 +00:00",
+     "spell": null,
+     "refinement_chips": null,
+     "item_types": [
+      "ai_overview",
+      "popular_products",
+      "people_also_ask",
+      "organic",
+      "video",
+      "related_searches",
+      "knowledge_graph"
+     ],
+     "se_results_count": 187,
+     "pages_count": 1,
+     "items_count": 8,
+     "items": [
+      {
+       "type": "organic",
+       "rank_group": 1,
+       "rank_absolute": 4,
+       "page": 1,
+       "domain": "www.ebay.com",
+       "title": "The Lost Book of Herbal Remedies (paperback with color ...",
+       "description": "304 color pages featuring over 800 plants and remedies you can use for most common ailments. Each plant has multiple high-quality color pictures, the location ...",
+       "url": "https://www.ebay.com/itm/353072963766",
+       "breadcrumb": "https://www.ebay.com › ... › Books & Magazines › Books"
+      },
+      {
+       "type": "organic",
+       "rank_group": 2,
+       "rank_absolute": 5,
+       "page": 1,
+       "domain": "search.library.oregonstate.edu",
+       "title": "The lost book of herbal remedies : the healing power of plant ...",
+       "description": "The Lost Book of Herbal Remedies has color pictures of over 181 healing plants, lichens, and mushrooms of North America (2-4 pictures/plant for easy ... Read more",
+       "url": "https://search.library.oregonstate.edu/discovery/fulldisplay/alma991211129101865/01ALLIANCE_OSU:OSU",
+       "breadcrumb": "https://search.library.oregonstate.edu › fulldisplay › alma..."
+      },
+      {
+       "type": "organic",
+       "rank_group": 3,
+       "rank_absolute": 6,
+       "page": 1,
+       "domain": "nicoleapelian.com",
+       "title": "The Lost Book of Herbal Remedies - Nicole Apelian",
+       "description": "Healing Salves, How-To, Natural Remedies Never made a salve before? The simple recipes in this post will have you cooking up your own herbal remedies quickly.",
+       "url": "https://nicoleapelian.com/blog/tag/the-lost-book-of-herbal-remedies/",
+       "breadcrumb": "https://nicoleapelian.com › blog › tag › the-lost-book-o..."
+      },
+      {
+       "type": "organic",
+       "rank_group": 4,
+       "rank_absolute": 7,
+       "page": 1,
+       "domain": "www.facebook.com",
+       "title": "Has anyone used the \"Lost Book of Herbal Remedies\"?",
+       "description": "Has anyone purchased and used the book \"Lost Book of Herbal Remedies\" by Nicole Apelian? I enjoyed watching and learning from her when she was on the ...",
+       "url": "https://www.facebook.com/groups/WillForageforFood/posts/3401286046805555/",
+       "breadcrumb": "40+ comments  ·  3 years ago"
+      },
+      {
+       "type": "organic",
+       "rank_group": 5,
+       "rank_absolute": 9,
+       "page": 1,
+       "domain": "www.walmart.com",
+       "title": "The Lost Book of Herbal Remedies - Paperback (Paperback)",
+       "description": "Contains 550 powerful natural remedies for daily needs. Over 801 medicinal plants and natural remedies included. Authored by Dr. Nicole Apelian, an herbalist ...",
+       "url": "https://www.walmart.com/ip/The-Lost-Book-of-Herbal-Remedies-Paperback-Book-9781732557109/891448517",
+       "breadcrumb": "https://www.walmart.com › Books › All Books"
+      },
+      {
+       "type": "organic",
+       "rank_group": 6,
+       "rank_absolute": 11,
+       "page": 1,
+       "domain": "www.vox.com",
+       "title": "Misleading TikTok Shop ads turned The Lost Book of ... - Vox",
+       "description": "May 9, 2024 — The camera lingered on a list of plants that, the book claimed, were treatments for cancer, drug addiction, heart attacks, and herpes. The book ...",
+       "url": "https://www.vox.com/24152358/tiktok-shop-ads-lost-book-of-herbal-remedies-bestseller",
+       "breadcrumb": "https://www.vox.com › ... › Social Media › TikTok"
+      },
+      {
+       "type": "organic",
+       "rank_group": 7,
+       "rank_absolute": 12,
+       "page": 1,
+       "domain": "www.goodreads.com",
+       "title": "The Lost Book of Herbal Remedies by Nicole Apelian",
+       "description": "Jan 1, 2021 — The Lost Book of Herbal Remedies is helping Americans achieve medical self-sufficiency even in the darkest times using the time-tested methods ... Read more",
+       "url": "https://www.goodreads.com/book/show/53453509-the-lost-book-of-herbal-remedies",
+       "breadcrumb": "https://www.goodreads.com › book › show › 5345350..."
+      },
+      {
+       "type": "organic",
+       "rank_group": 8,
+       "rank_absolute": 13,
+       "page": 1,
+       "domain": "www.amazon.com",
+       "title": "Review - The Lost Book Of Herbal Remedies",
+       "description": "Discover nature's healing secrets ! Brandon and Glory Aaronson raves about.",
+       "url": "https://www.amazon.com/live/video/0c0d47ad91204634b91b56837cc22480",
+       "breadcrumb": "https://www.amazon.com · Jul 27, 2024"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

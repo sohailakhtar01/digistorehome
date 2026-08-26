@@ -1,0 +1,152 @@
+{
+ "version": "0.1.20260826",
+ "status_code": 20000,
+ "status_message": "Ok.",
+ "time": "2.2517 sec.",
+ "cost": 0.002,
+ "tasks_count": 1,
+ "tasks_error": 0,
+ "tasks": [
+  {
+   "id": "08261153-2330-0121-0000-d55d4dabb356",
+   "status_code": 20000,
+   "status_message": "Ok.",
+   "time": "2.1698 sec.",
+   "cost": 0.002,
+   "result_count": 1,
+   "path": [
+    "v3",
+    "serp",
+    "google",
+    "organic",
+    "live",
+    "regular"
+   ],
+   "data": {
+    "api": "serp",
+    "function": "live",
+    "se": "google",
+    "se_type": "organic",
+    "keyword": "lost book of herbal remedies review",
+    "location_code": 2840,
+    "language_code": "en",
+    "device": "desktop",
+    "depth": 10,
+    "os": "windows"
+   },
+   "result": [
+    {
+     "keyword": "lost book of herbal remedies review",
+     "type": "organic",
+     "se_domain": "google.com",
+     "location_code": 2840,
+     "language_code": "en",
+     "check_url": "https://www.google.com/search?q=lost%20book%20of%20herbal%20remedies%20review&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+     "datetime": "2026-08-26 11:53:04 +00:00",
+     "spell": null,
+     "refinement_chips": null,
+     "item_types": [
+      "ai_overview",
+      "organic",
+      "people_also_ask",
+      "video",
+      "related_searches"
+     ],
+     "se_results_count": 172,
+     "pages_count": 1,
+     "items_count": 8,
+     "items": [
+      {
+       "type": "organic",
+       "rank_group": 1,
+       "rank_absolute": 2,
+       "page": 1,
+       "domain": "www.facebook.com",
+       "title": "Has anyone used the \"Lost Book of Herbal Remedies\"?",
+       "description": "Has anyone purchased and used the book \"Lost Book of Herbal Remedies\" by Nicole Apelian? I enjoyed watching and learning from her when she was on the ...",
+       "url": "https://www.facebook.com/groups/WillForageforFood/posts/3401286046805555/",
+       "breadcrumb": "40+ comments  ·  3 years ago"
+      },
+      {
+       "type": "organic",
+       "rank_group": 2,
+       "rank_absolute": 4,
+       "page": 1,
+       "domain": "www.goodreads.com",
+       "title": "The Lost Book of Herbal Remedies by Nicole Apelian",
+       "description": "Really good reference source for herbal home remedies. The detailed pictures are very helpful when identifying the plants out in the wilds.",
+       "url": "https://www.goodreads.com/book/show/56666083",
+       "breadcrumb": "https://www.goodreads.com › book › show"
+      },
+      {
+       "type": "organic",
+       "rank_group": 3,
+       "rank_absolute": 6,
+       "page": 1,
+       "domain": "www.amazon.com.be",
+       "title": "The lost book of herbal remedies: the healing power ...",
+       "description": "304 color pages featuring over 800 plants and remedies you can use for most common ailments. Customer Reviews 3.5 out of 5 stars 13Reviews",
+       "url": "https://www.amazon.com.be/-/en/lost-book-herbal-remedies-medicine/dp/B0FX2M9CKK",
+       "breadcrumb": "https://www.amazon.com.be › lost-book-herbal-remedies..."
+      },
+      {
+       "type": "organic",
+       "rank_group": 4,
+       "rank_absolute": 7,
+       "page": 1,
+       "domain": "www.vox.com",
+       "title": "Misleading TikTok Shop ads turned The Lost Book of ... - Vox",
+       "description": "May 9, 2024 — The book contains misleading information, and creators are circulating misleading health claims in order to sell books.",
+       "url": "https://www.vox.com/24152358/tiktok-shop-ads-lost-book-of-herbal-remedies-bestseller",
+       "breadcrumb": "https://www.vox.com › ... › Social Media › TikTok"
+      },
+      {
+       "type": "organic",
+       "rank_group": 5,
+       "rank_absolute": 8,
+       "page": 1,
+       "domain": "www.reddit.com",
+       "title": "Lost Book of Herbal Remedies",
+       "description": "This book looks extremely interesting online bit. Wow, this is amazing! I can already see I'm in for an education.",
+       "url": "https://www.reddit.com/r/herbalism/comments/1bdyrr1/lost_book_of_herbal_remedies/",
+       "breadcrumb": "20+ comments  ·  2 years ago"
+      },
+      {
+       "type": "organic",
+       "rank_group": 6,
+       "rank_absolute": 9,
+       "page": 1,
+       "domain": "www.youtube.com",
+       "title": "YouTube",
+       "description": "Share your videos with friends, family, and the world.",
+       "url": "https://www.youtube.com/watch?v=Ulk0HexSLFQ",
+       "breadcrumb": "63.9K+ views  ·  3 years ago"
+      },
+      {
+       "type": "organic",
+       "rank_group": 7,
+       "rank_absolute": 10,
+       "page": 1,
+       "domain": "www.amazon.com.au",
+       "title": "The Lost Book of Herbal Remedies - Paperback",
+       "description": "4.7 out of 5 stars (23,157 ) A comprehensive guide to North American medicinal plants, featuring 550 natural remedies and traditional healing methods … over 800 ...",
+       "url": "https://www.amazon.com.au/Lost-Book-Remedies-Claude-Davis/dp/1732557101",
+       "breadcrumb": "https://www.amazon.com.au › Lost-Book-Remedies-Clau..."
+      },
+      {
+       "type": "organic",
+       "rank_group": 8,
+       "rank_absolute": 11,
+       "page": 1,
+       "domain": "www.ebay.com",
+       "title": "The Lost Book of Herbal Remedies (paperback with color ...",
+       "description": "This natural home remedies book was made for people already familiar with using plants as well as for beginners who want to know more about the healing power ...",
+       "url": "https://www.ebay.com/itm/353072963766",
+       "breadcrumb": "https://www.ebay.com › ... › Books & Magazines › Books"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
