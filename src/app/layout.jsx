@@ -27,7 +27,9 @@ export const metadata = {
   metadataBase: new URL(SITE.url),
   title: {
     default: `${SITE.name} — Honest Homesteading Reviews`,
-    template: `%s | ${SITE.name}`,
+    // shortName, not name: four characters saved on every title, and the
+    // header already uses the short form on narrow screens.
+    template: `%s | ${SITE.shortName}`,
   },
   description: SITE.description,
   applicationName: SITE.name,

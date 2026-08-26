@@ -385,9 +385,9 @@ export const HERB_GUIDES = {
   },
   yarrow: {
     title: "How to Grow Yarrow From Seed (And Why Year One Looks Like Failure)",
-    seoTitle: "How to Grow Yarrow From Seed",
+    seoTitle: "How to Plant Yarrow Seeds",
     description:
-      "Yarrow needs light to germinate, so surface sow it. Then expect foliage and no flowers in year one — that is normal, not a seed failure.",
+      "Yarrow seed needs light, so surface sow it and never bury it. When to plant, how to keep the tray damp, and why year one is foliage only.",
     standfirst:
       "Yarrow is genuinely easy to grow and genuinely frustrating to grow from seed, because everything it does in the first year looks like nothing happening.",
     sections: [
@@ -684,9 +684,9 @@ export const HERB_GUIDES = {
   },
   feverfew: {
     title: "How to Grow Feverfew From Seed (And How to Stop It Taking Over)",
-    seoTitle: "How to Grow Feverfew From Seed",
+    seoTitle: "Where to Plant Feverfew and How to Grow It",
     description:
-      "Feverfew surface sows easily, flowers in year one if started early, and self-seeds hard enough to take over a bed. How to grow it and contain it.",
+      "Where to put feverfew matters more than how you sow it, because it self-seeds hard. Surface sowing, first-year flowers, and how to contain it.",
     standfirst:
       "Feverfew is easy to grow and easy to end up with far too much of. The skill with this plant is not germination — it is containment.",
     sections: [
@@ -771,9 +771,9 @@ export const HERB_GUIDES = {
   },
   chicory: {
     title: "How to Grow Chicory From Seed (Check Your Region First)",
-    seoTitle: "How to Grow Chicory From Seed",
+    seoTitle: "How to Plant Chicory Seeds",
     description:
-      "Chicory has naturalised widely, so check your local weed list first. Then direct sow — the taproot will not survive being moved — and lift in autumn.",
+      "Check your local weed list first — chicory has naturalised widely. Then direct sow, because the taproot will not survive being transplanted.",
     standfirst:
       "Chicory germinates in a week, tolerates drought, and comes back for years. Those same qualities are why it has naturalised across much of North America, so the first step here is not sowing.",
     sections: [
@@ -858,7 +858,7 @@ export const HERB_GUIDES = {
   },
   marshmallow: {
     title: "How to Grow Marshmallow Root From Seed (Stratify It, and Keep It Wet)",
-    seoTitle: "How to Grow Marshmallow From Seed",
+    seoTitle: "How to Grow Marshmallow Root From Seed",
     description:
       "Marshmallow germinates erratically without three to four weeks of cold stratification, and it wants genuinely damp ground. How to get both right.",
     standfirst:
@@ -963,9 +963,9 @@ export const HERB_GUIDES = {
   },
   "evening-primrose": {
     title: "How to Grow Evening Primrose From Seed (Year One Is Leaves Only)",
-    seoTitle: "How to Grow Evening Primrose From Seed",
+    seoTitle: "Evening Primrose: Where and How to Plant",
     description:
-      "Evening primrose is a biennial: a leaf rosette in year one, flowers in year two. That is not failure. How to sow it and get blooms every year after.",
+      "Where to plant evening primrose, how shallow to sow it, and why a biennial gives you a leaf rosette in year one and flowers only in year two.",
     standfirst:
       "This is the most commonly misdiagnosed failure in the whole kit. Evening primrose does exactly what it is supposed to do in year one, and what it is supposed to do looks like nothing.",
     sections: [
