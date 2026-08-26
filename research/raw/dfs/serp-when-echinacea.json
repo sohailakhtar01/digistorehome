@@ -1,0 +1,152 @@
+{
+ "version": "0.1.20260826",
+ "status_code": 20000,
+ "status_message": "Ok.",
+ "time": "2.4682 sec.",
+ "cost": 0.002,
+ "tasks_count": 1,
+ "tasks_error": 0,
+ "tasks": [
+  {
+   "id": "08261017-2330-0121-0000-1faa070dd5f6",
+   "status_code": 20000,
+   "status_message": "Ok.",
+   "time": "1.9247 sec.",
+   "cost": 0.002,
+   "result_count": 1,
+   "path": [
+    "v3",
+    "serp",
+    "google",
+    "organic",
+    "live",
+    "regular"
+   ],
+   "data": {
+    "api": "serp",
+    "function": "live",
+    "se": "google",
+    "se_type": "organic",
+    "keyword": "when to plant echinacea seeds",
+    "location_code": 2840,
+    "language_code": "en",
+    "device": "desktop",
+    "depth": 10,
+    "os": "windows"
+   },
+   "result": [
+    {
+     "keyword": "when to plant echinacea seeds",
+     "type": "organic",
+     "se_domain": "google.com",
+     "location_code": 2840,
+     "language_code": "en",
+     "check_url": "https://www.google.com/search?q=when%20to%20plant%20echinacea%20seeds&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+     "datetime": "2026-08-26 10:17:35 +00:00",
+     "spell": null,
+     "refinement_chips": null,
+     "item_types": [
+      "ai_overview",
+      "people_also_ask",
+      "organic",
+      "video",
+      "related_searches"
+     ],
+     "se_results_count": 124,
+     "pages_count": 1,
+     "items_count": 8,
+     "items": [
+      {
+       "type": "organic",
+       "rank_group": 1,
+       "rank_absolute": 3,
+       "page": 1,
+       "domain": "www.reddit.com",
+       "title": "Tell me about planting coneflower seeds : r/gardening",
+       "description": "I'm planning on putting them in the ground in the fall but I'm not sure if I should expect growth in the spring or if they will take 2 years. Do ... Read more",
+       "url": "https://www.reddit.com/r/gardening/comments/6y7992/tell_me_about_planting_coneflower_seeds/",
+       "breadcrumb": "10+ comments  ·  8 years ago"
+      },
+      {
+       "type": "organic",
+       "rank_group": 2,
+       "rank_absolute": 4,
+       "page": 1,
+       "domain": "www.americanmeadows.com",
+       "title": "How to Grow Echinacea Plants",
+       "description": "Mar 24, 2017 — Plant Echinacea plants in the spring or the fall, in well-drained soil in full to part sun. Sow seeds thickly in the fall",
+       "url": "https://www.americanmeadows.com/blogs/perennials/how-to-grow-echinacea?srsltid=AfmBOoqwoHh4BeIQffKXRgayDVEhk6Sty6ghhHb_gGsRsgFQYbdu-ruD",
+       "breadcrumb": "https://www.americanmeadows.com › blogs › perennials"
+      },
+      {
+       "type": "organic",
+       "rank_group": 3,
+       "rank_absolute": 5,
+       "page": 1,
+       "domain": "hgic.clemson.edu",
+       "title": "How to Grow Echinacea (Coneflower): Care, Cultivars ...",
+       "description": "Apr 9, 2025 — Seedlings should be ready to transplant 20 to 28 days after sowing. Seeds can also be started outdoors in the spring or summer, up to 2 months ... Read more",
+       "url": "https://hgic.clemson.edu/factsheet/echinacea/",
+       "breadcrumb": "https://hgic.clemson.edu › Factsheets"
+      },
+      {
+       "type": "organic",
+       "rank_group": 4,
+       "rank_absolute": 7,
+       "page": 1,
+       "domain": "www.siskiyouseeds.com",
+       "title": "How to Grow Echinacea",
+       "description": "Jan 15, 2021 — Echinacea requires about four weeks of cold stratification. Once those four weeks have passed. Take the seeds out of the fridge and sow as you ... Read more",
+       "url": "https://www.siskiyouseeds.com/blogs/news/how-to-grow-echinacea?srsltid=AfmBOooFzVL6_w9nfUD4i6bsX3myGUxQr6nNZ1xnPb0G93d4agXf_qZL",
+       "breadcrumb": "https://www.siskiyouseeds.com › blogs › news › how-to..."
+      },
+      {
+       "type": "organic",
+       "rank_group": 5,
+       "rank_absolute": 8,
+       "page": 1,
+       "domain": "www.youtube.com",
+       "title": "Planting Flower Seeds: Echinacea purpurea & SO Many ...",
+       "description": "Planting Flower Seeds: Echinacea purpurea & SO Many Geraniums (370!)! How to Start Coneflower From Seeds - Echinacea purpurea",
+       "url": "https://www.youtube.com/watch?v=obYEAeZG6_c",
+       "breadcrumb": "202.5K+ views  ·  2 years ago"
+      },
+      {
+       "type": "organic",
+       "rank_group": 6,
+       "rank_absolute": 9,
+       "page": 1,
+       "domain": "www.facebook.com",
+       "title": "How to grow echinacea and coneflower seeds?",
+       "description": "Hi! Is it too late to start these seeds in the yard for the season?",
+       "url": "https://www.facebook.com/groups/ncnpf/posts/10163242805141763/",
+       "breadcrumb": "20+ comments  ·  1 year ago"
+      },
+      {
+       "type": "organic",
+       "rank_group": 7,
+       "rank_absolute": 10,
+       "page": 1,
+       "domain": "grow.edenbrothers.com",
+       "title": "How to Plant Coneflower Seeds",
+       "description": "Most echinacea seeds need a period of 8 to 12 weeks of cold moist stratification. late fall or early winter after the first hard frost, You can choose to plant ...",
+       "url": "https://grow.edenbrothers.com/planting-guides/coneflower-seeds/",
+       "breadcrumb": "https://grow.edenbrothers.com › Planting Guides"
+      },
+      {
+       "type": "organic",
+       "rank_group": 8,
+       "rank_absolute": 11,
+       "page": 1,
+       "domain": "www.wildflower.org",
+       "title": "Time to plant echinacea seeds in Austin | NPIN",
+       "description": "Mar 28, 2010 — Description: Seeds may be sown outside in late fall or stored, stratified and sown in the spring. Plants can be multiplied by making root ... Read more",
+       "url": "https://www.wildflower.org/expert/show.php?id=5313",
+       "breadcrumb": "https://www.wildflower.org › expert › show"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

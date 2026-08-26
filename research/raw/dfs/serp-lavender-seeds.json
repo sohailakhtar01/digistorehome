@@ -1,0 +1,154 @@
+{
+ "version": "0.1.20260826",
+ "status_code": 20000,
+ "status_message": "Ok.",
+ "time": "10.7772 sec.",
+ "cost": 0.002,
+ "tasks_count": 1,
+ "tasks_error": 0,
+ "tasks": [
+  {
+   "id": "08261016-2330-0121-0000-34b8465e253b",
+   "status_code": 20000,
+   "status_message": "Ok.",
+   "time": "10.5575 sec.",
+   "cost": 0.002,
+   "result_count": 1,
+   "path": [
+    "v3",
+    "serp",
+    "google",
+    "organic",
+    "live",
+    "regular"
+   ],
+   "data": {
+    "api": "serp",
+    "function": "live",
+    "se": "google",
+    "se_type": "organic",
+    "keyword": "lavender seeds",
+    "location_code": 2840,
+    "language_code": "en",
+    "device": "desktop",
+    "depth": 10,
+    "os": "windows"
+   },
+   "result": [
+    {
+     "keyword": "lavender seeds",
+     "type": "organic",
+     "se_domain": "google.com",
+     "location_code": 2840,
+     "language_code": "en",
+     "check_url": "https://www.google.com/search?q=lavender%20seeds&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+     "datetime": "2026-08-26 10:16:58 +00:00",
+     "spell": null,
+     "refinement_chips": null,
+     "item_types": [
+      "ai_overview",
+      "organic",
+      "people_also_ask",
+      "popular_products",
+      "images",
+      "product_considerations",
+      "related_searches"
+     ],
+     "se_results_count": 202,
+     "pages_count": 1,
+     "items_count": 8,
+     "items": [
+      {
+       "type": "organic",
+       "rank_group": 1,
+       "rank_absolute": 2,
+       "page": 1,
+       "domain": "www.amazon.com",
+       "title": "HOME GROWN English Lavender Seeds ...",
+       "description": "Lavender Seeds, 1,500+ Seeds, Premium heirloom lavender seeds perfect for teas, baking, syrups, sachets, and essential oils.",
+       "url": "https://www.amazon.com/HOME-GROWN-%F0%9D%97%A3%F0%9D%97%A5%F0%9D%97%98%F0%9D%97%A0%F0%9D%97%9C%F0%9D%97%A8%F0%9D%97%A0-%F0%9D%97%A1%F0%9D%97%A2%F0%9D%97%A1-%F0%9D%97%9A%F0%9D%97%A0%F0%9D%97%A2-%F0%9D%97%A8%F0%9D%97%A6%F0%9D%97%94-%F0%9D%97%A6%F0%9D%97%A2%F0%9D%97%A8%F0%9D%97%A5%F0%9D%97%96%F0%9D%97%98%F0%9D%97%97/dp/B0DQ2JZWBN",
+       "breadcrumb": "https://www.amazon.com › HOME-GROWN-𝗣𝗥𝗘𝗠𝗜𝗨..."
+      },
+      {
+       "type": "organic",
+       "rank_group": 2,
+       "rank_absolute": 5,
+       "page": 1,
+       "domain": "seedtherapy.com",
+       "title": "Lavender, English (Lavandula angustifolia) -100 Seeds",
+       "description": "-100 Seeds for only $1.95 – Heirloom, American-grown by Seed Therapy. Sale price $1.99 Regular price $3.99 ・ seeds Type: Heirloom, ennial Height: 24-36 inches ...",
+       "url": "https://seedtherapy.com/products/lavender-english-lavandula-angustifolia-100-seeds?srsltid=AfmBOoosqyiHZNibpN-HB8cWdD-bpbqdhGGRD1_-VVK7yuvieqHKOKaS",
+       "breadcrumb": "https://seedtherapy.com › products › lavender-english-l..."
+      },
+      {
+       "type": "organic",
+       "rank_group": 3,
+       "rank_absolute": 6,
+       "page": 1,
+       "domain": "www.edenbrothers.com",
+       "title": "Lavender Seeds | Shop 9 Varieties",
+       "description": "From minor burns and bug bites to anxiety, insomnia, and everything in between, lavender has become a popular heal-all for a multitude of ailments.",
+       "url": "https://www.edenbrothers.com/collections/lavender_seed?srsltid=AfmBOoqXtGHtDKFHUHl59mYNA_2EmwUhpC9xtnfi7p5RJSEnO8u8kNZJ",
+       "breadcrumb": "https://www.edenbrothers.com › Flower Seeds"
+      },
+      {
+       "type": "organic",
+       "rank_group": 4,
+       "rank_absolute": 7,
+       "page": 1,
+       "domain": "ferrymorse.com",
+       "title": "Lavender True Organic Seeds | Aromatherapy Herb Garden",
+       "description": "True Organic Seeds, 200mg. Lavender Organic Seeds grow into a beautiful, aromatic herb known for its highly fragrant flowers and classic lavender scent. non- ...",
+       "url": "https://ferrymorse.com/products/lavender-true-organic-seeds?srsltid=AfmBOop2Zyp8CwIrTrVv_ly9BN705ktytR6vvkkOCRCHqKI2YYi1vXhK",
+       "breadcrumb": "https://ferrymorse.com › products › lavender-true-organi..."
+      },
+      {
+       "type": "organic",
+       "rank_group": 5,
+       "rank_absolute": 8,
+       "page": 1,
+       "domain": "www.youtube.com",
+       "title": "Tips & Tricks To Growing Lavender From Seed | How To ...",
+       "description": "In this video, I show you how to plant / sow lavender seeds and I go over other things lavender seeds need in order to germinate.",
+       "url": "https://www.youtube.com/watch?v=mzgcv3SIvcE",
+       "breadcrumb": "39.5K+ views  ·  1 year ago"
+      },
+      {
+       "type": "organic",
+       "rank_group": 6,
+       "rank_absolute": 9,
+       "page": 1,
+       "domain": "www.rareseeds.com",
+       "title": "Lavender Seeds, Vera",
+       "description": "Experience the joy of growing your own Lavender with seeds from RareSeeds.com. Shop now for pure, natural, non-GMO heirloom seeds!",
+       "url": "https://www.rareseeds.com/lavender",
+       "breadcrumb": "https://www.rareseeds.com › ... › Lavender Seeds"
+      },
+      {
+       "type": "organic",
+       "rank_group": 7,
+       "rank_absolute": 10,
+       "page": 1,
+       "domain": "www.gardenia.net",
+       "title": "How to Grow Lavender from Seeds: Fragrant Flowers Made ...",
+       "description": "Lavender seeds typically take 2 to 4 weeks to germinate, but in some cases, germination can take as long as 6 weeks. Proper warmth, light, and consistent ... Read more",
+       "url": "https://www.gardenia.net/guide/how-to-grow-lavender-from-seeds-fragrant-flowers-made-simple",
+       "breadcrumb": "https://www.gardenia.net › Guides"
+      },
+      {
+       "type": "organic",
+       "rank_group": 8,
+       "rank_absolute": 11,
+       "page": 1,
+       "domain": "www.johnnyseeds.com",
+       "title": "Lavender Seeds - Organic Varieties",
+       "description": "Choose from English lavender seeds in a range of violet shades. Bulk seed quantities available. Organic seed options. 100% satisfaction guaranteed.",
+       "url": "https://www.johnnyseeds.com/herbs/lavender/?srsltid=AfmBOoppfpEpMKyVYqBy5EVezqWSGicfnK4EJm4PsEINpTPfTrsOPNOy",
+       "breadcrumb": "https://www.johnnyseeds.com › herbs › lavender"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

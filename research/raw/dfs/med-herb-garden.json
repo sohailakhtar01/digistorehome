@@ -1,0 +1,910 @@
+{
+ "version": "0.1.20260826",
+ "status_code": 20000,
+ "status_message": "Ok.",
+ "time": "0.0688 sec.",
+ "cost": 0.01272,
+ "tasks_count": 1,
+ "tasks_error": 0,
+ "tasks": [
+  {
+   "id": "08261015-2330-0399-0000-04525e5a4cdf",
+   "status_code": 20000,
+   "status_message": "Ok.",
+   "time": "0.0574 sec.",
+   "cost": 0.01272,
+   "result_count": 1,
+   "path": [
+    "v3",
+    "dataforseo_labs",
+    "google",
+    "keyword_suggestions",
+    "live"
+   ],
+   "data": {
+    "api": "dataforseo_labs",
+    "function": "keyword_suggestions",
+    "se_type": "google",
+    "keyword": "medicinal herb garden",
+    "location_code": 2840,
+    "language_code": "en",
+    "limit": 200,
+    "include_seed_keyword": true,
+    "order_by": [
+     "keyword_info.search_volume,desc"
+    ],
+    "filters": [
+     [
+      "keyword_info.search_volume",
+      ">",
+      100
+     ]
+    ]
+   },
+   "result": [
+    {
+     "se_type": "google",
+     "seed_keyword": "medicinal herb garden",
+     "seed_keyword_data": {
+      "se_type": "google",
+      "keyword": "medicinal herb garden",
+      "location_code": 2840,
+      "language_code": "en",
+      "keyword_info": {
+       "se_type": "google",
+       "last_updated_time": "2026-07-15 05:06:31 +00:00",
+       "competition": 0.85,
+       "competition_level": "HIGH",
+       "cpc": 0.38,
+       "search_volume": 480,
+       "low_top_of_page_bid": 0.02,
+       "high_top_of_page_bid": 0.73,
+       "categories": [
+        10011,
+        10091,
+        10507
+       ],
+       "monthly_searches": [
+        {
+         "year": 2026,
+         "month": 6,
+         "search_volume": 390
+        },
+        {
+         "year": 2026,
+         "month": 5,
+         "search_volume": 590
+        },
+        {
+         "year": 2026,
+         "month": 4,
+         "search_volume": 720
+        },
+        {
+         "year": 2026,
+         "month": 3,
+         "search_volume": 720
+        },
+        {
+         "year": 2026,
+         "month": 2,
+         "search_volume": 590
+        },
+        {
+         "year": 2026,
+         "month": 1,
+         "search_volume": 590
+        },
+        {
+         "year": 2025,
+         "month": 12,
+         "search_volume": 320
+        },
+        {
+         "year": 2025,
+         "month": 11,
+         "search_volume": 320
+        },
+        {
+         "year": 2025,
+         "month": 10,
+         "search_volume": 320
+        },
+        {
+         "year": 2025,
+         "month": 9,
+         "search_volume": 390
+        },
+        {
+         "year": 2025,
+         "month": 8,
+         "search_volume": 390
+        },
+        {
+         "year": 2025,
+         "month": 7,
+         "search_volume": 480
+        }
+       ],
+       "search_volume_trend": {
+        "monthly": -34,
+        "quarterly": -46,
+        "yearly": -34
+       }
+      },
+      "keyword_info_normalized_with_bing": null,
+      "keyword_info_normalized_with_clickstream": null,
+      "clickstream_keyword_info": null,
+      "keyword_properties": {
+       "se_type": "google",
+       "core_keyword": null,
+       "synonym_clustering_algorithm": "text_processing",
+       "keyword_difficulty": 7,
+       "detected_language": "en",
+       "is_another_language": false,
+       "words_count": 3
+      },
+      "serp_info": {
+       "se_type": "google",
+       "check_url": "https://www.google.com/search?q=medicinal%20herb%20garden&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+       "serp_item_types": [
+        "ai_overview",
+        "organic",
+        "people_also_ask",
+        "video",
+        "popular_products",
+        "related_searches",
+        "images"
+       ],
+       "se_results_count": 181,
+       "last_updated_time": "2026-08-03 11:45:15 +00:00",
+       "previous_updated_time": "2026-05-21 06:00:26 +00:00"
+      },
+      "search_intent_info": {
+       "se_type": "google",
+       "main_intent": "informational",
+       "foreign_intent": null,
+       "last_updated_time": "2026-04-29 15:43:14 +00:00"
+      },
+      "avg_backlinks_info": {
+       "se_type": "google",
+       "backlinks": 42.8,
+       "dofollow": 20.7,
+       "referring_pages": 36.7,
+       "referring_domains": 19.2,
+       "referring_main_domains": 13.1,
+       "rank": 94.3,
+       "main_domain_rank": 455.1,
+       "last_updated_time": "2026-08-03 11:45:15 +00:00"
+      }
+     },
+     "location_code": 2840,
+     "language_code": "en",
+     "total_count": 6,
+     "items_count": 6,
+     "offset": 0,
+     "offset_token": "eyJDdXJyZW50T2Zmc2V0Ijo2LCJSZXF1ZXN0RGF0YSI6eyJrZXl3b3JkIjoibWVkaWNpbmFsIGhlcmIgZ2FyZGVuIiwiaW5jbHVkZV9zZWVkX2tleXdvcmQiOnRydWUsImZ1bGxfbWF0Y2giOmZhbHNlLCJsb2FkX3NlcnBfaW5mbyI6ZmFsc2UsInNlYXJjaF9hZnRlcl90b2tlbiI6bnVsbCwiaWdub3JlX3N5bm9ueW1zIjpmYWxzZSwibGFuZ3VhZ2UiOiJlbiIsInNlYXJjaF9lbmdpbmUiOiJnb29nbGUiLCJsb2NhdGlvbiI6Mjg0MCwidXNlX25ld19jYXRlZ29yaWVzIjp0cnVlLCJvcmRlcl9ieSI6eyJvcmRlcl9maWVsZCI6ImtleXdvcmRfaW5mby5zZWFyY2hfdm9sdW1lIiwib3JkZXJfdHlwZSI6IkRlc2MiLCJuZXh0IjpudWxsfSwibGltaXQiOjIwMCwib2Zmc2V0IjowLCJhaWQiOjIzMzA4MiwidXNlX2NhY2hlIjp0cnVlLCJ0YXNrX2lkIjoiMDgyNjEwMTUtMjMzMC0wMzk5LTAwMDAtMDQ1MjVlNWE0Y2RmIiwiZmxhZ3MiOm51bGx9LCJSYXdRdWVyeSI6eyJmaWVsZCI6ImtleXdvcmRfaW5mby5zZWFyY2hfdm9sdW1lIiwidHlwZSI6Imd0IiwidmFsdWUiOjEwMH0sIklkIjoiYTVlNzM2OGQtMGM2MS00ZDdkLTg5YWQtMGYwMzA1MzI5OTk3IiwiU2VhcmNoQWZ0ZXJEYXRhIjpbMTEwLCIzZGM5ZDYyYy0wYTk3LWRiMzAtOTZhNS05YTBjNjhmNTBiN2EiXSwiRXhlY3V0b3IiOi05MTg0NDA1OTQwNDQ0NTE3NjMzfQ==",
+     "items": [
+      {
+       "se_type": "google",
+       "keyword": "medicinal herb garden",
+       "location_code": 2840,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-07-15 05:06:31 +00:00",
+        "competition": 0.85,
+        "competition_level": "HIGH",
+        "cpc": 0.38,
+        "search_volume": 480,
+        "low_top_of_page_bid": 0.02,
+        "high_top_of_page_bid": 0.73,
+        "categories": [
+         10011,
+         10091,
+         10507
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 390
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 590
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 720
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 720
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 590
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 590
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 320
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 320
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 320
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 390
+         },
+         {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 390
+         },
+         {
+          "year": 2025,
+          "month": 7,
+          "search_volume": 480
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": -34,
+         "quarterly": -46,
+         "yearly": -34
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 7,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 3
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 42.8,
+        "dofollow": 20.7,
+        "referring_pages": 36.7,
+        "referring_domains": 19.2,
+        "referring_main_domains": 13.1,
+        "rank": 94.3,
+        "main_domain_rank": 455.1,
+        "last_updated_time": "2026-08-03 11:45:15 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "informational",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-29 15:43:14 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "herb garden medicinal",
+       "location_code": 2840,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-08-19 00:03:52 +00:00",
+        "competition": 0.86,
+        "competition_level": "HIGH",
+        "cpc": 0.27,
+        "search_volume": 480,
+        "low_top_of_page_bid": 0.02,
+        "high_top_of_page_bid": 0.74,
+        "categories": [
+         10011,
+         10089,
+         11772,
+         12930
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 320
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 390
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 590
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 720
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 720
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 590
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 590
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 320
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 320
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 320
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 390
+         },
+         {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 390
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": -18,
+         "quarterly": -46,
+         "yearly": -33
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": "medicinal herb garden",
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 7,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 3
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 1489.3,
+        "dofollow": 1336,
+        "referring_pages": 1392.7,
+        "referring_domains": 105.7,
+        "referring_main_domains": 99.9,
+        "rank": 133.7,
+        "main_domain_rank": 372.9,
+        "last_updated_time": "2024-09-25 17:14:54 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "informational",
+        "foreign_intent": [
+         "transactional"
+        ],
+        "last_updated_time": "2026-04-29 16:46:38 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "medicinal herb garden layout",
+       "location_code": 2840,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-08-19 12:04:44 +00:00",
+        "competition": 0.43,
+        "competition_level": "MEDIUM",
+        "cpc": 0.45,
+        "search_volume": 170,
+        "low_top_of_page_bid": null,
+        "high_top_of_page_bid": null,
+        "categories": [
+         10015,
+         11545,
+         13658
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 140
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 140
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 260
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 260
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 260
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 210
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 170
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 90
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 50
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 90
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 110
+         },
+         {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 140
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": 0,
+         "quarterly": -46,
+         "yearly": -33
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": null,
+        "keyword_difficulty": 0,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 4
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 12.8,
+        "dofollow": 7.2,
+        "referring_pages": 9.9,
+        "referring_domains": 5.6,
+        "referring_main_domains": 5.3,
+        "rank": 50.6,
+        "main_domain_rank": 365.8,
+        "last_updated_time": "2026-07-09 02:37:42 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "informational",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-29 19:46:40 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "uw medicinal herb garden",
+       "location_code": 2840,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-08-19 20:04:40 +00:00",
+        "competition": 0.02,
+        "competition_level": "LOW",
+        "cpc": null,
+        "search_volume": 140,
+        "low_top_of_page_bid": null,
+        "high_top_of_page_bid": null,
+        "categories": [
+         10011,
+         10091,
+         10507
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 110
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 140
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 210
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 210
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 170
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 50
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 110
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 50
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 140
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 90
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 90
+         },
+         {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 110
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": -21,
+         "quarterly": -48,
+         "yearly": 57
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": "medicinal herb garden uw",
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 2,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 4
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 7.5,
+        "dofollow": 6.3,
+        "referring_pages": 6.8,
+        "referring_domains": 4.6,
+        "referring_main_domains": 3.1,
+        "rank": 59.8,
+        "main_domain_rank": 542.4,
+        "last_updated_time": "2026-07-12 08:52:16 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "informational",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-29 22:57:18 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "university of washington medicinal herb garden",
+       "location_code": 2840,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-08-24 11:34:58 +00:00",
+        "competition": 0.02,
+        "competition_level": "LOW",
+        "cpc": null,
+        "search_volume": 140,
+        "low_top_of_page_bid": null,
+        "high_top_of_page_bid": null,
+        "categories": [
+         10011,
+         10091,
+         10507,
+         11782
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 110
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 140
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 210
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 210
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 170
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 50
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 110
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 50
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 140
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 90
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 90
+         },
+         {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 110
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": -21,
+         "quarterly": -48,
+         "yearly": 57
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": null,
+        "keyword_difficulty": 1,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 6
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 7.5,
+        "dofollow": 6.3,
+        "referring_pages": 6.8,
+        "referring_domains": 4.6,
+        "referring_main_domains": 3.1,
+        "rank": 59.8,
+        "main_domain_rank": 519.8,
+        "last_updated_time": "2026-07-12 09:12:43 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "informational",
+        "foreign_intent": [
+         "navigational"
+        ],
+        "last_updated_time": "2026-04-30 02:27:30 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "medicinal herb garden uw",
+       "location_code": 2840,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-07-14 22:43:42 +00:00",
+        "competition": 0.02,
+        "competition_level": "LOW",
+        "cpc": null,
+        "search_volume": 110,
+        "low_top_of_page_bid": null,
+        "high_top_of_page_bid": null,
+        "categories": [
+         10011,
+         10091,
+         10507,
+         11782
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 140
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 210
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 210
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 170
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 50
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 110
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 50
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 140
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 90
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 90
+         },
+         {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 110
+         },
+         {
+          "year": 2025,
+          "month": 7,
+          "search_volume": 70
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": -33,
+         "quarterly": -33,
+         "yearly": 100
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 0,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 4
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 7.5,
+        "dofollow": 6.3,
+        "referring_pages": 6.8,
+        "referring_domains": 4.6,
+        "referring_main_domains": 3.1,
+        "rank": 59.8,
+        "main_domain_rank": 489,
+        "last_updated_time": "2026-07-13 02:49:11 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "navigational",
+        "foreign_intent": [
+         "informational"
+        ],
+        "last_updated_time": "2026-04-29 18:20:55 +00:00"
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

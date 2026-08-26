@@ -1,0 +1,350 @@
+{
+ "version": "0.1.20260826",
+ "status_code": 20000,
+ "status_message": "Ok.",
+ "time": "1.5604 sec.",
+ "cost": 0.002,
+ "tasks_count": 1,
+ "tasks_error": 0,
+ "tasks": [
+  {
+   "id": "08261016-2330-0121-0000-000697946899",
+   "status_code": 20000,
+   "status_message": "Ok.",
+   "time": "1.4516 sec.",
+   "cost": 0.002,
+   "result_count": 1,
+   "path": [
+    "v3",
+    "serp",
+    "google",
+    "organic",
+    "live",
+    "regular"
+   ],
+   "data": {
+    "api": "serp",
+    "function": "live",
+    "se": "google",
+    "se_type": "organic",
+    "keyword": "echinacea seeds",
+    "location_code": 2840,
+    "language_code": "en",
+    "device": "desktop",
+    "depth": 10,
+    "os": "windows"
+   },
+   "result": [
+    {
+     "keyword": "echinacea seeds",
+     "type": "organic",
+     "se_domain": "google.com",
+     "location_code": 2840,
+     "language_code": "en",
+     "check_url": "https://www.google.com/search?q=echinacea%20seeds&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+     "datetime": "2026-08-26 10:16:43 +00:00",
+     "spell": null,
+     "refinement_chips": {
+      "type": "refinement_chips",
+      "xpath": "/html[1]/body[1]/div[3]/div[1]/div[9]/div[1]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]",
+      "items": [
+       {
+        "type": "refinement_chips_element",
+        "title": "For Sale",
+        "url": "https://www.google.com/search?q=echinacea+seeds+for+sale&hl=en&gl=US&shoprs=CAEYEioPZWNoaW5hY2VhIHNlZWRzMgwIEhIIRm9yIFNhbGVgAQ&sa=X&ved=2ahUKEwi3w4egiL6WAxUm-QIHHawTIAgQip4GKAF6BAgcEEk",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "Nearby",
+        "url": "https://www.google.com/search?q=echinacea+seeds+nearby&hl=en&gl=US&shoprs=CAEYAyoPZWNoaW5hY2VhIHNlZWRzMgwIAxIGTmVhcmJ5GAJYzeEgYAE&sa=X&ved=2ahUKEwi3w4egiL6WAxUm-QIHHawTIAgQip4GKAJ6BAgcEEo",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "Buy",
+        "url": "https://www.google.com/search?q=buy+echinacea+seeds&hl=en&gl=US&shoprs=CAEYEioPZWNoaW5hY2VhIHNlZWRzMgcIEhIDQnV5YAE&sa=X&ved=2ahUKEwi3w4egiL6WAxUm-QIHHawTIAgQip4GKAN6BAgcEEs",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "Yellow",
+        "url": "https://www.google.com/search?q=yellow+echinacea+seeds&hl=en&gl=US&shoprs=CAEYASoPZWNoaW5hY2VhIHNlZWRzMhgIARIGWWVsbG93OgwI2Iz1ARDtivUBMAtYzeEgYAE&sa=X&ved=2ahUKEwi3w4egiL6WAxUm-QIHHawTIAgQip4GKAR6BAgcEEw",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "White",
+        "url": "https://www.google.com/search?q=white+echinacea+seeds&hl=en&gl=US&shoprs=CAEYASoPZWNoaW5hY2VhIHNlZWRzMhcIARIFV2hpdGU6DAjYjPUBEKGL9QEwC1jN4SBgAQ&sa=X&ved=2ahUKEwi3w4egiL6WAxUm-QIHHawTIAgQip4GKAV6BAgcEE0",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "On sale",
+        "url": "https://www.google.com/search?q=echinacea+seeds+sale&hl=en&gl=US&shoprs=CAESBEoCGAEYBioPZWNoaW5hY2VhIHNlZWRzMhMIBhIHT24gc2FsZRgCIgRKAhgBWM3hIGAB&sa=X&ved=2ahUKEwi3w4egiL6WAxUm-QIHHawTIAgQip4GKAZ6BAgcEE4",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "Red",
+        "url": "https://www.google.com/search?q=red+echinacea+seeds&hl=en&gl=US&shoprs=CAEYASoPZWNoaW5hY2VhIHNlZWRzMhUIARIDUmVkOgwI2Iz1ARDnivUBMAtYzeEgYAE&sa=X&ved=2ahUKEwi3w4egiL6WAxUm-QIHHawTIAgQip4GKAd6BAgcEE8",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "Over 0.01 pounds",
+        "url": "https://www.google.com/search?q=over+0.01+pounds+echinacea+seeds&hl=en&gl=US&shoprs=CAESEioQCKmq1QMSCQkAAAAAK4d2PxgBKg9lY2hpbmFjZWEgc2VlZHMyNwgBEhBPdmVyIDAuMDEgcG91bmRzIhIqEAipqtUDEgkJAAAAACuHdj8qAhgBOgkIqarVAxAAMAZYzeEgYAE&sa=X&ved=2ahUKEwi3w4egiL6WAxUm-QIHHawTIAgQip4GKAh6BAgcEFA",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "Burpee Gardening",
+        "url": "https://www.google.com/search?q=burpee+gardening+echinacea+seeds&hl=en&gl=US&shoprs=CAEYAioPZWNoaW5hY2VhIHNlZWRzMhQIAhIQQnVycGVlIEdhcmRlbmluZ1jN4SBgAQ&sa=X&ved=2ahUKEwi3w4egiL6WAxUm-QIHHawTIAgQip4GKAl6BAgcEFE",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "0 – 0.01 pounds",
+        "url": "https://www.google.com/search?q=0+pounds+to+0.01+pounds+echinacea+seeds&hl=en&gl=US&shoprs=CAESGyoZCKmq1QMSEgkAAADgTWJQPxEAAAAAK4d2PxgBKg9lY2hpbmFjZWEgc2VlZHMyWggBEhEwIOKAkyAwLjAxIHBvdW5kcyIbKhkIqarVAxISCQAAAOBNYlA_EQAAAAArh3Y_KhsKFzAgcG91bmRzIHRvIDAuMDEgcG91bmRzGAE6CQipqtUDEAAwBljN4SBgAQ&sa=X&ved=2ahUKEwi3w4egiL6WAxUm-QIHHawTIAgQip4GKAp6BAgcEFM",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "0 pounds",
+        "url": "https://www.google.com/search?q=0+pounds+echinacea+seeds&hl=en&gl=US&shoprs=CAESGyoZCKmq1QMSEgkAAADAQpQyPxEAAADgTWJQPxgBKg9lY2hpbmFjZWEgc2VlZHMyQggBEggwIHBvdW5kcyIbKhkIqarVAxISCQAAAMBClDI_EQAAAOBNYlA_KgwKCDAgcG91bmRzGAE6CQipqtUDEAAwBljN4SBgAQ&sa=X&ved=2ahUKEwi3w4egiL6WAxUm-QIHHawTIAgQip4GKAt6BAgcEFQ",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "Get it by Fri",
+        "url": "https://www.google.com/search?q=echinacea+seeds&hl=en&gl=US&shoprs=CAESDZoBCgoIEAI4AUAFSAEYFCoPZWNoaW5hY2VhIHNlZWRzMiYIFBINR2V0IGl0IGJ5IEZyaSINmgEKCggQAjgBQAVIASoEEAEYAWAB&sa=X&ved=2ahUKEwi3w4egiL6WAxUm-QIHHawTIAgQip4GKAx6BAgcEFU",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "Seeds & Bulbs",
+        "url": "https://www.google.com/search?q=seeds+%26+bulbs+echinacea&hl=en&gl=US&shoprs=CAEYCSoPZWNoaW5hY2VhIHNlZWRzMhEICRINU2VlZHMgJiBCdWxic2AB&sa=X&ved=2ahUKEwi3w4egiL6WAxUm-QIHHawTIAgQip4GKA16BAgcEFY",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "Orange",
+        "url": "https://www.google.com/search?q=orange+echinacea+seeds&hl=en&gl=US&shoprs=CAEYASoPZWNoaW5hY2VhIHNlZWRzMhgIARIGT3JhbmdlOgwI2Iz1ARDuivUBMAtYzeEgYAE&sa=X&ved=2ahUKEwi3w4egiL6WAxUm-QIHHawTIAgQip4GKA56BAgcEFc",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "Home Depot",
+        "url": "https://www.google.com/search?q=home+depot+echinacea+seeds&hl=en&gl=US&shoprs=CAEYAioPZWNoaW5hY2VhIHNlZWRzMg4IAhIKSG9tZSBEZXBvdFjN4SBgAQ&sa=X&ved=2ahUKEwi3w4egiL6WAxUm-QIHHawTIAgQip4GKA96BAgcEFg",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "Green",
+        "url": "https://www.google.com/search?q=green+echinacea+seeds&hl=en&gl=US&shoprs=CAEYASoPZWNoaW5hY2VhIHNlZWRzMhcIARIFR3JlZW46DAjYjPUBEOiK9QEwC1jN4SBgAQ&sa=X&ved=2ahUKEwi3w4egiL6WAxUm-QIHHawTIAgQip4GKBB6BAgcEFo",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "Recipe",
+        "url": "https://www.google.com/search?q=recipe+echinacea+seeds&hl=en&gl=US&shoprs=CAEYEioPZWNoaW5hY2VhIHNlZWRzMgoIEhIGUmVjaXBlYAE&sa=X&ved=2ahUKEwi3w4egiL6WAxUm-QIHHawTIAgQip4GKBF6BAgcEFs",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "Online",
+        "url": "https://www.google.com/search?q=online+echinacea+seeds&hl=en&gl=US&shoprs=CAEYEioPZWNoaW5hY2VhIHNlZWRzMgoIEhIGT25saW5lYAE&sa=X&ved=2ahUKEwi3w4egiL6WAxUm-QIHHawTIAgQip4GKBJ6BAgcEFw",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "Dog",
+        "url": "https://www.google.com/search?q=dog+echinacea+seeds&hl=en&gl=US&shoprs=CAEYEioPZWNoaW5hY2VhIHNlZWRzMgcIEhIDRG9nYAE&sa=X&ved=2ahUKEwi3w4egiL6WAxUm-QIHHawTIAgQip4GKBN6BAgcEF0",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "Organic",
+        "url": "https://www.google.com/search?q=organic+echinacea+seeds&hl=en&gl=US&shoprs=CAEYASoPZWNoaW5hY2VhIHNlZWRzMhkIARIHT3JnYW5pYzoMCN2itAEQ3qK0ATAAWM3hIGAB&sa=X&ved=2ahUKEwi3w4egiL6WAxUm-QIHHawTIAgQip4GKBR6BAgcEF4",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "Price",
+        "url": "https://www.google.com/search?q=price+echinacea+seeds&hl=en&gl=US&shoprs=CAEYEioPZWNoaW5hY2VhIHNlZWRzMgkIEhIFUHJpY2VgAQ&sa=X&ved=2ahUKEwi3w4egiL6WAxUm-QIHHawTIAgQip4GKBV6BAgcEF8",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "Walmart",
+        "url": "https://www.google.com/search?q=walmart+echinacea+seeds&hl=en&gl=US&shoprs=CAEYAioPZWNoaW5hY2VhIHNlZWRzMgsIAhIHV2FsbWFydFjN4SBgAQ&sa=X&ved=2ahUKEwi3w4egiL6WAxUm-QIHHawTIAgQip4GKBZ6BAgcEGA",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "Under $10",
+        "url": "https://www.google.com/search?q=echinacea+seeds+under+$10&hl=en&gl=US&shoprs=CAESDRILEQAAAADQEmNBGAEYBSoPZWNoaW5hY2VhIHNlZWRzMiIIBRIJVW5kZXIgJDEwGAIiDRILEQAAAADQEmNBGAEqAhgBWM3hIGAB&sa=X&ved=2ahUKEwi3w4egiL6WAxUm-QIHHawTIAgQip4GKBd6BAgcEGI",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "Images",
+        "url": "https://www.google.com/search?q=images+echinacea+seeds&hl=en&gl=US&shoprs=CAEYEioPZWNoaW5hY2VhIHNlZWRzMgoIEhIGSW1hZ2VzYAE&sa=X&ved=2ahUKEwi3w4egiL6WAxUm-QIHHawTIAgQip4GKBh6BAgcEGM",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "Herb Seeds",
+        "url": "https://www.google.com/search?q=herb+seeds+echinacea&hl=en&gl=US&shoprs=CAEYCSoPZWNoaW5hY2VhIHNlZWRzMg4ICRIKSGVyYiBTZWVkc2AB&sa=X&ved=2ahUKEwi3w4egiL6WAxUm-QIHHawTIAgQip4GKBl6BAgcEGQ",
+        "domain": "www.google.com",
+        "options": null
+       },
+       {
+        "type": "refinement_chips_element",
+        "title": "Fruit & Vegetable Seeds",
+        "url": "https://www.google.com/search?q=fruit+%26+vegetable+seeds+echinacea&hl=en&gl=US&shoprs=CAEYCSoPZWNoaW5hY2VhIHNlZWRzMhsICRIXRnJ1aXQgJiBWZWdldGFibGUgU2VlZHNgAQ&sa=X&ved=2ahUKEwi3w4egiL6WAxUm-QIHHawTIAgQip4GKBp6BAgcEGU",
+        "domain": "www.google.com",
+        "options": null
+       }
+      ]
+     },
+     "item_types": [
+      "organic",
+      "popular_products",
+      "people_also_ask",
+      "images",
+      "related_searches"
+     ],
+     "se_results_count": 235,
+     "pages_count": 1,
+     "items_count": 9,
+     "items": [
+      {
+       "type": "organic",
+       "rank_group": 1,
+       "rank_absolute": 1,
+       "page": 1,
+       "domain": "www.burpee.com",
+       "title": "Echinacea Seeds and Plants | Grow Drought Tolerant ...",
+       "description": "These hardy, drought-tolerant perennials bloom all summer, attracting butterflies, birds,&nbsp;... Echinacea Seeds & Plants. As low as $16.95",
+       "url": "https://www.burpee.com/perennials/echinacea/?srsltid=AfmBOoqrn9bJnEBv-rzWdT6YteOewSHUugQdXB56BOWxB5SUF8i59iD0",
+       "breadcrumb": "https://www.burpee.com › perennials › echinacea"
+      },
+      {
+       "type": "organic",
+       "rank_group": 2,
+       "rank_absolute": 2,
+       "page": 1,
+       "domain": "www.parkseed.com",
+       "title": "Echinacea Seeds & Plants | 30+ Varieties | Non-GMO",
+       "description": "Shop our selection of bright echinacea coneflower seeds. These perennial plants are drought-tolerant and pest-resistant, making them perfect for your ...",
+       "url": "https://www.parkseed.com/collections/coneflower-echinacea?srsltid=AfmBOoqB7AQjrY5am18281i-DwO1UsL0EXdewMc-xyKAeJVT3GUicvVu",
+       "breadcrumb": "https://www.parkseed.com › coneflower-echinacea"
+      },
+      {
+       "type": "organic",
+       "rank_group": 3,
+       "rank_absolute": 7,
+       "page": 1,
+       "domain": "www.edenbrothers.com",
+       "title": "Echinacea Seeds | Shop 16 Varieties",
+       "description": "Coneflower seeds, also known as echinacea where it has gained popularity in the herbal world, produce showy blooms on sturdy, upward stalks.",
+       "url": "https://www.edenbrothers.com/collections/echinacea_seeds?srsltid=AfmBOop0UDouYTY8StaRNxTPV72hv0cUL0SlGtB-i6mhj0DZ5eb4-DDg",
+       "breadcrumb": "https://www.edenbrothers.com › Flower Seeds"
+      },
+      {
+       "type": "organic",
+       "rank_group": 4,
+       "rank_absolute": 8,
+       "page": 1,
+       "domain": "www.swallowtailgardenseeds.com",
+       "title": "Echinacea Seeds - Perennial Flower Seeds",
+       "description": "Buy Echinacea seeds from Swallowtail Garden Seeds. 18 echinaceas for sale including Mellow Yellows, Green Twister, Prairie Splendor, and PowWow Wild Berry.",
+       "url": "https://www.swallowtailgardenseeds.com/perennials/echinacea.html?srsltid=AfmBOoqXGGPcMK4bBUU3qarVNGqLbCTG1ALX4nN81GERqRA190izj-2X",
+       "breadcrumb": "https://www.swallowtailgardenseeds.com › perennials › e..."
+      },
+      {
+       "type": "organic",
+       "rank_group": 5,
+       "rank_absolute": 10,
+       "page": 1,
+       "domain": "www.youtube.com",
+       "title": "How to Save ECHINACEA Seeds to Make Thousands of Plants",
+       "description": "One of the best ways to save money in the garden is to collect seed from plants that you've grown and use that again to grow more plants next year.",
+       "url": "https://www.youtube.com/watch?v=i1MumXMeKU0",
+       "breadcrumb": "8.2K+ views  ·  1 year ago"
+      },
+      {
+       "type": "organic",
+       "rank_group": 6,
+       "rank_absolute": 11,
+       "page": 1,
+       "domain": "www.johnnyseeds.com",
+       "title": "Echinacea (Coneflower)",
+       "description": "One of the most important genera of indigenous American medicinal plants. Members of this species are very hardy perennials with long bloom periods. Read more",
+       "url": "https://www.johnnyseeds.com/herbs/echinacea-coneflower/?srsltid=AfmBOorcIwHg5aVL1MWxs0k3nNOBLJjlZYmuBTyFzGW4tcGC1gbIwfn5",
+       "breadcrumb": "https://www.johnnyseeds.com › herbs › echinacea-cone..."
+      },
+      {
+       "type": "organic",
+       "rank_group": 7,
+       "rank_absolute": 12,
+       "page": 1,
+       "domain": "anniesheirloomseeds.com",
+       "title": "Organic Echinacea (Echinacea purpurea) Perennial",
+       "description": "Minimum of 25 seeds per packet. Allow 10-21 days for germination. Best when sown indoors at least 8-10 weeks before planting. Seed should be cold stratified. ...",
+       "url": "https://anniesheirloomseeds.com/products/organic-echinacea-echinacea-purpurea-perennial?srsltid=AfmBOoppmfpYXP9u0f0pn9BaoL6Zt-v2qlVXT8nA1DJ6QSfgd0UR0nT6",
+       "breadcrumb": "https://anniesheirloomseeds.com › products › organic-e..."
+      },
+      {
+       "type": "organic",
+       "rank_group": 8,
+       "rank_absolute": 13,
+       "page": 1,
+       "domain": "www.rareseeds.com",
+       "title": "Echinacea Seeds for Planting",
+       "description": "Echinacea seeds — heirloom native coneflowers, open-pollinated. Purple blooms attract butterflies & bees, seed heads feed birds all winter. Shop now.",
+       "url": "https://www.rareseeds.com/store/plants-seeds/herbs/echinacea-seeds",
+       "breadcrumb": "https://www.rareseeds.com › ... › Herb Seeds"
+      },
+      {
+       "type": "organic",
+       "rank_group": 9,
+       "rank_absolute": 14,
+       "page": 1,
+       "domain": "www.bulkwildflowers.com",
+       "title": "Bulk Coneflower Seeds | Buy in Bulk",
+       "description": "Bulk Purple Coneflower Seeds (Echinacea). On Sale. Bulk Purple Coneflower Seeds (Echinacea). Regular price From $5.33. Read more",
+       "url": "https://www.bulkwildflowers.com/collections/coneflower-seeds?srsltid=AfmBOopxqzXLcR7w0q40qvN4mnvphy_VrQseq-AxpBghhCRDKSfBXmPQ",
+       "breadcrumb": "https://www.bulkwildflowers.com › collections › conefl..."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

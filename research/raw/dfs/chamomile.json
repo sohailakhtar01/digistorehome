@@ -1,0 +1,3053 @@
+{
+ "version": "0.1.20260826",
+ "status_code": 20000,
+ "status_message": "Ok.",
+ "time": "0.1314 sec.",
+ "cost": 0.01488,
+ "tasks_count": 1,
+ "tasks_error": 0,
+ "tasks": [
+  {
+   "id": "08261015-2330-0399-0000-a3cb10cdbafe",
+   "status_code": 20000,
+   "status_message": "Ok.",
+   "time": "0.1243 sec.",
+   "cost": 0.01488,
+   "result_count": 1,
+   "path": [
+    "v3",
+    "dataforseo_labs",
+    "google",
+    "keyword_suggestions",
+    "live"
+   ],
+   "data": {
+    "api": "dataforseo_labs",
+    "function": "keyword_suggestions",
+    "se_type": "google",
+    "keyword": "chamomile seeds",
+    "location_code": 2840,
+    "language_code": "en",
+    "limit": 200,
+    "include_seed_keyword": true,
+    "order_by": [
+     "keyword_info.search_volume,desc"
+    ],
+    "filters": [
+     [
+      "keyword_info.search_volume",
+      ">",
+      100
+     ]
+    ]
+   },
+   "result": [
+    {
+     "se_type": "google",
+     "seed_keyword": "chamomile seeds",
+     "seed_keyword_data": {
+      "se_type": "google",
+      "keyword": "chamomile seeds",
+      "location_code": 2840,
+      "language_code": "en",
+      "keyword_info": {
+       "se_type": "google",
+       "last_updated_time": "2026-08-26 09:25:43 +00:00",
+       "competition": 1,
+       "competition_level": "HIGH",
+       "cpc": null,
+       "search_volume": 2900,
+       "low_top_of_page_bid": 0.24,
+       "high_top_of_page_bid": 0.82,
+       "categories": [
+        10005,
+        10049,
+        10316
+       ],
+       "monthly_searches": [
+        {
+         "year": 2026,
+         "month": 7,
+         "search_volume": 2400
+        },
+        {
+         "year": 2026,
+         "month": 6,
+         "search_volume": 3600
+        },
+        {
+         "year": 2026,
+         "month": 5,
+         "search_volume": 5400
+        },
+        {
+         "year": 2026,
+         "month": 4,
+         "search_volume": 5400
+        },
+        {
+         "year": 2026,
+         "month": 3,
+         "search_volume": 5400
+        },
+        {
+         "year": 2026,
+         "month": 2,
+         "search_volume": 2900
+        },
+        {
+         "year": 2026,
+         "month": 1,
+         "search_volume": 2900
+        },
+        {
+         "year": 2025,
+         "month": 12,
+         "search_volume": 1000
+        },
+        {
+         "year": 2025,
+         "month": 11,
+         "search_volume": 1300
+        },
+        {
+         "year": 2025,
+         "month": 10,
+         "search_volume": 1300
+        },
+        {
+         "year": 2025,
+         "month": 9,
+         "search_volume": 1900
+        },
+        {
+         "year": 2025,
+         "month": 8,
+         "search_volume": 3600
+        }
+       ],
+       "search_volume_trend": {
+        "monthly": -33,
+        "quarterly": -56,
+        "yearly": 0
+       }
+      },
+      "keyword_info_normalized_with_bing": null,
+      "keyword_info_normalized_with_clickstream": null,
+      "clickstream_keyword_info": null,
+      "keyword_properties": {
+       "se_type": "google",
+       "core_keyword": null,
+       "synonym_clustering_algorithm": "text_processing",
+       "keyword_difficulty": 0,
+       "detected_language": "en",
+       "is_another_language": false,
+       "words_count": 2
+      },
+      "serp_info": {
+       "se_type": "google",
+       "check_url": "https://www.google.com/search?q=chamomile%20seeds&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+       "serp_item_types": [
+        "ai_overview",
+        "organic",
+        "product_considerations",
+        "popular_products",
+        "people_also_ask",
+        "perspectives",
+        "related_searches",
+        "images"
+       ],
+       "se_results_count": 200,
+       "last_updated_time": "2026-07-31 06:10:32 +00:00",
+       "previous_updated_time": "2026-05-17 05:56:02 +00:00"
+      },
+      "search_intent_info": {
+       "se_type": "google",
+       "main_intent": "transactional",
+       "foreign_intent": [
+        "informational"
+       ],
+       "last_updated_time": "2026-04-29 23:12:32 +00:00"
+      },
+      "avg_backlinks_info": {
+       "se_type": "google",
+       "backlinks": 2.5,
+       "dofollow": 1.7,
+       "referring_pages": 1.9,
+       "referring_domains": 1.1,
+       "referring_main_domains": 1,
+       "rank": 20.7,
+       "main_domain_rank": 362.6,
+       "last_updated_time": "2026-07-31 06:10:34 +00:00"
+      }
+     },
+     "location_code": 2840,
+     "language_code": "en",
+     "total_count": 24,
+     "items_count": 24,
+     "offset": 0,
+     "offset_token": "eyJDdXJyZW50T2Zmc2V0IjoyNCwiUmVxdWVzdERhdGEiOnsia2V5d29yZCI6ImNoYW1vbWlsZSBzZWVkcyIsImluY2x1ZGVfc2VlZF9rZXl3b3JkIjp0cnVlLCJmdWxsX21hdGNoIjpmYWxzZSwibG9hZF9zZXJwX2luZm8iOmZhbHNlLCJzZWFyY2hfYWZ0ZXJfdG9rZW4iOm51bGwsImlnbm9yZV9zeW5vbnltcyI6ZmFsc2UsImxhbmd1YWdlIjoiZW4iLCJzZWFyY2hfZW5naW5lIjoiZ29vZ2xlIiwibG9jYXRpb24iOjI4NDAsInVzZV9uZXdfY2F0ZWdvcmllcyI6dHJ1ZSwib3JkZXJfYnkiOnsib3JkZXJfZmllbGQiOiJrZXl3b3JkX2luZm8uc2VhcmNoX3ZvbHVtZSIsIm9yZGVyX3R5cGUiOiJEZXNjIiwibmV4dCI6bnVsbH0sImxpbWl0IjoyMDAsIm9mZnNldCI6MCwiYWlkIjoyMzMwODIsInVzZV9jYWNoZSI6dHJ1ZSwidGFza19pZCI6IjA4MjYxMDE1LTIzMzAtMDM5OS0wMDAwLWEzY2IxMGNkYmFmZSIsImZsYWdzIjpudWxsfSwiUmF3UXVlcnkiOnsiZmllbGQiOiJrZXl3b3JkX2luZm8uc2VhcmNoX3ZvbHVtZSIsInR5cGUiOiJndCIsInZhbHVlIjoxMDB9LCJJZCI6IjZkN2ViNTYwLTY3NDEtNDdiNi04NTBjLTAyMmJmZmNiNjI5ZiIsIlNlYXJjaEFmdGVyRGF0YSI6WzE0MCwiYzVjYjQ4NzQtY2Q5OC1iZTIxLWMxMjAtNTMzMTJhNGU3MTM3Il0sIkV4ZWN1dG9yIjotOTE4NDQwNTk0MDQ0NDUxNzYzM30=",
+     "items": [
+      {
+       "se_type": "google",
+       "keyword": "german chamomile seeds",
+       "location_code": 2840,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-08-26 00:17:06 +00:00",
+        "competition": 0.64,
+        "competition_level": "MEDIUM",
+        "cpc": null,
+        "search_volume": 3600,
+        "low_top_of_page_bid": 0.29,
+        "high_top_of_page_bid": 0.87,
+        "categories": [
+         10005,
+         10049,
+         10316
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 3600
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 3600
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 8100
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 8100
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 6600
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 3600
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 3600
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 1600
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 880
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 1000
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 1600
+         },
+         {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 2900
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": 0,
+         "quarterly": -56,
+         "yearly": -18
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 0,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 3
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 0.4,
+        "dofollow": 0.2,
+        "referring_pages": 0.4,
+        "referring_domains": 0.4,
+        "referring_main_domains": 0.4,
+        "rank": 6.5,
+        "main_domain_rank": 340.1,
+        "last_updated_time": "2025-09-30 23:17:57 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "informational",
+        "foreign_intent": [
+         "transactional"
+        ],
+        "last_updated_time": "2026-04-27 22:30:40 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "chamomile german seeds",
+       "location_code": 2840,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-08-24 23:29:04 +00:00",
+        "competition": 0.64,
+        "competition_level": "MEDIUM",
+        "cpc": 0.78,
+        "search_volume": 3600,
+        "low_top_of_page_bid": 0.29,
+        "high_top_of_page_bid": 0.87,
+        "categories": [
+         10004,
+         11188,
+         12427,
+         13460
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 3600
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 3600
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 8100
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 8100
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 6600
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 3600
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 3600
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 1600
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 880
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 1000
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 1600
+         },
+         {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 2900
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": 0,
+         "quarterly": -56,
+         "yearly": -18
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": "german chamomile seeds",
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 0,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 3
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 1.6,
+        "dofollow": 1.6,
+        "referring_pages": 1.6,
+        "referring_domains": 0.4,
+        "referring_main_domains": 0.3,
+        "rank": 8.3,
+        "main_domain_rank": 313.6,
+        "last_updated_time": "2026-02-08 14:29:38 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "informational",
+        "foreign_intent": [
+         "transactional"
+        ],
+        "last_updated_time": "2026-04-30 01:34:10 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "chamomile seeds german",
+       "location_code": 2840,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-08-21 17:25:03 +00:00",
+        "competition": 0.64,
+        "competition_level": "MEDIUM",
+        "cpc": 0.78,
+        "search_volume": 3600,
+        "low_top_of_page_bid": 0.29,
+        "high_top_of_page_bid": 0.87,
+        "categories": [
+         10005,
+         10049,
+         10316
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 3600
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 3600
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 8100
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 8100
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 6600
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 3600
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 3600
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 1600
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 880
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 1000
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 1600
+         },
+         {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 2900
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": 0,
+         "quarterly": -56,
+         "yearly": -18
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": "german chamomile seeds",
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 0,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 3
+       },
+       "serp_info": null,
+       "avg_backlinks_info": null,
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "informational",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-29 09:03:02 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "chamomile from seeds",
+       "location_code": 2840,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-08-23 07:23:42 +00:00",
+        "competition": 1,
+        "competition_level": "HIGH",
+        "cpc": 0.72,
+        "search_volume": 2900,
+        "low_top_of_page_bid": 0.24,
+        "high_top_of_page_bid": 0.82,
+        "categories": [
+         10005,
+         10049,
+         10316
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 2400
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 3600
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 5400
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 5400
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 5400
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 2900
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 2900
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 1000
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 1300
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 1300
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 1900
+         },
+         {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 3600
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": -33,
+         "quarterly": -56,
+         "yearly": 0
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": "chamomile seeds",
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 0,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 3
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 50.8,
+        "dofollow": 43.2,
+        "referring_pages": 47.6,
+        "referring_domains": 18.9,
+        "referring_main_domains": 17.6,
+        "rank": 106.8,
+        "main_domain_rank": 539.3,
+        "last_updated_time": "2024-09-15 12:13:57 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "informational",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-27 01:27:05 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "chamomile seeds",
+       "location_code": 2840,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-08-26 09:25:43 +00:00",
+        "competition": 1,
+        "competition_level": "HIGH",
+        "cpc": null,
+        "search_volume": 2900,
+        "low_top_of_page_bid": 0.24,
+        "high_top_of_page_bid": 0.82,
+        "categories": [
+         10005,
+         10049,
+         10316
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 2400
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 3600
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 5400
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 5400
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 5400
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 2900
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 2900
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 1000
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 1300
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 1300
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 1900
+         },
+         {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 3600
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": -33,
+         "quarterly": -56,
+         "yearly": 0
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 0,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 2
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 2.5,
+        "dofollow": 1.7,
+        "referring_pages": 1.9,
+        "referring_domains": 1.1,
+        "referring_main_domains": 1,
+        "rank": 20.7,
+        "main_domain_rank": 362.6,
+        "last_updated_time": "2026-07-31 06:10:34 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "transactional",
+        "foreign_intent": [
+         "informational"
+        ],
+        "last_updated_time": "2026-04-29 23:12:32 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "chamomile roman seeds",
+       "location_code": 2840,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-08-19 13:02:44 +00:00",
+        "competition": 1,
+        "competition_level": "HIGH",
+        "cpc": 0.76,
+        "search_volume": 1300,
+        "low_top_of_page_bid": 0.26,
+        "high_top_of_page_bid": 0.94,
+        "categories": [
+         10005,
+         10049,
+         10316
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 1300
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 1600
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 1900
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 2400
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 3600
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 1000
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 1000
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 260
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 260
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 480
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 480
+         },
+         {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 590
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": -19,
+         "quarterly": -32,
+         "yearly": 120
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": "roman chamomile seeds",
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 0,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 3
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 0.4,
+        "dofollow": 0.2,
+        "referring_pages": 0.4,
+        "referring_domains": 0.4,
+        "referring_main_domains": 0.4,
+        "rank": 6.5,
+        "main_domain_rank": 361.6,
+        "last_updated_time": "2025-10-24 12:34:52 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "informational",
+        "foreign_intent": [
+         "transactional"
+        ],
+        "last_updated_time": "2026-04-26 05:45:34 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "roman chamomile seeds",
+       "location_code": 2840,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-08-23 22:08:25 +00:00",
+        "competition": 1,
+        "competition_level": "HIGH",
+        "cpc": 0.76,
+        "search_volume": 1300,
+        "low_top_of_page_bid": 0.26,
+        "high_top_of_page_bid": 0.94,
+        "categories": [
+         10005,
+         10049,
+         10316
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 1300
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 1600
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 1900
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 2400
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 3600
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 1000
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 1000
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 260
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 260
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 480
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 480
+         },
+         {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 590
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": -19,
+         "quarterly": -32,
+         "yearly": 120
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 0,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 3
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 1.2,
+        "dofollow": 1.1,
+        "referring_pages": 1.1,
+        "referring_domains": 1,
+        "referring_main_domains": 0.8,
+        "rank": 18.4,
+        "main_domain_rank": 435.1,
+        "last_updated_time": "2026-08-01 09:28:44 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "informational",
+        "foreign_intent": [
+         "transactional"
+        ],
+        "last_updated_time": "2026-04-29 23:06:18 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "chamomile plant seeds",
+       "location_code": 2840,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-08-21 17:27:03 +00:00",
+        "competition": 0.68,
+        "competition_level": "HIGH",
+        "cpc": 0.64,
+        "search_volume": 720,
+        "low_top_of_page_bid": 0.02,
+        "high_top_of_page_bid": 0.41,
+        "categories": [
+         10004,
+         11188,
+         12427,
+         13460
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 480
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 720
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 1300
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 1300
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 1300
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 720
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 590
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 210
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 210
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 210
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 320
+         },
+         {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 390
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": -33,
+         "quarterly": -63,
+         "yearly": 0
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": "chamomile planting seeds",
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 0,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 3
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 664.9,
+        "dofollow": 332.3,
+        "referring_pages": 332.5,
+        "referring_domains": 0.4,
+        "referring_main_domains": 0.4,
+        "rank": 22.9,
+        "main_domain_rank": 341.6,
+        "last_updated_time": "2024-07-13 21:05:05 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "transactional",
+        "foreign_intent": [
+         "informational"
+        ],
+        "last_updated_time": "2026-04-29 05:20:39 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "planting chamomile seeds",
+       "location_code": 2840,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-08-25 16:10:36 +00:00",
+        "competition": 0.68,
+        "competition_level": "HIGH",
+        "cpc": null,
+        "search_volume": 720,
+        "low_top_of_page_bid": 0.02,
+        "high_top_of_page_bid": 0.41,
+        "categories": [
+         10004,
+         13460
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 480
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 720
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 1300
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 1300
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 1300
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 720
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 590
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 210
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 210
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 210
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 320
+         },
+         {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 390
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": -33,
+         "quarterly": -63,
+         "yearly": 0
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": "chamomile planting seeds",
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 5,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 3
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 45.4,
+        "dofollow": 39.8,
+        "referring_pages": 43.1,
+        "referring_domains": 14.4,
+        "referring_main_domains": 12.7,
+        "rank": 69.9,
+        "main_domain_rank": 589.3,
+        "last_updated_time": "2025-05-12 05:19:13 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "informational",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-30 00:43:42 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "chamomile seeds planting",
+       "location_code": 2840,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-08-18 00:37:31 +00:00",
+        "competition": 0.68,
+        "competition_level": "HIGH",
+        "cpc": 0.64,
+        "search_volume": 720,
+        "low_top_of_page_bid": 0.02,
+        "high_top_of_page_bid": 0.41,
+        "categories": [
+         10004,
+         11188,
+         12427,
+         13460
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 480
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 720
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 1300
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 1300
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 1300
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 720
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 590
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 210
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 210
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 210
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 320
+         },
+         {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 390
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": -33,
+         "quarterly": -63,
+         "yearly": 0
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": "chamomile planting seeds",
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 0,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 3
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 8.6,
+        "dofollow": 7.3,
+        "referring_pages": 8.6,
+        "referring_domains": 4.4,
+        "referring_main_domains": 4.4,
+        "rank": 40.5,
+        "main_domain_rank": 398.4,
+        "last_updated_time": "2026-05-20 21:58:32 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "informational",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-29 06:56:30 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "chamomile planting seeds",
+       "location_code": 2840,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-08-24 11:41:00 +00:00",
+        "competition": 0.68,
+        "competition_level": "HIGH",
+        "cpc": 0.64,
+        "search_volume": 720,
+        "low_top_of_page_bid": 0.02,
+        "high_top_of_page_bid": 0.41,
+        "categories": [
+         10004,
+         13460
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 480
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 720
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 1300
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 1300
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 1300
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 720
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 590
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 210
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 210
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 210
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 320
+         },
+         {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 390
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": -33,
+         "quarterly": -63,
+         "yearly": 0
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 0,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 3
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 8.6,
+        "dofollow": 7.2,
+        "referring_pages": 8.5,
+        "referring_domains": 5.2,
+        "referring_main_domains": 5.1,
+        "rank": 53.2,
+        "main_domain_rank": 480.1,
+        "last_updated_time": "2025-04-15 23:22:28 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "informational",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-25 20:51:55 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "plant chamomile seeds",
+       "location_code": 2840,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-08-26 09:06:05 +00:00",
+        "competition": 0.68,
+        "competition_level": "HIGH",
+        "cpc": null,
+        "search_volume": 720,
+        "low_top_of_page_bid": 0.02,
+        "high_top_of_page_bid": 0.41,
+        "categories": [
+         10004,
+         11188,
+         12427,
+         13460
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 480
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 720
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 1300
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 1300
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 1300
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 720
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 590
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 210
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 210
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 210
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 320
+         },
+         {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 390
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": -33,
+         "quarterly": -63,
+         "yearly": 0
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": "chamomile planting seeds",
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 0,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 3
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 5.2,
+        "dofollow": 4.3,
+        "referring_pages": 5.1,
+        "referring_domains": 3.4,
+        "referring_main_domains": 3.2,
+        "rank": 44,
+        "main_domain_rank": 403.7,
+        "last_updated_time": "2024-10-05 21:03:21 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "informational",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-29 18:50:21 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "chamomile seeds for planting",
+       "location_code": 2840,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-08-22 23:02:51 +00:00",
+        "competition": 0.68,
+        "competition_level": "HIGH",
+        "cpc": 0.64,
+        "search_volume": 720,
+        "low_top_of_page_bid": 0.02,
+        "high_top_of_page_bid": 0.41,
+        "categories": [
+         10004,
+         11188,
+         12427,
+         13460
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 480
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 720
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 1300
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 1300
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 1300
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 720
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 590
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 210
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 210
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 210
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 320
+         },
+         {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 390
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": -33,
+         "quarterly": -63,
+         "yearly": 0
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": "chamomile planting seeds",
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 0,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 4
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 35.1,
+        "dofollow": 34.9,
+        "referring_pages": 35.1,
+        "referring_domains": 1.2,
+        "referring_main_domains": 1.1,
+        "rank": 13.6,
+        "main_domain_rank": 461.1,
+        "last_updated_time": "2026-08-02 18:42:06 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "informational",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-30 06:35:37 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "how to grow chamomile seeds",
+       "location_code": 2840,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-08-25 07:03:35 +00:00",
+        "competition": 0.17,
+        "competition_level": "LOW",
+        "cpc": 0.04,
+        "search_volume": 480,
+        "low_top_of_page_bid": 0.01,
+        "high_top_of_page_bid": 0.03,
+        "categories": [
+         10004,
+         10004,
+         11188,
+         11188,
+         12427,
+         13460,
+         13460
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 390
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 720
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 1000
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 1300
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 1000
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 590
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 390
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 110
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 140
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 170
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 170
+         },
+         {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 210
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": -46,
+         "quarterly": -61,
+         "yearly": 22
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": "how to grow chamomile from seed",
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 0,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 5
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 51.5,
+        "dofollow": 43.7,
+        "referring_pages": 48.9,
+        "referring_domains": 18.6,
+        "referring_main_domains": 17.2,
+        "rank": 96.9,
+        "main_domain_rank": 458.9,
+        "last_updated_time": "2024-11-30 14:44:45 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "informational",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-27 22:18:10 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "how to plant chamomile seeds",
+       "location_code": 2840,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-07-15 20:54:57 +00:00",
+        "competition": 0.13,
+        "competition_level": "LOW",
+        "cpc": 0.03,
+        "search_volume": 480,
+        "low_top_of_page_bid": 0.02,
+        "high_top_of_page_bid": 0.06,
+        "categories": [
+         10004,
+         10004,
+         11188,
+         11188,
+         12427,
+         13460,
+         13460
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 720
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 1000
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 1300
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 1000
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 590
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 390
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 110
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 140
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 170
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 170
+         },
+         {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 210
+         },
+         {
+          "year": 2025,
+          "month": 7,
+          "search_volume": 320
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": -28,
+         "quarterly": -45,
+         "yearly": 22
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 10,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 5
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 43.5,
+        "dofollow": 37,
+        "referring_pages": 40.9,
+        "referring_domains": 15.4,
+        "referring_main_domains": 14.1,
+        "rank": 72.6,
+        "main_domain_rank": 510.6,
+        "last_updated_time": "2024-10-06 00:58:28 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "informational",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-28 11:35:35 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "how to grow chamomile from seeds",
+       "location_code": 2840,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-08-25 06:38:23 +00:00",
+        "competition": 0.17,
+        "competition_level": "LOW",
+        "cpc": 0.04,
+        "search_volume": 480,
+        "low_top_of_page_bid": 0.01,
+        "high_top_of_page_bid": 0.03,
+        "categories": [
+         10004,
+         10004,
+         11188,
+         11188,
+         12427,
+         13460,
+         13460
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 390
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 720
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 1000
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 1300
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 1000
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 590
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 390
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 110
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 140
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 170
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 170
+         },
+         {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 210
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": -46,
+         "quarterly": -61,
+         "yearly": 22
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": "how to grow chamomile from seed",
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 0,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 6
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 51.2,
+        "dofollow": 43.3,
+        "referring_pages": 48.1,
+        "referring_domains": 19.4,
+        "referring_main_domains": 18.1,
+        "rank": 94.9,
+        "main_domain_rank": 580.1,
+        "last_updated_time": "2024-10-06 00:59:10 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "informational",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-27 20:03:38 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "lawn chamomile seeds",
+       "location_code": 2840,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-08-21 00:07:54 +00:00",
+        "competition": 0.98,
+        "competition_level": "HIGH",
+        "cpc": 0.78,
+        "search_volume": 210,
+        "low_top_of_page_bid": 0.18,
+        "high_top_of_page_bid": 0.94,
+        "categories": [
+         10009,
+         10406
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 110
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 140
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 260
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 390
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 480
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 480
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 590
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 20
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 10
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 10
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 40
+         },
+         {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 30
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": -21,
+         "quarterly": -58,
+         "yearly": 120
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": "chamomile lawn seeds",
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 0,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 3
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 0.2,
+        "dofollow": 0.2,
+        "referring_pages": 0.2,
+        "referring_domains": 0.2,
+        "referring_main_domains": 0.2,
+        "rank": 18,
+        "main_domain_rank": 434.3,
+        "last_updated_time": "2026-07-07 12:46:19 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "transactional",
+        "foreign_intent": [
+         "informational",
+         "commercial"
+        ],
+        "last_updated_time": "2026-04-28 10:38:32 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "chamomile lawn seeds",
+       "location_code": 2840,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-08-23 01:05:46 +00:00",
+        "competition": 0.98,
+        "competition_level": "HIGH",
+        "cpc": 0.78,
+        "search_volume": 210,
+        "low_top_of_page_bid": 0.18,
+        "high_top_of_page_bid": 0.94,
+        "categories": [
+         10009,
+         10406
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 110
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 140
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 260
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 390
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 480
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 480
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 590
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 20
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 10
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 10
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 40
+         },
+         {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 30
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": -21,
+         "quarterly": -58,
+         "yearly": 120
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 0,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 3
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 1.8,
+        "dofollow": 0.9,
+        "referring_pages": 1.4,
+        "referring_domains": 1.2,
+        "referring_main_domains": 1.2,
+        "rank": 28.2,
+        "main_domain_rank": 383.3,
+        "last_updated_time": "2026-07-08 01:40:21 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "transactional",
+        "foreign_intent": [
+         "informational",
+         "commercial"
+        ],
+        "last_updated_time": "2026-04-26 21:18:24 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "chamomile seeds for lawn",
+       "location_code": 2840,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-08-18 13:57:26 +00:00",
+        "competition": 0.98,
+        "competition_level": "HIGH",
+        "cpc": 0.78,
+        "search_volume": 210,
+        "low_top_of_page_bid": 0.18,
+        "high_top_of_page_bid": 0.94,
+        "categories": [
+         10009,
+         10406
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 110
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 140
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 260
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 390
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 480
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 480
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 590
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 20
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 10
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 10
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 40
+         },
+         {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 30
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": -21,
+         "quarterly": -58,
+         "yearly": 120
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": "chamomile lawn seeds",
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 0,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 4
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 0.1,
+        "dofollow": 0.1,
+        "referring_pages": 0.1,
+        "referring_domains": 0.1,
+        "referring_main_domains": 0.1,
+        "rank": 16.2,
+        "main_domain_rank": 463.1,
+        "last_updated_time": "2025-12-22 03:39:44 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "informational",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-25 23:05:56 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "when to plant chamomile seeds",
+       "location_code": 2840,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-08-17 15:46:33 +00:00",
+        "competition": 0.18,
+        "competition_level": "LOW",
+        "cpc": 0.01,
+        "search_volume": 170,
+        "low_top_of_page_bid": 0.01,
+        "high_top_of_page_bid": 0.03,
+        "categories": [
+         10004,
+         11188,
+         12427,
+         13460
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 140
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 170
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 210
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 320
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 390
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 260
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 260
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 70
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 70
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 110
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 110
+         },
+         {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 110
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": -18,
+         "quarterly": -33,
+         "yearly": 27
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 0,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 5
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 9.1,
+        "dofollow": 7.9,
+        "referring_pages": 9.1,
+        "referring_domains": 4.4,
+        "referring_main_domains": 4.4,
+        "rank": 42.9,
+        "main_domain_rank": 510.6,
+        "last_updated_time": "2026-07-08 10:00:37 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "informational",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-30 04:10:52 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "chamomile seeds for sale",
+       "location_code": 2840,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-08-23 03:04:56 +00:00",
+        "competition": 1,
+        "competition_level": "HIGH",
+        "cpc": 0.45,
+        "search_volume": 170,
+        "low_top_of_page_bid": 0.27,
+        "high_top_of_page_bid": 0.82,
+        "categories": [
+         10004,
+         11188,
+         13460
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 90
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 260
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 390
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 260
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 320
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 210
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 210
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 70
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 110
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 90
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 70
+         },
+         {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 40
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": -65,
+         "quarterly": -77,
+         "yearly": 0
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": "keyword_metrics",
+        "keyword_difficulty": 0,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 4
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 4.2,
+        "dofollow": 4.2,
+        "referring_pages": 4.2,
+        "referring_domains": 0.3,
+        "referring_main_domains": 0.2,
+        "rank": 5.2,
+        "main_domain_rank": 278,
+        "last_updated_time": "2025-02-19 11:45:19 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "transactional",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-29 08:24:40 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "buy chamomile seeds",
+       "location_code": 2840,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-08-19 21:19:45 +00:00",
+        "competition": 1,
+        "competition_level": "HIGH",
+        "cpc": 0.45,
+        "search_volume": 170,
+        "low_top_of_page_bid": 0.27,
+        "high_top_of_page_bid": 0.82,
+        "categories": [
+         10004,
+         11188,
+         12427,
+         13460
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 90
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 260
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 390
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 260
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 320
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 210
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 210
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 70
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 110
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 90
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 70
+         },
+         {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 40
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": -65,
+         "quarterly": -77,
+         "yearly": 0
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 0,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 3
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 4.3,
+        "dofollow": 4.3,
+        "referring_pages": 4.3,
+        "referring_domains": 0.3,
+        "referring_main_domains": 0.2,
+        "rank": 7.2,
+        "main_domain_rank": 351.5,
+        "last_updated_time": "2024-10-09 10:55:32 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "transactional",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-29 06:06:49 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "chamomile flowers seeds",
+       "location_code": 2840,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-08-25 05:52:30 +00:00",
+        "competition": 1,
+        "competition_level": "HIGH",
+        "cpc": 0.97,
+        "search_volume": 140,
+        "low_top_of_page_bid": 0.25,
+        "high_top_of_page_bid": 0.83,
+        "categories": [
+         10004,
+         13460
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 90
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 170
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 210
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 210
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 260
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 140
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 140
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 70
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 70
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 90
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 90
+         },
+         {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 110
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": -47,
+         "quarterly": -57,
+         "yearly": -18
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": "chamomile flower seed",
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 0,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 3
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 0.4,
+        "dofollow": 0.4,
+        "referring_pages": 0.4,
+        "referring_domains": 0.3,
+        "referring_main_domains": 0.3,
+        "rank": 4.3,
+        "main_domain_rank": 367.9,
+        "last_updated_time": "2025-12-19 08:32:12 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "informational",
+        "foreign_intent": [
+         "transactional"
+        ],
+        "last_updated_time": "2026-04-27 06:51:24 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "chamomile flower seeds",
+       "location_code": 2840,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-08-25 02:41:12 +00:00",
+        "competition": 1,
+        "competition_level": "HIGH",
+        "cpc": 0.97,
+        "search_volume": 140,
+        "low_top_of_page_bid": 0.25,
+        "high_top_of_page_bid": 0.83,
+        "categories": [
+         10005,
+         10049,
+         10316
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 90
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 170
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 210
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 210
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 260
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 140
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 140
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 70
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 70
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 90
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 90
+         },
+         {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 110
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": -47,
+         "quarterly": -57,
+         "yearly": -18
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": "chamomile flower seed",
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 0,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 3
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 2.3,
+        "dofollow": 2,
+        "referring_pages": 2.3,
+        "referring_domains": 0.8,
+        "referring_main_domains": 0.7,
+        "rank": 21.1,
+        "main_domain_rank": 393.7,
+        "last_updated_time": "2026-07-11 19:08:18 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "informational",
+        "foreign_intent": [
+         "transactional"
+        ],
+        "last_updated_time": "2026-04-30 01:00:36 +00:00"
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

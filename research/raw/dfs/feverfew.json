@@ -1,0 +1,2555 @@
+{
+ "version": "0.1.20260826",
+ "status_code": 20000,
+ "status_message": "Ok.",
+ "time": "0.3901 sec.",
+ "cost": 0.0144,
+ "tasks_count": 1,
+ "tasks_error": 0,
+ "tasks": [
+  {
+   "id": "08261015-2330-0399-0000-fcebcc529b9f",
+   "status_code": 20000,
+   "status_message": "Ok.",
+   "time": "0.3358 sec.",
+   "cost": 0.0144,
+   "result_count": 1,
+   "path": [
+    "v3",
+    "dataforseo_labs",
+    "google",
+    "keyword_suggestions",
+    "live"
+   ],
+   "data": {
+    "api": "dataforseo_labs",
+    "function": "keyword_suggestions",
+    "se_type": "google",
+    "keyword": "feverfew plant",
+    "location_code": 2840,
+    "language_code": "en",
+    "limit": 200,
+    "include_seed_keyword": true,
+    "order_by": [
+     "keyword_info.search_volume,desc"
+    ],
+    "filters": [
+     [
+      "keyword_info.search_volume",
+      ">",
+      100
+     ]
+    ]
+   },
+   "result": [
+    {
+     "se_type": "google",
+     "seed_keyword": "feverfew plant",
+     "seed_keyword_data": {
+      "se_type": "google",
+      "keyword": "feverfew plant",
+      "location_code": 2840,
+      "language_code": "en",
+      "keyword_info": {
+       "se_type": "google",
+       "last_updated_time": "2026-07-15 22:11:07 +00:00",
+       "competition": 0.98,
+       "competition_level": "HIGH",
+       "cpc": 0.31,
+       "search_volume": 3600,
+       "low_top_of_page_bid": 0.21,
+       "high_top_of_page_bid": 1.09,
+       "categories": [
+        10011,
+        10089,
+        11772,
+        12930
+       ],
+       "monthly_searches": [
+        {
+         "year": 2026,
+         "month": 6,
+         "search_volume": 8100
+        },
+        {
+         "year": 2026,
+         "month": 5,
+         "search_volume": 8100
+        },
+        {
+         "year": 2026,
+         "month": 4,
+         "search_volume": 6600
+        },
+        {
+         "year": 2026,
+         "month": 3,
+         "search_volume": 3600
+        },
+        {
+         "year": 2026,
+         "month": 2,
+         "search_volume": 1900
+        },
+        {
+         "year": 2026,
+         "month": 1,
+         "search_volume": 1900
+        },
+        {
+         "year": 2025,
+         "month": 12,
+         "search_volume": 1000
+        },
+        {
+         "year": 2025,
+         "month": 11,
+         "search_volume": 1000
+        },
+        {
+         "year": 2025,
+         "month": 10,
+         "search_volume": 1900
+        },
+        {
+         "year": 2025,
+         "month": 9,
+         "search_volume": 2400
+        },
+        {
+         "year": 2025,
+         "month": 8,
+         "search_volume": 2400
+        },
+        {
+         "year": 2025,
+         "month": 7,
+         "search_volume": 4400
+        }
+       ],
+       "search_volume_trend": {
+        "monthly": 0,
+        "quarterly": 23,
+        "yearly": 23
+       }
+      },
+      "keyword_info_normalized_with_bing": null,
+      "keyword_info_normalized_with_clickstream": null,
+      "clickstream_keyword_info": null,
+      "keyword_properties": {
+       "se_type": "google",
+       "core_keyword": null,
+       "synonym_clustering_algorithm": "text_processing",
+       "keyword_difficulty": 3,
+       "detected_language": "en",
+       "is_another_language": false,
+       "words_count": 2
+      },
+      "serp_info": {
+       "se_type": "google",
+       "check_url": "https://www.google.com/search?q=feverfew%20plant&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+       "serp_item_types": [
+        "organic",
+        "people_also_ask",
+        "product_considerations",
+        "video",
+        "perspectives",
+        "popular_products",
+        "related_searches",
+        "knowledge_graph",
+        "images"
+       ],
+       "se_results_count": 200,
+       "last_updated_time": "2026-06-19 17:10:48 +00:00",
+       "previous_updated_time": "2026-06-19 16:52:22 +00:00"
+      },
+      "search_intent_info": {
+       "se_type": "google",
+       "main_intent": "informational",
+       "foreign_intent": null,
+       "last_updated_time": "2026-04-29 09:12:01 +00:00"
+      },
+      "avg_backlinks_info": {
+       "se_type": "google",
+       "backlinks": 120.2,
+       "dofollow": 77.2,
+       "referring_pages": 86.2,
+       "referring_domains": 42.3,
+       "referring_main_domains": 31.8,
+       "rank": 79.6,
+       "main_domain_rank": 441.2,
+       "last_updated_time": "2026-06-19 17:11:35 +00:00"
+      }
+     },
+     "location_code": 2840,
+     "language_code": "en",
+     "total_count": 20,
+     "items_count": 20,
+     "offset": 0,
+     "offset_token": "eyJDdXJyZW50T2Zmc2V0IjoyMCwiUmVxdWVzdERhdGEiOnsia2V5d29yZCI6ImZldmVyZmV3IHBsYW50IiwiaW5jbHVkZV9zZWVkX2tleXdvcmQiOnRydWUsImZ1bGxfbWF0Y2giOmZhbHNlLCJsb2FkX3NlcnBfaW5mbyI6ZmFsc2UsInNlYXJjaF9hZnRlcl90b2tlbiI6bnVsbCwiaWdub3JlX3N5bm9ueW1zIjpmYWxzZSwibGFuZ3VhZ2UiOiJlbiIsInNlYXJjaF9lbmdpbmUiOiJnb29nbGUiLCJsb2NhdGlvbiI6Mjg0MCwidXNlX25ld19jYXRlZ29yaWVzIjp0cnVlLCJvcmRlcl9ieSI6eyJvcmRlcl9maWVsZCI6ImtleXdvcmRfaW5mby5zZWFyY2hfdm9sdW1lIiwib3JkZXJfdHlwZSI6IkRlc2MiLCJuZXh0IjpudWxsfSwibGltaXQiOjIwMCwib2Zmc2V0IjowLCJhaWQiOjIzMzA4MiwidXNlX2NhY2hlIjp0cnVlLCJ0YXNrX2lkIjoiMDgyNjEwMTUtMjMzMC0wMzk5LTAwMDAtZmNlYmNjNTI5YjlmIiwiZmxhZ3MiOm51bGx9LCJSYXdRdWVyeSI6eyJmaWVsZCI6ImtleXdvcmRfaW5mby5zZWFyY2hfdm9sdW1lIiwidHlwZSI6Imd0IiwidmFsdWUiOjEwMH0sIklkIjoiNzUyNWNlYzAtNDE3NC00NzEyLTkxYmMtNzU4NjU4YTI4Y2E3IiwiU2VhcmNoQWZ0ZXJEYXRhIjpbMTQwLCJjYjFjNjA2Ni04NWIwLWY4N2QtZGRmOS0wNzY1MjVjYWQxZTUiXSwiRXhlY3V0b3IiOi05MTg0NDA1OTQwNDQ0NTE3NjMzfQ==",
+     "items": [
+      {
+       "se_type": "google",
+       "keyword": "plant feverfew",
+       "location_code": 2840,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-08-18 00:08:21 +00:00",
+        "competition": 0.99,
+        "competition_level": "HIGH",
+        "cpc": 0.41,
+        "search_volume": 3600,
+        "low_top_of_page_bid": 0.1,
+        "high_top_of_page_bid": 0.87,
+        "categories": [
+         10011,
+         10085,
+         10468,
+         10490
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 4400
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 8100
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 8100
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 6600
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 3600
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 1900
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 1900
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 1000
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 1000
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 1900
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 2400
+         },
+         {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 2400
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": -46,
+         "quarterly": -46,
+         "yearly": 0
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": "feverfew plant",
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 0,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 2
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 113.5,
+        "dofollow": 72.7,
+        "referring_pages": 81.3,
+        "referring_domains": 40.8,
+        "referring_main_domains": 30.5,
+        "rank": 63.4,
+        "main_domain_rank": 467.8,
+        "last_updated_time": "2026-06-19 15:08:10 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "informational",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-28 21:33:20 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "feverfew where to plant",
+       "location_code": 2840,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-08-24 09:51:55 +00:00",
+        "competition": 0.99,
+        "competition_level": "HIGH",
+        "cpc": 0.41,
+        "search_volume": 3600,
+        "low_top_of_page_bid": 0.1,
+        "high_top_of_page_bid": 0.87,
+        "categories": [
+         10004,
+         13460
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 4400
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 8100
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 8100
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 6600
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 3600
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 1900
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 1900
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 1000
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 1000
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 1900
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 2400
+         },
+         {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 2400
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": -46,
+         "quarterly": -46,
+         "yearly": 0
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 0,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 4
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 12,
+        "dofollow": 8.8,
+        "referring_pages": 11.7,
+        "referring_domains": 6.9,
+        "referring_main_domains": 6.4,
+        "rank": 38.4,
+        "main_domain_rank": 324.6,
+        "last_updated_time": "2024-09-15 17:31:36 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "informational",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-29 13:22:25 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "feverfew plant",
+       "location_code": 2840,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-07-15 22:11:07 +00:00",
+        "competition": 0.98,
+        "competition_level": "HIGH",
+        "cpc": 0.31,
+        "search_volume": 3600,
+        "low_top_of_page_bid": 0.21,
+        "high_top_of_page_bid": 1.09,
+        "categories": [
+         10011,
+         10089,
+         11772,
+         12930
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 8100
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 8100
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 6600
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 3600
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 1900
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 1900
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 1000
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 1000
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 1900
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 2400
+         },
+         {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 2400
+         },
+         {
+          "year": 2025,
+          "month": 7,
+          "search_volume": 4400
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": 0,
+         "quarterly": 23,
+         "yearly": 23
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 3,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 2
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 120.2,
+        "dofollow": 77.2,
+        "referring_pages": 86.2,
+        "referring_domains": 42.3,
+        "referring_main_domains": 31.8,
+        "rank": 79.6,
+        "main_domain_rank": 441.2,
+        "last_updated_time": "2026-06-19 17:11:35 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "informational",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-29 09:12:01 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "feverfew plant seeds",
+       "location_code": 2840,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-08-26 00:08:26 +00:00",
+        "competition": 1,
+        "competition_level": "HIGH",
+        "cpc": null,
+        "search_volume": 1900,
+        "low_top_of_page_bid": 0.25,
+        "high_top_of_page_bid": 0.92,
+        "categories": [
+         10004,
+         10004,
+         11188,
+         11188,
+         12427,
+         13460,
+         13460
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 1900
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 2400
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 2900
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 2900
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 3600
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 2400
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 2400
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 720
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 590
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 1000
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 1300
+         },
+         {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 1600
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": -21,
+         "quarterly": -34,
+         "yearly": 0
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 0,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 3
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 174.6,
+        "dofollow": 87.1,
+        "referring_pages": 87.1,
+        "referring_domains": 0.2,
+        "referring_main_domains": 0.1,
+        "rank": 2.8,
+        "main_domain_rank": 378.9,
+        "last_updated_time": "2024-10-12 20:37:11 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "informational",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-29 17:41:22 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "feverfew plant uses",
+       "location_code": 2840,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-08-25 19:59:57 +00:00",
+        "competition": 0.09,
+        "competition_level": "LOW",
+        "cpc": null,
+        "search_volume": 390,
+        "low_top_of_page_bid": 0.02,
+        "high_top_of_page_bid": 3.09,
+        "categories": [
+         10011,
+         10089,
+         11772,
+         12930
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 480
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 720
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 590
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 390
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 320
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 210
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 210
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 170
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 260
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 260
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 320
+         },
+         {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 320
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": -33,
+         "quarterly": -19,
+         "yearly": 0
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": "feverfew uses",
+        "synonym_clustering_algorithm": "keyword_metrics",
+        "keyword_difficulty": 25,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 3
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 110.9,
+        "dofollow": 70.9,
+        "referring_pages": 92.8,
+        "referring_domains": 56.7,
+        "referring_main_domains": 46.7,
+        "rank": 151.7,
+        "main_domain_rank": 473.2,
+        "last_updated_time": "2026-01-30 21:55:08 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "informational",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-29 19:46:38 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "picture of feverfew plant",
+       "location_code": 2840,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-08-26 06:07:25 +00:00",
+        "competition": 0.25,
+        "competition_level": "LOW",
+        "cpc": null,
+        "search_volume": 210,
+        "low_top_of_page_bid": null,
+        "high_top_of_page_bid": null,
+        "categories": [
+         10004,
+         13460
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 390
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 720
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 390
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 260
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 140
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 90
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 70
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 70
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 70
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 110
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 140
+         },
+         {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 140
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": -46,
+         "quarterly": 0,
+         "yearly": 50
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 0,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 4
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 3.1,
+        "dofollow": 2.7,
+        "referring_pages": 3.1,
+        "referring_domains": 2.2,
+        "referring_main_domains": 2,
+        "rank": 17.8,
+        "main_domain_rank": 546.2,
+        "last_updated_time": "2026-07-08 22:06:03 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "informational",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-28 21:25:51 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "feverfew plant images",
+       "location_code": 2840,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-07-15 15:27:48 +00:00",
+        "competition": 0.21,
+        "competition_level": "LOW",
+        "cpc": 0.07,
+        "search_volume": 210,
+        "low_top_of_page_bid": null,
+        "high_top_of_page_bid": null,
+        "categories": [
+         10004,
+         13460
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 720
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 390
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 260
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 140
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 90
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 70
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 70
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 70
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 110
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 140
+         },
+         {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 140
+         },
+         {
+          "year": 2025,
+          "month": 7,
+          "search_volume": 260
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": 85,
+         "quarterly": 177,
+         "yearly": 50
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 0,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 3
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 3.1,
+        "dofollow": 2.7,
+        "referring_pages": 3.1,
+        "referring_domains": 2.2,
+        "referring_main_domains": 2,
+        "rank": 17.8,
+        "main_domain_rank": 527.4,
+        "last_updated_time": "2026-07-09 13:47:33 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "informational",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-29 19:46:38 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "feverfew plant pictures",
+       "location_code": 2840,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-08-26 00:41:48 +00:00",
+        "competition": 0.25,
+        "competition_level": "LOW",
+        "cpc": null,
+        "search_volume": 210,
+        "low_top_of_page_bid": null,
+        "high_top_of_page_bid": null,
+        "categories": [
+         10004,
+         13460
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 390
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 720
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 390
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 260
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 140
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 90
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 70
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 70
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 70
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 110
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 140
+         },
+         {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 140
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": -46,
+         "quarterly": 0,
+         "yearly": 50
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": "picture of feverfew plant",
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 0,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 3
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 0.4,
+        "dofollow": 0.4,
+        "referring_pages": 0.4,
+        "referring_domains": 0.4,
+        "referring_main_domains": 0.2,
+        "rank": 6.2,
+        "main_domain_rank": 612.4,
+        "last_updated_time": "2026-07-09 13:46:46 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "informational",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-27 18:40:54 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "pictures of feverfew plant",
+       "location_code": 2840,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-08-17 22:29:31 +00:00",
+        "competition": 0.25,
+        "competition_level": "LOW",
+        "cpc": 0.17,
+        "search_volume": 210,
+        "low_top_of_page_bid": null,
+        "high_top_of_page_bid": null,
+        "categories": [
+         10004,
+         13460
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 390
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 720
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 390
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 260
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 140
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 90
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 70
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 70
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 70
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 110
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 140
+         },
+         {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 140
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": -46,
+         "quarterly": 0,
+         "yearly": 50
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": "picture of feverfew plant",
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 0,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 4
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 2.6,
+        "dofollow": 2.5,
+        "referring_pages": 2.6,
+        "referring_domains": 1.7,
+        "referring_main_domains": 1.5,
+        "rank": 12.5,
+        "main_domain_rank": 571.7,
+        "last_updated_time": "2026-07-08 22:05:04 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "informational",
+        "foreign_intent": null,
+        "last_updated_time": "2026-05-06 07:25:00 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "feverfew plant identification",
+       "location_code": 2840,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-07-14 15:07:03 +00:00",
+        "competition": 0.03,
+        "competition_level": "LOW",
+        "cpc": 0.09,
+        "search_volume": 210,
+        "low_top_of_page_bid": 1.48,
+        "high_top_of_page_bid": 5.47,
+        "categories": [
+         10004,
+         13460
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 880
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 320
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 110
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 70
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 40
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 40
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 40
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 50
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 110
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 170
+         },
+         {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 170
+         },
+         {
+          "year": 2025,
+          "month": 7,
+          "search_volume": 320
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": 175,
+         "quarterly": 700,
+         "yearly": 22
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 0,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 3
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 70.6,
+        "dofollow": 38.6,
+        "referring_pages": 39.9,
+        "referring_domains": 15,
+        "referring_main_domains": 13.9,
+        "rank": 40.7,
+        "main_domain_rank": 474.1,
+        "last_updated_time": "2026-07-09 13:47:01 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "informational",
+        "foreign_intent": null,
+        "last_updated_time": "2026-05-04 10:26:01 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "feverfew plant leaves",
+       "location_code": 2840,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-07-15 03:10:28 +00:00",
+        "competition": 0.6,
+        "competition_level": "MEDIUM",
+        "cpc": 0.11,
+        "search_volume": 170,
+        "low_top_of_page_bid": null,
+        "high_top_of_page_bid": null,
+        "categories": [
+         10004,
+         13460
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 320
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 480
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 210
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 140
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 90
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 70
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 70
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 90
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 110
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 110
+         },
+         {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 90
+         },
+         {
+          "year": 2025,
+          "month": 7,
+          "search_volume": 170
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": -33,
+         "quarterly": 52,
+         "yearly": 0
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": null,
+        "keyword_difficulty": 2,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 3
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 49.9,
+        "dofollow": 36.1,
+        "referring_pages": 43.8,
+        "referring_domains": 27.2,
+        "referring_main_domains": 18.6,
+        "rank": 65.2,
+        "main_domain_rank": 506.9,
+        "last_updated_time": "2026-07-09 13:47:03 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "informational",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-27 19:04:16 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "golden feverfew plant",
+       "location_code": 2840,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-08-20 17:29:01 +00:00",
+        "competition": 0.41,
+        "competition_level": "MEDIUM",
+        "cpc": 0.2,
+        "search_volume": 170,
+        "low_top_of_page_bid": null,
+        "high_top_of_page_bid": null,
+        "categories": [
+         10004,
+         13460
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 110
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 260
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 320
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 320
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 170
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 210
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 70
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 30
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 110
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 210
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 70
+         },
+         {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 110
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": -58,
+         "quarterly": -66,
+         "yearly": -21
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 0,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 3
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 81.2,
+        "dofollow": 48.9,
+        "referring_pages": 50.5,
+        "referring_domains": 15.4,
+        "referring_main_domains": 14.3,
+        "rank": 48.5,
+        "main_domain_rank": 377.8,
+        "last_updated_time": "2026-07-09 11:41:43 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "informational",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-27 21:48:07 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "feverfew plant for sale",
+       "location_code": 2840,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-08-21 17:25:47 +00:00",
+        "competition": 1,
+        "competition_level": "HIGH",
+        "cpc": 0.58,
+        "search_volume": 170,
+        "low_top_of_page_bid": 0.28,
+        "high_top_of_page_bid": 1.13,
+        "categories": [
+         10004,
+         13460
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 210
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 390
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 390
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 320
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 170
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 140
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 110
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 50
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 70
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 110
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 110
+         },
+         {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 140
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": -46,
+         "quarterly": -46,
+         "yearly": 24
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 0,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 4
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 4.5,
+        "dofollow": 2.8,
+        "referring_pages": 4.5,
+        "referring_domains": 1.2,
+        "referring_main_domains": 1.2,
+        "rank": 3.2,
+        "main_domain_rank": 422.7,
+        "last_updated_time": "2024-07-05 23:05:04 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "transactional",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-29 18:53:47 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "feverfew plant buy",
+       "location_code": 2840,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-08-20 12:54:56 +00:00",
+        "competition": 1,
+        "competition_level": "HIGH",
+        "cpc": 0.58,
+        "search_volume": 170,
+        "low_top_of_page_bid": 0.28,
+        "high_top_of_page_bid": 1.13,
+        "categories": [
+         10004,
+         13460
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 210
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 390
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 390
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 320
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 170
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 140
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 110
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 50
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 70
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 110
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 110
+         },
+         {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 140
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": -46,
+         "quarterly": -46,
+         "yearly": 24
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": "buy feverfew plant",
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 0,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 3
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 68.5,
+        "dofollow": 36.5,
+        "referring_pages": 37.8,
+        "referring_domains": 14,
+        "referring_main_domains": 13,
+        "rank": 30.5,
+        "main_domain_rank": 480.5,
+        "last_updated_time": "2026-07-09 13:47:36 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "transactional",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-29 08:40:57 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "buy feverfew plant",
+       "location_code": 2840,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-08-14 19:44:33 +00:00",
+        "competition": 1,
+        "competition_level": "HIGH",
+        "cpc": 0.58,
+        "search_volume": 170,
+        "low_top_of_page_bid": 0.28,
+        "high_top_of_page_bid": 1.13,
+        "categories": [
+         10004,
+         13460
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 210
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 390
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 390
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 320
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 170
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 140
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 110
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 50
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 70
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 110
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 110
+         },
+         {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 140
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": -46,
+         "quarterly": -46,
+         "yearly": 24
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 0,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 3
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 7.3,
+        "dofollow": 3.3,
+        "referring_pages": 7.3,
+        "referring_domains": 2.5,
+        "referring_main_domains": 2.5,
+        "rank": 4.8,
+        "main_domain_rank": 462,
+        "last_updated_time": "2024-07-24 13:46:33 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "transactional",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-25 19:10:15 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "feverfew plant in spanish",
+       "location_code": 2840,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-08-23 08:33:29 +00:00",
+        "competition": 0,
+        "competition_level": "LOW",
+        "cpc": null,
+        "search_volume": 170,
+        "low_top_of_page_bid": null,
+        "high_top_of_page_bid": null,
+        "categories": [
+         10011,
+         10089,
+         11772,
+         12930
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 210
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 390
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 210
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 170
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 170
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 140
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 170
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 110
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 110
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 140
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 140
+         },
+         {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 140
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": -46,
+         "quarterly": 0,
+         "yearly": 50
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": null,
+        "keyword_difficulty": 0,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 4
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 70.4,
+        "dofollow": 38.4,
+        "referring_pages": 39.7,
+        "referring_domains": 15,
+        "referring_main_domains": 13.9,
+        "rank": 35.7,
+        "main_domain_rank": 439.8,
+        "last_updated_time": "2026-07-09 13:47:01 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "informational",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-29 07:51:15 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "how to use feverfew plant",
+       "location_code": 2840,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-08-26 06:37:13 +00:00",
+        "competition": 0.06,
+        "competition_level": "LOW",
+        "cpc": null,
+        "search_volume": 140,
+        "low_top_of_page_bid": 0.03,
+        "high_top_of_page_bid": 4.04,
+        "categories": [
+         10011,
+         10089,
+         11772,
+         12930
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 260
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 390
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 260
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 170
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 90
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 50
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 70
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 50
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 70
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 70
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 90
+         },
+         {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 170
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": -33,
+         "quarterly": 0,
+         "yearly": 0
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": "how to use feverfew",
+        "synonym_clustering_algorithm": "keyword_metrics",
+        "keyword_difficulty": 7,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 5
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 59.9,
+        "dofollow": 40.6,
+        "referring_pages": 49.3,
+        "referring_domains": 29.8,
+        "referring_main_domains": 20.9,
+        "rank": 100.3,
+        "main_domain_rank": 397.5,
+        "last_updated_time": "2026-05-01 21:03:25 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "informational",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-28 00:44:17 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "how to plant feverfew",
+       "location_code": 2840,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-08-25 20:30:36 +00:00",
+        "competition": 0.19,
+        "competition_level": "LOW",
+        "cpc": null,
+        "search_volume": 140,
+        "low_top_of_page_bid": 0.01,
+        "high_top_of_page_bid": 0.05,
+        "categories": [
+         10004,
+         11188,
+         12427,
+         13460
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 170
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 260
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 320
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 320
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 210
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 140
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 90
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 40
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 40
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 70
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 70
+         },
+         {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 90
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": -35,
+         "quarterly": -47,
+         "yearly": 0
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": null,
+        "keyword_difficulty": 0,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 4
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 2.6,
+        "dofollow": 1.5,
+        "referring_pages": 2,
+        "referring_domains": 1.7,
+        "referring_main_domains": 1.7,
+        "rank": 15.1,
+        "main_domain_rank": 502.2,
+        "last_updated_time": "2026-07-11 09:45:24 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "informational",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-27 23:59:32 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "how to grow feverfew plant",
+       "location_code": 2840,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-08-23 01:29:43 +00:00",
+        "competition": 0.19,
+        "competition_level": "LOW",
+        "cpc": 0.01,
+        "search_volume": 140,
+        "low_top_of_page_bid": 0.01,
+        "high_top_of_page_bid": 0.05,
+        "categories": [
+         10004,
+         11188,
+         12427,
+         13460
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 170
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 260
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 320
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 320
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 210
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 140
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 90
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 40
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 40
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 70
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 70
+         },
+         {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 90
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": -35,
+         "quarterly": -47,
+         "yearly": 0
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 0,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 5
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 1.2,
+        "dofollow": 0.8,
+        "referring_pages": 1.2,
+        "referring_domains": 0.8,
+        "referring_main_domains": 0.8,
+        "rank": 10,
+        "main_domain_rank": 441.1,
+        "last_updated_time": "2026-07-11 12:40:00 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "informational",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-27 22:02:34 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "feverfew plant perennial",
+       "location_code": 2840,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-08-19 09:04:27 +00:00",
+        "competition": 0.44,
+        "competition_level": "MEDIUM",
+        "cpc": 0.37,
+        "search_volume": 140,
+        "low_top_of_page_bid": null,
+        "high_top_of_page_bid": null,
+        "categories": [
+         10004,
+         13460
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 210
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 320
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 260
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 170
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 110
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 40
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 40
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 30
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 20
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 70
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 90
+         },
+         {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 140
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": -34,
+         "quarterly": -19,
+         "yearly": 0
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": null,
+        "keyword_difficulty": 0,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 3
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 4.1,
+        "dofollow": 3.3,
+        "referring_pages": 3.5,
+        "referring_domains": 2.2,
+        "referring_main_domains": 2.1,
+        "rank": 15,
+        "main_domain_rank": 486.3,
+        "last_updated_time": "2026-07-11 14:24:09 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "informational",
+        "foreign_intent": null,
+        "last_updated_time": "2026-05-05 04:09:27 +00:00"
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

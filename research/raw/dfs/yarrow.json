@@ -1,0 +1,2484 @@
+{
+ "version": "0.1.20260826",
+ "status_code": 20000,
+ "status_message": "Ok.",
+ "time": "0.1416 sec.",
+ "cost": 0.01428,
+ "tasks_count": 1,
+ "tasks_error": 0,
+ "tasks": [
+  {
+   "id": "08261015-2330-0399-0000-199bec898d67",
+   "status_code": 20000,
+   "status_message": "Ok.",
+   "time": "0.0841 sec.",
+   "cost": 0.01428,
+   "result_count": 1,
+   "path": [
+    "v3",
+    "dataforseo_labs",
+    "google",
+    "keyword_suggestions",
+    "live"
+   ],
+   "data": {
+    "api": "dataforseo_labs",
+    "function": "keyword_suggestions",
+    "se_type": "google",
+    "keyword": "yarrow seeds",
+    "location_code": 2840,
+    "language_code": "en",
+    "limit": 200,
+    "include_seed_keyword": true,
+    "order_by": [
+     "keyword_info.search_volume,desc"
+    ],
+    "filters": [
+     [
+      "keyword_info.search_volume",
+      ">",
+      100
+     ]
+    ]
+   },
+   "result": [
+    {
+     "se_type": "google",
+     "seed_keyword": "yarrow seeds",
+     "seed_keyword_data": {
+      "se_type": "google",
+      "keyword": "yarrow seeds",
+      "location_code": 2840,
+      "language_code": "en",
+      "keyword_info": {
+       "se_type": "google",
+       "last_updated_time": "2026-08-25 18:28:08 +00:00",
+       "competition": 1,
+       "competition_level": "HIGH",
+       "cpc": null,
+       "search_volume": 8100,
+       "low_top_of_page_bid": 0.32,
+       "high_top_of_page_bid": 1.16,
+       "categories": [
+        10004,
+        11188,
+        12427,
+        13460
+       ],
+       "monthly_searches": [
+        {
+         "year": 2026,
+         "month": 7,
+         "search_volume": 8100
+        },
+        {
+         "year": 2026,
+         "month": 6,
+         "search_volume": 12100
+        },
+        {
+         "year": 2026,
+         "month": 5,
+         "search_volume": 14800
+        },
+        {
+         "year": 2026,
+         "month": 4,
+         "search_volume": 12100
+        },
+        {
+         "year": 2026,
+         "month": 3,
+         "search_volume": 9900
+        },
+        {
+         "year": 2026,
+         "month": 2,
+         "search_volume": 6600
+        },
+        {
+         "year": 2026,
+         "month": 1,
+         "search_volume": 5400
+        },
+        {
+         "year": 2025,
+         "month": 12,
+         "search_volume": 2900
+        },
+        {
+         "year": 2025,
+         "month": 11,
+         "search_volume": 2900
+        },
+        {
+         "year": 2025,
+         "month": 10,
+         "search_volume": 5400
+        },
+        {
+         "year": 2025,
+         "month": 9,
+         "search_volume": 6600
+        },
+        {
+         "year": 2025,
+         "month": 8,
+         "search_volume": 9900
+        }
+       ],
+       "search_volume_trend": {
+        "monthly": -33,
+        "quarterly": -45,
+        "yearly": -18
+       }
+      },
+      "keyword_info_normalized_with_bing": null,
+      "keyword_info_normalized_with_clickstream": null,
+      "clickstream_keyword_info": null,
+      "keyword_properties": {
+       "se_type": "google",
+       "core_keyword": null,
+       "synonym_clustering_algorithm": "text_processing",
+       "keyword_difficulty": 0,
+       "detected_language": "en",
+       "is_another_language": false,
+       "words_count": 2
+      },
+      "serp_info": {
+       "se_type": "google",
+       "check_url": "https://www.google.com/search?q=yarrow%20seeds&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+       "serp_item_types": [
+        "ai_overview",
+        "organic",
+        "people_also_ask",
+        "popular_products",
+        "product_considerations",
+        "perspectives",
+        "related_searches",
+        "images"
+       ],
+       "se_results_count": 204,
+       "last_updated_time": "2026-08-03 10:15:57 +00:00",
+       "previous_updated_time": "2026-05-15 08:54:12 +00:00"
+      },
+      "search_intent_info": {
+       "se_type": "google",
+       "main_intent": "informational",
+       "foreign_intent": null,
+       "last_updated_time": "2026-04-30 00:39:49 +00:00"
+      },
+      "avg_backlinks_info": {
+       "se_type": "google",
+       "backlinks": 2.1,
+       "dofollow": 1.9,
+       "referring_pages": 1.9,
+       "referring_domains": 0.2,
+       "referring_main_domains": 0.2,
+       "rank": 3.8,
+       "main_domain_rank": 416.7,
+       "last_updated_time": "2026-08-03 10:15:57 +00:00"
+      }
+     },
+     "location_code": 2840,
+     "language_code": "en",
+     "total_count": 19,
+     "items_count": 19,
+     "offset": 0,
+     "offset_token": "eyJDdXJyZW50T2Zmc2V0IjoxOSwiUmVxdWVzdERhdGEiOnsia2V5d29yZCI6InlhcnJvdyBzZWVkcyIsImluY2x1ZGVfc2VlZF9rZXl3b3JkIjp0cnVlLCJmdWxsX21hdGNoIjpmYWxzZSwibG9hZF9zZXJwX2luZm8iOmZhbHNlLCJzZWFyY2hfYWZ0ZXJfdG9rZW4iOm51bGwsImlnbm9yZV9zeW5vbnltcyI6ZmFsc2UsImxhbmd1YWdlIjoiZW4iLCJzZWFyY2hfZW5naW5lIjoiZ29vZ2xlIiwibG9jYXRpb24iOjI4NDAsInVzZV9uZXdfY2F0ZWdvcmllcyI6dHJ1ZSwib3JkZXJfYnkiOnsib3JkZXJfZmllbGQiOiJrZXl3b3JkX2luZm8uc2VhcmNoX3ZvbHVtZSIsIm9yZGVyX3R5cGUiOiJEZXNjIiwibmV4dCI6bnVsbH0sImxpbWl0IjoyMDAsIm9mZnNldCI6MCwiYWlkIjoyMzMwODIsInVzZV9jYWNoZSI6dHJ1ZSwidGFza19pZCI6IjA4MjYxMDE1LTIzMzAtMDM5OS0wMDAwLTE5OWJlYzg5OGQ2NyIsImZsYWdzIjpudWxsfSwiUmF3UXVlcnkiOnsiZmllbGQiOiJrZXl3b3JkX2luZm8uc2VhcmNoX3ZvbHVtZSIsInR5cGUiOiJndCIsInZhbHVlIjoxMDB9LCJJZCI6IjdkZDliZTZhLTg0MWQtNDIxMy04YjQ0LTFkZjFiNWU5MmE1YyIsIlNlYXJjaEFmdGVyRGF0YSI6WzExMCwiOTllNGM3N2YtNDYyYy1jMDA4LTU4NjItMmY5YThjOGZiN2M2Il0sIkV4ZWN1dG9yIjotOTE4NDQwNTk0MDQ0NDUxNzYzM30=",
+     "items": [
+      {
+       "se_type": "google",
+       "keyword": "yarrow seeds",
+       "location_code": 2840,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-08-25 18:28:08 +00:00",
+        "competition": 1,
+        "competition_level": "HIGH",
+        "cpc": null,
+        "search_volume": 8100,
+        "low_top_of_page_bid": 0.32,
+        "high_top_of_page_bid": 1.16,
+        "categories": [
+         10004,
+         11188,
+         12427,
+         13460
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 8100
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 12100
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 14800
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 12100
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 9900
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 6600
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 5400
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 2900
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 2900
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 5400
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 6600
+         },
+         {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 9900
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": -33,
+         "quarterly": -45,
+         "yearly": -18
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 0,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 2
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 2.1,
+        "dofollow": 1.9,
+        "referring_pages": 1.9,
+        "referring_domains": 0.2,
+        "referring_main_domains": 0.2,
+        "rank": 3.8,
+        "main_domain_rank": 416.7,
+        "last_updated_time": "2026-08-03 10:15:57 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "informational",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-30 00:39:49 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "yarrow plant seeds",
+       "location_code": 2840,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-08-20 09:26:36 +00:00",
+        "competition": 1,
+        "competition_level": "HIGH",
+        "cpc": 0.97,
+        "search_volume": 8100,
+        "low_top_of_page_bid": 0.32,
+        "high_top_of_page_bid": 1.16,
+        "categories": [
+         10004,
+         10004,
+         11188,
+         11188,
+         12427,
+         13460,
+         13460
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 8100
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 12100
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 14800
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 12100
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 9900
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 6600
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 5400
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 2900
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 2900
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 5400
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 6600
+         },
+         {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 9900
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": -33,
+         "quarterly": -45,
+         "yearly": -18
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": "plant yarrow seeds",
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 0,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 3
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 281.4,
+        "dofollow": 179.2,
+        "referring_pages": 180,
+        "referring_domains": 1.9,
+        "referring_main_domains": 1.8,
+        "rank": 18.6,
+        "main_domain_rank": 378.8,
+        "last_updated_time": "2024-10-12 15:57:32 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "transactional",
+        "foreign_intent": [
+         "informational"
+        ],
+        "last_updated_time": "2026-04-30 01:18:19 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "plant yarrow seeds",
+       "location_code": 2840,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-08-14 13:49:46 +00:00",
+        "competition": 1,
+        "competition_level": "HIGH",
+        "cpc": 0.97,
+        "search_volume": 8100,
+        "low_top_of_page_bid": 0.32,
+        "high_top_of_page_bid": 1.16,
+        "categories": [
+         10004,
+         11188,
+         12427,
+         13460
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 8100
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 12100
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 14800
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 12100
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 9900
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 6600
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 5400
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 2900
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 2900
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 5400
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 6600
+         },
+         {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 9900
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": -33,
+         "quarterly": -45,
+         "yearly": -18
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 0,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 3
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 93.5,
+        "dofollow": 85.1,
+        "referring_pages": 87.8,
+        "referring_domains": 16.4,
+        "referring_main_domains": 15.1,
+        "rank": 42.2,
+        "main_domain_rank": 404.9,
+        "last_updated_time": "2026-06-18 13:35:44 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "informational",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-29 20:27:33 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "common yarrow seeds",
+       "location_code": 2840,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-08-23 01:42:50 +00:00",
+        "competition": 1,
+        "competition_level": "HIGH",
+        "cpc": 0.97,
+        "search_volume": 8100,
+        "low_top_of_page_bid": 0.32,
+        "high_top_of_page_bid": 1.16,
+        "categories": [
+         10004,
+         10004,
+         11188,
+         11188,
+         12427,
+         13460,
+         13460
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 8100
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 12100
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 14800
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 12100
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 9900
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 6600
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 5400
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 2900
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 2900
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 5400
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 6600
+         },
+         {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 9900
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": -33,
+         "quarterly": -45,
+         "yearly": -18
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": "yarrow seeds",
+        "synonym_clustering_algorithm": "keyword_metrics",
+        "keyword_difficulty": 0,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 3
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 2.5,
+        "dofollow": 1.7,
+        "referring_pages": 2.5,
+        "referring_domains": 1.4,
+        "referring_main_domains": 1.4,
+        "rank": 14.3,
+        "main_domain_rank": 372.4,
+        "last_updated_time": "2024-09-15 07:44:47 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "informational",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-29 21:23:46 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "eden brothers yarrow seeds",
+       "location_code": 2840,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-07-15 16:05:37 +00:00",
+        "competition": 0.13,
+        "competition_level": "LOW",
+        "cpc": 0.02,
+        "search_volume": 590,
+        "low_top_of_page_bid": null,
+        "high_top_of_page_bid": null,
+        "categories": [
+         10004,
+         13460
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 480
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 1600
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 2400
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 2400
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 390
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 140
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 50
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 10
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 10
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 10
+         },
+         {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 30
+         },
+         {
+          "year": 2025,
+          "month": 7,
+          "search_volume": 140
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": -70,
+         "quarterly": -80,
+         "yearly": 1100
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": null,
+        "keyword_difficulty": 0,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 4
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 1,
+        "dofollow": 1,
+        "referring_pages": 1,
+        "referring_domains": 0.2,
+        "referring_main_domains": 0.1,
+        "rank": 11.2,
+        "main_domain_rank": 560.8,
+        "last_updated_time": "2026-07-01 06:55:47 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "informational",
+        "foreign_intent": null,
+        "last_updated_time": "2026-05-05 09:02:26 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "buy yarrow seeds",
+       "location_code": 2840,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-08-19 03:51:03 +00:00",
+        "competition": 1,
+        "competition_level": "HIGH",
+        "cpc": 1.1,
+        "search_volume": 480,
+        "low_top_of_page_bid": 0.3,
+        "high_top_of_page_bid": 1.18,
+        "categories": [
+         10004,
+         10004,
+         11188,
+         11188,
+         12427,
+         13460,
+         13460
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 590
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 390
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 480
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 720
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 720
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 590
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 720
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 390
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 320
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 390
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 390
+         },
+         {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 480
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": 51,
+         "quarterly": 23,
+         "yearly": -33
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": "yarrow seeds for sale",
+        "synonym_clustering_algorithm": "keyword_metrics",
+        "keyword_difficulty": 0,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 3
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 280.7,
+        "dofollow": 179.1,
+        "referring_pages": 180,
+        "referring_domains": 1.9,
+        "referring_main_domains": 1.8,
+        "rank": 18.2,
+        "main_domain_rank": 320.3,
+        "last_updated_time": "2024-10-06 12:09:35 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "transactional",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-25 14:56:22 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "yarrow seeds for sale",
+       "location_code": 2840,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-07-15 10:59:28 +00:00",
+        "competition": 1,
+        "competition_level": "HIGH",
+        "cpc": 0.92,
+        "search_volume": 480,
+        "low_top_of_page_bid": 0.29,
+        "high_top_of_page_bid": 1.03,
+        "categories": [
+         10004,
+         10004,
+         11188,
+         11188,
+         12427,
+         13460,
+         13460
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 390
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 480
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 720
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 720
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 590
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 720
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 390
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 320
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 390
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 390
+         },
+         {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 480
+         },
+         {
+          "year": 2025,
+          "month": 7,
+          "search_volume": 880
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": -19,
+         "quarterly": -46,
+         "yearly": 0
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 0,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 4
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 2.1,
+        "dofollow": 1.9,
+        "referring_pages": 1.9,
+        "referring_domains": 0.2,
+        "referring_main_domains": 0.2,
+        "rank": 3.8,
+        "main_domain_rank": 287.9,
+        "last_updated_time": "2026-08-03 04:45:47 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "transactional",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-30 01:33:38 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "planting yarrow seeds",
+       "location_code": 2840,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-08-24 05:25:51 +00:00",
+        "competition": 0.54,
+        "competition_level": "MEDIUM",
+        "cpc": 0.17,
+        "search_volume": 390,
+        "low_top_of_page_bid": 0.01,
+        "high_top_of_page_bid": 0.12,
+        "categories": [
+         10004,
+         10004,
+         11188,
+         11188,
+         12427,
+         13460,
+         13460
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 320
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 390
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 590
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 880
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 720
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 480
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 390
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 110
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 110
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 210
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 260
+         },
+         {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 320
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": -18,
+         "quarterly": -46,
+         "yearly": 0
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": "plant yarrow seeds",
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 0,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 3
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 12.8,
+        "dofollow": 9.1,
+        "referring_pages": 12.2,
+        "referring_domains": 7.7,
+        "referring_main_domains": 7.4,
+        "rank": 39.1,
+        "main_domain_rank": 409.9,
+        "last_updated_time": "2026-01-30 18:32:40 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "informational",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-29 22:29:50 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "growing yarrow from seeds",
+       "location_code": 2840,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-08-26 01:22:45 +00:00",
+        "competition": 0.54,
+        "competition_level": "MEDIUM",
+        "cpc": null,
+        "search_volume": 390,
+        "low_top_of_page_bid": 0.01,
+        "high_top_of_page_bid": 0.12,
+        "categories": [
+         10004,
+         10004,
+         11188,
+         12427,
+         13460,
+         13460
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 320
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 390
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 590
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 880
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 720
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 480
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 390
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 110
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 110
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 210
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 260
+         },
+         {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 320
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": -18,
+         "quarterly": -46,
+         "yearly": 0
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": "yarrow growing from seed",
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 0,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 4
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 92.2,
+        "dofollow": 83.8,
+        "referring_pages": 86.6,
+        "referring_domains": 15.8,
+        "referring_main_domains": 14.5,
+        "rank": 39,
+        "main_domain_rank": 549.2,
+        "last_updated_time": "2026-05-22 23:49:16 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "informational",
+        "foreign_intent": null,
+        "last_updated_time": "2026-05-11 08:42:26 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "how to plant yarrow seeds",
+       "location_code": 2840,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-08-25 06:21:17 +00:00",
+        "competition": 0.25,
+        "competition_level": "LOW",
+        "cpc": 0.07,
+        "search_volume": 260,
+        "low_top_of_page_bid": 0.01,
+        "high_top_of_page_bid": 0.02,
+        "categories": [
+         10004,
+         11188,
+         12427,
+         13460
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 210
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 260
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 590
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 590
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 590
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 320
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 210
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 90
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 90
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 110
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 140
+         },
+         {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 170
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": -19,
+         "quarterly": -64,
+         "yearly": 0
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": "keyword_metrics",
+        "keyword_difficulty": 0,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 5
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 2.8,
+        "dofollow": 2.5,
+        "referring_pages": 2.6,
+        "referring_domains": 1.5,
+        "referring_main_domains": 1.4,
+        "rank": 19.6,
+        "main_domain_rank": 428.2,
+        "last_updated_time": "2026-07-06 19:52:28 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "informational",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-27 21:27:59 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "white yarrow seeds",
+       "location_code": 2840,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-07-15 03:33:49 +00:00",
+        "competition": 1,
+        "competition_level": "HIGH",
+        "cpc": 1.02,
+        "search_volume": 260,
+        "low_top_of_page_bid": 0.39,
+        "high_top_of_page_bid": 1.32,
+        "categories": [
+         10004,
+         11188,
+         12427,
+         13460
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 480
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 590
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 390
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 320
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 170
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 140
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 70
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 70
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 140
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 260
+         },
+         {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 210
+         },
+         {
+          "year": 2025,
+          "month": 7,
+          "search_volume": 210
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": -19,
+         "quarterly": 23,
+         "yearly": 85
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 0,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 3
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 1.5,
+        "dofollow": 1.5,
+        "referring_pages": 1.5,
+        "referring_domains": 0.4,
+        "referring_main_domains": 0.4,
+        "rank": 10,
+        "main_domain_rank": 379.9,
+        "last_updated_time": "2026-07-06 21:43:32 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "informational",
+        "foreign_intent": [
+         "transactional"
+        ],
+        "last_updated_time": "2026-04-30 05:42:26 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "what do yarrow seeds look like",
+       "location_code": 2840,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-08-19 08:27:20 +00:00",
+        "competition": 0.21,
+        "competition_level": "LOW",
+        "cpc": 0.22,
+        "search_volume": 260,
+        "low_top_of_page_bid": null,
+        "high_top_of_page_bid": null,
+        "categories": [
+         10004,
+         11188,
+         12427,
+         13460
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 320
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 320
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 320
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 260
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 260
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 110
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 110
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 70
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 140
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 260
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 320
+         },
+         {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 320
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": 0,
+         "quarterly": 0,
+         "yearly": 23
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": null,
+        "keyword_difficulty": 0,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 6
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 51.8,
+        "dofollow": 46.1,
+        "referring_pages": 48,
+        "referring_domains": 15.5,
+        "referring_main_domains": 14.2,
+        "rank": 35.7,
+        "main_domain_rank": 508.4,
+        "last_updated_time": "2026-07-06 22:08:07 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "informational",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-30 00:10:37 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "when to plant yarrow seeds",
+       "location_code": 2840,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-07-15 13:59:21 +00:00",
+        "competition": 0.15,
+        "competition_level": "LOW",
+        "cpc": 0.36,
+        "search_volume": 210,
+        "low_top_of_page_bid": 0.01,
+        "high_top_of_page_bid": 0.22,
+        "categories": [
+         10004,
+         11188,
+         12427,
+         13460
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 170
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 210
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 320
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 260
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 170
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 140
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 70
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 90
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 170
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 320
+         },
+         {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 260
+         },
+         {
+          "year": 2025,
+          "month": 7,
+          "search_volume": 260
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": -19,
+         "quarterly": -47,
+         "yearly": -19
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 0,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 5
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 2.8,
+        "dofollow": 2.5,
+        "referring_pages": 2.6,
+        "referring_domains": 1.5,
+        "referring_main_domains": 1.4,
+        "rank": 19.6,
+        "main_domain_rank": 444.8,
+        "last_updated_time": "2026-07-06 21:46:09 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "informational",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-29 23:57:07 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "red yarrow seeds",
+       "location_code": 2840,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-08-25 10:28:08 +00:00",
+        "competition": 1,
+        "competition_level": "HIGH",
+        "cpc": 0.62,
+        "search_volume": 140,
+        "low_top_of_page_bid": 0.28,
+        "high_top_of_page_bid": 1.15,
+        "categories": [
+         10004,
+         11188,
+         12427,
+         13460
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 110
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 480
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 390
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 90
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 70
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 70
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 50
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 30
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 50
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 40
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 70
+         },
+         {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 70
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": -77,
+         "quarterly": -72,
+         "yearly": 0
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": "keyword_metrics",
+        "keyword_difficulty": 0,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 3
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 3.3,
+        "dofollow": 1.8,
+        "referring_pages": 2.2,
+        "referring_domains": 1.4,
+        "referring_main_domains": 1.4,
+        "rank": 13.7,
+        "main_domain_rank": 316.7,
+        "last_updated_time": "2024-10-06 03:41:03 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "informational",
+        "foreign_intent": [
+         "transactional"
+        ],
+        "last_updated_time": "2026-04-29 22:59:22 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "native yarrow seeds",
+       "location_code": 2840,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-08-19 22:57:50 +00:00",
+        "competition": 0.74,
+        "competition_level": "HIGH",
+        "cpc": 0.98,
+        "search_volume": 140,
+        "low_top_of_page_bid": 0.5,
+        "high_top_of_page_bid": 0.88,
+        "categories": [
+         10004,
+         10004,
+         11188,
+         11188,
+         12427,
+         13460,
+         13460
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 210
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 260
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 170
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 260
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 210
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 70
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 50
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 10
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 30
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 50
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 140
+         },
+         {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 70
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": -19,
+         "quarterly": 24,
+         "yearly": 133
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": "keyword_metrics",
+        "keyword_difficulty": 0,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 3
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 18,
+        "dofollow": 16.6,
+        "referring_pages": 17.5,
+        "referring_domains": 7.4,
+        "referring_main_domains": 7.3,
+        "rank": 30.4,
+        "main_domain_rank": 270,
+        "last_updated_time": "2026-07-13 00:56:38 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "transactional",
+        "foreign_intent": [
+         "informational",
+         "commercial"
+        ],
+        "last_updated_time": "2026-04-29 20:49:51 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "western yarrow seeds",
+       "location_code": 2840,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-08-20 22:29:40 +00:00",
+        "competition": 0.97,
+        "competition_level": "HIGH",
+        "cpc": 1.11,
+        "search_volume": 140,
+        "low_top_of_page_bid": 0.54,
+        "high_top_of_page_bid": 1.04,
+        "categories": [
+         10004,
+         11188,
+         12427,
+         13460
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 140
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 210
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 260
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 260
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 140
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 90
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 70
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 50
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 70
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 50
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 90
+         },
+         {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 110
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": -33,
+         "quarterly": -46,
+         "yearly": 100
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 0,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 3
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 1.4,
+        "dofollow": 1.1,
+        "referring_pages": 1.1,
+        "referring_domains": 0.7,
+        "referring_main_domains": 0.7,
+        "rank": 10.3,
+        "main_domain_rank": 224,
+        "last_updated_time": "2026-07-12 07:29:55 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "informational",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-30 00:18:42 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "yaak yarrow seeds",
+       "location_code": 2840,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-08-14 20:46:05 +00:00",
+        "competition": 0.98,
+        "competition_level": "HIGH",
+        "cpc": 1.05,
+        "search_volume": 110,
+        "low_top_of_page_bid": 0.75,
+        "high_top_of_page_bid": 1.49,
+        "categories": [
+         10004,
+         13460
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 90
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 170
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 480
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 90
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 70
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 40
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 40
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 20
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 20
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 50
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 90
+         },
+         {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 170
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": -47,
+         "quarterly": -81,
+         "yearly": 800
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": "yaak yarrow seed",
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 0,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 3
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 0.6,
+        "dofollow": 0.6,
+        "referring_pages": 0.6,
+        "referring_domains": 0.6,
+        "referring_main_domains": 0.6,
+        "rank": 8,
+        "main_domain_rank": 469,
+        "last_updated_time": "2026-03-10 11:37:07 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "informational",
+        "foreign_intent": null,
+        "last_updated_time": "2026-05-08 03:24:44 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "how to harvest yarrow seeds",
+       "location_code": 2840,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-08-18 17:39:31 +00:00",
+        "competition": 0,
+        "competition_level": "LOW",
+        "cpc": null,
+        "search_volume": 110,
+        "low_top_of_page_bid": null,
+        "high_top_of_page_bid": null,
+        "categories": [
+         10004,
+         10004,
+         11188,
+         11188,
+         12427,
+         13460,
+         13460
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 260
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 210
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 110
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 50
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 30
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 20
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 30
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 30
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 40
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 140
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 210
+         },
+         {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 320
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": 24,
+         "quarterly": 136,
+         "yearly": -19
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 0,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 5
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 1.4,
+        "dofollow": 0.7,
+        "referring_pages": 1.2,
+        "referring_domains": 1.1,
+        "referring_main_domains": 1.1,
+        "rank": 17.7,
+        "main_domain_rank": 613.2,
+        "last_updated_time": "2026-07-11 09:54:57 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "informational",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-27 20:03:38 +00:00"
+       }
+      },
+      {
+       "se_type": "google",
+       "keyword": "moonshine yarrow seeds",
+       "location_code": 2840,
+       "language_code": "en",
+       "keyword_info": {
+        "se_type": "google",
+        "last_updated_time": "2026-08-18 21:24:53 +00:00",
+        "competition": 1,
+        "competition_level": "HIGH",
+        "cpc": 0.83,
+        "search_volume": 110,
+        "low_top_of_page_bid": 0.37,
+        "high_top_of_page_bid": 0.9,
+        "categories": [
+         10004,
+         11188,
+         12427,
+         13460
+        ],
+        "monthly_searches": [
+         {
+          "year": 2026,
+          "month": 7,
+          "search_volume": 70
+         },
+         {
+          "year": 2026,
+          "month": 6,
+          "search_volume": 90
+         },
+         {
+          "year": 2026,
+          "month": 5,
+          "search_volume": 140
+         },
+         {
+          "year": 2026,
+          "month": 4,
+          "search_volume": 210
+         },
+         {
+          "year": 2026,
+          "month": 3,
+          "search_volume": 170
+         },
+         {
+          "year": 2026,
+          "month": 2,
+          "search_volume": 90
+         },
+         {
+          "year": 2026,
+          "month": 1,
+          "search_volume": 70
+         },
+         {
+          "year": 2025,
+          "month": 12,
+          "search_volume": 30
+         },
+         {
+          "year": 2025,
+          "month": 11,
+          "search_volume": 70
+         },
+         {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 110
+         },
+         {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 140
+         },
+         {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 110
+         }
+        ],
+        "search_volume_trend": {
+         "monthly": -22,
+         "quarterly": -50,
+         "yearly": -73
+        }
+       },
+       "keyword_info_normalized_with_bing": null,
+       "keyword_info_normalized_with_clickstream": null,
+       "clickstream_keyword_info": null,
+       "keyword_properties": {
+        "se_type": "google",
+        "core_keyword": null,
+        "synonym_clustering_algorithm": "text_processing",
+        "keyword_difficulty": 0,
+        "detected_language": "en",
+        "is_another_language": false,
+        "words_count": 3
+       },
+       "serp_info": null,
+       "avg_backlinks_info": {
+        "se_type": "google",
+        "backlinks": 0.6,
+        "dofollow": 0.5,
+        "referring_pages": 0.6,
+        "referring_domains": 0.5,
+        "referring_main_domains": 0.4,
+        "rank": 5.4,
+        "main_domain_rank": 365.2,
+        "last_updated_time": "2026-07-11 09:35:32 +00:00"
+       },
+       "search_intent_info": {
+        "se_type": "google",
+        "main_intent": "informational",
+        "foreign_intent": null,
+        "last_updated_time": "2026-04-29 16:35:42 +00:00"
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
