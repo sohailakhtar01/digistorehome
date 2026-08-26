@@ -211,7 +211,13 @@ export const getHerb = (slug) => HERBS.find((h) => h.slug === slug);
 
 // Guides we have written in full. Only these are linked and sitemapped —
 // we do not publish thin stubs for the rest.
-export const PUBLISHED_HERB_GUIDES = ["echinacea", "lavender"];
+export const PUBLISHED_HERB_GUIDES = [
+  "echinacea",
+  "lavender",
+  "calendula",
+  "yarrow",
+  "california-poppy",
+];
 
 export const publishedHerbs = () =>
   HERBS.filter((h) => PUBLISHED_HERB_GUIDES.includes(h.slug));
