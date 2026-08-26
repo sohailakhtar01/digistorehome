@@ -5,6 +5,10 @@
  *   node scripts/indexnow.mjs                 # submit every URL in the sitemap set
  *   node scripts/indexnow.mjs /reviews/foo    # submit specific paths
  *
+ * On Windows Git Bash, prefix path arguments with MSYS_NO_PATHCONV=1 or the
+ * shell rewrites a leading slash into a Windows path and you submit garbage:
+ *   MSYS_NO_PATHCONV=1 node scripts/indexnow.mjs /reviews/foo
+ *
  * The key file must be reachable at https://<host>/<key>.txt and contain the key.
  */
 
