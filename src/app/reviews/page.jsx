@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { REVIEWS } from "@/lib/reviews";
-import { Breadcrumbs, PageHeader } from "@/components/ui";
+import { Breadcrumbs, LinkCard, PageHeader } from "@/components/ui";
 
 export const metadata = {
   title: "Product Reviews",
@@ -27,22 +27,15 @@ export default function Page() {
       <ul className="mt-8 flex flex-col gap-5">
         {REVIEWS.map((r) => (
           <li key={r.slug}>
-            <Link
+            <LinkCard
               href={`/reviews/${r.slug}`}
-              data-plain
-              className="group block rounded-xl border border-line bg-surface p-6 transition-colors hover:border-accent"
+              eyebrow={r.category}
+              title={r.title}
+              action="Read the full review"
+              meta={`${r.rating}/5 · ${r.priceLabel} · Updated ${r.updatedLabel}`}
             >
-              <p className="text-xs font-semibold uppercase tracking-[0.12em] text-accent">
-                {r.category}
-              </p>
-              <h2 className="mt-2 font-serif text-xl font-semibold group-hover:text-accent">
-                {r.title}
-              </h2>
-              <p className="mt-2.5 leading-relaxed text-muted">{r.standfirst}</p>
-              <p className="mt-4 text-sm text-subtle">
-                {r.rating}/5 · {r.priceLabel} · Updated {r.updatedLabel}
-              </p>
-            </Link>
+              {r.standfirst}
+            </LinkCard>
           </li>
         ))}
       </ul>

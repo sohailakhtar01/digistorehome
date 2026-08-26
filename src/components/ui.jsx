@@ -536,3 +536,54 @@ export function DifficultyBadge({ level }) {
     </span>
   );
 }
+
+/**
+ * A whole card that is one link.
+ *
+ * The card lists on /guides and /reviews were already links, but nothing about
+ * them said so: flat border, body-coloured heading, no arrow. Hover styling
+ * alone does not fix that, because on a phone there is no hover — the reader
+ * either sees an affordance at rest or does not tap. So the resting state
+ * carries the signal (raised surface, accent action row with an arrow) and
+ * hover only amplifies it.
+ *
+ * `action` is the label on that row. Say what happens on the other side —
+ * "Read the guide", "Open the calculator" — not "Learn more".
+ */
+export function LinkCard({ href, eyebrow, title, children, action = "Read the guide", meta }) {
+  return (
+    <Link
+      href={href}
+      data-plain
+      className="group flex h-full flex-col rounded-xl border border-line bg-surface p-6 shadow-[var(--shadow-sm)] transition-all hover:-translate-y-0.5 hover:border-accent hover:shadow-[var(--shadow-md)] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
+    >
+      {eyebrow ? (
+        <p className="text-xs font-semibold uppercase tracking-[0.12em] text-accent">
+          {eyebrow}
+        </p>
+      ) : null}
+      <h2 className="mt-2 font-serif text-xl font-semibold leading-snug transition-colors group-hover:text-accent">
+        {title}
+      </h2>
+      <p className="mt-2.5 leading-relaxed text-muted">{children}</p>
+      {meta ? <p className="mt-4 text-sm text-subtle">{meta}</p> : null}
+      <p
+        aria-hidden="true"
+        className="mt-auto flex items-center gap-1.5 pt-5 text-sm font-semibold text-accent"
+      >
+        {action}
+        <svg
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          strokeWidth="2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          className="h-4 w-4 transition-transform group-hover:translate-x-1"
+        >
+          <path d="M5 12h14M13 6l6 6-6 6" />
+        </svg>
+      </p>
+    </Link>
+  );
+}

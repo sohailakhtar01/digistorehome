@@ -201,12 +201,12 @@ export default function Home() {
                   <Link
                     href={`/guides/${h.slug}`}
                     data-plain
-                    className="group block overflow-hidden rounded-xl border border-line bg-surface transition-colors hover:border-accent"
+                    className="group block overflow-hidden rounded-xl border border-line bg-surface shadow-[var(--shadow-sm)] transition-all hover:-translate-y-0.5 hover:border-accent hover:shadow-[var(--shadow-md)]"
                   >
                     {inner}
                   </Link>
                 ) : (
-                  <div className="group block overflow-hidden rounded-xl border border-line bg-surface">
+                  <div className="group block overflow-hidden rounded-xl border border-line bg-surface shadow-[var(--shadow-sm)]">
                     {inner}
                   </div>
                 )}
@@ -234,7 +234,7 @@ export default function Home() {
                 <Link
                   href={`/guides/${slug}`}
                   data-plain
-                  className="group flex h-full gap-4 overflow-hidden rounded-xl border border-line bg-surface p-4 transition-all hover:border-accent hover:shadow-[var(--shadow-md)]"
+                  className="group flex h-full gap-4 overflow-hidden rounded-xl border border-line bg-surface p-4 shadow-[var(--shadow-sm)] transition-all hover:-translate-y-0.5 hover:border-accent hover:shadow-[var(--shadow-md)]"
                 >
                   <div className="relative h-24 w-24 shrink-0 overflow-hidden rounded-lg bg-surface-sunk">
                     {img ? (
@@ -253,6 +253,23 @@ export default function Home() {
                     </h3>
                     <p className="mt-1.5 line-clamp-3 text-sm leading-relaxed text-muted">
                       {guide.standfirst}
+                    </p>
+                    <p
+                      aria-hidden="true"
+                      className="mt-2.5 flex items-center gap-1.5 text-[0.8125rem] font-semibold text-accent"
+                    >
+                      Read the guide
+                      <svg
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        className="h-3.5 w-3.5 transition-transform group-hover:translate-x-1"
+                      >
+                        <path d="M5 12h14M13 6l6 6-6 6" />
+                      </svg>
                     </p>
                   </div>
                 </Link>
