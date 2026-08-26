@@ -375,6 +375,47 @@ export function Callout({ tone = "note", title, children }) {
   );
 }
 
+/**
+ * The bridge from an editorial guide to the product it relates to.
+ *
+ * Guides link to our REVIEW, never straight to the affiliate link. The review
+ * is where the disclosure lives, where the honest case for and against is made,
+ * and where a reader who arrived wanting to grow one plant can decide about a
+ * ten-packet kit. Sending growing traffic directly to a sales page would skip
+ * all of that and convert worse for it.
+ *
+ * Only render this on a guide about a species that is actually in the kit.
+ */
+export function KitCallout({ herb, note }) {
+  return (
+    <aside className="not-prose my-8 rounded-xl border border-line-strong bg-surface-sunk px-5 py-5">
+      <p className="text-xs font-semibold uppercase tracking-[0.12em] text-accent">
+        Where the seed comes from
+      </p>
+      <p className="mt-2 text-[0.95rem] leading-relaxed text-muted">
+        {herb} is one of the ten species in the{" "}
+        <strong className="font-semibold text-foreground">
+          Medicinal Garden Kit
+        </strong>
+        , a $59 collection of heirloom seed packets with a printed growing guide.
+        {note ? ` ${note}` : ""}
+      </p>
+      <p className="mt-2.5 text-[0.95rem] leading-relaxed text-muted">
+        We reviewed it in full, including the three species we think the sales
+        page understates and the case for buying seed separately instead.
+      </p>
+      <Link
+        href="/reviews/medicinal-garden-kit"
+        data-plain
+        className="mt-3.5 inline-flex items-center gap-1.5 text-[0.95rem] font-semibold text-accent underline decoration-line-strong underline-offset-4 transition-colors hover:decoration-accent"
+      >
+        Read the Medicinal Garden Kit review
+        <span aria-hidden="true">&rarr;</span>
+      </Link>
+    </aside>
+  );
+}
+
 export function FAQ({ items }) {
   return (
     <div className="not-prose divide-y divide-line border-y border-line">

@@ -10,6 +10,7 @@ import {
   FAQ,
   Figure,
   JsonLd,
+  KitCallout,
   MedicalDisclaimer,
   PageHeader,
   TableOfContents,
@@ -366,6 +367,11 @@ export default function Page() {
             the refrigerator gives you that. If you want the least work, autumn
             sowing wins.
           </p>
+
+          <KitCallout
+            herb="Echinacea, lavender and marshmallow &mdash; the three species on this page that need a cold period &mdash;"
+            note="All three arrive in the same box, which is exactly why the kit is worth reading about before you order it: three of the ten are the difficult ones."
+          />
         </section>
       </div>
 

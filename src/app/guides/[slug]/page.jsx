@@ -12,6 +12,7 @@ import {
   FAQ,
   Figure,
   JsonLd,
+  KitCallout,
   MedicalDisclaimer,
   PageHeader,
   TableOfContents,
@@ -241,6 +242,11 @@ export default async function Page({ params }) {
             {i === 1 && video ? <VideoEmbed video={video} /> : null}
           </section>
         ))}
+
+        {/* Every species with a guide is a packet in the kit, so the bridge
+            belongs on all of them. It sits after the growing advice, not before
+            it — a reader who has not been helped yet has no reason to care. */}
+        <KitCallout herb={herb.name.split(" (")[0]} />
       </div>
 
       {guide.faqs?.length ? (

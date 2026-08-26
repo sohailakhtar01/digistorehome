@@ -7,6 +7,7 @@ import {
   FAQ,
   Figure,
   JsonLd,
+  KitCallout,
   MedicalDisclaimer,
   PageHeader,
   TableOfContents,
@@ -380,6 +381,11 @@ export default function Page() {
             two. Seed you collect this autumn is unlikely to give you coneflowers
             next summer.
           </p>
+
+          <KitCallout
+            herb="Echinacea"
+            note="If you have no plant to harvest from yet, that is where a packet of viable seed has to come from first."
+          />
         </section>
       </div>
 

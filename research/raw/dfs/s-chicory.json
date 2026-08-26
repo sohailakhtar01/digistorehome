@@ -1,0 +1,142 @@
+{
+ "version": "0.1.20260826",
+ "status_code": 20000,
+ "status_message": "Ok.",
+ "time": "4.5080 sec.",
+ "cost": 0.002,
+ "tasks_count": 1,
+ "tasks_error": 0,
+ "tasks": [
+  {
+   "id": "08261034-2330-0121-0000-64bbc3ac4906",
+   "status_code": 20000,
+   "status_message": "Ok.",
+   "time": "4.2752 sec.",
+   "cost": 0.002,
+   "result_count": 1,
+   "path": [
+    "v3",
+    "serp",
+    "google",
+    "organic",
+    "live",
+    "regular"
+   ],
+   "data": {
+    "api": "serp",
+    "function": "live",
+    "se": "google",
+    "se_type": "organic",
+    "keyword": "how to grow chicory from seed",
+    "location_code": 2840,
+    "language_code": "en",
+    "device": "desktop",
+    "depth": 10,
+    "os": "windows"
+   },
+   "result": [
+    {
+     "keyword": "how to grow chicory from seed",
+     "type": "organic",
+     "se_domain": "google.com",
+     "location_code": 2840,
+     "language_code": "en",
+     "check_url": "https://www.google.com/search?q=how%20to%20grow%20chicory%20from%20seed&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+     "datetime": "2026-08-26 10:34:37 +00:00",
+     "spell": null,
+     "refinement_chips": null,
+     "item_types": [
+      "ai_overview",
+      "people_also_ask",
+      "video",
+      "organic",
+      "images",
+      "related_searches"
+     ],
+     "se_results_count": 108,
+     "pages_count": 1,
+     "items_count": 7,
+     "items": [
+      {
+       "type": "organic",
+       "rank_group": 1,
+       "rank_absolute": 4,
+       "page": 1,
+       "domain": "www.ufseeds.com",
+       "title": "From Seed to Harvest: A beginner's guide to growing chicory",
+       "description": "Sow seeds outside two to three weeks before the last frost has passed. Plant seeds 1/4-inch-deep and about 6 inches apart in rows set 2 feet apart. Chicory also ... Read more",
+       "url": "https://www.ufseeds.com/chicory-seed-to-harvest.html?srsltid=AfmBOor5WveWvKOYAnwNjVtFdPdE_zOwwhBPbBXh7MvlgpSe4QZ6YrrV",
+       "breadcrumb": "https://www.ufseeds.com › chicory-seed-to-harvest"
+      },
+      {
+       "type": "organic",
+       "rank_group": 2,
+       "rank_absolute": 6,
+       "page": 1,
+       "domain": "realtree.com",
+       "title": "Food Plot Seed: How to Plant Chicory",
+       "description": "Aug 22, 2018 — Work the ground up and prepare a good seed bed with a disk. Then, if drilling the seed, plant at a rate of 4 to 5 pounds per acre. If ... Read more",
+       "url": "https://realtree.com/food-plots-and-land-management/articles/food-plot-seed-how-to-plant-chicory?srsltid=AfmBOopaESWRZk9ihUEwQWgzijyUr3L0q0WqBU-gQ3-3uRjV3idS13_d",
+       "breadcrumb": "https://realtree.com › articles › food-plot-seed-how-to-p..."
+      },
+      {
+       "type": "organic",
+       "rank_group": 3,
+       "rank_absolute": 7,
+       "page": 1,
+       "domain": "grow.edenbrothers.com",
+       "title": "How to Plant Chicory Seeds",
+       "description": "Sow Chicory seeds 6-10 inches apart in rows that are 2-3 feet distant. Seeds should be planted to a depth of 1/4 inch. Seedlings will emerge in approximately 14 ... Read more",
+       "url": "https://grow.edenbrothers.com/planting-guides/chicory-seeds/",
+       "breadcrumb": "https://grow.edenbrothers.com › Planting Guides"
+      },
+      {
+       "type": "organic",
+       "rank_group": 4,
+       "rank_absolute": 8,
+       "page": 1,
+       "domain": "www.facebook.com",
+       "title": "What to do with chicory seeds and how to grow them?",
+       "description": "I received a bonus packet of seeds in my delivery yesterday and it's chicory! I have no idea what to do with it. Has anyone had any luck growing it and ...",
+       "url": "https://www.facebook.com/groups/zone6bgarden/posts/8045859478776431/",
+       "breadcrumb": "20+ comments  ·  2 years ago"
+      },
+      {
+       "type": "organic",
+       "rank_group": 5,
+       "rank_absolute": 9,
+       "page": 1,
+       "domain": "sowrightseeds.com",
+       "title": "Chicory Root: The Herb for Healthy Roasting and Brewing",
+       "description": "Sow chicory seeds directly outside as soon as the thawed soil can be worked in spring. · Space the seeds about 6-8 inches apart and cover lightly with soil. Read more",
+       "url": "https://sowrightseeds.com/blogs/planters-library/how-to-grow-chicory-root-from-seed-to-brew?srsltid=AfmBOorenEqLOVX8UTeXwX92q3iII22BwZxpJ4q3vvFzdyDXY45WGJnh",
+       "breadcrumb": "https://sowrightseeds.com › blogs › planters-library › h..."
+      },
+      {
+       "type": "organic",
+       "rank_group": 6,
+       "rank_absolute": 10,
+       "page": 1,
+       "domain": "www.outsidepride.com",
+       "title": "Planting Instructions for Chicory Seeds",
+       "description": "Chicory seeds can be started indoors 4 - 6 weeks prior to the end of frost season. Or, directly sow the seeds out a few weeks prior to the last frost. Planting ... Read more",
+       "url": "https://www.outsidepride.com/resources/planting/chicory-planting/?srsltid=AfmBOooe97ZrrglHgRcAP9mZk9hkvOmSH0HFQiitpqKybU2YpII0M4mE",
+       "breadcrumb": "https://www.outsidepride.com › resources › chicory-plan..."
+      },
+      {
+       "type": "organic",
+       "rank_group": 7,
+       "rank_absolute": 11,
+       "page": 1,
+       "domain": "www.gardenersworld.com",
+       "title": "How to grow chicory",
+       "description": "Nov 28, 2019 — Sow seeds 1.5cm deep and either so broadcast or in rows 30cm apart and thin seedlings later. Packing chicory roots to force later. Packing soil ... Read more",
+       "url": "https://www.gardenersworld.com/how-to/grow-plants/how-to-grow-chicory/?srsltid=AfmBOoqClXX492X9NThkCO9MIwwY4Wo579XlFAmzBwi8Z9vCe9h1E_uv",
+       "breadcrumb": "https://www.gardenersworld.com › How to › Grow plants"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
