@@ -28,6 +28,7 @@ const PATHS = [
   "/guides/medicinal-herbs-to-grow",
   "/guides/cold-stratification",
   "/guides/harvesting-coneflower-seeds",
+  "/guides/when-to-plant",
   "/guides/calendula",
   "/guides/echinacea",
   "/guides/lavender",

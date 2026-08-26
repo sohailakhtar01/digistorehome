@@ -39,3 +39,8 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Raw DataForSEO responses. Kept locally so results can be re-parsed without
+# re-paying for the calls, but 3.8MB of JSON in git made every push crawl.
+# The analyses in research/*.md are committed — those are the actual output.
+research/raw/dfs/

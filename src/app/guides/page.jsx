@@ -69,6 +69,26 @@ export default function Page() {
 
         <li>
           <Link
+            href="/guides/when-to-plant"
+            data-plain
+            className="group block rounded-xl border border-line bg-surface p-6 transition-colors hover:border-accent"
+          >
+            <p className="text-xs font-semibold uppercase tracking-[0.12em] text-accent">
+              Tool
+            </p>
+            <h2 className="mt-2 font-serif text-xl font-semibold group-hover:text-accent">
+              When to plant each of the 10 medicinal herbs
+            </h2>
+            <p className="mt-2.5 leading-relaxed text-muted">
+              Put in your last frost date and get the week to stratify, sow and
+              transplant every species — including the three that need a month
+              in the refrigerator before the sowing clock even starts.
+            </p>
+          </Link>
+        </li>
+
+        <li>
+          <Link
             href="/guides/harvesting-coneflower-seeds"
             data-plain
             className="group block rounded-xl border border-line bg-surface p-6 transition-colors hover:border-accent"

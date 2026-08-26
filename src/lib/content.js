@@ -44,6 +44,24 @@ export const ARTICLES = [
     priority: 0.8,
   },
   {
+    path: "/guides/when-to-plant",
+    title:
+      "When to Plant Each of the 10 Medicinal Herbs (Frost Date Calculator)",
+    kind: "guide",
+    published: "2026-08-26",
+    modified: "2026-08-26",
+    summary:
+      "Enter your last frost date and get the exact week to stratify, sow and transplant each of the ten medicinal herbs — including the three that need a month in the refrigerator before the sowing clock even starts.",
+    topics: [
+      "when to plant seeds",
+      "frost date",
+      "seed starting schedule",
+      "cold stratification timing",
+    ],
+    image: HERB_IMAGES.calendula.src,
+    priority: 0.8,
+  },
+  {
     path: "/guides/harvesting-coneflower-seeds",
     title:
       "How to Harvest Coneflower Seeds (Echinacea): When, How, and What the Seed Looks Like",

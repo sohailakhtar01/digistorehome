@@ -6,6 +6,14 @@
 //  - Germination data reflects general horticultural guidance for the species,
 //    not results we measured ourselves. Do not present it as our own trial.
 //  - If a fact is uncertain, leave it out rather than guessing.
+//
+// `timing` drives the seed-starting calendar and is the same guidance written
+// out in each species guide, expressed as weeks so dates can be computed:
+//   method          "indoor" start in trays | "direct" sow in place | "both"
+//   sowWeeksBefore  weeks before last frost to sow (0 for direct sowers, which
+//                   go in at or after last frost instead)
+//   stratWeeks      weeks of cold, moist stratification BEFORE that sowing date
+// These are general horticultural ranges for the species, not our own trials.
 
 export const HERBS = [
   {
@@ -19,6 +27,12 @@ export const HERBS = [
     sowDepth: "6 mm (1/4 in), covered — needs darkness",
     stratification: false,
     firstHarvest: "Same season, roughly 6–8 weeks from sowing",
+    timing: {
+      method: "both",
+      sowWeeksBefore: 5,
+      stratWeeks: 0,
+      note: "Direct sowing after frost works just as well and is less work.",
+    },
     summary:
       "The most forgiving plant in the kit and the best place for a beginner to start.",
     growing:
@@ -39,6 +53,12 @@ export const HERBS = [
     sowDepth: "6 mm (1/4 in)",
     stratification: false,
     firstHarvest: "Roots in autumn of year one; fuller in year two",
+    timing: {
+      method: "direct",
+      sowWeeksBefore: 0,
+      stratWeeks: 0,
+      note: "Deep taproot — direct sow only. Sow once soil has warmed.",
+    },
     summary:
       "Vigorous, hardy and almost impossible to kill once it takes hold.",
     growing:
@@ -59,6 +79,12 @@ export const HERBS = [
     sowDepth: "Surface sow — needs light to germinate",
     stratification: false,
     firstHarvest: "Flowers in roughly 8–10 weeks",
+    timing: {
+      method: "both",
+      sowWeeksBefore: 5,
+      stratWeeks: 0,
+      note: "Surface sow. Needs light, and the surface must not dry out.",
+    },
     summary: "Easy, fast and generous, provided you do not bury the seed.",
     growing:
       "The single most common mistake with chamomile is covering the seed. It requires light to germinate — press it onto the soil surface and keep it consistently moist until it sprouts. After that it is undemanding and will self-seed for following years.",
@@ -78,6 +104,12 @@ export const HERBS = [
     sowDepth: "Surface sow — needs light to germinate",
     stratification: false,
     firstHarvest: "Usually flowers in year one if sown early",
+    timing: {
+      method: "indoor",
+      sowWeeksBefore: 7,
+      stratWeeks: 0,
+      note: "Surface sow. Sown this early it usually flowers in year one.",
+    },
     summary: "Reliable and enthusiastic — arguably too enthusiastic.",
     growing:
       "Like chamomile, feverfew needs light to germinate, so surface sow. Once established it self-seeds aggressively and will colonise a bed if you let it. Many gardeners treat it as a plant to contain rather than encourage.",
@@ -97,6 +129,12 @@ export const HERBS = [
     sowDepth: "Surface sow — needs light to germinate",
     stratification: false,
     firstHarvest: "Often flowers in year two",
+    timing: {
+      method: "indoor",
+      sowWeeksBefore: 7,
+      stratWeeks: 0,
+      note: "Surface sow. Expect foliage only in year one.",
+    },
     summary:
       "Tough, drought-tolerant and long-lived once it establishes.",
     growing:
@@ -117,6 +155,12 @@ export const HERBS = [
     sowDepth: "3 mm (1/8 in), barely covered",
     stratification: false,
     firstHarvest: "Flowers in roughly 8–10 weeks",
+    timing: {
+      method: "direct",
+      sowWeeksBefore: 0,
+      stratWeeks: 0,
+      note: "Taproot — never transplant. Sow as soon as soil is workable; it prefers cool soil.",
+    },
     summary: "Easy to grow, but only if you direct sow it.",
     growing:
       "California poppy forms a taproot and strongly dislikes root disturbance, so it must be direct sown where it is to flower — starting it in pots and transplanting is the usual cause of failure. It prefers cool soil and poor, well-drained ground. Overwatering and rich soil both reduce flowering.",
@@ -136,6 +180,12 @@ export const HERBS = [
     sowDepth: "Surface to 3 mm — light aids germination",
     stratification: "Optional — improves consistency",
     firstHarvest: "Flowers in year TWO, not year one",
+    timing: {
+      method: "direct",
+      sowWeeksBefore: 0,
+      stratWeeks: 0,
+      note: "Biennial. Direct sow; flowers in year two, not year one.",
+    },
     summary:
       "Germinates readily, but it is a biennial and that surprises people.",
     growing:
@@ -156,6 +206,12 @@ export const HERBS = [
     sowDepth: "6 mm (1/4 in)",
     stratification: "Recommended — 3–4 weeks cold, moist",
     firstHarvest: "Roots usable from year two onward",
+    timing: {
+      method: "indoor",
+      sowWeeksBefore: 7,
+      stratWeeks: 4,
+      note: "Stratify first, then sow. Wants consistently damp ground.",
+    },
     summary:
       "Slow and uneven without cold treatment, and it needs consistent moisture.",
     growing:
@@ -176,6 +232,12 @@ export const HERBS = [
     sowDepth: "3–6 mm, lightly covered",
     stratification: "Strongly recommended — 4 weeks cold, moist",
     firstHarvest: "Usually flowers in year two",
+    timing: {
+      method: "indoor",
+      sowWeeksBefore: 7,
+      stratWeeks: 4,
+      note: "Stratify first. Flowers in year two.",
+    },
     summary:
       "One of the two seeds most likely to disappoint you, and the reason is fixable.",
     growing:
@@ -196,6 +258,12 @@ export const HERBS = [
     sowDepth: "Surface sow — needs light",
     stratification: "Required in practice — 3–6 weeks cold, moist",
     firstHarvest: "Meaningful harvest usually year two or three",
+    timing: {
+      method: "indoor",
+      sowWeeksBefore: 9,
+      stratWeeks: 5,
+      note: "Stratify first, surface sow, and expect slow uneven germination.",
+    },
     summary:
       "Genuinely difficult from seed. This is normal, and it is not a defect in the kit.",
     growing:
