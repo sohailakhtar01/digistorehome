@@ -211,13 +211,9 @@ export const getHerb = (slug) => HERBS.find((h) => h.slug === slug);
 
 // Guides we have written in full. Only these are linked and sitemapped —
 // we do not publish thin stubs for the rest.
-export const PUBLISHED_HERB_GUIDES = [
-  "echinacea",
-  "lavender",
-  "calendula",
-  "yarrow",
-  "california-poppy",
-];
+// All ten kit species now have a guide. Order follows the difficulty ranking
+// so the index reads from easiest to hardest.
+export const PUBLISHED_HERB_GUIDES = HERBS.map((h) => h.slug);
 
 export const publishedHerbs = () =>
   HERBS.filter((h) => PUBLISHED_HERB_GUIDES.includes(h.slug));

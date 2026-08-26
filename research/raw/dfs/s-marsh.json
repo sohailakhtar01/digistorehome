@@ -1,0 +1,132 @@
+{
+ "version": "0.1.20260826",
+ "status_code": 20000,
+ "status_message": "Ok.",
+ "time": "1.3382 sec.",
+ "cost": 0.002,
+ "tasks_count": 1,
+ "tasks_error": 0,
+ "tasks": [
+  {
+   "id": "08261045-2330-0121-0000-42d18448204e",
+   "status_code": 20000,
+   "status_message": "Ok.",
+   "time": "1.2228 sec.",
+   "cost": 0.002,
+   "result_count": 1,
+   "path": [
+    "v3",
+    "serp",
+    "google",
+    "organic",
+    "live",
+    "regular"
+   ],
+   "data": {
+    "api": "serp",
+    "function": "live",
+    "se": "google",
+    "se_type": "organic",
+    "keyword": "how to grow marshmallow root from seed",
+    "location_code": 2840,
+    "language_code": "en",
+    "device": "desktop",
+    "depth": 10,
+    "os": "windows"
+   },
+   "result": [
+    {
+     "keyword": "how to grow marshmallow root from seed",
+     "type": "organic",
+     "se_domain": "google.com",
+     "location_code": 2840,
+     "language_code": "en",
+     "check_url": "https://www.google.com/search?q=how%20to%20grow%20marshmallow%20root%20from%20seed&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+     "datetime": "2026-08-26 10:45:37 +00:00",
+     "spell": null,
+     "refinement_chips": null,
+     "item_types": [
+      "ai_overview",
+      "organic",
+      "people_also_ask",
+      "video",
+      "short_videos",
+      "discussions_and_forums",
+      "related_searches"
+     ],
+     "se_results_count": 118,
+     "pages_count": 1,
+     "items_count": 6,
+     "items": [
+      {
+       "type": "organic",
+       "rank_group": 1,
+       "rank_absolute": 2,
+       "page": 1,
+       "domain": "www.siskiyouseeds.com",
+       "title": "How to Grow Marshmallow: Herb Profile",
+       "description": "Dec 8, 2023 — Cold stratify the seeds for 3-4 weeks in the fridge. Place the seeds in a damp paper towel in a plastic bag. Germination is best in soil ...",
+       "url": "https://www.siskiyouseeds.com/blogs/news/how-to-grow-marshmallow-herb-profile?srsltid=AfmBOorUMIXLHROaO1FG8-X_BN16HWi9zT654YCQ_bGZluRn0ACt5JpS",
+       "breadcrumb": "https://www.siskiyouseeds.com › blogs › news › how-to..."
+      },
+      {
+       "type": "organic",
+       "rank_group": 2,
+       "rank_absolute": 5,
+       "page": 1,
+       "domain": "practicalselfreliance.com",
+       "title": "How to Grow Marshmallow Plants from Seed (Althaea ...",
+       "description": "May 3, 2026 — The technique is simple. Lay the seeds in a single layer on a folded, dampened paper towel (or in a small container of damp sand or peat moss), ... Read more",
+       "url": "https://practicalselfreliance.com/marshmallow-plants/",
+       "breadcrumb": "https://practicalselfreliance.com › ... › Gardening"
+      },
+      {
+       "type": "organic",
+       "rank_group": 3,
+       "rank_absolute": 6,
+       "page": 1,
+       "domain": "grow.edenbrothers.com",
+       "title": "How to Plant Marshmallow Seeds",
+       "description": "After stratification, seeds are best started indoors for a few weeks before transplanting outside in mid to late spring. Keep germinating seeds moist, and ... Read more",
+       "url": "https://grow.edenbrothers.com/planting-guides/marshmallow-seeds/",
+       "breadcrumb": "https://grow.edenbrothers.com › Planting Guides"
+      },
+      {
+       "type": "organic",
+       "rank_group": 4,
+       "rank_absolute": 7,
+       "page": 1,
+       "domain": "www.plantgoodseed.com",
+       "title": "Marshmallow Root Seeds",
+       "description": "Marshmallow (Althaea officinalis) seed germination will be sped up and made more reliable by light scarification before planting - gently knick the seed coat ...",
+       "url": "https://www.plantgoodseed.com/products/marshmallow-root-seeds-althaea-officinalis?srsltid=AfmBOopKt2RrvdlMkXF7GV8RsvnIN8w6clRLKswhIeXhpggF5UdIbGGu",
+       "breadcrumb": "https://www.plantgoodseed.com › ... › All Products"
+      },
+      {
+       "type": "organic",
+       "rank_group": 5,
+       "rank_absolute": 8,
+       "page": 1,
+       "domain": "www.rareseeds.com",
+       "title": "Marshmallow Herb Seeds",
+       "description": "Cold-stratify 4-6 weeks, grow indoors, and set transplants out after frost, or direct seed in late winter, very early spring. Harvest roots starting second year ... Read more",
+       "url": "https://www.rareseeds.com/marshmallow",
+       "breadcrumb": "https://www.rareseeds.com › ... › Marshmallow Seeds"
+      },
+      {
+       "type": "organic",
+       "rank_group": 6,
+       "rank_absolute": 9,
+       "page": 1,
+       "domain": "www.gardenersworld.com",
+       "title": "How to grow marsh mallow plant",
+       "description": "Dec 20, 2023 — Marsh mallow seeds need a period of cold (known as stratification) to germinate, so sow seed in autumn, either direct where it is to grow or in ... Read more",
+       "url": "https://www.gardenersworld.com/how-to/grow-plants/marshmallow-plant-althaea-officinalis/?srsltid=AfmBOoo0ZFsglCqsjLqLx1w1nouFnqznPStSj55ERaoopKCYou0ADlY5",
+       "breadcrumb": "https://www.gardenersworld.com › How to › Grow plants"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

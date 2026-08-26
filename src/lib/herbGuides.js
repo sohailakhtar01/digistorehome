@@ -15,6 +15,16 @@
 //                      "how to plant yarrow seeds" 260 (RD 2)
 //   california-poppy — "when to plant california poppy seeds" 480 (RD 4) +
 //                      "how to grow california poppy from seeds" 320 (RD 9)
+//   chamomile        — "planting chamomile seeds" 720 (RD 14) +
+//                      "how to grow chamomile seeds" 480 (RD 19)
+//   feverfew         — "feverfew where to plant" 3,600 (RD 7) +
+//                      "feverfew plant identification" 210 (RD 15)
+//   chicory          — "chicory plant seeds" 2,900 (RD 1)
+//   marshmallow      — growing terms only. The "marshmallow root" head term
+//                      (49,500, RD 50-90) is a supplement query, not a
+//                      gardening one, and is deliberately not targeted.
+//   evening-primrose — growing terms only, for the same reason: "evening
+//                      primrose oil" (22,200) is a supplement query.
 
 export const HERB_GUIDES = {
   echinacea: {
@@ -505,6 +515,454 @@ export const HERB_GUIDES = {
         question: "Why are my California poppies all leaves and no flowers?",
         answer:
           "Almost always too much of a good thing: rich soil, heavy feeding, or too much water. This plant flowers best in poor, dry, well-drained ground in full sun. Shade also causes leggy growth and flowers that never open properly.",
+      },
+    ],
+  },
+  chamomile: {
+    title: "How to Grow German Chamomile From Seed (Do Not Bury It)",
+    description:
+      "German chamomile needs light to germinate, so it must be surface sown and kept damp. When to sow, how to stop the seedbed drying out, when to pick the flowers, and how it differs from Roman chamomile.",
+    standfirst:
+      "Chamomile is one of the fastest and most generous plants in this collection, and there is exactly one way to get it wrong: covering the seed.",
+    sections: [
+      {
+        h2: "The one mistake that ruins chamomile",
+        body: [
+          "German chamomile seed requires light to germinate. Sow it at the depth the back of most seed packets suggests and it will barely come up at all.",
+          "The seed is extremely fine — closer to dust than to anything you can pick up individually — and it needs to sit on the surface where light reaches it. Press it into contact with moist compost and leave it there uncovered.",
+          "That creates the second problem, which is the only genuinely fussy thing about this plant: surface-sown seed dries out fast. A seedbed that dries between waterings kills germinating chamomile quickly, and it is the reason people who did everything else right still end up with an empty tray.",
+        ],
+        list: [
+          "Sow on the surface. Do not cover with compost.",
+          "Press gently so the seed makes contact, then water from below or with the finest possible spray.",
+          "Cover the tray with a clear lid, glass or a propagator top until seedlings appear.",
+          "Never let the surface dry out during the 7–14 day germination window.",
+        ],
+      },
+      {
+        h2: "When to sow chamomile",
+        body: [
+          "German chamomile is a true annual, so there is no cold period to arrange and no year-two wait. It flowers roughly eight to ten weeks from sowing.",
+          "Sow indoors four to six weeks before your last frost if you want the earliest flowers, or direct sow outdoors once frost has passed. Outdoors, scatter the seed on a raked, moist surface and resist the urge to rake it in.",
+          "Because it flowers so quickly, a second sowing three or four weeks after the first extends the picking season considerably.",
+        ],
+        list: [
+          "Four to six weeks before last frost: sow indoors on the surface of moist compost.",
+          "After last frost: direct sow onto a prepared, damp seedbed. Do not cover.",
+          "Three to four weeks later: sow again for a longer flowering run.",
+        ],
+      },
+      {
+        h2: "German or Roman? They are different plants",
+        body: [
+          "This causes real confusion, and the two are not interchangeable. German chamomile, Matricaria recutita, is the annual in this kit — an upright, branching plant reaching perhaps 60 cm, with small white-and-yellow daisy flowers and a hollow, domed centre.",
+          "Roman chamomile, Chamaemelum nobile, is a low-growing perennial used as ground cover and in chamomile lawns. It has a solid flower centre rather than a hollow one, and it spreads rather than standing upright.",
+          "Growing advice written for one does not reliably apply to the other. If a guide tells you chamomile is perennial and mat-forming, it is describing Roman chamomile, not the plant in this packet.",
+        ],
+      },
+      {
+        h2: "Growing on and harvesting",
+        body: [
+          "Once germinated, chamomile is undemanding. Full sun to light shade, ordinary soil, moderate water. It does not want rich ground, and overfeeding produces soft growth and fewer flowers.",
+          "Thin or space plants to roughly 15–20 cm apart. Crowded chamomile still flowers but is more prone to mildew and harder to pick from.",
+          "Pick the flowers when the white petals are fully open and horizontal, before they begin to reflex backward and the centre darkens. Pick often — like calendula, the plant flowers harder the more you take. Dry the heads in a single layer somewhere airy and out of direct sun.",
+        ],
+      },
+      {
+        h2: "Self-seeding",
+        body: [
+          "Left to finish, chamomile sets seed prolifically and returns on its own the following year. In a bed it suits, one sowing is usually the only one you will ever make.",
+          "That is convenient if you want a permanent chamomile patch and mildly inconvenient otherwise. Pulling volunteers is easy — the roots are shallow and the seedlings come up in obvious drifts.",
+        ],
+      },
+      {
+        h2: "Traditional use, stated carefully",
+        body: [
+          "The dried flowers have been taken as a calming tea across European folk tradition for centuries, and chamomile is one of the most widely recognised plants in that tradition.",
+          "That history is not clinical evidence. Nothing here should be read as a claim that chamomile treats, prevents or cures anything. Chamomile is in the daisy family, and people with allergies to that family sometimes react to it.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: "How deep should chamomile seeds be planted?",
+        answer:
+          "They should not be planted deep at all. German chamomile needs light to germinate, so press the seed onto the surface of moist compost and leave it uncovered. Burying it is the most common reason a sowing fails.",
+      },
+      {
+        question: "How long do chamomile seeds take to germinate?",
+        answer:
+          "Usually 7 to 14 days, provided the surface never dries out. Because the seed sits exposed, moisture management matters more here than with almost anything else in the kit — a clear cover over the tray solves it.",
+      },
+      {
+        question: "When should I plant chamomile seeds?",
+        answer:
+          "Indoors four to six weeks before your last frost, or direct sown outdoors once frost has passed. It flowers about eight to ten weeks from sowing, so a second sowing a month later extends the season.",
+      },
+      {
+        question: "What is the difference between German and Roman chamomile?",
+        answer:
+          "German chamomile (Matricaria recutita) is an upright annual with a hollow flower centre — that is the species in this kit. Roman chamomile (Chamaemelum nobile) is a low, spreading perennial with a solid flower centre, used for chamomile lawns. Advice for one does not transfer to the other.",
+      },
+      {
+        question: "When should I pick chamomile flowers?",
+        answer:
+          "When the white petals are fully open and horizontal, before they start to bend backward and the yellow centre darkens. Picking frequently pushes the plant to produce more flowers.",
+      },
+      {
+        question: "Does chamomile come back every year?",
+        answer:
+          "German chamomile is an annual and the individual plant dies after setting seed, but it self-seeds so readily that the patch usually returns on its own. Leave a few flower heads to mature if you want that.",
+      },
+    ],
+  },
+  feverfew: {
+    title: "How to Grow Feverfew From Seed (And How to Stop It Taking Over)",
+    description:
+      "Feverfew needs light to germinate, flowers in its first year if sown early, and self-seeds hard enough to colonise a bed. How to sow it, how to identify it, and how to keep it in bounds.",
+    standfirst:
+      "Feverfew is easy to grow and easy to end up with far too much of. The skill with this plant is not germination — it is containment.",
+    sections: [
+      {
+        h2: "Where to plant feverfew",
+        body: [
+          "Decide this before you sow, because it is the decision that matters most. Feverfew self-seeds enthusiastically, and wherever you put it is roughly where it will be for years. Choose a spot where volunteers are welcome rather than a carefully composed border.",
+          "It wants full sun to light shade and well-drained soil, and it is genuinely unfussy beyond that. Poor, dry, stony ground suits it. Rich damp soil produces taller, softer plants that flop.",
+          "A gravel path edge, a bank, or an informal corner suits it better than a bed you intend to keep controlled. Some gardeners grow it in containers purely to stop it spreading.",
+        ],
+      },
+      {
+        h2: "Sowing: surface sow, like chamomile",
+        body: [
+          "Feverfew seed needs light to germinate. Press it onto the surface of moist compost and leave it uncovered, exactly as you would with chamomile. Do not rake it in.",
+          "Expect seedlings in roughly 10 to 14 days. Sown early enough — indoors six to eight weeks before your last frost — feverfew usually flowers in its first year, which is unusual for a perennial and one of the reasons people like it.",
+          "Direct sowing outdoors in spring works too, though the plants will be later to flower.",
+        ],
+        list: [
+          "Six to eight weeks before last frost: surface sow indoors for first-year flowers.",
+          "Spring, after frost: direct sow onto a raked, damp surface. Do not cover.",
+          "Thin or space to about 30 cm (12 in) apart.",
+          "Seedlings appear in roughly 10–14 days.",
+        ],
+      },
+      {
+        h2: "How to identify feverfew",
+        body: [
+          "Feverfew is easy to confuse with chamomile at a glance, and both are in this kit, so it is worth being able to tell them apart.",
+          "The leaves are the reliable difference. Feverfew has broader, flatter, yellowish-green leaves with rounded lobes — they look almost like small chrysanthemum leaves. German chamomile has very fine, thread-like, feathery foliage.",
+          "The flowers help too. Feverfew produces clusters of small white daisies with a flat yellow centre and short, stubby petals, held in loose bunches. Chamomile flowers are carried more singly and have a distinctly domed, hollow centre. Feverfew also has a strong, bitter, slightly acrid smell when the leaves are crushed, which chamomile does not.",
+        ],
+      },
+      {
+        h2: "Keeping it in bounds",
+        body: [
+          "One feverfew plant produces a great deal of seed, and the following spring you will find seedlings some distance from where you sowed. This is the single thing gardeners complain about with this species.",
+          "The fix is straightforward if you are disciplined: cut the flower heads off as they finish, before the seed ripens. That alone prevents most of the spread. Pulling unwanted seedlings is easy — they come up shallow-rooted and in obvious clusters.",
+          "Feverfew is short-lived as a perennial, typically lasting two to three years before declining. Ironically, the self-seeding that makes it a nuisance is also what keeps a patch going, so most gardeners let a few heads set seed deliberately.",
+        ],
+      },
+      {
+        h2: "Traditional use, stated carefully",
+        body: [
+          "Feverfew has a long documented history in European herbal tradition, where the leaves were used for headaches. It is one of the better-recorded plants in that tradition.",
+          "That history is not the same thing as clinical evidence, and nothing on this page should be read as a claim that feverfew treats, prevents or cures anything. Feverfew is in the daisy family and can cause mouth irritation and allergic reactions; it is also not considered suitable during pregnancy. Speak to a qualified healthcare provider before using any plant preparation.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: "Where should I plant feverfew?",
+        answer:
+          "Somewhere you will not mind it spreading. Full sun to light shade in well-drained, even poor soil suits it best. It self-seeds hard, so an informal corner, bank or path edge works better than a carefully planned border. Containers are a reasonable option if you want it contained.",
+      },
+      {
+        question: "How do I sow feverfew seeds?",
+        answer:
+          "Surface sow. Feverfew needs light to germinate, so press the seed onto moist compost and leave it uncovered. Seedlings usually appear in 10 to 14 days.",
+      },
+      {
+        question: "Will feverfew flower in the first year?",
+        answer:
+          "Usually yes, if sown early enough — indoors six to eight weeks before your last frost. That makes it unusual among the perennials in this kit, most of which wait until year two.",
+      },
+      {
+        question: "How do I tell feverfew from chamomile?",
+        answer:
+          "Look at the leaves. Feverfew has broad, flat, yellowish-green leaves with rounded lobes, like small chrysanthemum leaves. German chamomile has fine, thread-like, feathery foliage. Crushed feverfew leaves also have a strong bitter smell that chamomile lacks.",
+      },
+      {
+        question: "Is feverfew invasive?",
+        answer:
+          "It is not usually classed as invasive, but it self-seeds aggressively and will colonise a bed if allowed to. Deadheading before seed ripens controls it, and unwanted seedlings pull out easily.",
+      },
+      {
+        question: "How long does a feverfew plant live?",
+        answer:
+          "It is short-lived, typically two to three years. Most patches persist by self-seeding rather than by individual plants surviving, which is why gardeners often let a few heads set seed on purpose.",
+      },
+    ],
+  },
+  chicory: {
+    title: "How to Grow Chicory From Seed (Check Your Region First)",
+    description:
+      "Chicory is fast, hardy and almost impossible to kill — which is exactly why it needs checking before you plant it. How to direct sow it, when to lift the root, and why transplanting fails.",
+    standfirst:
+      "Chicory germinates in a week, tolerates drought, and comes back for years. Those same qualities are why it has naturalised across much of North America, so the first step here is not sowing.",
+    sections: [
+      {
+        h2: "Check whether chicory is a problem where you live",
+        body: [
+          "Chicory is native to Europe and has naturalised widely elsewhere, including across much of the United States, where you will see its sky-blue flowers along roadsides all summer. In some regions it is listed as a noxious or invasive species.",
+          "This is not a reason to avoid it everywhere. It is a reason to spend two minutes checking your state or county's noxious weed list, or your local extension service, before you plant it out. That check costs nothing and is the responsible thing to do with any vigorous naturalising species.",
+          "If it is a problem locally, grow it in a container and deadhead before seed sets, or skip this packet. Neither ruins the kit.",
+        ],
+      },
+      {
+        h2: "Direct sow — chicory will not transplant",
+        body: [
+          "Chicory forms a deep taproot very early, and like California poppy it strongly resents being moved. Seedlings started in modules and transplanted out usually check badly or die outright.",
+          "Sow it where it is going to stay. Prepare the ground to a reasonable depth if you want a good root, since a stony or compacted bed produces forked, stunted taproots.",
+          "Sow at about 6 mm (1/4 inch) in spring once the soil has warmed, or in late summer for an autumn crop. Expect seedlings in 7 to 14 days — chicory germinates fast and reliably.",
+        ],
+        list: [
+          "Prepare a bed with reasonable depth and no large stones.",
+          "Sow 6 mm (1/4 in) deep, directly where plants are to grow.",
+          "Thin to about 15–20 cm (6–8 in) apart for roots, wider for flowering plants.",
+          "Seedlings appear in 7–14 days.",
+        ],
+      },
+      {
+        h2: "Growing on",
+        body: [
+          "Chicory needs very little once it is up. Full sun, ordinary soil, and no particular attention. It is genuinely drought tolerant after the first few weeks, and it survives cold that kills most of the other plants in this kit.",
+          "In its first summer it produces a rosette of toothed leaves that look much like a dandelion's, which is a common source of confusion. The taproot develops beneath. In year two it sends up tall, wiry, sparsely leaved stems carrying the sky-blue flowers.",
+          "Those flowers open in the morning and close by early afternoon, and each individual bloom lasts a single day. The plant keeps producing new ones over a long season.",
+        ],
+      },
+      {
+        h2: "Harvesting the root",
+        body: [
+          "The taproot is what most people grow chicory for. Lift it in autumn of the first year, once the plant has had a full season to build it — roots left to a second year get larger but also woodier and more fibrous.",
+          "Dig rather than pull. The root goes down further than you expect and snaps easily, and a broken root left in the ground will regrow.",
+          "Scrub, slice and dry the root thoroughly, then roast it if you intend to use it as a coffee substitute. Roasting is what produces the dark, bitter, faintly sweet character it is known for; unroasted dried root tastes quite different.",
+        ],
+      },
+      {
+        h2: "Traditional use, stated carefully",
+        body: [
+          "The roasted root has been used historically as a coffee substitute and extender, particularly in Europe during wartime shortages and in the American South, where the practice persists in New Orleans coffee to this day. The young leaves have also been eaten as a bitter salad green.",
+          "Those are culinary and historical uses. Nothing on this page should be read as a claim that chicory treats, prevents or cures anything.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: "How do I grow chicory from seed?",
+        answer:
+          "Direct sow at about 6 mm (1/4 inch) where the plants are to stay, in spring once the soil has warmed. Chicory forms a deep taproot early and does not transplant successfully, so starting it in modules is not recommended. Seedlings appear in 7 to 14 days.",
+      },
+      {
+        question: "Is chicory invasive?",
+        answer:
+          "It has naturalised widely outside its native Europe and is listed as a noxious weed in some regions. Check your state or county list, or ask your local extension service, before planting it out. Where it is a concern, grow it in a container and deadhead before seed sets.",
+      },
+      {
+        question: "When should I harvest chicory root?",
+        answer:
+          "Autumn of the first year, after a full growing season. Roots left into a second year grow larger but become woody and fibrous. Dig rather than pull — the taproot is deep and snaps easily, and a broken piece will regrow.",
+      },
+      {
+        question: "Why is my chicory not flowering?",
+        answer:
+          "Most likely because it is a perennial in its first year. Chicory typically produces a leaf rosette and taproot in year one and flowers in year two. The first-year rosette looks very like a dandelion, which adds to the confusion.",
+      },
+      {
+        question: "Why do the flowers close by lunchtime?",
+        answer:
+          "That is normal. Chicory flowers open in the morning and close in the early afternoon, and each individual flower lasts only one day. The plant produces new ones continuously over a long season.",
+      },
+      {
+        question: "Do I have to roast chicory root?",
+        answer:
+          "If you want the coffee-substitute character, yes. Roasting develops the dark, bitter, slightly sweet flavour it is known for. Dried but unroasted root tastes quite different and is used differently.",
+      },
+    ],
+  },
+  marshmallow: {
+    title: "How to Grow Marshmallow Root From Seed (Stratify It, and Keep It Wet)",
+    description:
+      "Marshmallow germinates erratically without a cold period and genuinely wants damp ground. How to stratify the seed, where to plant it, and when the root is worth lifting.",
+    standfirst:
+      "Marshmallow is one of the three genuinely difficult species in this kit, and it fails in two predictable ways: sown without cold treatment, and planted somewhere too dry.",
+    sections: [
+      {
+        h2: "Why marshmallow germinates so unevenly",
+        body: [
+          "Althaea officinalis is a temperate perennial with a hard seed coat and a dormancy mechanism that expects a winter. Sown straight into warm spring soil, germination is slow, patchy and often disappointing — 14 to 28 days at best, with large gaps.",
+          "Three to four weeks of cold, moist stratification in the refrigerator markedly improves both the rate and the evenness. This is the same treatment echinacea and lavender need, and it is why three of the ten species in this kit share a single technique.",
+          "Some growers also nick or lightly abrade the seed coat before stratifying, which can help water penetrate. It is fiddly with small seed and stratification alone is usually enough.",
+        ],
+        list: [
+          "Dampen sand or a paper towel until barely moist — squeezed hard, no water should run out.",
+          "Mix the seed through it and seal in a labelled bag or container.",
+          "Refrigerate at roughly 1–5°C (34–40°F) for three to four weeks. Not the freezer.",
+          "Check weekly for mould, then sow at about 6 mm (1/4 in) deep.",
+        ],
+      },
+      {
+        h2: "It is a wet-meadow plant, and that matters",
+        body: [
+          "This is the detail the sales copy tends to skip. Marshmallow grows naturally in damp meadows, ditches and salt marsh margins. It is not a plant for a dry sunny border, and treating it as one is the second reliable way to fail with it.",
+          "Give it the dampest part of your garden, or somewhere you are willing to water consistently. It tolerates heavy soil that other herbs would resent, and it copes with some salt, which is a legacy of its coastal habitat.",
+          "Full sun to part shade both work. Space plants generously — roughly 45–60 cm (18–24 in) — because an established plant becomes large, reaching well over a metre with soft, downy, grey-green leaves and pale pink flowers.",
+        ],
+      },
+      {
+        h2: "Timing and the first two years",
+        body: [
+          "Working backwards: stratification takes three to four weeks, and seedlings want six to eight weeks before going out. Start the cold treatment roughly ten to twelve weeks before your last frost.",
+          "The simpler alternative, as with the other stratifying species, is to sow directly outdoors in late autumn and let winter do the work. Less control, less effort, frequently better results.",
+          "Marshmallow is slow in year one and builds size and root mass rather than performing. The root is not worth lifting until year two at the earliest, and year three gives noticeably more.",
+        ],
+        list: [
+          "Ten to twelve weeks before last frost: seed goes into the refrigerator.",
+          "Six to eight weeks before last frost: sow the stratified seed, 6 mm deep.",
+          "After frost: harden off and plant out 45–60 cm apart in damp ground.",
+          "Alternative: sow outdoors in late autumn and skip the refrigerator entirely.",
+        ],
+      },
+      {
+        h2: "Harvesting the root",
+        body: [
+          "If you want root, lift in autumn of year two or later, once the top growth has died back and the plant has moved its resources downward. Younger roots are thin and give very little for the effort.",
+          "Dig widely around the plant rather than pulling — the root system is substantial and brittle. Wash thoroughly, slice while fresh because it becomes very hard when dry, and dry the slices completely somewhere airy.",
+          "You can lift part of a clump and leave the rest to keep growing, which is the sensible approach with a plant that took two years to get there.",
+        ],
+      },
+      {
+        h2: "Traditional use, stated carefully",
+        body: [
+          "The mucilaginous root has been used traditionally as a soothing preparation, and the plant is the original source of the confection that still carries its name — modern marshmallows contain no Althaea at all.",
+          "That history is not clinical evidence, and nothing on this page should be read as a claim that marshmallow treats, prevents or cures anything. Its mucilage content means it can affect how other medicines are absorbed; speak to a qualified healthcare provider before using any plant preparation.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: "Do marshmallow seeds need cold stratification?",
+        answer:
+          "In practice, yes. Sown straight into warm soil, germination is slow and patchy — often 14 to 28 days with large gaps. Three to four weeks of cold, moist storage in the refrigerator before sowing markedly improves both rate and evenness. Autumn outdoor sowing achieves the same thing using the real winter.",
+      },
+      {
+        question: "How long do marshmallow seeds take to germinate?",
+        answer:
+          "Roughly 14 to 28 days, and notoriously uneven without stratification. Stratified seed tends toward the shorter end and comes up more consistently.",
+      },
+      {
+        question: "Where should I plant marshmallow?",
+        answer:
+          "Somewhere damp. It is a wet-meadow and marsh-margin plant, and it struggles in dry beds. Give it the moistest part of the garden or be prepared to water consistently. It tolerates heavy soil and some salt, and grows in full sun or part shade.",
+      },
+      {
+        question: "When can I harvest marshmallow root?",
+        answer:
+          "Autumn of year two at the earliest, after the top growth dies back. Year three gives noticeably more. First-year roots are too thin to be worth lifting. Slice the root while fresh — it becomes extremely hard once dry.",
+      },
+      {
+        question: "How big does marshmallow get?",
+        answer:
+          "An established plant is large, commonly exceeding a metre in height with soft downy grey-green leaves and pale pink flowers. Space plants 45–60 cm (18–24 in) apart to allow for it.",
+      },
+      {
+        question: "Is marshmallow root the same as marshmallow sweets?",
+        answer:
+          "Historically the confection was made using the plant's mucilaginous root, which is where the name comes from. Modern marshmallows contain no Althaea officinalis at all — they are sugar, gelatine and air.",
+      },
+    ],
+  },
+  "evening-primrose": {
+    title: "How to Grow Evening Primrose From Seed (Year One Is Leaves Only)",
+    description:
+      "Evening primrose is a biennial: it makes a rosette in year one and flowers in year two. How to sow it, why nothing appears to happen for a season, and how to get flowers every year after that.",
+    standfirst:
+      "This is the most commonly misdiagnosed failure in the whole kit. Evening primrose does exactly what it is supposed to do in year one, and what it is supposed to do looks like nothing.",
+    sections: [
+      {
+        h2: "It is a biennial. That is the whole story.",
+        body: [
+          "Oenothera biennis takes two years to complete its life cycle, and the botanical name says so. In year one it germinates and forms a flat rosette of leaves close to the ground. That is all it does, all season, and it is entirely correct behaviour.",
+          "In year two the plant sends up a tall flowering spike — often well over a metre — carrying yellow four-petalled flowers that open at dusk, sets seed, and dies.",
+          "Gardeners who expect flowers in the first summer conclude the seed was bad or the plant failed, and pull it out a few months before it would have delivered. If you take one thing from this page, take that.",
+        ],
+      },
+      {
+        h2: "Sowing evening primrose",
+        body: [
+          "The seed is small and light aids germination, so sow shallowly — on the surface or barely covered to about 3 mm. Do not bury it.",
+          "It germinates readily without any special treatment, usually in 14 to 21 days. A short cold, moist period improves consistency but is optional, unlike echinacea, lavender and marshmallow where it makes a real difference.",
+          "Sow in spring for a rosette that overwinters and flowers the following summer, or in late summer or early autumn, which is closer to how the plant seeds itself naturally. Direct sowing is preferable — evening primrose forms a taproot and is happier not being moved.",
+        ],
+        list: [
+          "Sow on the surface or barely covered, no deeper than 3 mm.",
+          "Direct sow where plants are to grow — the taproot dislikes disturbance.",
+          "Spring or late summer both work. Late summer mirrors natural self-seeding.",
+          "Seedlings appear in roughly 14–21 days. Space 30–45 cm (12–18 in) apart.",
+        ],
+      },
+      {
+        h2: "Getting flowers every year",
+        body: [
+          "There is a simple trick to a biennial, and it is to sow in two consecutive years. Sow this year and next year, and from the second year onward you will always have one cohort flowering while another is building its rosette.",
+          "After that the plant usually handles it itself. Evening primrose self-seeds freely, and an established patch generally sustains overlapping generations without further help.",
+          "If you want to guarantee it, leave the seed pods on the plant to ripen and split rather than cutting the spent stems down tidily.",
+        ],
+      },
+      {
+        h2: "Where it grows and how big it gets",
+        body: [
+          "Evening primrose is undemanding to the point of being weedy. It wants full sun and well-drained soil, and it grows happily on poor, sandy, disturbed ground — which is where you will most often see it growing wild.",
+          "Rich soil produces tall, soft plants that need staking. Poor soil produces sturdier ones. It is drought-tolerant once the taproot is down.",
+          "Plan for the height. A flowering plant commonly reaches 1–1.5 m and looks gawky in a formal border. It is better suited to the back of an informal bed or a wild corner, where the dusk-opening flowers are worth watching for — they unfurl visibly over a few minutes on a summer evening, which is genuinely worth catching once.",
+        ],
+      },
+      {
+        h2: "Traditional use, stated carefully",
+        body: [
+          "The seed oil has a long history of traditional use, and the plant has an equally long record of use among Indigenous peoples of eastern North America, where it is native. The flowers open at dusk, which gives the plant its name.",
+          "Extracting usable oil from the seed is an industrial process, not something achievable in a home kitchen, so a packet of seed is a gardening proposition rather than a route to a supplement. Nothing on this page should be read as a claim that evening primrose treats, prevents or cures anything, and it can interact with some medications. Speak to a qualified healthcare provider before using any plant preparation.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: "Why is my evening primrose not flowering?",
+        answer:
+          "Almost certainly because it is in year one. Evening primrose is a biennial — it forms a flat leaf rosette in its first season and flowers in its second. This is normal and not a failure. Leave it in place over winter.",
+      },
+      {
+        question: "How long do evening primrose seeds take to germinate?",
+        answer:
+          "Usually 14 to 21 days. It germinates readily without special treatment; a short cold, moist period improves consistency but is optional rather than necessary.",
+      },
+      {
+        question: "How deep should evening primrose seeds be planted?",
+        answer:
+          "Very shallowly — on the surface or barely covered, no more than about 3 mm. Light aids germination, so burying the seed reduces your results.",
+      },
+      {
+        question: "Do evening primrose seeds need cold stratification?",
+        answer:
+          "No, not in the way echinacea, lavender and marshmallow do. A cold period improves consistency slightly, but evening primrose germinates perfectly well without one.",
+      },
+      {
+        question: "How do I get evening primrose to flower every year?",
+        answer:
+          "Sow in two consecutive years so you always have one cohort flowering while another builds its rosette. After that the plant self-seeds freely enough to sustain overlapping generations on its own, provided you let some seed pods ripen rather than cutting the stems down.",
+      },
+      {
+        question: "How tall does evening primrose get?",
+        answer:
+          "The flowering spike commonly reaches 1 to 1.5 metres in year two. Rich soil makes it taller and softer and it may need staking; poor soil produces sturdier plants. Site it at the back of a bed rather than the front.",
       },
     ],
   },
