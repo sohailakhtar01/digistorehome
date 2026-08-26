@@ -50,7 +50,6 @@ export async function generateMetadata({ params }) {
       url: `/guides/${slug}`,
       publishedTime: PUBLISHED,
       modifiedTime: MODIFIED,
-      images: [{ url: `/img/og/${slug}.jpg`, width: 1200, height: 630 }],
     },
   };
 }
@@ -288,6 +287,19 @@ export default async function Page({ params }) {
       <nav className="mt-10 border-t border-line pt-8">
         <h2 className="font-serif text-xl font-semibold">Related</h2>
         <ul className="mt-4 flex flex-col gap-2 text-[0.95rem]">
+          {/* Only echinacea has a harvesting guide, so only echinacea links to
+              it. A "related" list that is the same on every page is navigation,
+              not a recommendation. */}
+          {slug === "echinacea" ? (
+            <li>
+              <Link
+                href="/guides/harvesting-coneflower-seeds"
+                className="text-accent underline underline-offset-2"
+              >
+                How to harvest coneflower seeds from your own plants
+              </Link>
+            </li>
+          ) : null}
           <li>
             <Link
               href="/guides/cold-stratification"

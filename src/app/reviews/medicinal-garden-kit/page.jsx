@@ -1,7 +1,12 @@
 import Link from "next/link";
 import Image from "next/image";
 import { getOffer } from "@/lib/affiliates";
-import { HERBS, byDifficulty, stratificationHerbs } from "@/lib/herbs";
+import {
+  HERBS,
+  PUBLISHED_HERB_GUIDES,
+  byDifficulty,
+  stratificationHerbs,
+} from "@/lib/herbs";
 import { PRODUCT_IMAGES, getHerbImage, VIDEOS } from "@/lib/media";
 import { EDITOR, SITE } from "@/lib/site";
 import VideoEmbed from "@/components/VideoEmbed";
@@ -504,6 +509,15 @@ export default function Page() {
                       </strong>{" "}
                       {h.honestNote}
                     </p>
+                    <Link
+                      href={`/guides/${h.slug}`}
+                      data-plain
+                      className="mt-3 inline-flex items-center gap-1 text-sm font-semibold text-accent underline decoration-line-strong underline-offset-4 transition-colors hover:decoration-accent"
+                    >
+                      How to grow {h.name.split(" (")[0].toLowerCase()} from
+                      seed
+                      <span aria-hidden="true">&rarr;</span>
+                    </Link>
                     {img ? (
                       <p className="mt-3 text-[0.6875rem] text-subtle">
                         Photo: {img.author} / Wikimedia Commons ({img.license})
@@ -733,6 +747,22 @@ export default function Page() {
             <ul className="mt-4 flex flex-col gap-2 text-[0.95rem]">
               <li>
                 <Link
+                  href="/guides/cold-stratification"
+                  className="text-accent underline underline-offset-2"
+                >
+                  Cold stratification — the step three of these ten species need
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/guides/harvesting-coneflower-seeds"
+                  className="text-accent underline underline-offset-2"
+                >
+                  How to harvest coneflower seeds and never buy them again
+                </Link>
+              </li>
+              <li>
+                <Link
                   href="/guides/medicinal-herbs-to-grow"
                   className="text-accent underline underline-offset-2"
                 >
@@ -740,9 +770,7 @@ export default function Page() {
                   to grow
                 </Link>
               </li>
-              {HERBS.filter((h) =>
-                ["echinacea", "lavender"].includes(h.slug),
-              ).map((h) => (
+              {HERBS.filter((h) => PUBLISHED_HERB_GUIDES.includes(h.slug)).map((h) => (
                 <li key={h.slug}>
                   <Link
                     href={`/guides/${h.slug}`}
