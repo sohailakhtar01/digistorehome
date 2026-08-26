@@ -30,10 +30,15 @@ export default function Header() {
               <path d="M4 21h16" />
             </svg>
           </span>
-          {/* Below 360px the full wordmark plus three nav links cannot fit,
-              so the mark carries the brand on its own there. Above it, the
-              wordmark returns. */}
-          <span className="hidden truncate font-serif text-[0.95rem] font-semibold tracking-tight min-[360px]:inline sm:text-[1.05rem]">
+          {/* Three widths, no ellipsis. Under 360px the mark carries the brand
+              alone because nothing else fits beside three nav links; between
+              360 and sm the short name fits where the full one would truncate;
+              from sm the full wordmark. Truncating a brand name reads as a bug,
+              so it is never allowed to happen. */}
+          <span className="hidden font-serif text-[0.95rem] font-semibold tracking-tight whitespace-nowrap min-[360px]:inline sm:hidden">
+            {SITE.shortName}
+          </span>
+          <span className="hidden font-serif text-[1.05rem] font-semibold tracking-tight whitespace-nowrap sm:inline">
             {SITE.name}
           </span>
         </Link>
