@@ -112,8 +112,9 @@ export default function Page() {
       </ul>
 
       <p className="mt-10 text-sm leading-relaxed text-subtle">
-        Guides for the remaining species are being written. We would rather
-        publish two good ones than ten thin ones.
+        All ten species in the Medicinal Garden Kit now have a guide. Each one
+        leads with the specific thing that makes people fail with that plant,
+        because that is the part the seed packet leaves out.
       </p>
     </div>
   );
