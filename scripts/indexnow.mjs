@@ -15,26 +15,24 @@
 const HOST = "thehomesteadshelf.com";
 const KEY = "c19d001cf981407f870c3acf3a5c48f9";
 
-const DEFAULT_PATHS = [
-  "/",
-  "/reviews",
-  "/reviews/medicinal-garden-kit",
-  "/guides",
-  "/guides/medicinal-herbs-to-grow",
-  "/guides/cold-stratification",
-  "/guides/echinacea",
-  "/guides/lavender",
-  "/about",
-  "/disclosure",
-  "/contact",
-  "/privacy",
-  "/terms",
-  "/llms.txt",
-  "/feed.xml",
-];
+// Paths are read from the live sitemap rather than hardcoded here. The
+// previous hardcoded list silently went stale the moment a page was added,
+// which meant new pages were never submitted.
+async function sitemapPaths() {
+  const res = await fetch(`https://${HOST}/sitemap.xml`, {
+    headers: { "User-Agent": "thehomesteadshelf-indexnow/1.0" },
+  });
+  if (!res.ok) throw new Error(`sitemap fetch failed: ${res.status}`);
+  const xml = await res.text();
+  const locs = [...xml.matchAll(/<loc>([^<]+)<\/loc>/g)].map((m) => m[1]);
+  if (!locs.length) throw new Error("sitemap contained no <loc> entries");
+  // Discovery files are not in the sitemap but are worth pinging too.
+  return [...locs.map((u) => new URL(u).pathname), "/llms.txt", "/feed.xml"];
+}
+
 
 const paths = process.argv.slice(2);
-const urlList = (paths.length ? paths : DEFAULT_PATHS).map(
+const urlList = (paths.length ? paths : await sitemapPaths()).map(
   (p) => `https://${HOST}${p.startsWith("/") ? p : `/${p}`}`,
 );
 
