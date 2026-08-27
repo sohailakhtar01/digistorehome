@@ -3,6 +3,8 @@
 import { useMemo, useState } from "react";
 import Link from "next/link";
 import { byDifficulty } from "@/lib/herbs";
+import { buildIcs } from "@/lib/ics";
+import { SITE } from "@/lib/site";
 
 /**
  * Works backwards from the reader's own last frost date to a per-species
@@ -93,6 +95,43 @@ export default function SeedCalendar() {
     }
     return who ? { ...who, date: earliest } : null;
   }, [herbs, frost]);
+
+  // Every job across all ten species, as calendar entries. The description
+  // carries the reason and a link back to the species guide, so a reminder
+  // firing in January arrives with the instructions attached rather than as a
+  // line of text the reader has to go and decode.
+  function downloadIcs() {
+    if (!frost) return;
+    const events = [];
+    for (const h of herbs) {
+      const common = h.name.split(" (")[0];
+      for (const row of schedule(h, frost)) {
+        events.push({
+          date: row.date,
+          summary: `${row.label} — ${common}`,
+          description: `${row.hint}.
+
+${h.timing.note}
+
+Full guide: ${SITE.url}/guides/${h.slug}`,
+          url: `${SITE.url}/guides/${h.slug}`,
+        });
+      }
+    }
+
+    const blob = new Blob([buildIcs(events, { name: "Sowing calendar" })], {
+      type: "text/calendar;charset=utf-8",
+    });
+    const href = URL.createObjectURL(blob);
+    const a = document.createElement("a");
+    a.href = href;
+    a.download = `sowing-calendar-${frost.getFullYear()}.ics`;
+    document.body.appendChild(a);
+    a.click();
+    a.remove();
+    // Revoking immediately can cancel the download in some browsers.
+    setTimeout(() => URL.revokeObjectURL(href), 10000);
+  }
 
   return (
     <div className="not-prose">
@@ -210,6 +249,43 @@ export default function SeedCalendar() {
           Enter a valid date to see the schedule.
         </p>
       )}
+
+      {frost ? (
+        <div className="mt-6 rounded-xl border border-line-strong bg-surface-sunk px-5 py-5">
+          <p className="font-serif text-base font-semibold">
+            Put these dates in your calendar
+          </p>
+          <p className="mt-1.5 text-sm leading-relaxed text-muted">
+            The first job is months away and easy to forget. This downloads all
+            the dates above as calendar entries, each one carrying the
+            instructions and a link to that species&rsquo; guide. Works with
+            Google Calendar, Apple Calendar and Outlook.
+          </p>
+          <button
+            type="button"
+            onClick={downloadIcs}
+            className="mt-3.5 inline-flex items-center gap-2 rounded-lg border border-accent px-5 py-2.5 text-sm font-semibold text-accent transition-colors hover:bg-accent-soft"
+          >
+            <svg
+              aria-hidden="true"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              className="h-4 w-4"
+            >
+              <path d="M8 2v4M16 2v4M3 10h18M5 4h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2z" />
+            </svg>
+            Download the calendar file
+          </button>
+          <p className="mt-2.5 text-xs text-subtle">
+            No email required. Nothing is sent anywhere — the file is built in
+            your browser.
+          </p>
+        </div>
+      ) : null}
 
       <p className="mt-5 text-xs leading-relaxed text-subtle">
         These are general horticultural ranges for each species, not results from

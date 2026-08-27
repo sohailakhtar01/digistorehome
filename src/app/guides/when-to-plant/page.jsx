@@ -77,7 +77,19 @@ const FAQ_ITEMS = [
 ];
 
 export default function Page() {
-  const strat = stratificationHerbs().map((h) => h.name.split(" (")[0]);
+  // Two different ideas were being conflated here. `stratification` marks a
+  // species that germinates better after a cold period; `timing.stratWeeks`
+  // marks one the calculator actually gives a refrigerator date to. Evening
+  // primrose is the first but not the second — it is direct sown, so it takes
+  // its cold from the ground over winter rather than from a fridge. Deriving
+  // the prose from the flag while the table derives from the schedule is how
+  // the heading came to say three above a list of four.
+  const fridge = HERBS.filter((h) => h.timing.stratWeeks > 0).map(
+    (h) => h.name.split(" (")[0],
+  );
+  const alsoBenefits = stratificationHerbs()
+    .filter((h) => h.timing.stratWeeks === 0)
+    .map((h) => h.name.split(" (")[0]);
   const direct = HERBS.filter((h) => h.timing.method === "direct").map((h) =>
     h.name.split(" (")[0],
   );
@@ -163,11 +175,17 @@ export default function Page() {
 
         <h3>The three that need a refrigerator first</h3>
         <p>
-          {strat.join(", ")} all germinate erratically without a cold, moist
+          {fridge.join(", ")} all germinate erratically without a cold, moist
           period. That period happens <em>before</em> sowing, so it has to be
           added to the front of the schedule — which is why lavender ends up
           starting around fourteen weeks before your last frost while calendula
           only needs five.
+        </p>
+        <p>
+          {alsoBenefits.join(", ")} benefits from the same treatment, but it is
+          direct sown and so takes its cold from the ground over winter instead.
+          The calculator gives it a single sowing date rather than a
+          refrigerator date, which is why it appears below rather than here.
         </p>
         <p>
           If that sounds like a lot of planning, there is a shortcut:{" "}
