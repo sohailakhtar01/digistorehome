@@ -2,7 +2,10 @@
 /**
  * Screenshot a URL with real mobile viewport emulation.
  *
- *   node scripts/shot.mjs <url> <out.png> [width] [height] [--full]
+ *   node scripts/shot.mjs <url> <out.png> [width] [height] [--full] [--scroll=N]
+ *
+ * --scroll=N scrolls N pixels down before capturing, which is the only way to
+ * see anything that reveals itself on scroll (the sticky offer bar).
  *
  * Chrome's --window-size alone does NOT apply the page's viewport meta tag, so
  * plain headless screenshots at phone widths render the desktop layout and
@@ -15,6 +18,9 @@ import { setTimeout as sleep } from "node:timers/promises";
 
 const [url, out, w = "390", h = "844", ...rest] = process.argv.slice(2);
 const full = rest.includes("--full");
+const scrollTo = Number(
+  (rest.find((a) => a.startsWith("--scroll=")) ?? "--scroll=0").split("=")[1],
+);
 const WIDTH = Number(w);
 const HEIGHT = Number(h);
 const PORT = 9223;
@@ -74,6 +80,17 @@ await rpc(
 );
 await rpc(ws, "Page.navigate", { url }, sessionId);
 await sleep(1200);
+
+if (scrollTo > 0) {
+  await rpc(
+    ws,
+    "Runtime.evaluate",
+    { expression: `window.scrollTo(0, ${scrollTo})`, awaitPromise: false },
+    sessionId,
+  );
+  // Let the IntersectionObserver fire and any transition finish.
+  await sleep(700);
+}
 
 const shot = await rpc(
   ws,

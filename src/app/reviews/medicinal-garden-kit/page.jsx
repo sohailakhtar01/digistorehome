@@ -10,6 +10,7 @@ import {
 import { PRODUCT_IMAGES, getHerbImage, VIDEOS } from "@/lib/media";
 import { EDITOR, SITE } from "@/lib/site";
 import VideoEmbed from "@/components/VideoEmbed";
+import StickyOfferBar from "@/components/StickyOfferBar";
 import {
   AffiliateCTA,
   AffiliateDisclosure,
@@ -268,8 +269,10 @@ export default function Page() {
             credit={PRODUCT_IMAGES.hero.credit}
           />
 
-          {/* Mobile-only buy card; the sticky rail handles desktop. */}
-          <div className="lg:hidden">
+          {/* Mobile-only buy card; the sticky rail handles desktop. The id is
+              what StickyOfferBar watches — the bar appears once this scrolls
+              off the top, so the two are never on screen together. */}
+          <div id="offer-anchor" className="lg:hidden">
             <BuyCard offer={offer} />
           </div>
 
@@ -782,7 +785,15 @@ export default function Page() {
               ))}
             </ul>
           </nav>
-        </article>
+        
+      <StickyOfferBar
+        anchorId="offer-anchor"
+        href={offer.buildLink("sticky-mobile")}
+        price={offer.price}
+        shipping={offer.shipping}
+        guaranteeDays={offer.guaranteeDays}
+      />
+    </article>
 
         <aside className="hidden lg:block">
           <div className="sticky top-24">
