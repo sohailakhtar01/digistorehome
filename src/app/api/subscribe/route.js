@@ -5,10 +5,24 @@
  * holding it is an implementation detail, and picking one should not mean
  * rewriting the form. Whichever key is present in the environment wins:
  *
+ *   BREVO_API_KEY       + BREVO_LIST_ID (both required, see below)
  *   MAILERLITE_API_KEY  (+ optional MAILERLITE_GROUP_ID)
  *   KIT_API_KEY         (+ optional KIT_FORM_ID)
  *
- * With neither set the endpoint returns 503 and the form says the signup is
+ * Brevo is checked first because it is the account we actually have — the same
+ * one already sending for thetoolsverse.com. One Brevo account holds several
+ * sender domains and several lists, so a second account for this domain would
+ * split the sending reputation across two cold identities and breach the
+ * multi-account terms for no gain. Keep them together, keep the lists apart.
+ *
+ * BREVO_LIST_ID is required rather than optional precisely because that account
+ * is shared. Omitting it drops subscribers into All Contacts alongside the
+ * several hundred Toolsverse contacts already there, with no way to tell later
+ * which reader came from which site — and any broadcast then goes to both
+ * audiences. Refusing to start without it is better than quietly mixing two
+ * mailing lists that can never be cleanly separated again.
+ *
+ * With none set the endpoint returns 503 and the form says the signup is
  * not open yet, which is the honest failure. A form that silently swallows
  * addresses is worse than no form at all — the reader believes they subscribed
  * and we have nothing.
@@ -26,6 +40,26 @@ const json = (body, status) =>
     status,
     headers: { "Cache-Control": "no-store" },
   });
+
+async function subscribeBrevo(email) {
+  const res = await fetch("https://api.brevo.com/v3/contacts", {
+    method: "POST",
+    headers: {
+      "api-key": process.env.BREVO_API_KEY,
+      "Content-Type": "application/json",
+      accept: "application/json",
+    },
+    body: JSON.stringify({
+      email,
+      // Without this a returning subscriber is a 400 "Contact already exist",
+      // which would show a stranger an error for doing nothing wrong.
+      updateEnabled: true,
+      listIds: [Number(process.env.BREVO_LIST_ID)],
+    }),
+  });
+  // 201 created, 204 updated. Both mean the address is on the list.
+  return res.ok;
+}
 
 async function subscribeMailerLite(email) {
   const res = await fetch("https://connect.mailerlite.com/api/subscribers", {
@@ -84,6 +118,14 @@ export async function POST(request) {
   }
 
   try {
+    if (process.env.BREVO_API_KEY) {
+      if (!process.env.BREVO_LIST_ID) {
+        return json({ error: "Signups are not open yet." }, 503);
+      }
+      return (await subscribeBrevo(email))
+        ? json({ ok: true }, 200)
+        : json({ error: "The signup service rejected that address." }, 502);
+    }
     if (process.env.MAILERLITE_API_KEY) {
       return (await subscribeMailerLite(email))
         ? json({ ok: true }, 200)

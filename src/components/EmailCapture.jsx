@@ -58,9 +58,10 @@ export default function EmailCapture({
       <aside className="not-prose my-8 rounded-xl border border-accent/30 bg-accent-soft px-5 py-6">
         <p className="font-serif text-lg font-semibold">You are on the list.</p>
         <p className="mt-2 text-[0.95rem] leading-relaxed text-muted">
-          Check your inbox for a confirmation. If it is not there in a few
-          minutes it will be in spam, and marking it &ldquo;not spam&rdquo; is
-          the only way the later ones arrive.
+          Nothing arrives until there is something worth sending, so the first
+          email will be when a sowing window opens — which may be a while. When
+          it does come it may land in spam the first time, and marking it
+          &ldquo;not spam&rdquo; is what gets the later ones through.
         </p>
       </aside>
     );
