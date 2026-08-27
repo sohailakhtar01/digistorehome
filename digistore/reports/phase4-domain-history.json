@@ -1,0 +1,118 @@
+{
+ "backyardselfsufficiency.com": {
+  "verdict": "HISTORY",
+  "detail": "2 snapshots, 2012-2015"
+ },
+ "selfsufficiencybooks.com": {
+  "verdict": "HISTORY",
+  "detail": "1 snapshots, 2011-2011"
+ },
+ "homesteadingbookreview.com": {
+  "verdict": "CLEAN",
+  "detail": "no archived snapshots"
+ },
+ "thehomesteadshelf.com": {
+  "verdict": "CLEAN",
+  "detail": "no archived snapshots"
+ },
+ "homesteadbookguide.com": {
+  "verdict": "CLEAN",
+  "detail": "no archived snapshots"
+ },
+ "offgridreadinglist.com": {
+  "verdict": "CLEAN",
+  "detail": "no archived snapshots"
+ },
+ "homesteadreadinglist.com": {
+  "verdict": "CLEAN",
+  "detail": "no archived snapshots"
+ },
+ "longtermfoodstorageguide.com": {
+  "verdict": "HISTORY",
+  "detail": "2 snapshots, 2013-2016"
+ },
+ "survivalfoodhandbook.com": {
+  "verdict": "CLEAN",
+  "detail": "no archived snapshots"
+ },
+ "shelfstablepantry.com": {
+  "verdict": "CLEAN",
+  "detail": "no archived snapshots"
+ },
+ "thestockpileguide.com": {
+  "verdict": "CLEAN",
+  "detail": "no archived snapshots"
+ },
+ "preppedpantryguide.com": {
+  "verdict": "CLEAN",
+  "detail": "no archived snapshots"
+ },
+ "survivalfoodstockpile.com": {
+  "verdict": "CLEAN",
+  "detail": "no archived snapshots"
+ },
+ "youtubeautomationtools.com": {
+  "verdict": "HISTORY",
+  "detail": "1 snapshots, 2025-2025"
+ },
+ "youtubeaistack.com": {
+  "verdict": "CLEAN",
+  "detail": "no archived snapshots"
+ },
+ "tubetoolreview.com": {
+  "verdict": "CLEAN",
+  "detail": "no archived snapshots"
+ },
+ "youtubetoolreport.com": {
+  "verdict": "CLEAN",
+  "detail": "no archived snapshots"
+ },
+ "empprepguide.com": {
+  "verdict": "CLEAN",
+  "detail": "no archived snapshots"
+ },
+ "empreadinessguide.com": {
+  "verdict": "CLEAN",
+  "detail": "no archived snapshots"
+ },
+ "faradayprepguide.com": {
+  "verdict": "CLEAN",
+  "detail": "no archived snapshots"
+ },
+ "gridfailureguide.com": {
+  "verdict": "UNKNOWN",
+  "detail": "rate limited"
+ },
+ "thehomeremedybook.com": {
+  "verdict": "CLEAN",
+  "detail": "no archived snapshots"
+ },
+ "householdremedyguide.com": {
+  "verdict": "CLEAN",
+  "detail": "no archived snapshots"
+ },
+ "familymedicinecabinet.com": {
+  "verdict": "HISTORY",
+  "detail": "3 snapshots, 2006-2021"
+ },
+ "survivalmedicineguide.com": {
+  "verdict": "CLEAN",
+  "detail": "no archived snapshots"
+ },
+ "theherbalremedybook.com": {
+  "verdict": "CLEAN",
+  "detail": "no archived snapshots"
+ },
+ "herbalremedylibrary.com": {
+  "verdict": "HISTORY",
+  "detail": "2 snapshots, 2024-2025"
+ },
+ "growyourownremedies.com": {
+  "verdict": "HISTORY",
+  "detail": "1 snapshots, 2013-2013"
+ },
+ "homeherbalguide.com": {
+  "verdict": "CLEAN",
+  "detail": "no archived snapshots"
+ }
+}
