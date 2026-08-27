@@ -1,6 +1,6 @@
 import { publishedHerbs } from "@/lib/herbs";
 import { getHerbGuide } from "@/lib/herbGuides";
-import { Breadcrumbs, LinkCard, PageHeader } from "@/components/ui";
+import { Breadcrumbs, KitCallout, LinkCard, PageHeader } from "@/components/ui";
 
 export const metadata = {
   title: "Growing Guides",
@@ -101,10 +101,17 @@ export default function Page() {
       </ul>
 
       <p className="mt-10 text-sm leading-relaxed text-subtle">
-        All ten species in the Medicinal Garden Kit now have a guide. Each one
-        leads with the specific thing that makes people fail with that plant,
-        because that is the part the seed packet leaves out.
+        All ten species above have a guide. Each one leads with the specific
+        thing that makes people fail with that plant, because that is the part
+        the seed packet leaves out.
       </p>
+
+      <div className="mt-8">
+        <KitCallout
+          herb="Every species on this page"
+          note="The guides stand on their own — you do not need the kit to use them."
+        />
+      </div>
     </div>
   );
 }

@@ -117,7 +117,12 @@ export default function Page() {
           What a commission does not do is change the assessment. Our reviews
           include the things that reduce sales — the species that are hard to
           grow, the year-long wait, the cheaper alternative — because a review
-          that omits them is not worth reading.{" "}
+          that omits them is not worth reading. You can check that against the
+          one we have published: the{" "}
+          <Link href="/reviews/medicinal-garden-kit">
+            Medicinal Garden Kit review
+          </Link>{" "}
+          names three species we think its sales page understates.{" "}
           <Link href="/disclosure">Read the full disclosure</Link>.
         </p>
 
