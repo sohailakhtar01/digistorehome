@@ -13,15 +13,20 @@ import AffiliateClicks from "./AffiliateClicks";
  * Free and unmetered, which matters on a site whose entire budget is about
  * $43 a month.
  *
- * Renders nothing until CLARITY_PROJECT_ID is set, so no half-configured
- * tracker ships. The project id is not a secret — it is visible in the page
- * source of every site running Clarity — but it is read server-side here so it
- * does not also end up in the client bundle.
+ * The project id is committed rather than kept in an environment variable
+ * because it is not a secret: Clarity ships it in the page source of every
+ * site that runs it, and it grants nothing but the ability to send data to
+ * this project. Keeping it here means the tracker cannot silently stop working
+ * because a dashboard variable was dropped, which is the failure mode that
+ * matters — a tracker you believe is running but is not is worse than none.
  *
- * Note this is a build-time check, so setting the variable in Vercel needs a
- * redeploy before anything is recorded.
+ * CLARITY_PROJECT_ID still overrides it, so a staging deploy can point
+ * somewhere else, and setting it to an empty string disables Clarity entirely.
  */
-export const CLARITY_ID = process.env.CLARITY_PROJECT_ID ?? "";
+const DEFAULT_CLARITY_ID = "y8w8dh0an9"; // project: thehomesteadshelf
+
+export const CLARITY_ID =
+  process.env.CLARITY_PROJECT_ID ?? DEFAULT_CLARITY_ID;
 
 export default function Analytics() {
   if (!CLARITY_ID) return null;
