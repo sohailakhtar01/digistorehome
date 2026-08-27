@@ -40,7 +40,8 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-# Raw DataForSEO responses. Kept locally so results can be re-parsed without
-# re-paying for the calls, but 3.8MB of JSON in git made every push crawl.
-# The analyses in research/*.md are committed — those are the actual output.
-research/raw/dfs/
+# Raw research inputs: DataForSEO responses, marketplace dumps. Kept locally so
+# they can be re-parsed without re-paying for the calls or re-scraping, but
+# 3.8MB of JSON in git made every push crawl. The analyses in research/*.md are
+# committed — those are the actual output.
+research/raw/
