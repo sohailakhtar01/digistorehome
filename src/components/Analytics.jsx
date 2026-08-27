@@ -29,11 +29,16 @@ export const CLARITY_ID =
   process.env.CLARITY_PROJECT_ID ?? DEFAULT_CLARITY_ID;
 
 /**
- * GA4 measurement id. Public like the Clarity one, but left empty until the
- * property exists — a gtag config pointing at nothing still loads ~90KB of
- * tag manager on every page and reports to nowhere.
+ * GA4 measurement id. Public like the Clarity one, and committed for the same
+ * reason: a tracker that silently stops because a dashboard variable was
+ * dropped is worse than one that was never installed.
+ *
+ * Setting GA_MEASUREMENT_ID to an empty string disables GA4 without touching
+ * Clarity.
  */
-export const GA_ID = process.env.GA_MEASUREMENT_ID ?? "";
+const DEFAULT_GA_ID = "G-ZT4V262VHZ"; // property: The Homestead Shelf
+
+export const GA_ID = process.env.GA_MEASUREMENT_ID ?? DEFAULT_GA_ID;
 
 export default function Analytics() {
   if (!CLARITY_ID && !GA_ID) return null;

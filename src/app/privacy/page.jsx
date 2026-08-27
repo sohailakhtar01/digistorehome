@@ -70,6 +70,20 @@ export default function Page() {
           statement. Browser Do Not Track and most content blockers stop it
           loading at all, and nothing on this site depends on it working.
         </p>
+        <p>
+          We also use Google Analytics, which counts visits and records which
+          page you arrived on, roughly where you came from — a search engine, a
+          link on another site — and which links you followed, including when
+          you click through to a product we review. We use it to work out which
+          guides are worth writing more of. It does not tell us who you are,
+          and we do not combine it with anything that would.
+        </p>
+        <p>
+          Both of these set cookies in your browser and both send data to their
+          respective companies, whose own privacy terms apply. Blocking cookies
+          or using a content blocker stops both, and the site works exactly the
+          same either way.
+        </p>
 
         <h2>Affiliate links</h2>
         <p>
