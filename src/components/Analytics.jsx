@@ -28,14 +28,36 @@ const DEFAULT_CLARITY_ID = "y8w8dh0an9"; // project: thehomesteadshelf
 export const CLARITY_ID =
   process.env.CLARITY_PROJECT_ID ?? DEFAULT_CLARITY_ID;
 
+/**
+ * GA4 measurement id. Public like the Clarity one, but left empty until the
+ * property exists — a gtag config pointing at nothing still loads ~90KB of
+ * tag manager on every page and reports to nowhere.
+ */
+export const GA_ID = process.env.GA_MEASUREMENT_ID ?? "";
+
 export default function Analytics() {
-  if (!CLARITY_ID) return null;
+  if (!CLARITY_ID && !GA_ID) return null;
 
   return (
     <>
-      <Script id="clarity" strategy="afterInteractive">
-        {`(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window,document,"clarity","script",${JSON.stringify(CLARITY_ID)});`}
-      </Script>
+      {CLARITY_ID ? (
+        <Script id="clarity" strategy="afterInteractive">
+          {`(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window,document,"clarity","script",${JSON.stringify(CLARITY_ID)});`}
+        </Script>
+      ) : null}
+
+      {GA_ID ? (
+        <>
+          <Script
+            src={`https://www.googletagmanager.com/gtag/js?id=${GA_ID}`}
+            strategy="afterInteractive"
+          />
+          <Script id="ga4" strategy="afterInteractive">
+            {`window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}window.gtag=gtag;gtag("js",new Date());gtag("config",${JSON.stringify(GA_ID)});`}
+          </Script>
+        </>
+      ) : null}
+
       <AffiliateClicks />
     </>
   );

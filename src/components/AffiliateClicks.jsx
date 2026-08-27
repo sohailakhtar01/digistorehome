@@ -3,7 +3,7 @@
 import { useEffect } from "react";
 
 /**
- * Reports affiliate link clicks to Clarity as custom events.
+ * Reports affiliate link clicks to Clarity and GA4.
  *
  * This is the number that predicts Digistore earnings. Page views say how many
  * people arrived; only the outbound click says how many were persuaded, and
@@ -31,12 +31,26 @@ export default function AffiliateClicks() {
       // .../redir/<product>/<affiliate>/<campaign>
       const campaign = link.href.split("/").filter(Boolean).pop() ?? "unknown";
 
-      // Optional chaining throughout: Clarity is blocked by plenty of ad
-      // blockers, and a tracking failure must never break an outbound click.
+      // Optional chaining throughout, and each call wrapped separately: both
+      // of these are blocked by plenty of ad blockers, and one failing must
+      // not stop the other reporting — nor ever break an outbound click.
       try {
         window.clarity?.("event", `affiliate-click-${campaign}`);
       } catch {
         /* analytics is never worth breaking the page for */
+      }
+
+      try {
+        // GA4 answers the question Clarity cannot: which guide, from which
+        // source, produced this click. Mark affiliate_click as a key event in
+        // the GA4 UI and every landing page gets a real conversion rate.
+        window.gtag?.("event", "affiliate_click", {
+          campaign,
+          page_path: window.location.pathname,
+          link_url: link.href,
+        });
+      } catch {
+        /* as above */
       }
     }
 
