@@ -55,10 +55,20 @@ export default function Page() {
 
         <h2>Analytics</h2>
         <p>
-          We may use privacy-respecting analytics to understand which pages are
-          read, and search engine webmaster tools to see which queries bring
-          people here. These report aggregate patterns — page views, search
-          terms, general location at country level — not individuals.
+          We use Microsoft Clarity to understand how pages are actually used,
+          and search engine webmaster tools to see which queries bring people
+          here. Clarity does more than count visits: it records a playback of
+          the session — mouse movement, clicks, scrolling and the pages
+          visited — and aggregates those into heatmaps. We use it to find where
+          a page confuses people, not to identify anyone, and we do not try to
+          work out who a session belongs to.
+        </p>
+        <p>
+          Clarity masks text input by default, so anything typed into a field is
+          not captured. It is a Microsoft product and their processing terms
+          apply; Microsoft may use the data as described in their privacy
+          statement. Browser Do Not Track and most content blockers stop it
+          loading at all, and nothing on this site depends on it working.
         </p>
 
         <h2>Affiliate links</h2>
