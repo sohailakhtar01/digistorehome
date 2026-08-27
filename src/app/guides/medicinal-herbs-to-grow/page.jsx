@@ -13,6 +13,7 @@ import {
   Callout,
   DifficultyBadge,
   JsonLd,
+  KitCallout,
   MedicalDisclaimer,
   PageHeader,
 } from "@/components/ui";
@@ -234,6 +235,11 @@ export default function Page() {
             light and considerably more patience than feels reasonable.
           </li>
         </ol>
+
+        <KitCallout
+          herb="All ten species above"
+          note="It is the collection this whole ranking is based on, difficult species included — which is why the three hard ones are named here rather than glossed over."
+        />
 
         <h2 id="traditional-use">On &ldquo;medicinal&rdquo;</h2>
         <p>
