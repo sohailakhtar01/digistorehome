@@ -5,6 +5,7 @@ import { getHerbGuide } from "@/lib/herbGuides";
 import { getHerbImage, VIDEOS } from "@/lib/media";
 import { EDITOR, SITE } from "@/lib/site";
 import VideoEmbed from "@/components/VideoEmbed";
+import EmailCapture from "@/components/EmailCaptureSlot";
 import {
   Breadcrumbs,
   Callout,
@@ -284,6 +285,8 @@ export default async function Page({ params }) {
       <div className="mt-10">
         <MedicalDisclaimer />
       </div>
+
+      <EmailCapture />
 
       <nav className="mt-10 border-t border-line pt-8">
         <h2 className="font-serif text-xl font-semibold">Related</h2>

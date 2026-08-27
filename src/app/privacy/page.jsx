@@ -22,19 +22,35 @@ export default function Page() {
       <PageHeader
         eyebrow="Legal"
         title="Privacy policy"
-        standfirst="Last updated 25 August 2026."
+        standfirst="Last updated 27 August 2026."
       />
 
       <div className="prose-shelf mt-8">
         <h2>What we collect</h2>
         <p>
           {SITE.name} does not ask you to create an account, and we do not
-          collect names, addresses or payment details. We do not run a
-          newsletter sign-up at this time.
+          collect names, addresses or payment details.
         </p>
         <p>
           If you email us, we receive your email address and whatever you choose
           to write. We use it to reply and nothing else.
+        </p>
+
+        <h2>The mailing list</h2>
+        <p>
+          If you enter your address in one of the sowing-reminder forms, we
+          store that address so we can email you when the sowing windows open.
+          That is the only reason we hold it. We do not ask for your name, we do
+          not sell or rent the list, and we do not pass addresses to the
+          companies whose products we review.
+        </p>
+        <p>
+          The list is held by our email provider rather than on this site, so
+          their processing terms apply alongside this policy. Every email we
+          send carries a one-click unsubscribe link, and unsubscribing removes
+          the address rather than merely silencing it. You can also ask us to
+          delete it directly, at{" "}
+          <a href={`mailto:${SITE.email}`}>{SITE.email}</a>, and we will.
         </p>
 
         <h2>Analytics</h2>

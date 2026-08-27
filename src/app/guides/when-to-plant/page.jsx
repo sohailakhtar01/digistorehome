@@ -1,5 +1,6 @@
 import Link from "next/link";
 import SeedCalendar from "@/components/SeedCalendar";
+import EmailCapture from "@/components/EmailCaptureSlot";
 import { HERBS, stratificationHerbs } from "@/lib/herbs";
 import { EDITOR, SITE } from "@/lib/site";
 import {
@@ -146,6 +147,11 @@ export default function Page() {
       <div className="mt-8">
         <SeedCalendar />
       </div>
+
+      <EmailCapture
+        heading="Want a reminder when these dates arrive?"
+        blurb="The dates above are months out, and the stratifying species need action before anything looks like it needs doing. We send a short email when each window opens."
+      />
 
       <div className="prose-shelf mt-12">
         <h2 id="why-the-dates-differ">Why the dates differ so much</h2>
