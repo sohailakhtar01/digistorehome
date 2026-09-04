@@ -3,6 +3,7 @@ import { HERBS, PUBLISHED_HERB_GUIDES, stratificationHerbs } from "@/lib/herbs";
 import { VIDEOS, getHerbImage } from "@/lib/media";
 import { EDITOR, SITE } from "@/lib/site";
 import VideoEmbed from "@/components/VideoEmbed";
+import PinterestSave from "@/components/PinterestSave";
 import {
   Breadcrumbs,
   Callout,
@@ -466,6 +467,12 @@ export default function Page() {
       <div className="mt-10">
         <MedicalDisclaimer />
       </div>
+
+      <PinterestSave
+        slug="cold-stratification"
+        title="Which Seeds Actually Need Cold Stratification"
+        description="Which of 10 medicinal herb seeds genuinely need cold stratification, which only benefit, and which need none at all. The fridge method, step by step."
+      />
 
       <nav className="mt-10 border-t border-line pt-8">
         <h2 className="font-serif text-xl font-semibold">Related</h2>

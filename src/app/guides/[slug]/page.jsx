@@ -6,6 +6,7 @@ import { getHerbImage, VIDEOS } from "@/lib/media";
 import { EDITOR, SITE } from "@/lib/site";
 import VideoEmbed from "@/components/VideoEmbed";
 import EmailCapture from "@/components/EmailCaptureSlot";
+import PinterestSave from "@/components/PinterestSave";
 import {
   Breadcrumbs,
   Callout,
@@ -285,6 +286,12 @@ export default async function Page({ params }) {
       <div className="mt-10">
         <MedicalDisclaimer />
       </div>
+
+      <PinterestSave
+        slug={slug}
+        title={guide.title}
+        description={`${guide.title} — ${herb.difficulty.toLowerCase()} from seed, germinates ${herb.germDays}. ${SITE.name}`}
+      />
 
       <EmailCapture />
 
