@@ -41,8 +41,16 @@ const dataUri = (file) => {
 const esc = (s) =>
   String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
 
-/** One pin's markup. Inline everything -- the renderer loads no network. */
-function pinHtml({ eyebrow, title, facts, img, footnote }) {
+/**
+ * Template A -- editorial. Headline first, photo below, data strip.
+ *
+ * Two templates exist because Pinterest suppresses near-duplicate images, and a
+ * board needs steady output rather than one upload. Two visually distinct pins
+ * per guide is a month of scheduling from one command.
+ *
+ * Inline everything -- the renderer loads no network.
+ */
+function templateA({ eyebrow, title, facts, img, footnote }) {
   return `<!doctype html><meta charset="utf-8">
 <style>
   @page { margin: 0 }
@@ -113,11 +121,87 @@ function pinHtml({ eyebrow, title, facts, img, footnote }) {
 </div>`;
 }
 
+/** Template B -- photo-led. Full-bleed image, headline reversed out of it. */
+function templateB({ eyebrow, title, facts, img, footnote }) {
+  // The eyebrow already carries difficulty here, so the badge shows the next
+  // fact along rather than saying the same thing twice.
+  const hero = facts[1] ?? facts[0];
+  return `<!doctype html><meta charset="utf-8">
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0 }
+  body {
+    width: 1000px; height: 1500px; overflow: hidden; position: relative;
+    background: #12291d url('${img}') center/cover no-repeat;
+    font-family: "Segoe UI", system-ui, sans-serif; color: #fff;
+  }
+  .scrim {
+    position: absolute; inset: 0;
+    background: linear-gradient(
+      180deg,
+      rgba(10,20,14,.82) 0%, rgba(10,20,14,.42) 34%,
+      rgba(10,20,14,.55) 62%, rgba(10,20,14,.93) 100%);
+  }
+  .inner {
+    position: relative; height: 100%;
+    display: flex; flex-direction: column; padding: 74px 68px 64px;
+  }
+  .eyebrow {
+    font-size: 26px; font-weight: 700; letter-spacing: .19em;
+    text-transform: uppercase; color: #e2c98a;
+  }
+  h1 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 92px; line-height: 1.02; font-weight: 700;
+    letter-spacing: -.02em; margin-top: 26px;
+    text-shadow: 0 3px 26px rgba(0,0,0,.5);
+  }
+  .badge {
+    margin-top: auto; align-self: flex-start;
+    background: #fbf8f1; color: #12291d;
+    border-radius: 15px; padding: 24px 32px;
+    box-shadow: 0 14px 38px -10px rgba(0,0,0,.55);
+  }
+  .badge .k {
+    font-size: 20px; font-weight: 700; letter-spacing: .11em;
+    text-transform: uppercase; color: #6b6459;
+  }
+  .badge .v {
+    font-size: 46px; font-weight: 700; color: #1f4a34; margin-top: 6px;
+  }
+  .foot {
+    margin-top: 46px; padding-top: 30px;
+    border-top: 2px solid rgba(255,255,255,.28);
+    display: flex; align-items: baseline; justify-content: space-between;
+  }
+  .foot .site { font-size: 34px; font-weight: 700 }
+  .foot .note { font-size: 24px; color: #d7e2da }
+</style>
+<div class="scrim"></div>
+<div class="inner">
+  <div class="eyebrow">${esc(eyebrow)}</div>
+  <h1>${esc(title)}</h1>
+  <div class="badge">
+    <div class="k">${esc(hero.k)}</div>
+    <div class="v">${esc(hero.v)}</div>
+  </div>
+  <div class="foot">
+    <div class="site">thehomesteadshelf.com</div>
+    <div class="note">${esc(footnote)}</div>
+  </div>
+</div>`;
+}
+
+const TEMPLATES = { a: templateA, b: templateB };
+
 /** Pin specs. Facts come straight from herbs.js. */
 function specs() {
   const list = HERBS.filter((h) => existsSync(photo(h.slug))).map((h) => ({
     slug: h.slug,
     eyebrow: "Growing from seed",
+    // Template B leads on difficulty because that is the honest hook and it is
+    // already in the data. Only six of the ten guides have a "when to sow"
+    // section, so a timing headline would be false on the other four.
+    eyebrowB: `${h.difficulty} from seed`,
     title: `How to Grow ${h.name.split(" (")[0]} From Seed`,
     img: dataUri(photo(h.slug)),
     facts: [
@@ -132,6 +216,7 @@ function specs() {
   list.push({
     slug: "cold-stratification",
     eyebrow: "Seed starting",
+    eyebrowB: "Before you sow",
     title: "Which Seeds Actually Need Cold Stratification",
     img: dataUri(photo("echinacea")),
     facts: [
@@ -205,29 +290,40 @@ if (!pins.length) {
   process.exit(1);
 }
 
+let written = 0;
 for (const pin of pins) {
-  const html = pinHtml(pin);
-  await rpc(
-    ws,
-    "Page.navigate",
-    { url: `data:text/html;charset=utf-8,${encodeURIComponent(html)}` },
-    sessionId,
-  );
-  await sleep(450);
-  // JPEG, not PNG: these are photographs, and Pinterest re-encodes anything it
-  // fetches anyway. Quality 88 holds up on the type at full size for a quarter
-  // of the bytes.
-  const { data } = await rpc(
-    ws,
-    "Page.captureScreenshot",
-    { format: "jpeg", quality: 88 },
-    sessionId,
-  );
-  const out = `${OUT_DIR}/${pin.slug}.jpg`;
-  writeFileSync(out, Buffer.from(data, "base64"));
-  console.log(`${out}  ${pin.title}`);
+  for (const [key, render] of Object.entries(TEMPLATES)) {
+    const html = render({
+      ...pin,
+      eyebrow: key === "b" ? (pin.eyebrowB ?? pin.eyebrow) : pin.eyebrow,
+    });
+    await rpc(
+      ws,
+      "Page.navigate",
+      { url: `data:text/html;charset=utf-8,${encodeURIComponent(html)}` },
+      sessionId,
+    );
+    await sleep(450);
+    // JPEG, not PNG: these are photographs, and Pinterest re-encodes anything
+    // it fetches anyway. Quality 88 holds up on the type at full size for a
+    // quarter of the bytes.
+    const { data } = await rpc(
+      ws,
+      "Page.captureScreenshot",
+      { format: "jpeg", quality: 88 },
+      sessionId,
+    );
+    // Variant A keeps the bare slug so existing page references stay valid.
+    const out = `${OUT_DIR}/${pin.slug}${key === "a" ? "" : `-${key}`}.jpg`;
+    writeFileSync(out, Buffer.from(data, "base64"));
+    console.log(`${out}  ${pin.title}`);
+    written++;
+  }
 }
 
-console.log(`\n${pins.length} pin${pins.length === 1 ? "" : "s"} written to ${OUT_DIR}/`);
+console.log(
+  `\n${written} pins written to ${OUT_DIR}/ ` +
+    `(${pins.length} guides x ${Object.keys(TEMPLATES).length} templates)`,
+);
 ws.close();
 chrome.kill();
