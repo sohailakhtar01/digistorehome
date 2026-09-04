@@ -187,7 +187,15 @@ export default function Page() {
           </p>
           <p className="mt-2">
             Barely damp is the operative phrase. Wet seed in a sealed bag rots,
-            which is the one way to make the situation worse.
+            which is the one way to make the situation worse. The{" "}
+            <Link
+              href="/guides/cold-stratification"
+              className="text-accent underline decoration-line-strong underline-offset-4 transition-colors hover:decoration-accent"
+            >
+              full cold stratification method
+            </Link>{" "}
+            covers the timings species by species, and which of these ten do not
+            need it at all.
           </p>
         </Callout>
 

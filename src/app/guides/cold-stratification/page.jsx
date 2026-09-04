@@ -80,11 +80,47 @@ const FAQ_ITEMS = [
     answer:
       "Most annuals and many Mediterranean herbs germinate fine without it — calendula, chamomile, chicory, feverfew and California poppy among them. Stratifying seed that does not need it usually does no harm, but it wastes four weeks.",
   },
+  // The three below are the questions people actually type, taken from Search
+  // Console rather than guessed at: the species-specific yes/no. Each is
+  // answered in its first sentence, because a hedged answer is no use to
+  // somebody holding a seed packet and it will not be read aloud or lifted
+  // into a snippet either.
+  {
+    question: "Do coneflower (echinacea) seeds need cold stratification?",
+    answer:
+      "Yes. Echinacea germinates erratically without it and reliably with it, and four weeks of cold, moist storage is enough. Mix the seed through barely damp sand, seal it in a labelled bag, and leave it in the main body of the refrigerator — not the freezer — before sowing as normal. Autumn sowing outdoors achieves the same thing without the fridge.",
+  },
+  {
+    question: "Does feverfew need cold stratification?",
+    answer:
+      "No. Feverfew germinates readily at ordinary room temperature and a cold period gains you nothing. What it does need is light, so surface sow it and press it onto the compost rather than burying it — sowing feverfew too deep is the usual reason a tray comes up empty, and it gets mistaken for a dormancy problem.",
+  },
+  {
+    question: "Do calendula seeds need cold stratification?",
+    answer:
+      "No. Calendula is the easiest seed in this collection and needs no cold treatment at all. It wants the opposite of feverfew: darkness to germinate, so sow it about 6mm deep. Expect flowers roughly six to eight weeks after sowing.",
+  },
 ];
 
 export default function Page() {
   const strat = stratificationHerbs();
+
+  // Three groups, not two, and the distinction is the whole point of the page.
+  //
+  //   fridge     timing.stratWeeks > 0 — we give it a refrigerator date
+  //   benefits   germinates better after cold, but is direct sown, so winter
+  //              in the ground does the job (evening primrose)
+  //   noStrat    does not need it, and stratifying it wastes a month
+  //
+  // The table previously listed only the first two, which meant somebody
+  // searching "does feverfew need cold stratification" found no feverfew row
+  // and therefore no answer — on the page that exists to answer exactly that.
+  const fridge = HERBS.filter((h) => h.timing.stratWeeks > 0);
+  const benefits = HERBS.filter(
+    (h) => h.stratification && h.timing.stratWeeks === 0,
+  );
   const noStrat = HERBS.filter((h) => !h.stratification);
+  const tableRows = [...fridge, ...benefits, ...noStrat];
   const headings = [
     "What cold stratification actually does",
     "The refrigerator method, step by step",
@@ -255,9 +291,30 @@ export default function Page() {
         <section>
           <h2 id={slugifyHeading(headings[2])}>{headings[2]}</h2>
           <p>
-            Duration is species-specific. Applying one number to everything is
-            the second most common mistake. Of the ten herbs in a typical
-            medicinal seed collection, three genuinely benefit:
+            Duration is species-specific, and applying one number to everything
+            is the second most common mistake. The more common one is
+            stratifying seed that never needed it — a month lost for nothing.
+          </p>
+          {/* This plain sentence exists because it is the answer to the
+              question people actually type: "does feverfew need cold
+              stratification", "do calendula seeds need cold stratification".
+              Naming every species in prose, not only in the table, means the
+              answer survives being read aloud or lifted into a search snippet. */}
+          <p>
+            Of the ten herbs in a typical medicinal seed collection,{" "}
+            <strong>
+              {fridge.map((h) => h.name.split(" (")[0].toLowerCase()).join(", ")}{" "}
+              need a cold period
+            </strong>
+            . Evening primrose benefits from one but is direct sown, so it takes
+            its cold from the ground over winter instead.{" "}
+            <strong>
+              {noStrat
+                .map((h) => h.name.split(" (")[0].toLowerCase())
+                .join(", ")}{" "}
+              do not need it at all
+            </strong>{" "}
+            — sow them without.
           </p>
         </section>
       </div>
@@ -267,13 +324,17 @@ export default function Page() {
           <thead>
             <tr className="border-b border-line bg-surface-sunk text-left">
               <th className="px-4 py-3 font-semibold">Seed</th>
+              <th className="px-4 py-3 font-semibold">Needs it?</th>
               <th className="px-4 py-3 font-semibold">Cold period</th>
               <th className="px-4 py-3 font-semibold">Difficulty</th>
               <th className="px-4 py-3 font-semibold">Guide</th>
             </tr>
           </thead>
           <tbody>
-            {strat.map((h) => (
+            {tableRows.map((h) => {
+              const needs = h.timing.stratWeeks > 0;
+              const optional = !needs && Boolean(h.stratification);
+              return (
               <tr key={h.slug} className="border-b border-line last:border-0">
                 <td className="px-4 py-3.5">
                   <span className="font-semibold">
@@ -282,7 +343,26 @@ export default function Page() {
                   <br />
                   <em className="text-xs text-subtle">{h.latin}</em>
                 </td>
-                <td className="px-4 py-3.5 text-muted">{h.stratification}</td>
+                <td className="px-4 py-3.5">
+                  <span
+                    className={`inline-flex items-center rounded-full px-2.5 py-0.5 text-[0.6875rem] font-bold uppercase tracking-[0.08em] ${
+                      needs
+                        ? "bg-crimson-soft text-crimson"
+                        : optional
+                          ? "bg-gold-soft text-[#7a5615]"
+                          : "bg-accent-soft text-accent-ink"
+                    }`}
+                  >
+                    {needs ? "Yes" : optional ? "Optional" : "No"}
+                  </span>
+                </td>
+                <td className="px-4 py-3.5 text-muted">
+                  {needs
+                    ? h.stratification
+                    : optional
+                      ? "Not in a fridge — sow in autumn and let winter do it"
+                      : "Not needed — sow without"}
+                </td>
                 <td className="px-4 py-3.5">
                   <DifficultyBadge level={h.difficulty} />
                 </td>
@@ -299,7 +379,8 @@ export default function Page() {
                   )}
                 </td>
               </tr>
-            ))}
+              );
+            })}
           </tbody>
         </table>
       </div>
